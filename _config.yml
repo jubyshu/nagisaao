@@ -1,12 +1,12 @@
 # Basic
-title: 周刚
-subtitle: Nicolas Chow
-description: 凡是过去 皆为序章
+title: 杜若
+subtitle: Tomo Takemoto
+description: よろこびも　かなしみも
 # 头像里面的标题
-avatarTitle: stidio
+avatarTitle: 竹本物语
 # 头像里面的描述
-avatarDesc: 编程·管理·运动·读书
-url: "http://stidio.github.io"
+avatarDesc: 睡觉·听歌·运动·读书
+url: "http://jubytschu.github.io"
 
 # Comment
 comment:
@@ -15,10 +15,10 @@ comment:
 
 # Social
 social:
-    weibo: 1073227497 
-    github: stidio
+    weibo: soulinsight 
+    github: jubytschu
     # twitter: 
-    mail: stidio@163.com
+    mail: juby@jubeny.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
