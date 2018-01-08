@@ -1,34 +1,34 @@
 # Basic
 title: 竹本物语
 subtitle: タケモトモノガタリ
-description: よろこびも　かなしみも
+description: 搴汀洲兮杜若，将以遗兮远者
 # 头像里面的标题
 avatarTitle: 杜若
 # 头像里面的描述
-avatarDesc: 睡觉·听歌·运动·读书
+avatarDesc: 睡觉·幻想·运动·读书
 url: "http://jubytschu.github.io"
 
 # Comment
 comment:
-    # disqus: leopard
-    duoshuo: stidio 
+    disqus: jubytschu
+    #duoshuo: stidio 
 
 # Social
 social:
-    weibo: soulinsight 
+    #weibo: soulinsight
     github: jubytschu
-    # twitter: 
+    twitter: jubytschu
     mail: juby@jubeny.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-baidu:
-    id: 15c4fed56d4cae267af95752c20fa16e  
+#baidu:
+    #id: 15c4fed56d4cae267af95752c20fa16e  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-87578654-1
+    id: UA-112090731-1
     host: auto  
 
 
