@@ -1,21 +1,11 @@
 # Basic
-<<<<<<< HEAD
 title: 竹本物语
-subtitle: Juby
-description: 凡是过去 皆为序章
-=======
-title: 杜若
-subtitle: Tomo Takemoto
+subtitle: タケモトモノガタリ
 description: よろこびも　かなしみも
->>>>>>> 1bfe2d7d2316e4e72177ece1ef4173d97426c5d3
 # 头像里面的标题
-avatarTitle: 竹本物语
+avatarTitle: 杜若
 # 头像里面的描述
-<<<<<<< HEAD
-avatarDesc: 编程·管理·运动·读书
-=======
 avatarDesc: 睡觉·听歌·运动·读书
->>>>>>> 1bfe2d7d2316e4e72177ece1ef4173d97426c5d3
 url: "http://jubytschu.github.io"
 
 # Comment
