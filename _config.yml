@@ -1,68 +1,85 @@
-# Basic
-title: 竹本物语
-subtitle: タケモトモノガタリ
-description: よろこびも　かなしみも
-# 头像里面的标题
-avatarTitle: 杜若
-# 头像里面的描述
-avatarDesc: 睡觉·听歌·运动·读书
-url: "http://jubytschu.github.io"
-
-# Comment
-comment:
-    # disqus: leopard
-    duoshuo: stidio 
-
-# Social
-social:
-    weibo: soulinsight 
-    github: jubytschu
-    # twitter: 
-    mail: juby@jubeny.com
-
-# 百度统计 
-# 使用博客模板请去掉或者更换 id 
-baidu:
-    id: 15c4fed56d4cae267af95752c20fa16e  
-
-# Google Analytics
-# 使用博客模板请去掉或者更换 id
-ga:
-    id: UA-87578654-1
-    host: auto  
-
-
-# ----------------- 上面的信息修改成你自己的 ---------------------------
 #
-#  _post/   文章目录
-#  _drafts/ 未发布的文章目录
-#  目录结构具体参考文档：http://jekyll.com.cn/docs/structure/
+###################################
+# Site wide configuration
+####################################
 #
-# --------------- 下面的信息可以自行选择是否修改 ------------------------
+title:       "Scott's Blog | 一生想做优雅前端"
+description: "Chengfeilong's Blog. A front-end web developer who loves design awesome things. Working for Kingdee in Shenzhen, China."
+keywords: "成飞龙、成启、chengfeilong、wangpengfei15975、Scott's Blog、Front-End Engineer"
+url: http://www.chengfeilong.com # the base hostname & protocol for your site
 
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Shenzhen
+markdown:          kramdown
+highlighter:       pygments
+excerpt_separator: <!--more-->
+permalink:         /:title
+paginate:          7
+paginate_path:     "page:num"
+gems:              [jekyll-paginate]
 
-permalink: /:year/:month/:title/
-# Format
-markdown: kramdown
-highlighter: rouge
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  enable_coderay: false
 
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear #背景Mask
+#
+###################################
+# Sass
+####################################
+#
+sass:
+  style: compressed
 
-# The blog button should not be removed.
-blog_button:
-    title: 主页
+#
+###################################
+# loading
+####################################
+#
+loading: "http://www.chengfeilong.com/img/loading.gif"
 
-# Navigation buttons in the front page.s
-nav:
-    - {title: 存档, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 关于, description: about, url: '/about'}      
-    
-
-# Pagination
-plugins: [jekyll-paginate,jekyll-sitemap]
-paginate: 20
-paginate_path: "page/:num/"
-
-
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Scott
+  avatar: avatar.jpg
+  job: "front-end developer"
+  bio: "一生想做优雅前端."
+  email: me@chengfeilong.com
+  disqus-shortname: Sco7777777 #username
+  duoshuo-shortname: chengfeilong #username
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: #UA-62251910-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: wangpengfei15975 #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: Sco7777777 #username
+  flickr: #username
+  codepen: #username
+  zhihu: #se7en-zone username
