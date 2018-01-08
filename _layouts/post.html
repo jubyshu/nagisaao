@@ -2,23 +2,102 @@
 layout: default
 ---
 
-<article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="back-home">
+  <a href="javascript:;">back.</a> <!-- window.history.back() -->
+</div>
+{% if page.image.feature %}
+<div class="post-image-feature">
+  <img class="feature-image" src=
+  {% if post.image.feature contains 'http' %}
+  "{{ page.image.feature }}"
+  {% else %}
+  "{{ site.url }}{{ page.image.feature }}"
+  {% endif %}
+  alt="{{ page.title }} feature image">
+
+  {% if page.image.credit %}
+  <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+</div><!-- /.image-wrap -->
+{% endif %}
+
+
+<div id="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <div class="post-meta">
-      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time>
-     
-      <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-      <span id="busuanzi_container_page_pv">　　阅读：<span id="busuanzi_value_page_pv"></span>次</span>
-    </p>
-    </div>
+    <h1 title="{{ page.title }}">{{ page.title }}</h1>
+    <span class="post-meta">
+      <span class="post-date">
+        {{ page.date | date: "%b %-d %Y" }}
+      </span>
+      <!-- - -->
+      <!--{% include read_time.html %}-->
+      <p class="read-time">访问量:&nbsp;<span data-hk-page="current"> - </span></p>
+    </span>
+
   </header>
 
-  <section class="post">
+  <article class="post-content">
     {{ content }}
+  </article>
+</div>
 
-  </section>
-</article>
+<!--<div class="share-buttons">-->
+  <!--<h6>Share on: </h6>-->
+  <!--<ul>-->
+    <!--<li>-->
+      <!--<a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>-->
+    <!--</li>-->
+    <!--<li>-->
+      <!--<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>-->
+    <!--</li>-->
+    <!--<li>-->
+      <!--<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>-->
+    <!--</li>-->
+    <!--<li>-->
+      <!--<a href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ page.url }}" class="hacker-news btn" title="Share on Hacker News"><i class="fa fa-hacker-news"></i><span> Hacker News</span></a>-->
+    <!--</li>-->
+    <!--<li>-->
+      <!--<a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>-->
+    <!--</li>-->
+  <!--</ul>-->
+<!--</div>&lt;!&ndash; end share-buttons &ndash;&gt;-->
 
-{% include new-old.html %}
-{% include comments.html %}
+{% if site.owner.disqus-shortname and page.comments == true %}
+<div id="disqus_thread"></div>
+{% include disqus.html %}
+{% endif %}
+
+<!--<div class="ds-share" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-images="http://www.chengfeilong.com/img/logo.jpg" data-content="" data-url="{{ site.url }}{{ page.url }}">-->
+  <!--<div class="ds-share-inline">-->
+    <!--<ul  class="ds-share-icons-16">-->
+
+      <!--<li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>-->
+      <!--<li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>-->
+      <!--<li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>-->
+      <!--<li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>-->
+      <!--<li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>-->
+
+    <!--</ul>-->
+    <!--<div class="ds-share-icons-more">-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+
+<!--{% if site.owner.duoshuo-shortname and page.comments == true %}-->
+<!--&lt;!&ndash; 多说评论框 start &ndash;&gt;-->
+<!--<div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}"></div>-->
+<!--&lt;!&ndash; 多说评论框 end &ndash;&gt;-->
+<!--&lt;!&ndash; 多说公共JS代码 start (一个网页只需插入一次) &ndash;&gt;-->
+<!--<script type="text/javascript">-->
+  <!--var duoshuoQuery = {short_name:"chengfeilong"};-->
+  <!--(function() {-->
+    <!--var ds = document.createElement('script');-->
+    <!--ds.type = 'text/javascript';ds.async = true;-->
+    <!--ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';-->
+    <!--ds.charset = 'UTF-8';-->
+    <!--(document.getElementsByTagName('head')[0]-->
+    <!--|| document.getElementsByTagName('body')[0]).appendChild(ds);-->
+  <!--})();-->
+<!--</script>-->
+<!--&lt;!&ndash; 多说公共JS代码 end &ndash;&gt;-->
+<!--{% endif %}-->
