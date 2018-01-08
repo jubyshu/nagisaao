@@ -1,30 +1,26 @@
 ---
 layout: page
-title:  标签
-permalink: /tags/
+title: 标签
+header: 根据快速导航到相应的文章
+group: navigation
 ---
+{% include JB/setup %}
 
-<h5>标签云 <i class="fa fa-cloud info-text-color"></i></h5>
-<ul class="tag-cloud">
-{% for tag in site.tags %}
-  <li> <!--  style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%" -->
-    <a class="post-tag" href="#{{ tag | first | slugize }}">
-      {{ tag | first }}
-    </a>
-  </li>
-{% endfor %}
+<h3 id="tag-index">索引</h3>
+<ul class="tag_box inline">
+  {% assign tags_list = site.tags %}  
+  {% include JB/tags_list %}
 </ul>
 
-<div class="tag-list">
-{% for tag in site.tags %}
-  <div class="tag-group">
-    {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <h5 class="tag-group-title" id="{{ tag_name | slugize }}">{{ tag_name }}</h5>
-    {% for post in site.tags[tag_name] %}
-    <article class="tag-item">
-      <a class="tag-item-title" href="{{ site.url }}{{ post.url }}">{{post.title}}</a>
-    </article>
-    {% endfor %}
-  </div>
+<div class = "card">
+{% for tag in site.tags %} 
+
+  <h3 id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
+  <ul>
+    {% assign pages_list = tag[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+
+
 {% endfor %}
 </div>
