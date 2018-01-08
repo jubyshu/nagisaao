@@ -144,6 +144,7 @@ p {
   margin-top: 5px;
   line-height: 1.7em; 
   padding-left: 20px;
+  letter-spacing: 1.5px;
   display:-webkit-box;
     display:-webkit-flex;
     display:-ms-flexbox;
