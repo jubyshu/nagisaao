@@ -775,33 +775,33 @@ img::-moz-selection {
     margin: 0 0 2.2em 0;
     float: left;
 
-    -moz-box-shadow:4px 4px 4px #efefef, 
-    -4px -4px 4px #efefef, 
-    4px -4px 4px #efefef, 
-    -4px 4px 4px #efefef; 
-    -webkit-box-shadow:4px 4px 4px #efefef, 
-    -4px -4px 4px #efefef, 
-    4px -4px 4px #efefef, 
-    -4px 4px 4px #efefef; 
-    box-shadow:4px 4px 4px #efefef, 
-    -4px -4px 4px #efefef, 
-    4px -4px 4px #efefef, 
-    -4px 4px 4px #efefef;
+    -moz-box-shadow:4px 4px 4px #fbfbfb, 
+    -4px -4px 4px #fbfbfb, 
+    4px -4px 4px #fbfbfb, 
+    -4px 4px 4px #fbfbfb; 
+    -webkit-box-shadow:4px 4px 4px #fbfbfb, 
+    -4px -4px 4px #fbfbfb, 
+    4px -4px 4px #fbfbfb, 
+    -4px 4px 4px #fbfbfb; 
+    box-shadow:4px 4px 4px #fbfbfb, 
+    -4px -4px 4px #fbfbfb, 
+    4px -4px 4px #fbfbfb, 
+    -4px 4px 4px #fbfbfb;
   }
   .post-list li:hover {
     transform:scale(1.01,1.01); 
-    -moz-box-shadow:4px 4px 4px #FFF3E7, 
-    -4px -4px 4px #FFF3E7, 
-    4px -4px 4px #FFF3E7, 
-    -4px 4px 4px #FFF3E7; 
-    -webkit-box-shadow:4px 4px 4px #FFF3E7, 
-    -4px -4px 4px #FFF3E7, 
-    4px -4px 4px #FFF3E7, 
-    -4px 4px 4px #FFF3E7; 
-    box-shadow:4px 4px 4px #FFF3E7, 
-    -4px -4px 4px #FFF3E7, 
-    4px -4px 4px #FFF3E7, 
-    -4px 4px 4px #FFF3E7;
+    -moz-box-shadow:4px 4px 4px #E0FFE0, 
+    -4px -4px 4px #E0FFE0, 
+    4px -4px 4px #E0FFE0, 
+    -4px 4px 4px #E0FFE0; 
+    -webkit-box-shadow:4px 4px 4px #E0FFE0, 
+    -4px -4px 4px #E0FFE0, 
+    4px -4px 4px #E0FFE0, 
+    -4px 4px 4px #E0FFE0; 
+    box-shadow:4px 4px 4px #E0FFE0, 
+    -4px -4px 4px #E0FFE0, 
+    4px -4px 4px #E0FFE0, 
+    -4px 4px 4px #E0FFE0;
     background-color: #fff;
   }
 
