@@ -118,17 +118,19 @@ h2 {
 }
 
 h3 {
+  color: #fff;
   font-size: 1.2em; 
   /*text-indent: 4px;*/ 
   border-radius: 4px; 
   padding: 6px 6px;
   margin-bottom: 20px;
   margin-top: 5px;
-  background:#FEA6A4;
+  background:#D03834;
   /*0px right, 5px botton, 5px fuzzy*/
-  box-shadow: 0px 5px 5px #FFF2DC;
+  box-shadow: 0px 5px 5px #9A2724;
   border-left: 6px solid #900C3F; 
   position:relative;
+  font-weight: bold;
 }
 
 h4 {
