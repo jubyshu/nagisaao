@@ -317,10 +317,12 @@ img::-moz-selection {
   }
 
   .excerpt {
-    margin-left: 2px; 
+    padding-left: 10px; 
     font-size: 1em;
     text-indent: 10px;
     color: #4F4F4F; 
+    text-align: justify;
+    text-justify:inter-word;
   }
 
   .intro {
@@ -859,7 +861,7 @@ img::-moz-selection {
   height: 20px;
   margin-top: 3px;
   margin-left: 0px;
-  padding-left: 5px;
+  padding-left: 10px;
   padding-right: 10px;
   padding-top: -5px;
   padding-bottom: 3px;
@@ -867,10 +869,6 @@ img::-moz-selection {
   border-radius: 0 0 0 0;
   color: #c7c7c7;
   float: left;
-}
-
-.post-list__meta--date {
-  margin-right: 5px;
 }
 
 /*.post-list-icon-mate {
