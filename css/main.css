@@ -146,7 +146,7 @@ p {
   text-align: justify;
 }
 
-p:after {
+body article p:after {
    content: " ";
     display: inline-block;
     width: 100%;
