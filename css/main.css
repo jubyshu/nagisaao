@@ -119,15 +119,15 @@ h2 {
 
 h3 {
   font-size: 1.2em; 
-  text-indent: 4px; 
+  /*text-indent: 4px;*/ 
   border-radius: 4px; 
   padding: 6px 15px;
   margin-bottom: 20px;
   margin-top: 5px;
-  background:#B9D3EE;
+  background:#FF5733;
   /*0px right, 5px botton, 5px fuzzy*/
-  box-shadow: 0px 5px 5px #9FB6CD;
-  border-left: 6px solid #1874CD; 
+  box-shadow: 0px 5px 5px #FFF2DC;
+  border-left: 6px solid #900C3F; 
   position:relative;
 }
 
@@ -259,14 +259,14 @@ td:last-child {
 .pager li>a {
   color:#404040
 }
-.pager li>a:hover,
+/*.pager li>a:hover,
 .pager li>a:focus { 
   color:#fff;
   background-color:#B9D3EE;
-}
+}*/
 .pager li>a:hover>span,
 .pager li>a:focus>span{
-  color:#fff;
+  color:#42b983;
 }
 ::-moz-selection { 
   color:#fff;
