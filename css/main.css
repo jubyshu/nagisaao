@@ -871,6 +871,10 @@ img::-moz-selection {
   float: left;
 }
 
+.post-list__meta--tags-right a:hover{
+  color: #CD571D;
+}
+
 /*.post-list-icon-mate {
   height: 20px;
   background-size: 100% 100%;
