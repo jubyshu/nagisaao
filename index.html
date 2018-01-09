@@ -12,18 +12,13 @@ title: 主页
       <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
       <div class="post-list__meta">
         <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> | 
-        <div class = "tag-img-icon">
-         
-        </div>
         <a href="/tags">
-          <div class = "post-list-icon-mate">
-            <span class="post-list__meta--tags" style="background-image: url() "></span>
-          </div>
+          
           <div class = "post-list-icon-mate">
             <!-- <div class = "post-list-icon-right"> -->
             <span class="post-list__meta--tags-right">{% for tag in post.tags %}{{ tag | xml_escape }}&nbsp{% endfor %}</span>
             <!-- <div> -->
-          </div> | 
+          </div>
           <div class = "post-list-small-mate">
           <a class="btn-border-small" href={{ post.url }}>続き読む>></a>
           </div>
