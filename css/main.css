@@ -850,7 +850,9 @@ img::-moz-selection {
   font-size: .9em;
   margin-right: .5em;
   margin-top: 2px;
-  color: #5EFE99; 
+  margin-left: 2px;
+  height: 20px;
+  color: #42b983; 
   float: left;
 
 }
