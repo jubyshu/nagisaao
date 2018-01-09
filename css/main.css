@@ -800,7 +800,7 @@ img::-moz-selection {
     -4px -4px 4px #FFF3E7, 
     4px -4px 4px #FFF3E7, 
     -4px 4px 4px #FFF3E7;
-    background-color: #FdFdFd;
+    background-color: #fff;
   }
 
   /*.post-list li:last-child hr {
@@ -819,8 +819,7 @@ img::-moz-selection {
    padding-left: 10px;
   }
   .post-list__post-title a:hover {
-    color: #000000; 
-    background-color: #FAFAFA;
+    color: #961501; 
   }
 }
 
@@ -894,7 +893,7 @@ img::-moz-selection {
 
 .post-list_divider {
   width: 30%;
-  margin: 10px 0 5px 0;
+  margin: 10px 0 5px 10px;
   border-top: 1px solid #DDDDDD; }
 
 *:focus {
