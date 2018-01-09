@@ -847,9 +847,10 @@ img::-moz-selection {
 }
 
 .post-list__meta--date {
+  font-size: .9em;
   margin-right: .5em;
-  margin-top: 3px;
-  color: #c7c7c7; 
+  margin-top: 2px;
+  color: #5EFE99; 
   float: left;
 
 }
