@@ -828,7 +828,6 @@ img::-moz-selection {
   display: block;
   margin: .7em 0 0 0;
   font-size: .9em;
-  color: #c7c7c7; 
   display: inline-block;
 }
 
@@ -859,7 +858,6 @@ img::-moz-selection {
 .btn-border-small,
 .post-list__meta--date,
 .post-list__meta--tags-right {
-  font-size: .5em;
   height: 20px;
   margin-top: 2px;
   margin-left: 0px;
@@ -868,22 +866,21 @@ img::-moz-selection {
   padding-top: -5px;
   padding-bottom: 3px;
   background-size: 100% 100%;
-  float: left;
   border-radius: 0 0 0 0;
-  font-size: 0.9em;
   color: #5EAEFE;
+  float: left;
 }
 
 .post-list__meta--date {
+  margin-right: 5px;
   color: #42b983; 
-  float: left;
 }
 
 .btn-border-small{
   color: #f5a623;
 }
 
-.post-list-icon-mate {
+/*.post-list-icon-mate {
   height: 20px;
   background-size: 100% 100%;
   padding-top: -5px;
@@ -897,7 +894,7 @@ img::-moz-selection {
   background-size: 100% 100%;
   margin-top: 3px;
   float: left;
-}
+}*/
 
 .post-list__divider {
   width: 30%;
