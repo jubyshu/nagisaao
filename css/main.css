@@ -121,10 +121,10 @@ h3 {
   font-size: 1.2em; 
   /*text-indent: 4px;*/ 
   border-radius: 4px; 
-  padding: 6px 15px;
+  padding: 6px 6px;
   margin-bottom: 20px;
   margin-top: 5px;
-  background:#FF5733;
+  background:#FEA6A4;
   /*0px right, 5px botton, 5px fuzzy*/
   box-shadow: 0px 5px 5px #FFF2DC;
   border-left: 6px solid #900C3F; 
