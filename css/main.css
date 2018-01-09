@@ -869,10 +869,7 @@ img::-moz-selection {
   border-radius: 0 0 0 0;
   color: #c7c7c7;
   float: left;
-}
-
-.post-list__meta--tags-right a:hover{
-  color: #CD571D;
+  margin-bottom: 5px;
 }
 
 /*.post-list-icon-mate {
@@ -889,12 +886,12 @@ img::-moz-selection {
   background-size: 100% 100%;
   margin-top: 3px;
   float: left;
-}*/
+}
 
 .post-list__divider {
   width: 30%;
   margin: 2.2em 0 2.1em 0;
-  border-top: 1px solid #DDDDDD; }
+  border-top: 1px solid #DDDDDD; }*/
 
 *:focus {
   outline: none; }
