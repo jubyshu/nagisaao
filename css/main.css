@@ -146,12 +146,6 @@ p {
   text-align: justify;
 }
 
-p:after {
-   content: " ";
-    display: inline-block;
-    width: 100%;
-}
-
 strong {
   font-weight: bold; }
 
