@@ -803,9 +803,9 @@ img::-moz-selection {
     background-color: #FdFdFd;
   }
 
-  .post-list li:last-child hr {
+  /*.post-list li:last-child hr {
       display: none; 
-  }
+  }*/
 
   .post-list__post-title {
    margin-top: 5px;
@@ -890,12 +890,12 @@ img::-moz-selection {
   background-size: 100% 100%;
   margin-top: 3px;
   float: left;
-}
+}*/
 
-.post-list__divider {
+.post-list_divider {
   width: 30%;
-  margin: 2.2em 0 2.1em 0;
-  border-top: 1px solid #DDDDDD; }*/
+  margin: 10px 0 5px 0;
+  border-top: 1px solid #DDDDDD; }
 
 *:focus {
   outline: none; }
