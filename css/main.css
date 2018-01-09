@@ -840,11 +840,6 @@ img::-moz-selection {
   float: left;
 }
 
-.post-list__meta--date {
-  color: #42b983; 
-  float: left;
-}
-
 .post-list__meta--tags {
   
   font-size: .5em;
@@ -860,6 +855,7 @@ img::-moz-selection {
   float: left;
   font-size: 0.9em;
 }
+
 .btn-border-small,
 .post-list__meta--date,
 .post-list__meta--tags-right {
@@ -876,6 +872,15 @@ img::-moz-selection {
   border-radius: 0 0 0 0;
   font-size: 0.9em;
   color: #5EAEFE;
+}
+
+.post-list__meta--date {
+  color: #42b983; 
+  float: left;
+}
+
+.btn-border-small{
+  color: #f5a623;
 }
 
 .post-list-icon-mate {
