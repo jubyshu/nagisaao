@@ -788,18 +788,18 @@ img::-moz-selection {
   }
   .post-list li:hover {
     transform:scale(1.01,1.01); 
-    -moz-box-shadow:4px 4px 4px #c9e1f6, 
-    -4px -4px 4px #c9e1f6, 
-    4px -4px 4px #c9e1f6, 
-    -4px 4px 4px #c9e1f6; 
-    -webkit-box-shadow:4px 4px 4px #c9e1f6, 
-    -4px -4px 4px #c9e1f6, 
-    4px -4px 4px #c9e1f6, 
-    -4px 4px 4px #c9e1f6; 
-    box-shadow:4px 4px 4px #c9e1f6, 
-    -4px -4px 4px #c9e1f6, 
-    4px -4px 4px #c9e1f6, 
-    -4px 4px 4px #c9e1f6;
+    -moz-box-shadow:4px 4px 4px #660502, 
+    -4px -4px 4px #660502, 
+    4px -4px 4px #660502, 
+    -4px 4px 4px #660502; 
+    -webkit-box-shadow:4px 4px 4px #660502, 
+    -4px -4px 4px #660502, 
+    4px -4px 4px #660502, 
+    -4px 4px 4px #660502; 
+    box-shadow:4px 4px 4px #660502, 
+    -4px -4px 4px #660502, 
+    4px -4px 4px #660502, 
+    -4px 4px 4px #660502;
     background-color: #FAFAFA;
   }
 
@@ -870,6 +870,10 @@ img::-moz-selection {
   color: #c7c7c7;
   float: left;
   margin-bottom: 10px;
+}
+
+.post-list__meta--tags-right:hover{
+  background-color: #F9791A;
 }
 
 /*.post-list-icon-mate {
