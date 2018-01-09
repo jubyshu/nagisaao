@@ -318,8 +318,8 @@ img::-moz-selection {
 
   .excerpt {
     padding-left: 10px; 
+    padding-right: 10px;
     font-size: 1em;
-    text-indent: 10px;
     color: #4F4F4F; 
     text-align: justify;
     text-justify:inter-word;
