@@ -880,11 +880,10 @@ img::-moz-selection {
   padding-top: -5px;
   padding-bottom: 3px;
   background-size: 100% 100%;
-  background-color: rgba(187, 146, 111, 1);
   float: left;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 0 0 0;
   font-size: 0.9em;
-  color: #fff;
+  color: #5EAEFE;
 }
 
 .post-list-icon-mate {

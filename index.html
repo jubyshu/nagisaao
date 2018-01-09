@@ -11,9 +11,9 @@ title: 主页
       <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
       <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
       <div class="post-list__meta">
-        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> | 
-        <a href="/tags">
-          
+        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time>
+
+        <a href="/tags">  
           <div class = "post-list-icon-mate">
             <!-- <div class = "post-list-icon-right"> -->
             <span class="post-list__meta--tags-right">{% for tag in post.tags %}{{ tag | xml_escape }}&nbsp{% endfor %}</span>
