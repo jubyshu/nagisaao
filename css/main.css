@@ -151,9 +151,6 @@ p:after {
     display: inline-block;
     width: 100%;
 }
-p.panel-cover_description{
-  text-align: center;
-}
 
 strong {
   font-weight: bold; }
