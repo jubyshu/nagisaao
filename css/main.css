@@ -888,10 +888,10 @@ img::-moz-selection {
 }
 
 .zhuanzai_line{
-  border:1px solid #DDDDDD;
+  border:0.7px solid #DDDDDD;
   display:center;
   width:30%;
-  margin-top:20px;
+  margin-top:30px;
 }
 
 /*.post-list-icon-mate {
