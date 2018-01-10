@@ -169,8 +169,8 @@ blockquote {
   font-size: 1em;
   border-left: 0.25em solid #BF1827; 
 }
-blockquote p:last-child {
-  margin-bottom: 0; }
+/*blockquote p:last-child {
+  margin-bottom: 0; }*/
 
 ol, ul {
   margin: 0 0 1.3em 2.5em; }
