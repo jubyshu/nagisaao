@@ -790,18 +790,18 @@ img::-moz-selection {
   }
   .post-list li:hover {
     transform:scale(1.01,1.01); 
-    -moz-box-shadow:4px 4px 4px #50bcb6, 
-    -4px -4px 4px #50bcb6, 
-    4px -4px 4px #50bcb6, 
-    -4px 4px 4px #50bcb6; 
-    -webkit-box-shadow:4px 4px 4px #50bcb6, 
-    -4px -4px 4px #50bcb6, 
-    4px -4px 4px #50bcb6, 
-    -4px 4px 4px #50bcb6; 
-    box-shadow:4px 4px 4px #50bcb6, 
-    -4px -4px 4px #50bcb6, 
-    4px -4px 4px #50bcb6, 
-    -4px 4px 4px #50bcb6;
+    -moz-box-shadow:4px 4px 4px #01D9E9, 
+    -4px -4px 4px #01D9E9, 
+    4px -4px 4px #01D9E9, 
+    -4px 4px 4px #01D9E9; 
+    -webkit-box-shadow:4px 4px 4px #01D9E9, 
+    -4px -4px 4px #01D9E9, 
+    4px -4px 4px #01D9E9, 
+    -4px 4px 4px #01D9E9; 
+    box-shadow:4px 4px 4px #01D9E9, 
+    -4px -4px 4px #01D9E9, 
+    4px -4px 4px #01D9E9, 
+    -4px 4px 4px #01D9E9;
     background-color: #fff;
   }
 
