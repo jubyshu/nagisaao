@@ -881,19 +881,17 @@ img::-moz-selection {
   display:block;
   text-align:center;
   font-size:0.9em;
-  color: #c7c7c7;
 }
 
 .zhuanzai a{
   text-decoration:none;
-  color:#bf1827;
 }
 
 .zhuanzai_line{
   border:1px solid #DDDDDD;
   display:center;
   width:30%;
-  margin-top:10px;
+  margin-top:20px;
 }
 
 /*.post-list-icon-mate {
