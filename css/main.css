@@ -880,8 +880,18 @@ img::-moz-selection {
 .zhuanzai{
   display:block;
   text-align:center;
+  font-size:0.9em;
   padding-top:5px;
-  border-top: 1px solid #DDDDDD;
+}
+
+.zhuanzai a{
+  text-decoration:none;
+}
+
+.zhuanzai_line{
+  border:1px solid #DDDDDD;
+  display:center;
+  width:30%;
 }
 
 /*.post-list-icon-mate {
