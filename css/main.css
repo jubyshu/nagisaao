@@ -877,6 +877,13 @@ img::-moz-selection {
   color: #8d7edc;
 }
 
+.zhuanzai{
+  display:block;
+  text-align:center;
+  padding-top:5px;
+  border-top: 1px solid #DDDDDD;
+}
+
 /*.post-list-icon-mate {
   height: 20px;
   background-size: 100% 100%;
