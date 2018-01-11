@@ -27,8 +27,8 @@ q {
   background-color: #f0f0f0;
 }
 blockquote:before, blockquote:after {
-  content: '';
-  content: none; 
+  content: 'url(/images/quote.png)';
+  content: ''; 
 }
 
 q:before, q:after {
@@ -166,15 +166,15 @@ blockquote {
   font-family: "FangSong","STFangSong", "Times New Roman", "Microsoft YaHei", serif;
   font-weight: normal;
   font-size: 1em;
-  width:400px;
+  width:500px;
   /*border-left: 2px solid #e9e9e9; */
 }
 
-blockquote p:first-child{
+/*blockquote p:first-child{
   background-image:url(/images/quote.png) no-repeat scroll left top;
 }
 
-/*blockquote p:last-child {
+blockquote p:last-child {
   margin-bottom: 0; }*/
 
 ol, ul {
