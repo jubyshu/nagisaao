@@ -61,7 +61,7 @@ nav:
 
 # Pagination
 plugins: [jekyll-paginate,jekyll-sitemap]
-paginate: 10
+paginate: 7
 paginate_path: "page/:num/"
 
 

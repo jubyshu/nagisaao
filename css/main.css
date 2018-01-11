@@ -154,7 +154,7 @@ em {
   font-style: italic; }
 
 blockquote {
-  font-family: "FangSong","STFangSong", "Times New Roman", "Microsoft YaHei", serif;
+  font-family: "FangSong", "STFangSong", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: normal;
   font-size: 1em;
   margin:15px 20px;
@@ -1439,3 +1439,16 @@ nav a {
   transform: translateY(-3px);
 }
 /*导航按钮-end*/
+
+/*canvas效果*/
+#juby{
+  width:100%;
+  background:transparent;
+  display:flex;
+  justify-content:center;
+  height:100%;
+  line-height:100%;
+  top:0;
+  position:absolute;
+  top:50%;
+}
