@@ -26,9 +26,6 @@ q {
   quotes: none; 
   background-color: #f0f0f0;
 }
-blockquote:before {
-  content: url(/images/quote.png);
-}
 
 q:before, q:after {
   content: '';
@@ -169,11 +166,11 @@ blockquote {
   /*border-left: 2px solid #e9e9e9; */
 }
 
-/*blockquote p:first-child{
-  background-image:url(/images/quote.png) no-repeat scroll left top;
+blockquote p:first-child{
+  background:url(/images/quote.png) no-repeat scroll left top;
 }
 
-blockquote p:last-child {
+/*blockquote p:last-child {
   margin-bottom: 0; }*/
 
 ol, ul {
