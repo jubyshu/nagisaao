@@ -164,18 +164,15 @@ blockquote {
   padding-right: 0px;
   margin-left: 1.4em;
   font-family: "FangSong","STFangSong", "Times New Roman", "Microsoft YaHei", serif;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 1em;
-  border-left: 2px solid #e9e9e9; 
+  /*border-left: 2px solid #e9e9e9; */
 }
 
-blockquote p:first-child{
+/*blockquote p:first-child{
   background-image:url(/images/quote.png) no-repeat scroll left top;
 }
 
-/*blockquote:before{
-	content:;
-}
 blockquote p:last-child {
   margin-bottom: 0; }*/
 
