@@ -1452,3 +1452,6 @@ nav a {
   position:absolute;
   top:50%;
 }
+canvas {
+    display: inline-block;
+    vertical-align: baseline;
