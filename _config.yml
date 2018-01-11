@@ -5,8 +5,8 @@ description: 搴汀洲兮杜若 将以遗兮远者
 # 头像里面的标题
 avatarTitle: 杜若
 # 头像里面的描述
-avatarDesc: Juby Tschu
-url: "http://jubytschu.github.io"
+avatarDesc: キミと逢いたい
+url: "http://jubeny.com"
 
 # Comment
 comment:
@@ -23,7 +23,7 @@ social:
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 #baidu:
-    #id: 15c4fed56d4cae267af95752c20fa16e  
+    #id: 
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
