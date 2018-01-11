@@ -1441,14 +1441,8 @@ nav a {
 /*导航按钮-end*/
 
 /*canvas效果*/
-#juby{
-  width:100%;
-  background:transparent;
-  display:flex;
-  justify-content:center;
-  height:100%;
-  position:absolute;
+#panel-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
-canvas {
-    display: inline-block;
-    vertical-align: baseline;
