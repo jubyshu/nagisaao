@@ -1439,10 +1439,3 @@ nav a {
   transform: translateY(-3px);
 }
 /*导航按钮-end*/
-
-/*canvas效果*/
-#panel-canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
