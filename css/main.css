@@ -1447,9 +1447,7 @@ nav a {
   display:flex;
   justify-content:center;
   height:100%;
-  top:0;
   position:absolute;
-  top:50%;
 }
 canvas {
     display: inline-block;
