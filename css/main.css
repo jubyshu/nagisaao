@@ -157,7 +157,7 @@ blockquote {
   font-family: "FangSong","STFangSong", "Times New Roman", "Microsoft YaHei", serif;
   font-weight: normal;
   font-size: 1em;
-  margin:15px auto;
+  margin:15px 15px;
   /*background:url(/images/right-quote.png) no-repeat scroll right bottom;
   border-left: 2px solid #e9e9e9; */
 }
