@@ -163,11 +163,14 @@ blockquote {
   padding-left: 1px;
   padding-right: 0px;
   margin-left: 1.4em;
-  background-image:url(/images/quote.png) no-repeat scroll;
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: lighter;
   font-size: 1em;
-  border-left: 0.25em solid #BF1827; 
+  border-left: 0.25em solid #e9e9e9; 
+}
+
+blockquote p:first-child{
+  background-image:url(/images/quote.png) no-repeat scroll left top;
 }
 
 /*blockquote:before{
