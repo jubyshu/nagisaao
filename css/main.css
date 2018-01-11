@@ -27,7 +27,7 @@ q {
   background-color: #f0f0f0;
 }
 blockquote:before, blockquote:after {
-  content: url(/images/quote.png);
+  content: '';
   content: none; 
 }
 
@@ -160,13 +160,13 @@ em {
 blockquote {
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 1px;
+  padding-left: 5px;
   padding-right: 0px;
   margin-left: 1.4em;
-  font-family: "Lucida Grande", "Times New Roman", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "FangSong","STFangSong", "Times New Roman", "Microsoft YaHei", serif;
   font-weight: lighter;
   font-size: 1em;
-  border-left: 0.25em solid #e9e9e9; 
+  border-left: 2px solid #e9e9e9; 
 }
 
 blockquote p:first-child{
