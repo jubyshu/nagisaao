@@ -158,16 +158,16 @@ blockquote {
   padding-bottom: 0px;
   padding-left: 45px;
   padding-right: 0px;
-  margin-left: 10px;
   font-family: "FangSong","STFangSong", "Times New Roman", "Microsoft YaHei", serif;
   font-weight: normal;
   font-size: 1em;
   width:500px;
+  background:url(/images/right-quote.png) no-repeat scroll right bottom;
   /*border-left: 2px solid #e9e9e9; */
 }
 
 blockquote p:first-child{
-  background:url(/images/quote.png) no-repeat scroll left top;
+  background:url(/images/left-quote.png) no-repeat scroll left top;
 }
 
 /*blockquote p:last-child {
