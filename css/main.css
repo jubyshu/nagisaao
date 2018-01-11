@@ -27,7 +27,7 @@ q {
   background-color: #f0f0f0;
 }
 blockquote:before, blockquote:after {
-  content: 'url(/images/quote.png)';
+  content: 'url(images/quote.png)';
   content: ''; 
 }
 
