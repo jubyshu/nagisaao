@@ -142,6 +142,7 @@ p {
   margin-top: 5px;
   line-height: 1.7em; 
 }
+/*两端对齐*/
 .post p{
   text-align: justify;
   text-justify:inter-word;
