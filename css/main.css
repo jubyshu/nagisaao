@@ -158,7 +158,7 @@ blockquote {
   font-family: "FangSong", "STFangSong", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: normal;
   font-size: 1em;
-  margin:15px 20px;
+  margin:15px 15px;
   background:url(/images/right-quote.png) no-repeat scroll right bottom;
   border-left: 2px solid #e9e9e9;
 }
@@ -168,7 +168,7 @@ blockquote p:first-child{
 }
 
 blockquote p{
-  padding-left: 45px;
+  padding-left: 40px;
 }
 
 ol, ul {
