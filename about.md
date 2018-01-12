@@ -19,7 +19,6 @@ header: 关于我
 
 <h3>关于我</h3>
 
-- 竹本物语
-- 杜若
 
-[1]:	bbs.nju.edu.cn
+
+[1]:	http://bbs.nju.edu.cn
