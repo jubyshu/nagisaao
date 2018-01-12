@@ -19,6 +19,9 @@ header: 关于我
 
 <h3>关于我</h3>
 
-
+我的微信：
+![][image-1]
 
 [1]:	http://bbs.nju.edu.cn
+
+[image-1]:	/images/Whui19 "Juby's WeChat"
