@@ -11,7 +11,7 @@ group: navigation
 <div>
 	<h3>
 文章数：
-{% paginator.total_posts %}篇，
+{{ paginator.total_posts }}篇，
 总字数：
 {% assign count = 0 %}
 {% for post in site.posts %}
