@@ -10,9 +10,9 @@ group: navigation
 
 <div>
 	<h3>
-文章数：
-{{ site.posts | size }}篇，
-总字数：
+文章 
+{{ site.posts | size }} 篇 | 
+字数 
 {% assign count = 0 %}
 {% for post in site.posts %}
     {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
@@ -24,7 +24,7 @@ group: navigation
 {% else %}
     {{ count }}
 {% endif %} 
-字。</h3>
+ 字</h3>
 </div>
 <div class="page card">
 {% include JB/posts_collate %}
