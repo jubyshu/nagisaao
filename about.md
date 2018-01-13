@@ -22,7 +22,9 @@ header: 关于我
 ##### 取个名字好难啊
 
 竹本是日本的一个姓氏，也是我名字中前两个字的读音。
+
 杜若念作とも，这应该是我的“首创”，来自我名字的第三个字。
+
 因为在学日语，就取了这样一个名字。
 
 ##### 我的微信
@@ -31,4 +33,4 @@ header: 关于我
 
 [1]:	http://bbs.nju.edu.cn
 
-[image-1]:	https://i.imgur.com/dXuYv2q.jpg "Juby's Blog"
+[image-1]:	https://i.imgur.com/dXuYv2q.jpg "Juby's WeChat"
