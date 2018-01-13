@@ -11,6 +11,7 @@ url: "http://jubeny.com"
 # Comment
 comment:
     #disqus: jubytschu
+    livere: true
 
 # Social
 social:
