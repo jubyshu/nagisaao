@@ -24,4 +24,4 @@ header: 关于我
 
 [1]:	http://bbs.nju.edu.cn
 
-[image-1]:	/images/Whui19 "Juby's WeChat"
+[image-1]:	https://i.imgur.com/dXuYv2q.jpg "Juby's Blog"
