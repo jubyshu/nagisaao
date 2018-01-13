@@ -12,8 +12,8 @@ group: navigation
 	<h3>
 文章数：
 {% assign count = 0 %}
-{% for post in site.posts %}
-{% assign post_count = site.total_posts %}
+{% for post in paginator.posts %}
+{% assign post_count = paginator.total_posts %}
 {% assign count = count | plus: post_count %}
 {% endfor %}篇，
 总字数：
