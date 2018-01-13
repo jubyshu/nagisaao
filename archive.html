@@ -9,7 +9,13 @@ group: navigation
 {% assign posts_collate = site.posts %}
 
 <div>
-	<h3>本站文章总字数为
+	<h3>
+文章数：
+{% assign count = 0 %}
+{% for post in site.posts reversed %}
+{% assign count = count | plus: 1 %}
+{% endfor %}
+		，总字数：
 {% assign count = 0 %}
 {% for post in site.posts %}
     {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
