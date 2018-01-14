@@ -19,13 +19,11 @@ group: navigation
     {% assign count = count | plus: single_count %}
 {% endfor %}
 
-{% comment %}
 {% if count > 10000 %}
-    {{ count | divided_by: 10000 }} 万 {{ count | modulo: 10000 }}
+    {{ count | divided_by: 10000 }}万{{ count | modulo: 10000 }}
 {% else %}
     {{ count }}
 {% endif %} 
-{% endcomment %}
  字</h3>
 }
 </div>
