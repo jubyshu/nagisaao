@@ -70,7 +70,8 @@
 
         <div class = "footer_div">  
            <div class="copyright text-muted" style="float:left; width:100%;margin-right: -200px;">
-            Copyright &copy; <a href="http://bbs.nju.edu.cn/vd11015/bbsqry?userid=Juby" target="_blank">Juby</a> 2015-{{ site.time | date: '%Y' }} | WeChat '<a href="javascript:;" title="微信公众号">takegatari<div class="weixin-qrcode"><img src="/images/wechat.jpg"></div></a>'
+            Copyright &copy; <a href="http://bbs.nju.edu.cn/vd11015/bbsqry?userid=Juby" target="_blank">Juby</a> 2015-{{ site.time | date: '%Y' }} | WeChat '{% if site.links.weixin %}
+<a href="javascript:;" title="微信公众号">takegatari<div class="weixin-qrcode"><img src="/images/wechat.jpg"></div></a>{% endif %}'
             </div>
         	<div align="right" style="float: right; width: 200px;">
     			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
