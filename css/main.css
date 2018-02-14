@@ -1191,7 +1191,7 @@ body {
     border-radius: 50%;
     width: 100%;
     height: 100%;
-    border: dashed 0.3px #606060;
+    border: solid 0.3px #606060;
     /*background: #fff;*/
 }
 
