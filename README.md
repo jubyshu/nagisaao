@@ -1,2 +1,3 @@
-- Juby‘s blog
+- Juby’s blog
 - Juby的博客
+- ジュビーのブログ
