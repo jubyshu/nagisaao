@@ -1,6 +1,5 @@
 # Basic
 title: 竹本物语
-tagline: Juby's Blog
 subtitle: タケモトモノガタリ
 description: 搴汀洲兮杜若 将以遗兮远者
 # 头像里面的标题
@@ -31,10 +30,6 @@ social:
 ga:
     id: UA-112090731-1
     host: auto  
-
-author: 
-    name: 'Juby'
-    url: http://bbs.nju.edu.cn/vd42839/bbsqry?userid=Juby
 
 
 # ----------------- 上面的信息修改成你自己的 ---------------------------
