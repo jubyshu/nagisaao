@@ -5,9 +5,9 @@
 
   <title> 
     {% if page.title == "Home" %}
-      {{ site.title }} &brvbar; {{ site.subtitle }}
+      {{ site.title }} | {{ site.subtitle }}
     {% else %}
-      {{ page.title }} &brvbar; {{ site.title }}
+      {{ page.title }} | {{ site.title }}
     {% endif %}
   </title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
