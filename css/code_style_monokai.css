@@ -1,12 +1,14 @@
 code {
   font-family: 'Consolas', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
   font-size: 14px;
-  color: #E74195;
-  background: #dcdcdc;
-  letter-spacing: 0.015em;
+  color: #c7254e;
+  background: #f9f2f4;
   line-height: 120%;
-  padding: 0.5em;
-  
+  padding: 2px 4px;
+  margin: 2px;
+  border: 1px solid #d6d6d6;
+  word-wrap: break-word;
+  border-radius: 3px;
 }
 
 .highlight {
