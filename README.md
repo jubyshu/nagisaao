@@ -3,11 +3,9 @@
 - Juby的博客
 - ジュビーのブログ
 -------
-###Git  
+###Git
 初始化一个Git仓库：`git init`  
-添加文件到Git仓库：  
-1. `git add`  
-2. `git commit -m''`，`-m`后面是提交说明  
+添加文件到Git仓库：  1. `git add`  2. `git commit -m''`，`-m`后面是提交说明   
 掌握工作区的状态：`git status`  
 查看修改内容：`git diff`  
 查看从最近到最远的提交日志：`git log`  
