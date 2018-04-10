@@ -16,8 +16,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-size: 14px;
   color: #07a;
   background: #f9f2f4;
-  padding: 2px 4px ;
-  margin: 2px ;
+  padding: 2px 4px;
+  margin: 2px;
   border: 1px solid #d6d6d6;
   font: inherit;
   vertical-align: baseline;
@@ -1177,6 +1177,13 @@ body {
     margin: 0
 }
 
+.ih-item.circle.effect a:hover .img{
+    transition: all 1s;
+}
+.ih-item.circle.effect a:hover .img:hover{
+    transform: rotate(1440deg);
+}
+
 .ih-item.circle.effect {
     margin: 0 auto;
     -webkit-perspective: 900px;
@@ -1185,26 +1192,9 @@ body {
 }
 .ih-item.circle.effect .img {
     z-index: 11;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-.ih-item.circle.effect .info {
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-.ih-item.circle.effect .info .info-back {
-    opacity: 1;
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    /*border: dashed 0.2px #606060;*/
-    background-image: url(/images/kouka.jpg);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .ih-item.circle.effect .info h2 {
@@ -1215,78 +1205,6 @@ body {
     padding-top: 30px;
     height: 30px;
     text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.ih-item.circle.effect .info p {
-    color: #eee;
-    padding: 0px 0px 0px 0px;
-    /*font-style: italic;*/
-    padding-left: 0px;
-    font-size: 12px;
-}
-
-.ih-item.circle.effect.bottom_to_top .img {
-    -webkit-transform-origin: 50% 0;
-    -moz-transform-origin: 50% 0;
-    -ms-transform-origin: 50% 0;
-    -o-transform-origin: 50% 0;
-    transform-origin: 50% 0;
-}
-
-.ih-item.circle.effect.bottom_to_top a:hover .img {
-    -webkit-transform: rotate3d(1, 0, 0, 180deg);
-    -moz-transform: rotate3d(1, 0, 0, 180deg);
-    -ms-transform: rotate3d(1, 0, 0, 180deg);
-    -o-transform: rotate3d(1, 0, 0, 180deg);
-    transform: rotate3d(1, 0, 0, 180deg);
-}
-
-.ih-item.circle.effect.top_to_bottom .img {
-    -webkit-transform-origin: 50% 100%;
-    -moz-transform-origin: 50% 100%;
-    -ms-transform-origin: 50% 100%;
-    -o-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
-}
-
-.ih-item.circle.effect.top_to_bottom a:hover .img {
-    -webkit-transform: rotate3d(1, 0, 0, -180deg);
-    -moz-transform: rotate3d(1, 0, 0, -180deg);
-    -ms-transform: rotate3d(1, 0, 0, -180deg);
-    -o-transform: rotate3d(1, 0, 0, -180deg);
-    transform: rotate3d(1, 0, 0, -180deg);
-}
-
-.ih-item.circle.effect.left_to_right .img {
-    -webkit-transform-origin: 100% 50%;
-    -moz-transform-origin: 100% 50%;
-    -ms-transform-origin: 100% 50%;
-    -o-transform-origin: 100% 50%;
-    transform-origin: 100% 50%;
-}
-
-.ih-item.circle.effect.left_to_right a:hover .img {
-    -webkit-transform: rotate3d(0, 1, 0, 180deg);
-    -moz-transform: rotate3d(0, 1, 0, 180deg);
-    -ms-transform: rotate3d(0, 1, 0, 180deg);
-    -o-transform: rotate3d(0, 1, 0, 180deg);
-    transform: rotate3d(0, 1, 0, 180deg);
-}
-
-.ih-item.circle.effect.right_to_left .img {
-    -webkit-transform-origin: 0% 50%;
-    -moz-transform-origin: 0% 50%;
-    -ms-transform-origin: 0% 50%;
-    -o-transform-origin: 0% 50%;
-    transform-origin: 0% 50%;
-}
-
-.ih-item.circle.effect.right_to_left a:hover .img {
-    -webkit-transform: rotate3d(0, 1, 0, -180deg);
-    -moz-transform: rotate3d(0, 1, 0, -180deg);
-    -ms-transform: rotate3d(0, 1, 0, -180deg);
-    -o-transform: rotate3d(0, 1, 0, -180deg);
-    transform: rotate3d(0, 1, 0, -180deg);
 }
 
 .ih-item a {
@@ -1336,13 +1254,11 @@ body {
     height: 20px;
 }
 
-.ih-item.circle.effect .info p {
-    color: #bbb;
-    padding-top: 0px;
-    font-style: italic;
-    margin: 0 auto;
-    font-size: 8px;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+.ih-item.circle.effect a:hover .img{
+    transition: all 1s;
+}
+.ih-item.circle.effect a:hover .img:hover{
+    transform: rotate(1440deg);
 }
 
 .ih-item.circle.effect {
@@ -1368,7 +1284,7 @@ body {
   }
 }
 
-.ih-item.circle .img:before {
+/*.ih-item.circle .img:before {
     position: absolute;
     display: block;
     content: '';
@@ -1378,7 +1294,7 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
-}
+}*/
 
 .ih-item.circle .img img {
     border-radius: 50%;
