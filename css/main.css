@@ -1254,14 +1254,14 @@ body {
     height: 20px;
 }
 
-.ih-item.circle.effect a:hover .img{
+  .ih-item.circle.effect a:hover .img{
     transition: all 1s;
 }
-.ih-item.circle.effect a:hover .img:hover{
+  .ih-item.circle.effect a:hover .img:hover{
     transform: rotate(1440deg);
 }
 
-.ih-item.circle.effect {
+  .ih-item.circle.effect {
     margin: 0 auto;
     -webkit-perspective: 900px;
     -moz-perspective: 900px;
@@ -1283,18 +1283,6 @@ body {
 
   }
 }
-
-/*.ih-item.circle .img:before {
-    position: absolute;
-    display: block;
-    content: '';
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
-}*/
 
 .ih-item.circle .img img {
     border-radius: 50%;
