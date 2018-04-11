@@ -1177,11 +1177,36 @@ body {
     margin: 0
 }
 
-.ih-item.circle.effect a:hover .img{
-    transition: all 1s;
+/*旋转效果*/
+@keyframes rotate{
+from{transform:rotate(0deg)}
+to{transform:rotate(360deg)}
 }
+
+@-webkit-keyframes rotate{
+from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg)}
+}
+
+@-moz-keyframes rotate{
+from{-moz-transform:rotate(0deg)}
+to{-moz-transform:rotate(360deg)}
+}
+
+@-o-keyframes rotate{
+from{-o-transform:rotate(0deg)}
+to{-o-transform:rotate(360deg)}
+}
+
+/*.ih-item.circle.effect a:hover .img{
+    transition: all 1s;
+}*/
 .ih-item.circle.effect a:hover .img:hover{
-    transform: rotate(1440deg);
+    animation: rotate 0.25s linear infinite;
+    -moz-animation: rotate 0.25s linear infinite;
+    -webkit-animation: rotate 0.25s linear infinite;
+    -o-animation: rotate 0.25s linear infinite;
+    /*transform: rotate(1440deg);*/
 }
 
 .ih-item.circle.effect {
@@ -1254,12 +1279,12 @@ body {
     height: 20px;
 }
 
-  .ih-item.circle.effect a:hover .img{
+  /*.ih-item.circle.effect a:hover .img{
     transition: all 1s;
 }
   .ih-item.circle.effect a:hover .img:hover{
     transform: rotate(1440deg);
-}
+}*/
 
   .ih-item.circle.effect {
     margin: 0 auto;
