@@ -1177,7 +1177,7 @@ body {
     margin: 0
 }
 
-/*旋转效果*/
+/*旋转效果开始*/
 @keyframes rotate{
 from{transform:rotate(0deg)}
 to{transform:rotate(360deg)}
@@ -1208,6 +1208,7 @@ to{-o-transform:rotate(360deg)}
     -o-animation: rotate 0.25s linear infinite;
     /*transform: rotate(1440deg);*/
 }
+/*旋转效果结束*/
 
 .ih-item.circle.effect {
     margin: 0 auto;
@@ -1278,14 +1279,6 @@ to{-o-transform:rotate(360deg)}
     padding-top: 35px;
     height: 20px;
 }
-
-  /*.ih-item.circle.effect a:hover .img{
-    transition: all 1s;
-}
-  .ih-item.circle.effect a:hover .img:hover{
-    transform: rotate(1440deg);
-}*/
-
   .ih-item.circle.effect {
     margin: 0 auto;
     -webkit-perspective: 900px;
