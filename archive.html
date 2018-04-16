@@ -9,7 +9,7 @@ group: navigation
 {% assign posts_collate = site.posts %}
 
 <div>
-	<h3>
+<h3>
 文章: 
 {{ site.posts | size }} 篇 | 
 字数:  
@@ -18,13 +18,8 @@ group: navigation
     {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
     {% assign count = count | plus: single_count %}
 {% endfor %}
-
-{% if count > 10000 %}
-    {{ count | divided_by: 10000 }}万{{ count | modulo: 10000 }}
-{% else %}
-    {{ count }}
-{% endif %} 
- 字</h3>
+{{ count | divided_by: 1000.0 | round: 2 }}K
+字</h3>
 
 </div>
 <div class="page card">
