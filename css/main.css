@@ -685,16 +685,16 @@ img::-moz-selection {
     float: left;
     position: relative;
     margin: 0;
-    list-style-type: none; 
+    list-style-type: none;
   }
 
   .btn, .navigation__item a {
     display: inline-block;
     margin-right: 0px;
     padding: 5px 5px 5px 5px;
-    font-size: .6em;
+    font-size: 0.9em;
     text-shadow: none;
-    color: #BF1827;
+    color: #666;
   }
   .navigation__item {
     display: inline-block;
@@ -707,12 +707,11 @@ img::-moz-selection {
     position: relative;
     width: 100%;
     border-color: #666;
-    color: #666;
-    /*opacity: .8; */
+    color: #f6f6f6;
   }
 
   .navigation__item a:hover {
-    color: #fff;
+    color: #7ECA02;
   }
 
   .navigation__item_social {
@@ -845,30 +844,6 @@ img::-moz-selection {
   display: inline-block;
 }
 
-/*.tag-img-icon img{
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  display: block;
-  float: left;
-}
-
-.post-list__meta--tags {
-  
-  font-size: .5em;
-  height: 20px;
-  width: 10px;
-  margin-top: 2px;
-  margin-left: 5px;
-  padding-left: 5px;
-  padding-right: 6px;
-  padding-top: -5px;
-  padding-bottom: 3px;
-  background-size: 100% 100%;
-  float: left;
-  font-size: 0.9em;
-}*/
-
 .btn-border-small,
 .post-list__meta--date,
 .post-list__meta--tags-right {
@@ -906,22 +881,6 @@ img::-moz-selection {
   width:30%;
   margin-top:30px;
 }
-
-/*.post-list-icon-mate {
-  height: 20px;
-  background-size: 100% 100%;
-  padding-top: -5px;
-  padding-bottom: 3px;
-  margin-top: 2px;
-  float: left;
-}
-
-.post-list-small-mate {
-  height: 30px;
-  background-size: 100% 100%;
-  margin-top: 3px;
-  float: left;
-}*/
 
 .post-list_divider {
   width: 30%;
@@ -1197,15 +1156,11 @@ from{-o-transform:rotate(0deg)}
 to{-o-transform:rotate(360deg)}
 }
 
-/*.ih-item.circle.effect a:hover .img{
-    transition: all 1s;
-}*/
 .ih-item.circle.effect a:hover .img:hover{
     animation: rotate 0.25s linear infinite;
     -moz-animation: rotate 0.25s linear infinite;
     -webkit-animation: rotate 0.25s linear infinite;
     -o-animation: rotate 0.25s linear infinite;
-    /*transform: rotate(1440deg);*/
 }
 /*旋转效果结束*/
 
