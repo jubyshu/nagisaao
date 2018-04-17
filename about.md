@@ -12,7 +12,8 @@ header: 关于我
     - Github Pages
 
 <h3>关于本人</h3>
-<img style='float:right;' src='/images/juby.jpg' width='80px' height='120px' title='Juby' alt="Here is Juby's photo" />
+<a href="/images/juby.jpg" data-lightbox="Juby" data-title="Juby">
+<img style='float:right;' src='/images/juby.jpg' width='80px' height='120px' title='Juby' alt="Here is Juby's photo" /></a>
 
 - 鲁人，90后，就读于南京大学
 - 好读书，不求甚解，喜欢小说、诗歌

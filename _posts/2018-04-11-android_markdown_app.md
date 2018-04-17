@@ -19,7 +19,7 @@ tags: 工作
 
 #### MarkdownX
 
-![MarkdownX Interface](https://i.imgur.com/APvsoMA.png)
+<a href="https://i.imgur.com/APvsoMA.png" data-lightbox="markdownx" data-title="My caption"><img src="https://i.imgur.com/APvsoMA.png"></a>
 
 MarkdownX目前仍是一款非常优秀的Markdown编辑器。首先，它的编辑操作非常方便，提供丰富的语法快捷选项，支持GFM语法，可以实时预览，在大设备上甚至能左右分屏预览。其次，界面简洁清爽，颜值比较高，用户可以自行选择开启或关闭广告，是不是很良心啊。
 
