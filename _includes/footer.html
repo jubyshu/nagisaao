@@ -4,16 +4,6 @@
         <nav class="cover-navigation navigation--social">
           <ul class="navigation">
 
-          {% if site.social.weibo %}
-          <!-- Weibo -->
-          <li class="navigation__item_social">
-            <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的 微博" target="_blank">
-              <i class='social fa fa-weibo fa-2x'></i>
-              <span class="label">Weibo</span>
-            </a>
-          </li>
-          {% endif %}
-
           {% if site.social.github %}
           <!-- Github -->
           <li class="navigation__item_social">
@@ -46,7 +36,7 @@
 
           <!-- RSS -->
           <li class="navigation__item_social">
-            <a href="https://feedburner.google.com/fb/a/mailverify?uri=jubeny/feed&amp;loc=en_US" rel="author" title="订阅我的博客" target="_blank">
+            <a href="/feed.xml" rel="author" title="订阅我的博客" target="_blank">
               <i class='social fa fa-rss fa-2x'></i>
               <span class="label">RSS</span>
             </a>
@@ -72,7 +62,7 @@
            <div class="copyright text-muted" style="float:left; width:100%;margin-right: -200px;">
             &copy; <a href="http://bbs.nju.edu.cn/vd11015/bbsqry?userid=Juby" target="_blank">Juby</a> <i class="fa fa-heart"></i> 2015-{{ site.time | date: '%Y' }} | WeChatOA'<a href="/images/wechatoa.jpg" target="_blank">takegatari</a>'
             </div>
-        	<div align="right" style="float: right; width: 200px;">
+        <div align="right" style="float: right; width: 200px;">
     			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
           <!-- 访问统计 -->

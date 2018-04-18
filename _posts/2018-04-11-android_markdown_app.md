@@ -19,7 +19,7 @@ tags: 工作 技术
 
 #### MarkdownX
 
-<a href="https://i.imgur.com/APvsoMA.png" data-lightbox="markdownx" data-title="MarkdownX"><img src="https://i.imgur.com/APvsoMA.png"></a>
+<a href="https://i.imgur.com/APvsoMA.png" data-lightbox="md" data-title="MarkdownX"><img src="https://i.imgur.com/APvsoMA.png"></a>
 
 MarkdownX目前仍是一款非常优秀的Markdown编辑器。首先，它的编辑操作非常方便，提供丰富的语法快捷选项，支持GFM语法，可以实时预览，在大设备上甚至能左右分屏预览。其次，界面简洁清爽，颜值比较高，用户可以自行选择开启或关闭广告，是不是很良心啊。
 
@@ -27,7 +27,7 @@ MarkdownX目前仍是一款非常优秀的Markdown编辑器。首先，它的编
 
 #### iA Writer
 
-<a href="https://i.imgur.com/xeA2HOf.png?1" data-lightbox="iawriter" data-title="iA Writer"><img src="https://i.imgur.com/xeA2HOf.png?1"></a>
+<a href="https://i.imgur.com/xeA2HOf.png?1" data-lightbox="md" data-title="iA Writer"><img src="https://i.imgur.com/xeA2HOf.png?1"></a>
 
 与其他几个App是个人作品不同，iA Writer是iA公司的产品，在Windows、Android、MacOS和iOS上均可以使用，不过Mac版和iOS版需要付费。我没有在Mac上用过iA Writer，不清楚不同平台之间的数据是如何同步的，不过App可以关联Dropbox和Google Drive，只要科学上网，数据同步还是非常方便的。
 
@@ -37,7 +37,7 @@ iA Writer的界面非常简洁，比MarkdownX还要简洁，但同样漂亮。�
 
 #### 易码
 
-<a href="https://i.imgur.com/JeIBwXJ.png?1" data-lightbox="yima" data-title="Yima"><img src="https://i.imgur.com/JeIBwXJ.png?1"></a>
+<a href="https://i.imgur.com/JeIBwXJ.png?1" data-lightbox="md" data-title="Yima"><img src="https://i.imgur.com/JeIBwXJ.png?1"></a>
 
 易码应该是这几个App中功能最强大的了，不仅是一款Markdown编辑器，也是一款笔记和日记软件。如作者所说，易码摒弃文件夹的传统概念，以“库”为单位管理笔记，非常便于查找和管理。除了支持将笔记保存在本地，还支持Dropbox、坚果云、WebDAV和Google Drive（测试中）等网盘。
 
@@ -45,7 +45,7 @@ iA Writer的界面非常简洁，比MarkdownX还要简洁，但同样漂亮。�
 
 #### 纯纯写作
 
-<a href="https://i.imgur.com/Ad8HRSW.png?1" data-lightbox="chunchun" data-title="Chunchun"><img src="https://i.imgur.com/Ad8HRSW.png?1"></a>
+<a href="https://i.imgur.com/Ad8HRSW.png?1" data-lightbox="md" data-title="Chunchun"><img src="https://i.imgur.com/Ad8HRSW.png?1"></a>
 
 纯纯写作是由国人drakeet开发，致力于提供**绝不丢失内容、快速、优秀**的写作体验。与其他几个App一样，纯纯写作也可以完美地支持Markdown，特别是语法快捷选项较全，可以省去手动键入的繁琐。除此之外，App还有一些具有特色的功能，比如实现了完美的行间距和段间距；启动App时立马进入编辑页面；拥有“时光机”的历史记录功能，防止文章内容意外丢失。
 

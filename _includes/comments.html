@@ -3,12 +3,10 @@
   {% if site.comment.disqus %}
     <div id="disqus_thread"></div>
 <script>
-
 var disqus_config = function () {
 this.page.url = "{{ page.url | prepend: site.baseurl | prepend: site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
-
 
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
@@ -40,8 +38,7 @@ s.setAttribute('data-timestamp', +new Date());
 <!-- City版安装代码已完成 -->
 
   {% endif %}
-    
-  
+     
 </section>
 
 
