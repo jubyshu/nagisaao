@@ -47,7 +47,8 @@ blog_button:
 # Navigation buttons in the front page.s
 nav:
     - {title: 存档, description: archive, url: '/archive.html'}   
-    - {title: 标签, description: tags, url: '/tags.html'}      
+    - {title: 标签, description: tags, url: '/tags.html'}
+    - {title: 留言, description: guestbook, url: '/guestbook.html'}      
     - {title: 关于, description: about, url: '/about.html'}      
     
 

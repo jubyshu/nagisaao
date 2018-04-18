@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 二登泰山
+title: 再登泰山
 date: 2018-04-17
 tags: 生活 风景
 ---
