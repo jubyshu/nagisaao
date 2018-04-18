@@ -31,10 +31,10 @@ details p{
 }
 
 summary {
-  margin: 5px 0px;
+  margin: 3px 0px;
   padding: 5px;
   background-color: #f3f3f3;
-  font-weight: bold;
+  font-weight: lighter;
   border-radius: 3px;
 }
 

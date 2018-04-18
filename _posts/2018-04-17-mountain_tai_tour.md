@@ -16,4 +16,7 @@ tags: 生活 风景
 
 这次登山是和三个不认识的校友一起，大家人都比较好，使旅途少了很多寂寞。但是，无论是和谁坐夜车，都是一件痛苦的事。*最后附一张难得展现笑容的照片，因为我没有拍照的习惯，只能借用一下合照了。*
 
-<a href="https://i.imgur.com/5mCcF33.png" data-lightbox="groupphoto" data-title="到山顶啦！！"><img src="https://i.imgur.com/G5gBWVo.png"></a>
+<details>
+    <summary>点击查看照片</summary>
+    <p><a href="https://i.imgur.com/5mCcF33.png" data-lightbox="groupphoto" data-title="到山顶啦！！"><img src="https://i.imgur.com/G5gBWVo.png"></a></p>
+</details>
