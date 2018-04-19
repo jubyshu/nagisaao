@@ -60,8 +60,26 @@
 
         <div class = "footer_div">  
            <div class="copyright text-muted" style="float:left; width:100%;margin-right: -200px;">
-            &copy; <a href="http://bbs.nju.edu.cn/vd11015/bbsqry?userid=Juby" target="_blank">Juby</a> <i class="fa fa-heart"></i> 2015-{{ site.time | date: '%Y' }} | WeChatOA'<a href="/images/wechatoa.jpg" target="_blank">takegatari</a>'
+            &copy; <a href="http://bbs.nju.edu.cn/vd11015/bbsqry?userid=Juby" target="_blank">Juby</a> <i class="fa fa-heart"></i> 2015-{{ site.time | date: '%Y' }} | <a href="javascript:;" id="pay_weixin" onclick="openWindow(this)">赞赏我</a>
             </div>
+
+            <div id="light_weixin" class="white_content">  
+               <img src="/images/wechatpay.png" />
+               <p class="weixin_zhifu"> 微信支付</p> 
+            </div>
+            <div id="fade" class="black_overlay"  onClick="closeWindow()">
+            </div>
+            <script type="text/javascript">
+              function openWindow(obj){
+                document.getElementById('light_weixin').style.display='block';
+                document.getElementById('fade').style.display='block';
+              }
+              function closeWindow(){
+                document.getElementById('light_weixin').style.display='none';
+                document.getElementById('fade').style.display='none';
+              }
+            </script>
+
         <div align="right" style="float: right; width: 200px;">
     			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
 

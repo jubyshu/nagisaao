@@ -42,6 +42,42 @@ summary:hover {
   background-color: #02baca;
 }
 
+/*微信赞赏*/
+.black_overlay {
+  display: none; 
+  position: fixed;  
+  top: 0%;  
+  left: 0%;  
+  width: 100%;  
+  height: 100%;  
+  background-color: #fff;  
+  z-index:1001;  
+  -moz-opacity: 0.8;  
+  opacity:.80;  
+  filter: alpha(opacity=80);  
+} 
+.white_content {
+  display: none;  
+  position: fixed; 
+  top: 50%; 
+  left: 50%;         
+  background-color: white; 
+  z-index:1002;
+  overflow: auto;
+  border: 1px dotted #6f6f6f;
+  -webkit-transform: translate(-50%, -50%);   
+  -moz-transform: translate(-50%, -50%);   
+  -ms-transform: translate(-50%, -50%);   
+  -o-transform: translate(-50%, -50%);   
+  transform: translate(-50%, -50%);   
+}
+.weixin_zhifu {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
@@ -202,6 +238,7 @@ blockquote {
 
 blockquote p{
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 ol, ul {
@@ -1350,4 +1387,4 @@ nav a {
   -moz-transform: translateY(-3px);
   transform: translateY(-3px);
 }
-/*导航按钮-end*/
+/*导航按钮-end
