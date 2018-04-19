@@ -35,7 +35,9 @@ ga:
 permalink: /:year/:month/:title.html
 # Format
 markdown: kramdown
-highlighter: prism
+kramdown:
+   syntax_highlighter_opts:
+      disable: true
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 cover_color: clear #背景Mask
