@@ -15,6 +15,6 @@ header: 关于我
 <a href="/images/juby.jpg" data-lightbox="Juby" data-title="Juby">
 <img style='float:right;' src='/images/juby.jpg' width='80px' height='120px' title='Juby' alt="Here is Juby's photo" /></a>
 - 鲁人，90后，就读于南京大学
-- 好读书，不求甚解，喜欢小说、诗歌
+- 好读书，不求甚解，喜欢小说、诗歌 --> [我的书单](http://jubeny.com/assets/my_booklist.html)
 - 兴趣广泛，特长没有，目前在健身、学日语、玩滑板和养蜥蜴
 - 想着，生活着，偶尔也微笑着，既不快乐，也不不快乐
