@@ -1079,7 +1079,7 @@ input[type="tel"]:-ms-input-placeholder {
   }
   /*左右边距*/
   .post-container--single{
-    margin: auto 10px;
+    margin: auto 2%;
   }
   .content-wrapper {
     width: 93%;
