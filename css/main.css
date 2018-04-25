@@ -440,10 +440,9 @@ img::-moz-selection {
     width: auto;
     overflow: auto; }
   .post hr {
-    display: block;
     width: 30%;
-    margin: 2em 0;
-    border-top: 1px solid #DDDDDD; }
+    margin: 0.5em 0;
+    border-top: 2px solid #DDDDDD; }
 
   .panel {
     display: table;
@@ -476,7 +475,7 @@ img::-moz-selection {
     width: 100%;
     max-width: none;
     height: 100%;
-    background: url(/images/background-cover.jpg) top left no-repeat #666666;
+    background: url(/images/background-cover.jpg) top left no-repeat rgb(199,237,204);
     background-size: cover; }
 
   .panel-cover--collapsed {
@@ -792,10 +791,6 @@ img::-moz-selection {
     -4px 4px 4px #C1C1C1;
     background-color: #fff;
   }
-
-  /*.post-list li:last-child hr {
-      display: none; 
-  }*/
 
   .post-list__post-title {
    margin-top: 5px;
