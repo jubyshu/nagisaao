@@ -1318,6 +1318,7 @@ details p{
   padding: 5px 10px;
   border-radius: 3px;
   font-size: 0.9em;
+  border: 1px solid #777777;
 }
 summary {
   margin: 3px auto;
@@ -1327,18 +1328,16 @@ summary {
   cursor: pointer;
   color: #696f7c;
   text-align: center;
-  text-decoration: underline;
+  border: 1px solid #777777;
+  width: 50%;
 }
 summary:hover {
   background-color: #f3f3f3;
+  width: 100%;
 }
 summary::-webkit-details-marker {
     display: none;
-}
-summary:before, summary:after {
-    content: "\2667"; /* the new icon */
-    color: #696f7c;
-}                              
+}                           
 
 /*微信赞赏*/
 .black_overlay {
