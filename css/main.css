@@ -1320,21 +1320,30 @@ nav a {
 /*文本折叠效果*/
 details p{
   background-color: #f3f3f3;
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 3px;
+  font-size: 0.9em;
 }
-
 summary {
-  margin: 3px 0px;
+  margin: 3px auto;
   padding: 5px;
-  background-color: #f3f3f3;
-  font-weight: lighter;
+  font-size: 0.9em;
   border-radius: 3px;
+  cursor: pointer;
+  color: #696f7c;
+  text-align: center;
+  text-decoration: underline;
 }
-
 summary:hover {
-  background-color: #02baca;
+  background-color: #f3f3f3;
 }
+summary::-webkit-details-marker {
+    display: none;
+}
+summary:before, summary:after {
+    content: "\2667"; /* the new icon */
+    color: #696f7c;
+}                              
 
 /*微信赞赏*/
 .black_overlay {
@@ -1376,7 +1385,7 @@ summary:hover {
 #back-top a {
   position: fixed;
   bottom: 30px;
-  right: 10px;
+  right: 15px;
   /*width: 20px;
   height: 60px;
   display: inline-block;
