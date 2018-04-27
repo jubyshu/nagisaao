@@ -97,7 +97,8 @@ a:hover {
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
-  -webkit-transition: .5s; 
+  -webkit-transition: .5s;
+  cursor:url('/images/umbrella.ico'), auto;
 }
 
 h1,
@@ -216,9 +217,6 @@ thead tr:first-child {
 th {
   font-weight: bold; }
 
-th:first-child, td:first-child {
-  padding: 0 15px 0 20px; }
-
 thead tr:last-child th {
   border-bottom: 1px solid #DDDDDD; }
 
@@ -229,8 +227,9 @@ tbody td {
   border-bottom: 1px solid #DDDDDD;
   font-size: .85em; }
 
-td:last-child {
-  padding-right: 10px; }
+tbody tr:nth-child(2n) {
+  background-color: #DDDDDD;
+}
 
 /*pager start----------------*/
 .post-container 
@@ -840,7 +839,10 @@ img::-moz-selection {
 .zhuanzai{
   display:block;
   text-align:center;
-  font-size:0.9em;
+  font-size:0.8em;
+}
+.zhuanzai p:before {
+  content: '\27A4';
 }
 
 .zhuanzai a{

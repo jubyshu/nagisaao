@@ -10,6 +10,7 @@ header: 关于我
 - **2017-05**~**2017-10**: registered subdomain `dairy.jubeny.com` and wrote dairies on it for months
 - **2017-09-10**: purchased a theme named *Island* authored by [Harvey Zack](https://github.com/zhw2590582)
 - **2018-01-08**: quit Wordpress blog and built new blog on Github Pages with Jekyll 
+- **2018-01-11**: imported LiveRe as the 3rd party commenting system 
 
 <h3>关于本人</h3>
 - 鲁人，90后，就读于南京大学
