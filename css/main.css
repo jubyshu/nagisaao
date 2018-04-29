@@ -837,6 +837,7 @@ img::-moz-selection {
 }
 .zhuanzai p:before {
   content: '\27A4';
+  color: #999;
 }
 
 .zhuanzai a{
@@ -1370,7 +1371,7 @@ summary::-webkit-details-marker {
   color: #000;
   font-weight: bold;
   font-size: 1.1em;
-  margin: 25px auto;
+  margin: 10px auto;
 }
 
 /*返回顶部按钮*/
@@ -1388,10 +1389,14 @@ sup a{
   position: relative;
   bottom: -0.1em;
   text-decoration: none;
-  border: 0.5px solid #BF1827;
-  -moz-border-radius: 6px;  
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
+}
+sup a:before {
+  content: '[';
+  color: #BF1827;
+}
+sup a:after {
+  content: ']';
+  color: #BF1827;
 }
 .footnotes {
   font-size: 0.8em;

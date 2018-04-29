@@ -16,4 +16,4 @@ author: Juby
 养生这种事是我从来没有考虑过的，这是因为年轻的身体还可以折腾一下；希望不幸降在自己身上这种事，以后也不会再考虑了，现在的幸福感已经很低了，而我只想做一个幸福的人。
 
 
-[^1]:ACE：Adverse Childhood Experience
+[^1]: ACE：Adverse Childhood Experience

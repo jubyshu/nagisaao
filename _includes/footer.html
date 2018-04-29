@@ -16,11 +16,12 @@
           {% endif %}
 
           {% if site.social.wechat %}
-          <!-- WeChat -->
+          <!-- Wechat -->
           <li class="navigation__item_social">
-            <a href="http://jubeny.com/images/wechat.jpg" rel="author" title="我的微信：{{site.social.wechat}}" target="_blank">
+            <a href="/images/wechat.jpg" title="我的微信：{{site.social.wechat}}" 
+            target="_blank">
               <i class='social fa fa-weixin fa-2x'></i>
-              <span class="label">WeChat</span>
+              <span class="label">Wechat</span>
             </a>
           </li>
           {% endif %}
@@ -36,7 +37,7 @@
           {% if site.social.mail %}
           <!-- Email -->
           <li class="navigation__item_social">
-            <a href="mailto:{{site.social.mail}}" title="我的邮箱：juby@jubeny.com">
+            <a href="mailto:{{site.social.mail}}" title="我的邮箱：{{site.social.mail}}">
               <i class='social fa fa-envelope fa-2x'></i>
               <span class="label">Email</span>
             </a>
@@ -56,7 +57,7 @@
 
             <div id="light_weixin" class="white_content">  
                <p class="weixin_zhifu">如果喜欢，可以打赏我:)</p>
-               <img src="/images/wechatpay.png" />
+               <span class="weixin_img"><img src="/images/wechatpay.png" /></span>
                <p class="weixin_zhifu"> 微信支付 金额随意</p> 
             </div>
             <div id="fade" class="black_overlay"  onClick="closeWindow()">
