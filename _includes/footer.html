@@ -4,27 +4,13 @@
         <nav class="cover-navigation navigation--social">
           <ul class="navigation">
 
-          
-          {% if site.social.twitter %}
-          <!-- Twitter -->
-          <li class="navigation__item_social">
-            <a href="http://twitter.com/{{site.social.twitter}}" title="我的推特：{{site.social.twitter}}" target="_blank">
-              <i class='social fa fa-twitter fa-2x'></i>
-              <span class="label">Twitter</span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.social.wechat %}
           <!-- Wechat -->
           <li class="navigation__item_social">
-            <a href="/images/wechat.jpg" title="我的微信：{{site.social.wechat}}" 
-            target="_blank">
+            <a href="javascript:;" id="pay_weixin" onclick="openWindow(this)" title="赞赏我">
               <i class='social fa fa-weixin fa-2x'></i>
               <span class="label">Wechat</span>
             </a>
           </li>
-          {% endif %}
 
           <!-- RSS -->
           <li class="navigation__item_social">
@@ -52,8 +38,8 @@
 
         <div class = "footer_div">  
            <div class="copyright text-muted" style="float:left; width:100%;margin-right: -200px;">
-            &copy; <a href="http://bbs.nju.edu.cn/vd11015/bbsqry?userid=Juby" target="_blank">Juby</a> <i class="fa fa-heart"></i> 2015-{{ site.time | date: '%Y' }} | <a href="javascript:;" id="pay_weixin" onclick="openWindow(this)">赞赏我</a>
-            </div>
+            &copy; <a href="http://bbs.nju.edu.cn/vd11015/bbsqry?userid=Juby" target="_blank">Juby</a> <i class="fa fa-heart"></i> 2015-{{ site.time | date: '%Y' }}
+           </div>
 
             <div id="light_weixin" class="white_content">  
                <p class="weixin_zhifu">如果喜欢，可以打赏我:)</p>
@@ -80,6 +66,6 @@
     			<span id="busuanzi_container_site_pv">本站访问：<span id="busuanzi_value_site_pv"></span> 次</span>
           
           	</div>
-        <div>
+        </div>
     </footer>
 </section>
