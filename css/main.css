@@ -4,6 +4,8 @@
 */
 @import url(animate.css);
 @import url(prism.css);
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -116,17 +118,16 @@ h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 2.2em;
+  font-size: 1.8em;
   line-height: 1.2em;
   letter-spacing: .05em; 
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.5em;
   line-height: 0.8em；
 }
-
-h3 {
+/*h3 {
   color: #fff;
   font-size: 1.2em; 
   border-radius: 4px; 
@@ -138,17 +139,37 @@ h3 {
   border-left: 6px solid #0096A0; 
   position:relative;
   font-weight: bold;
+}*/
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px auto;
+  margin-top: 5px
+  margin-bottom: 20px;
+}
+h3:after {
+  display: block;
+  content: ' ';
+  margin-top: 5px;
+  width: auto;
+  border-bottom: 3px solid #0096A0;
 }
 
 h4 {
-  font-size: 1.1em; 
-  padding: 3px;
-  border-left:4px solid #21D8F9;
+  font-size: 1.05em; 
+  padding: auto 5px;
   font-weight: bold;
+}
+h4:before {
+  display: inline-block;
+  content: '\00B6';
+  color: #50b3b6;
+  margin-right: 4px;
 }
 
 h5 {
 	font-size:1.05em; 
+  border-left:2px solid #21D8F9;
 }
   
 p {
@@ -156,14 +177,16 @@ p {
   margin-top: 5px;
   line-height: 1.7em; 
 }
-/*两端对齐*/
+/* 两端对齐 */
 .post p{
   text-align: justify;
   text-justify: inter-word;
 }
 
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 0.95em;
+}
 
 em {
   font-style: italic; }
@@ -419,7 +442,9 @@ img::-moz-selection {
 
   .post-meta {
     margin: 0 0 1.8em 0;
-    color: #c7c7c7; }
+    color: #c7c7c7; 
+    font-size: 0.9em;
+  }
 
   .post-meta__date {
     margin-right: .3em; }
@@ -436,7 +461,7 @@ img::-moz-selection {
   .post hr {
     width: 30%;
     margin: 0.5em 0;
-    border-top: 2px solid #DDDDDD; }
+    border-top: 1px solid #DDDDDD; }
 
   .panel {
     display: table;
@@ -491,8 +516,18 @@ img::-moz-selection {
   .panel-cover__logo {
     margin-bottom: .2em; }
 
+  .panel-cover__title {
+    font-family:'momo_xinjian11c122e9311cb28';
+  }  
+
+  .panel-cover__subtitle {
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
   .panel-cover__description {
-    margin: 0 30px; }
+    margin: 0 30px; 
+    font-family: 'stfzjjgangbikai11c141e93a1cb28';
+  }
 
   .panel-cover__divider {
     width: 50%;
@@ -535,6 +570,7 @@ img::-moz-selection {
   .cover-navigation {
     margin-top: 0px; 
     width: 100%;
+    font-family: 'stfzjjgangbikai11c141e93a1cb28';
   }
   .cover-blue {
     background-color: rgba(37, 104, 163, 0.6);
@@ -804,14 +840,13 @@ img::-moz-selection {
 
 .post-list__meta {
   display: block;
-  margin: .7em 0 0 0;
-  font-size: .9em;
+  margin: 0.7em 0 0 0;
   display: inline-block;
 }
 
 .btn-border-small,
 .post-list__meta--date,
-.post-list__meta--tags-right {
+.post-list__meta--tags {
   height: 20px;
   margin-top: 3px;
   margin-left: 0px;
@@ -820,24 +855,19 @@ img::-moz-selection {
   padding-top: -5px;
   padding-bottom: 3px;
   background-size: 100% 100%;
-  border-radius: 0 0 0 0;
   color: #c7c7c7;
   float: left;
   margin-bottom: 10px;
+  font-size: 0.9em;
 }
-
-.post-list__meta--tags-right:hover{
-  color: #8d7edc;
+.post-list__meta--tags:hover{
+  color: #7ECA02;
 }
 
 .zhuanzai{
   display:block;
   text-align:center;
   font-size:0.8em;
-}
-.zhuanzai p:before {
-  content: '\27A4';
-  color: #999;
 }
 
 .zhuanzai a{
@@ -1070,7 +1100,7 @@ input[type="tel"]:-ms-input-placeholder {
   .panel-main__inner {
     padding: 0 5%; 
   }
-  /*左右边距*/
+  /* 左右边距 */
   .post-container--single{
     margin: auto 2%;
   }
@@ -1153,17 +1183,6 @@ to{-o-transform:rotate(360deg)}
     -moz-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 }
-
-.ih-item.circle.effect .info h2 {
-    color: #fff;    
-    position: relative;
-    font-size: 18px;
-    margin: 0 auto;
-    padding-top: 30px;
-    height: 30px;
-    text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
 .ih-item a {
     color: #333;
 }
@@ -1192,24 +1211,6 @@ to{-o-transform:rotate(360deg)}
 }
 
 @media all and (max-width: 780px) {
-  .ih-item.circle .info {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    border-radius: 50%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-  .ih-item.circle.effect .info h2 {
-    color: #fff;
-    margin: 0 auto;
-    font-size: 15px;
-    padding-top: 35px;
-    height: 20px;
-}
   .ih-item.circle.effect {
     margin: 0 auto;
     -webkit-perspective: 900px;
@@ -1237,17 +1238,6 @@ to{-o-transform:rotate(360deg)}
     border-radius: 50%;
 }
 
-.ih-item.circle .info {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    border-radius: 50%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
 /*头像效果-end*/
 
 /*导航按钮-start*/
@@ -1405,5 +1395,5 @@ sup a:after {
   padding-top: 10px;
 }
 .footnotes:before {
-  content: '-------------';
+  content: '\00B6\2014\2014\2014';
 }
