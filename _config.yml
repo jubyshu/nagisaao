@@ -6,7 +6,7 @@ url: "http://jubeny.com"
 
 # Comment
 comment:
-    disqus: jubytschu
+    #disqus: jubytschu
     livere: true
 
 # Social
