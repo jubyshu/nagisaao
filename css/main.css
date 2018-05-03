@@ -459,8 +459,8 @@ img::-moz-selection {
     width: auto;
     overflow: auto; }
   .post hr {
-    width: 30%;
-    margin: 0.5em 0;
+    width: 20%;
+    margin: 0.5em auto 1.2em;
     border-top: 1px solid #DDDDDD; }
 
   .panel {
