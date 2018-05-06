@@ -36,14 +36,13 @@ s.setAttribute('data-timestamp', +new Date());
 </div>
 
 {% elsif site.comment.intensedebate %}
-<script>
-var idcomments_acct = '2c9f4999a7bbdc825bfe349569f7804c';
-var idcomments_post_id;
-var idcomments_post_url;
-</script>
-<span id="IDCommentsPostTitle" style="display:none"></span>
-<script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
-
+<div
+class="just-comments"
+data-locale="zh_CN"
+data-apikey="5094cb57-b4d4-46a5-8ed8-9ce78f834b58">
+</div>
+<script async src="https://just-comments.com/w.js"></script>
+<script src='https://just-comments.com/auth.js' async defer></script>
 {% endif %}
      
 </section>
