@@ -36,36 +36,23 @@
         </div>
         <br/>
 
+        <div id="light_weixin" class="white_content">  
+          <p class="weixin_zhifu">如果喜欢，可以打赏我:)</p>
+            <span class="weixin_img"><img src="/images/wechatpay.png" /></span>
+          <p class="weixin_zhifu"> 微信支付 金额随意</p> 
+        </div>
+        <div id="fade" class="black_overlay"  onClick="closeWindow()">
+        </div>
+
         <div class = "footer_div">  
            <div class="copyright text-muted" style="float:left; width:100%;margin-right: -200px;">
-            &copy; <a href="http://bbs.nju.edu.cn/vd11015/bbsqry?userid=Juby" target="_blank">Juby</a> <i class="fa fa-heart"></i> 2015-{{ site.time | date: '%Y' }}
+            &copy; <a href="http://shiizu.xyz" target="_blank">Juby</a> <i class="fa fa-heart"></i> 2015-{{ site.time | date: '%Y' }}
            </div>
 
-            <div id="light_weixin" class="white_content">  
-               <p class="weixin_zhifu">如果喜欢，可以打赏我:)</p>
-               <span class="weixin_img"><img src="/images/wechatpay.png" /></span>
-               <p class="weixin_zhifu"> 微信支付 金额随意</p> 
-            </div>
-            <div id="fade" class="black_overlay"  onClick="closeWindow()">
-            </div>
-            <script type="text/javascript">
-              function openWindow(obj){
-                document.getElementById('light_weixin').style.display='block';
-                document.getElementById('fade').style.display='block';
-              }
-              function closeWindow(){
-                document.getElementById('light_weixin').style.display='none';
-                document.getElementById('fade').style.display='none';
-              }
-            </script>
-
-        <div align="right" style="float: right; width: 200px;">
-    			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-          <!-- 访问统计 -->
-    			<span id="busuanzi_container_site_pv">本站访问：<span id="busuanzi_value_site_pv"></span> 次</span>
-          
-          	</div>
+           <div align="right" style="float: right; width: 200px;">
+           <!-- 访问统计 -->
+    			  <span id="busuanzi_container_site_pv">本站访问：<span id="busuanzi_value_site_pv"></span> 次</span>          
+           </div>           
         </div>
     </footer>
 </section>
