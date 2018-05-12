@@ -7,8 +7,7 @@ url: "http://jubeny.com"
 # Comment
 comment:
     #disqus: jubytschu
-    #livere: true
-    staticman: true
+    livere: true
 
 # Social
 social:
@@ -19,27 +18,6 @@ ga:
     id: UA-112090731-1
     host: auto  
 
-staticman:
-  allowedFields: ["name", "email", "url", "comment"]
-  branch: "master"
-  commitMessage: "How about comment it?"
-  filename: "comment-{@timestamp}"
-  format: "yml"
-  generatedFields:
-    date:
-      type: date
-      options:
-        format: "iso8601"
-  moderation: false
-  name: "jubeny.com"
-  notifications:
-    enabled: true
-    apiKey: "key-ae8f23c25596fbf41db49a3ef7015d9c"
-    domain: "blog.jubeny.com"
-  path: "_data/comments/{options.slug}"
-  requiredFields: ["name", "email", "comment"]
-  transforms:
-    email: md5
 
 # ----------------- 上面的信息修改成你自己的 ---------------------------
 #
