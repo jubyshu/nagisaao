@@ -1,9 +1,11 @@
 {% capture post_slug %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}{% endcapture %}
 
 <section class="comments">
+	{% if site.comment.staticman %}
+	{% include comment-list.html %}
 	<div class="constrain--body">
 		<div class="comments__existing js-comments" {% if site.data.comments[post_slug] == null %}aria-hidden="true"{% endif %}>
-			<h2 class="comments__heading heading-2">Comments</h2>
+			<h5 class="comments__heading heading-2">Comments</h5>
 
 			{% if site.data.comments[post_slug] %}
 				{% assign comments = site.data.comments[post_slug] | sort %}
@@ -15,12 +17,10 @@
 					{% assign date = comment[1].date %}
 					{% assign message = comment[1].message %}
 
-					{% include partials/post-comment.html index=forloop.index email=email name=name url=url date=date message=message %}
+					{% include comment-list.html index=forloop.index email=email name=name url=url date=date message=message %}
 				{% endfor %}
 			{% endif %}
 		</div>
-
-		<h2 class="comments__heading heading-2">Leave a comment</h2>
-		{% include partials/post-new-comment.html %}
 	</div>
+	{% endif %}
 </section>
