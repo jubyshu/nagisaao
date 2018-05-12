@@ -1,6 +1,6 @@
 comments:
   allowedFields: ["name", "email", "url", "comment"]
-  branch: "master"
+  branch: "gh-pages"
   commitMessage: "How about comment it?"
   filename: "entry{@timestamp}"
   format: "json"
