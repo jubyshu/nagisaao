@@ -1395,5 +1395,5 @@ sup a:after {
   padding-top: 10px;
 }
 .footnotes:before {
-  content: '\00B6\2014\2014\2014';
+  content: '\2693\2014';
 }
