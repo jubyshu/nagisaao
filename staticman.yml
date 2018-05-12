@@ -1,0 +1,19 @@
+comments:
+  allowedFields: ["name", "email", "url", "message"]
+  branch: "master"
+  commitMessage: "Add Staticman Comments"
+  filename: "comment-{@timestamp}"
+  format: "json"
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "iso8601"
+  moderation: false
+  name: "jubeny.com"
+  notifications:
+    enabled: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ["name", "email", "message"]
+  transforms:
+    email: md5
