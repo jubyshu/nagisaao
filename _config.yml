@@ -7,8 +7,7 @@ url: "http://jubeny.com"
 # Comment
 comment:
     #disqus: jubytschu
-    #livere: true
-    staticman: true
+    livere: true
 
 # Social
 social:
