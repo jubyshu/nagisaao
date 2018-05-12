@@ -1,40 +1,16 @@
 <section class="post-comments">
 
-{% if site.comment.disqus %}
-<div id="disqus_thread"></div>
-<script>
-var disqus_config = function () {
-this.page.url = "{{ page.url | prepend: site.baseurl | prepend: site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://jubeny.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>要查看<a href="https://disqus.com/?ref_noscript">Disqus</a>评论，请启用Javascript.</noscript>
- 
-{% elsif site.comment.livere %}
-<div id="lv-container" data-id="city" data-uid="MTAyMC8zMzEzNi85Njk1">
-  <script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-  </script>
-  <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
-</div>
-
+{% if site.comment.staticman %}
+<form method="POST" action="https://api.staticman.net/v2/entry/jubytschu/jubytschu.github.io/master">
+  <input name="options[redirect]" type="hidden" value="https://jubeny.com">
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[name]" type="text">Name</label>
+  <label><input name="fields[email]" type="email">E-mail</label>
+  <label><input name="fields[website]" type="text">Website</label>
+  <label><textarea name="fields[comment]"></textarea>Comment</label>
+  
+  <button type="submit">Go!</button>
+</form>
 {% endif %}
      
 </section>

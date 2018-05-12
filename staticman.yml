@@ -1,0 +1,21 @@
+comments:
+  allowedFields: ["name", "email", "url", "comment"]
+  branch: "master"
+  commitMessage: "How about comment it?"
+  filename: "entry{@timestamp}"
+  format: "json"
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+  moderation: false
+  name: "jubeny.com"
+  notifications:
+    enabled: true
+    apiKey: "key-ae8f23c25596fbf41db49a3ef7015d9c"
+    domain: "blog.jubeny.com"
+  path: "_data/comments/{options.slug}"
+  requiredFields: ["name", "email", "comment"]
+  transforms:
+    email: md5
