@@ -864,7 +864,7 @@ img::-moz-selection {
   color: #7ECA02;
 }
 
-.zhuanzai{
+/*.zhuanzai{
   display:block;
   text-align:center;
   font-size:0.8em;
@@ -879,7 +879,7 @@ img::-moz-selection {
   display:center;
   width:30%;
   margin-top:30px;
-}
+}*/
 
 .post-list_divider {
   width: 30%;

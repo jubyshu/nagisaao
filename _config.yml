@@ -41,6 +41,7 @@ cover_color: clear #背景Mask
 # The blog button should not be removed.
 blog_button:
     title: 主页
+    description: blog
 
 # Navigation buttons in the front page.s
 nav:
