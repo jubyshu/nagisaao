@@ -6,7 +6,7 @@ $(document).ready(function() {
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return;
     $('.main-post-list').removeClass('hidden');
     currentWidth = $('.panel-cover').width();
-    if (currentWidth < 2000) {
+    if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed');
     } else {
       $('.panel-cover').css('max-width',currentWidth);
@@ -22,9 +22,5 @@ $(document).ready(function() {
   if (window.location.pathname.substring(0, 5) == "/tag/") {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
-
-  $('.btn-mobile-menu__icon').click(function() {
-    // 导航按钮被点击
-    // this.style.backgroundColor = '#fff'; 设置颜色后会自动消失
-  });  
+ 
 });

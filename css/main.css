@@ -178,9 +178,12 @@ p {
   line-height: 1.7em; 
 }
 /* 两端对齐 */
-.post p{
+.post p {
   text-align: justify;
   text-justify: inter-word;
+}
+.post p:last-child {
+  margin-bottom: 50px;
 }
 
 strong {
@@ -446,8 +449,8 @@ img::-moz-selection {
     font-size: 0.9em;
   }
 
-  .post-meta__date {
-    margin-right: .3em; }
+  /*.post-meta__date {
+    margin-right: .3em; }*/
 
   .post img {
     max-width: 100%;
@@ -823,7 +826,7 @@ img::-moz-selection {
   }
 
   .post-list__post-title {
-   margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: .2em;
     font-size: 1.5em;
     line-height: 1.3em;
