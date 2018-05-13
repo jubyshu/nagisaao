@@ -673,7 +673,6 @@ img::-moz-selection {
     color: #FFF; 
   }
   .btn-mobile-menu_item a {
-    font-family: 'stfzjjgangbikai11c141e93a1cb28';
     color: #666; 
   }
 
@@ -1250,6 +1249,7 @@ nav a {
 }
 
 .nav-menu-item a {
+  font-family: 'stfzjjgangbikai11c141e93a1cb28';
   padding: 0px;
   color: #999;
   font-weight: 700;
