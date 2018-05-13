@@ -666,7 +666,6 @@ img::-moz-selection {
     text-align: center; 
   }
   .btn-mobile-menu_item {
-    font-family: 'stfzjjgangbikai11c141e93a1cb28';
     position: relative;
     top: 12px;
     margin-right: 20px;
@@ -674,6 +673,7 @@ img::-moz-selection {
     color: #FFF; 
   }
   .btn-mobile-menu_item a {
+    font-family: 'stfzjjgangbikai11c141e93a1cb28';
     color: #666; 
   }
 
