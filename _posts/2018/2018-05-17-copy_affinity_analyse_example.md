@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 抄代码之「亲和性分析示例」
+title: 亲和性分析
 data: 2018-05-17
 tags: 学习
 ---
