@@ -26,6 +26,7 @@ n_samples, n_features = f.shape
 features = ['bread', 'milk', 'cheese', 'apple', 'banana']
 
 print(n_samples, n_features)
+print(f[:5])
 ```
 运行以上代码，输出结果为：
 ```python
