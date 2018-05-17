@@ -1399,5 +1399,17 @@ sup a:after {
   padding-top: 10px;
 }
 .footnotes:before {
-  content: '\2693\2014';
+  display: block;
+  content: '';
+  border-top: 0.6px solid #999;
+  width: 5%;
+  margin-bottom: 7px;
 }
+.footnotes a{
+  text-decoration: none;
+}
+
+#markdown-toc {
+}
+
+
