@@ -4,10 +4,13 @@ title: 奇迹——那时的素人
 date: 2018-05-19
 tags: 电影
 ---
+* 目录:
+{:toc}
+
 #### 花唄
 打开YouTube，一时却不知想看什么，便随意浏览着首页的推荐，看到了GReeeeN的「花唄」[^1]MV，封面是三个穿着白色校服玩乐队的学生，竟也吸引我点开了。夏日的校园，主唱在音乐教室的窗边呆呆地望着网球场上暗恋的女孩，在同伴的招呼下，他们开着窗户唱起了歌，引来了整个校园的人，甚至有老师和校工也加入其中弹起吉他打起了鼓，洋溢着校园里特有的青春气息。放学后，主唱在校门口等着女孩，却眼巴巴地看着她和一个男生有说有笑地路过，于是只好一个人骑着单车落寞地回家了。而另一边，弹吉他的男老师却得到了女医师的青睐，邀请他一起去卡拉OK······
 
-<a href="https://i.imgur.com/mFPKc4r.png" data-lightbox="juzhao" title-lightbox="GReeeeN-花唄">
+<a href="https://i.imgur.com/mFPKc4r.png" data-lightbox="juzhao" data-title="GReeeeN-花唄">
     <img src="https://i.imgur.com/mSSfaYW.jpg">
 </a>
 
@@ -20,7 +23,7 @@ tags: 电影
 
 Jin是Hide[^2]的哥哥，两人都喜欢音乐。他们的父亲是一名医生，也是一个有些专横和封建的家庭主，他认为医生是世界上最有用的职业，希望自己的儿子也能成为医生。对于父亲的要求，兄弟两人作出的选择却不同，Jin敢于反抗父亲，去做自己喜欢的事情，而Hide则乖乖地念书考学，不过由于成绩不够只能去读牙医。
 
-<a href="https://i.imgur.com/fmQrR6O.png" data-lightbox="juzhao" title-lightbox="Jin与GReeeeN">
+<a href="https://i.imgur.com/fmQrR6O.png" data-lightbox="juzhao" data-title="Jin与GReeeeN">
     <img src="https://i.imgur.com/HJ7PdCT.jpg">
 </a>
 
