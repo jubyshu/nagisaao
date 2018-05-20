@@ -324,6 +324,9 @@ img::-moz-selection {
   .previous{
     float:left;
   }
+  .vwrap {
+    margin-top: 150px !important;
+  }
 }
 /*pager end----------------*/
 
@@ -1415,6 +1418,7 @@ sup a:after {
 /*--comment box-- */
 .vwrap {
   padding: 5px !important;
+  margin-top: 20px !important;
 }
 .vwrap .vcontrol {
   padding-top: 0 !important;
