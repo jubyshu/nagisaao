@@ -1435,6 +1435,7 @@ sup a:after {
 }
 .veditor {
   min-height: 0 !important;
+  color: #ccc !important;
 }
 .vwrap .vcontrol .col.col-60 a {
   color: #ccc !important;
