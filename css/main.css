@@ -1444,6 +1444,6 @@ sup a:after {
   vertical-align: bottom !important;
 }
 .vlist .vcard .vhead .vsys {
-  padding: .2rem .2rem !important;
+  padding: .1rem .2rem !important;
   font-size: .6rem !important;
 }
