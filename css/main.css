@@ -1419,6 +1419,7 @@ sup a:after {
 .vwrap {
   padding: 5px !important;
   margin-top: 20px !important;
+  border: 1px solid #ddd !important;
 }
 .vwrap .vcontrol {
   padding-top: 0 !important;
@@ -1435,7 +1436,7 @@ sup a:after {
   padding: 5px 0 !important;
 }
 .vwrap .vheader .vinput {
-  border-bottom: 1px solid #f0f0f0 !important;
+  border-bottom: 1px solid #ddd !important;
 }
 .veditor {
   min-height: 0 !important;
