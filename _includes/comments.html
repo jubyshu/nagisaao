@@ -37,8 +37,10 @@ s.setAttribute('data-timestamp', +new Date());
 
 {% elsif site.comment.valine %}
 <div id="comment">
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <script>
-    new valine({
+    new Valine({
       el: '.comment',
       appId: 'CRU9WNiFOXtffNHePc2WD4sT-gzGzoHsz',
       appKey: 'YsaHf3ahdzk2NkPOmNBohvgd',
