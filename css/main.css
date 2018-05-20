@@ -324,8 +324,8 @@ img::-moz-selection {
   .previous{
     float:left;
   }
-  .vwrap {
-    margin-top: 150px !important;
+  .vwrap, .vinfo, .vlist {
+    float: left !important;
   }
 }
 /*pager end----------------*/
