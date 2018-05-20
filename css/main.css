@@ -1412,4 +1412,38 @@ sup a:after {
 #markdown-toc {
 }
 
-
+/*--comment box-- */
+.vwrap {
+  padding: 5px !important;
+}
+.vwrap .vcontrol {
+  padding-top: 0 !important;
+}
+.vbtn{
+  padding: .15rem .5rem !important;
+  font-size: .725rem !important;
+}
+.vwrap .vedit .vctrl span{
+  padding: 0 !important;
+  color: #ccc !important;
+}
+.vinput {
+  padding: 5px 0 !important;
+}
+.vwrap .vheader .vinput {
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+.veditor {
+  min-height: 0 !important;
+}
+.vwrap .vcontrol .col.col-60 a {
+  color: #ccc !important;
+}
+.vwrap .vcontrol .col.col-60 {
+  font-size: .6rem !important;
+  vertical-align: bottom !important;
+}
+.vlist .vcard .vhead .vsys {
+  padding: .2rem .2rem !important;
+  font-size: .6rem !important;
+}

@@ -12,6 +12,7 @@ header: 关于我
 - **2018-01-08**: quit Wordpress blog and built new blog on Github Pages with Jekyll 
 - **2018-01-11**: imported LiveRe as the 3rd party commenting system 
 - **2018-05-12**: begun to use HTTPS and moved DNS hosting from DNSPod to [HE.net](http://he.net/)
+- **2018-05-20**: imported Valine to replace LiveRe as commenting system
 
 <h3>关于本人</h3>
 - 鲁人，90后，就读于南京大学
