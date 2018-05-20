@@ -1447,3 +1447,6 @@ sup a:after {
   padding: .1rem .2rem !important;
   font-size: .6rem !important;
 }
+.power, .power a {
+  font-size: 0.5rem;
+}
