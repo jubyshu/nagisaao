@@ -35,6 +35,21 @@ s.setAttribute('data-timestamp', +new Date());
   <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
 </div>
 
+{% elsif site.comment.valine %}
+<div id="comment">
+  <script>
+    new valine({
+      el: '#comment',
+      appId: 'CRU9WNiFOXtffNHePc2WD4sT-gzGzoHsz',
+      appKey: 'YsaHf3ahdzk2NkPOmNBohvgd',
+      placeholder: 'If you were coming in the fall, I\'d brush the summer by...',
+      avatar: 'retro',
+      lang: 'en',
+    })
+  </script>
+</div>
+
+
 {% endif %}
      
 </section>
