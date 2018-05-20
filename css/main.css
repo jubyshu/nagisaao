@@ -324,7 +324,7 @@ img::-moz-selection {
   .previous{
     float:left;
   }
-  .vwrap, .vinfo, .vlist {
+  .vwrap {
     float: left !important;
   }
 }
