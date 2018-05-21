@@ -1305,7 +1305,7 @@ nav a {
   -moz-transform: translateY(-3px);
   transform: translateY(-3px);
 }
-/*导航按钮-end
+/*导航按钮-end*/
 
 /*文本折叠效果*/
 details p{
@@ -1372,10 +1372,30 @@ summary::-webkit-details-marker {
 }
 
 /*返回顶部按钮*/
-#back-top a {
+#back-top a{
   position: fixed;
   bottom: 30px;
   right: 20px;
+  display: block;
+  border: 1px solid #dedede;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+#back-top a:hover {
+  border: 1px solid #5c5c5c;
+  background-color: #fff;
+}
+#arrow {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #606060;
+  border-right: 2px solid #606060;
+  transform: rotate(-45deg);
+  margin: 14px 10.5px;
 }
 
 /*脚注*/
