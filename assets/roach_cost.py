@@ -24,5 +24,6 @@ pie_chart.add('胡萝卜', 2.70)
 pie_chart.add('矿泉水', 1.00)
 pie_chart.add('青菜', 2.40)
 pie_chart.add('麦麸', 12.00)
+pie_chart.add('复合维生素', 14.90)
 
 pie_chart.render_to_file('roach_cost.svg')
