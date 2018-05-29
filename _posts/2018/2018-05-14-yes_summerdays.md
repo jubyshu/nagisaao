@@ -27,11 +27,6 @@ GLAY的歌大部分都是Takuro写的，在维基的介绍中有一条让我很�
 
 虽然听摇滚可以让疲惫的身体和困顿的精神恢复一点元气，但却不利于在看书和做题时集中精神。在宿舍里的时候，我更倾向于听金属，这样可以彻底地隔绝对面的声音，但不好的地方是听得久了耳朵不舒服，不过与心情暴躁相比，这个更容易忍耐一下。
 
-平常用手机听歌比较多，大概是因为系统的原因，其上的听歌次数不能与电脑同步，因此这半年来听的次数超过30的只有以下这几首歌。
-<a href="https://i.imgur.com/EkQDToK.png" data-lightbox="songlist" data-title=">30次的歌单">
-    <img src="https://i.imgur.com/A6oKiC4.png">
-</a>
-
 
 [^1]: 引自批踢踢实业坊-[「中译歌词·Yes,Summerdays」](https://www.ptt.cc/man/GLAY/DC5B/DC7D/DB9D/M.1136303156.A.A6C.html)
 [^2]: 维基百科-[Takuro](https://zh.wikipedia.org/wiki/Takuro)
