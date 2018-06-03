@@ -1469,6 +1469,7 @@ sup a:after {
   vertical-align: bottom !important;
 }
 .vlist .vcard .vhead .vsys {
+  display: none !important;
   padding: .1rem .2rem !important;
   font-size: .6rem !important;
 }
