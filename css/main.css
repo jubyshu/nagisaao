@@ -1463,6 +1463,7 @@ sup a:after {
 }
 .vwrap .vcontrol .col.col-60 a {
   color: #ccc !important;
+  pointer-events: none !important;
 }
 .vwrap .vcontrol .col.col-60 {
   font-size: .6rem !important;
@@ -1473,8 +1474,8 @@ sup a:after {
   padding: .1rem .2rem !important;
   font-size: .6rem !important;
 }
-.power, .power a {
-  font-size: 0.5rem !important;
+.txt-right {
+  display: none !important;
 }
 textarea::placeholder {
   color: #e8e8e8 !important;
