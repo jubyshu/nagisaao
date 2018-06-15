@@ -1477,6 +1477,9 @@ sup a:after {
 .txt-right {
   display: none !important;
 }
+.vempty {
+  font-size: .725rem !important;
+}
 textarea::placeholder {
   color: #e8e8e8 !important;
 }
