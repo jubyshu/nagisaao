@@ -1461,11 +1461,11 @@ sup a:after {
 .veditor {
   min-height: 0 !important;
 }
-.vwrap .vcontrol .col.col-60 a {
+.vwrap .vcontrol .col.col-20 a {
   color: #ccc !important;
   pointer-events: none !important;
 }
-.vwrap .vcontrol .col.col-60 {
+.vwrap .vcontrol .col.col-20 {
   font-size: .6rem !important;
   vertical-align: bottom !important;
 }
