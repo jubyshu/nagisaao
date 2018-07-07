@@ -522,19 +522,6 @@ img::-moz-selection {
   .panel-cover__logo {
     margin-bottom: .2em; }
 
-  .panel-cover__title {
-    font-family:'momo_xinjian11c122e9311cb28';
-  }  
-
-  .panel-cover__subtitle {
-    font-family: 'Gloria Hallelujah', cursive;
-  }
-
-  .panel-cover__description {
-    margin: 0 30px; 
-    font-family: 'stfzjjgangbikai11c141e93a1cb28';
-  }
-
   .panel-cover__divider {
     width: 50%;
     margin: 20px auto;
@@ -576,7 +563,6 @@ img::-moz-selection {
   .cover-navigation {
     margin-top: 0px; 
     width: 100%;
-    font-family: 'stfzjjgangbikai11c141e93a1cb28';
   }
   .cover-blue {
     background-color: rgba(37, 104, 163, 0.6);
@@ -1255,7 +1241,6 @@ nav a {
 }
 
 .nav-menu-item a {
-  font-family: 'stfzjjgangbikai11c141e93a1cb28';
   padding: 0px;
   color: #999;
   font-weight: 700;
