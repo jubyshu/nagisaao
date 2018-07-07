@@ -1,13 +1,12 @@
 # Basic
 title: 倩倩
-subtitle:
+subtitle: Juby's blog
 description: 搴汀洲兮杜若 将以遗兮远者
 url: "http://jubeny.com"
 
 # Comment
 comment:
     #disqus: jubytschu
-    livere: false
     valine: true
 
 # Social
