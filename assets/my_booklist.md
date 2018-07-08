@@ -4,24 +4,24 @@ title: 我的书单
 --- 
 #### 我的书单
 
-<a href="https://i.imgur.com/MnZLuZd.png" data-lightbox="booklist" data-title="booklist-2013">
-    <img src="https://i.imgur.com/MnZLuZd.png" width="800px">
-</a>
+**2013年**
+01.风之影 / 卡洛斯·鲁依斯·萨丰 / 范湲 / 人民文学出版社 / 2006-10  
+02.天空的囚徒 / 卡洛斯·鲁依斯·萨丰 / 李静 / 人民文学出版社 / 2012-12  
+03.献给艾丽斯的挽歌 / 约翰·贝利 / 李永平 / 上海文艺出版社 / 2013-3  
+04.永别了，武器 / 欧内斯特·海明威 / 孙致礼 周晔 / 译林出版社 / 2012-5  
+05.穆旦传 / 陈伯良 / 世界知识出版社 / 2006-10  
+06.只是孩子 / 帕蒂•史密斯 / 刘奕 / 广西师范大学出版社 / 2012-10  
+07.英芝芬芳華蓉 / 子尤 柳红 / 广西师范大学出版社 / 2011-12  
+08.十八岁给我一个姑娘 / 冯唐 / 万卷出版公司 / 2010-4  
+09.约翰内斯堡不再哀伤 / 贝弗利·奈杜 / 刘静 / 江苏文艺出版社 / 2011-9  
+10.相性 / 三浦友和 / 毛丹青 / 人民文学出版社 / 2013-7  
+11.舞姬 / 森鸥外 / 高慧勤 / 青岛出版社 / 2013-2  
+12.革命之路 / 理查德·耶茨 / 侯小翊 / 重庆出版社 / 2009-4  
+13.已故的帕斯卡尔 / 皮兰德娄 / 谢幕娟 / 新星出版社 / 2013-7  
+14.兰姆散文 / 兰姆 / 李育超 / 人民文学出版社 / 2010-4  
+15.高龙巴 / 梅里美 / 李辉 / 安徽师范大学出版社 / 2013-4  
+16.凯尔特的薄暮 / 叶芝 / 颜爽 / 新星出版社 / 2012-12  
 
-<a href="https://i.imgur.com/h6dsl8a.png" data-lightbox="booklist" data-title="booklist-2014">
-    <img src="https://i.imgur.com/h6dsl8a.png" width="800px">
-</a>
-
-<a href="https://i.imgur.com/Y7PoN25.png" data-lightbox="booklist" data-title="booklist-2015">
-    <img src="https://i.imgur.com/Y7PoN25.png" width="800px">
-</a>
-
-<a href="https://i.imgur.com/Y1y1jhZ.png" data-lightbox="booklist" data-title="booklist-2016">
-    <img src="https://i.imgur.com/Y1y1jhZ.png" width="800px">
-</a>
-
-<a href="https://i.imgur.com/XxTJFzN.png" data-lightbox="booklist" data-title="booklist-2017">
-    <img src="https://i.imgur.com/XxTJFzN.png" width="800px">
-</a>
+**2014年**
 
 {% include comments.html %}
