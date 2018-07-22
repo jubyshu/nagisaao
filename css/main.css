@@ -4,7 +4,6 @@
 */
 @import url(animate.css);
 @import url(prism.css);
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -70,7 +69,7 @@ html {
 }
 
 body {
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "source-han-serif-sc", sans-serif;
   font-size: 1em;
   color: #000000;
   -webkit-font-smoothing: antialiased; 
@@ -111,7 +110,7 @@ h5,
 h5 {
   margin-top: 1.0em;
   margin-bottom: .5em;
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "source-han-serif-sc", sans-serif;
   font-weight: lighter;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
@@ -195,7 +194,7 @@ em {
   font-style: italic; }
 
 blockquote {
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "source-han-serif-sc", sans-serif;
   font-weight: normal;
   font-size: 1em;
   color: #999;
@@ -359,7 +358,7 @@ img::-moz-selection {
   }
 
   .intro {
-    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "source-han-serif-sc", sans-serif;
     font-size: 1.2em;
     font-weight: lighter;
     color: #999999; }
@@ -486,7 +485,7 @@ img::-moz-selection {
     color: #FFF; }
 
   .panel-subtitle {
-    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "source-han-serif-sc", sans-serif;
     font-size: 0.6em;
     font-weight: lighter;
     letter-spacing: 3px;
@@ -1092,7 +1091,7 @@ input[type="tel"]:-ms-input-placeholder {
 /*头像效果-start*/
 
 html {
-    font-family: sans-serif;
+    font-family: "source-han-serif-sc", sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
