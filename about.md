@@ -5,7 +5,7 @@ header: 关于我
 ---
 <h3>关于本人</h3>
 - 鲁人，90后，就读于南京大学
-- 好读书，不求甚解 ----> [我的书单](http://jubeny.com/assets/my_booklist.html)
+- 好读书，不求甚解 ➥ [我的书单](http://jubeny.com/assets/my_booklist.html)
 - 兴趣广泛，特长没有，目前在健身、学日语、玩滑板、学游泳、找实习和养蜥蜴
 - 想着，生活着，偶尔也微笑着，既不快乐，也不不快乐
 
@@ -19,3 +19,4 @@ header: 关于我
 - 2018.01.11：引入LiveRe作为第三方评论系统 
 - 2018.05.12：开始使用HTTPS，并将DNS解析从DNSPod迁移至HE.net
 - 2018.05.20：引入Valine评论系统取代LiveRe
+- 2018.07.22：使用Typekit的思源宋体，虽然有加载延迟，姑且忍受 
