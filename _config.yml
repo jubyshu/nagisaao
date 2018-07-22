@@ -35,9 +35,6 @@ kramdown:
    syntax_highlighter_opts:
       disable: true
 
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear #背景Mask
-
 # The blog button should not be removed.
 blog_button:
     title: 主页
@@ -48,8 +45,7 @@ nav:
     - {title: 存档, description: archive, url: '/archive.html'}   
     - {title: 标签, description: tags, url: '/tags.html'}
     - {title: 留言, description: guestbook, url: '/guestbook.html'}      
-    - {title: 关于, description: about, url: '/about.html'}      
-    
+    - {title: 关于, description: about, url: '/about.html'}         
 
 # Pagination
 plugins: [jekyll-paginate,jekyll-sitemap]
