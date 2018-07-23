@@ -4,6 +4,7 @@
 */
 @import url(animate.css);
 @import url(prism.css);
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -69,7 +70,7 @@ html {
 }
 
 body {
-  font-family: "source-han-serif-sc", sans-serif;
+  font-family: "PT Serif", "source-han-serif-sc", serif;
   font-size: 1em;
   color: #000000;
   -webkit-font-smoothing: antialiased; 
@@ -110,7 +111,7 @@ h5,
 h5 {
   margin-top: 1.0em;
   margin-bottom: .5em;
-  font-family: "source-han-serif-sc", sans-serif;
+  font-family: "PT Serif", "source-han-serif-sc", serif;
   font-weight: lighter;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
@@ -151,20 +152,20 @@ h3:after {
   content: ' ';
   margin-top: 5px;
   width: auto;
-  border-bottom: 3px solid #0096A0;
+  border-bottom: 2px solid #0096A0;
 }
 
 h4 {
-  font-size: 1.05em; 
+  font-size: 1.1em; 
   padding: auto 5px;
   font-weight: bold;
 }
-h4:before {
+/*h4:after {
   display: inline-block;
   content: '\00B6';
   color: #50b3b6;
-  margin-right: 4px;
-}
+  margin-left: 5px;
+}*/
 
 h5 {
 	font-size:1.05em; 
@@ -194,7 +195,7 @@ em {
   font-style: italic; }
 
 blockquote {
-  font-family: "source-han-serif-sc", sans-serif;
+  font-family: "PT Serif", "source-han-serif-sc", serif;
   font-weight: normal;
   font-size: 1em;
   color: #999;
@@ -358,7 +359,7 @@ img::-moz-selection {
   }
 
   .intro {
-    font-family: "source-han-serif-sc", sans-serif;
+    font-family: "PT Serif", "source-han-serif-sc", serif;
     font-size: 1.2em;
     font-weight: lighter;
     color: #999999; }
@@ -485,7 +486,7 @@ img::-moz-selection {
     color: #FFF; }
 
   .panel-subtitle {
-    font-family: "source-han-serif-sc", sans-serif;
+    font-family: "PT Serif", "source-han-serif-sc", serif;
     font-size: 0.6em;
     font-weight: lighter;
     letter-spacing: 3px;
@@ -515,8 +516,8 @@ img::-moz-selection {
     bottom: 0;
     left: 0;
     background-color: rgba(248, 248, 248, 1);
-    background-image: -webkit-linear-gradient(-410deg, rgba(248, 248, 248, 1) 20%, rgba(221, 221, 221, 0.9));
-    background-image: linear-gradient(140deg,rgba(248, 248, 248, 1) 20%, rgba(221, 221, 221, 0.9)); }
+    background-image: -webkit-linear-gradient(-410deg, rgba(248, 248, 248, 1) 20%, rgba(248, 248, 248, 1));
+    background-image: linear-gradient(140deg,rgba(248, 248, 248, 1) 20%, rgba(248, 248, 248, 1)); }
 
   .panel-cover__logo {
     margin-bottom: .2em; }
@@ -1091,7 +1092,7 @@ input[type="tel"]:-ms-input-placeholder {
 /*头像效果-start*/
 
 html {
-    font-family: "source-han-serif-sc", sans-serif;
+    font-family: "PT Serif", "source-han-serif-sc", serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
