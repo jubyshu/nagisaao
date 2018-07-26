@@ -1,12 +1,11 @@
 # Basic
-title: 竹本物语
+title: 油紙傘
 subtitle: Juby's blog
 description: 搴汀洲兮杜若 将以遗兮远者
 url: "http://jubeny.com"
 
 # Comment
 comment:
-    #disqus: jubytschu
     valine: true
 
 # Social

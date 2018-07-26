@@ -1,23 +1,7 @@
 <section class="post-comments">
 
-{% if site.comment.disqus %}
-<div id="disqus_thread"></div>
-<script>
-var disqus_config = function () {
-this.page.url = "{{ page.url | prepend: site.baseurl | prepend: site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
+{% if site.comment.valine %}
 
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://jubeny.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>要查看<a href="https://disqus.com/?ref_noscript">Disqus</a>评论，请启用Javascript.</noscript>
-
-{% elsif site.comment.valine %}
 <div id="comment">
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
@@ -29,7 +13,6 @@ s.setAttribute('data-timestamp', +new Date());
       appKey: 'YsaHf3ahdzk2NkPOmNBohvgd',
       placeholder: 'If you were coming in the fall, I\'d brush the summer by...',
       avatar: 'robohash',
-      // lang: 'en',
       // notify: false,
       // verify: false,
     })
