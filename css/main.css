@@ -1426,9 +1426,9 @@ sup a:after {
   padding: .1rem .2rem !important;
   font-size: .6rem !important;
 }
-.txt-right {
+/*.txt-right {
   display: none !important;
-}
+}*/
 .vempty {
   font-size: .725rem !important;
 }
