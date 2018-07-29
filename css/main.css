@@ -1426,15 +1426,15 @@ sup a:after {
   padding: .1rem .2rem !important;
   font-size: .6rem !important;
 }
-/*.txt-right {
+.txt-right {
   display: none !important;
-}*/
+}
 .vempty {
   font-size: .725rem !important;
 }
 textarea::placeholder {
   color: #e8e8e8 !important;
 }
-.vlist .vcard p a {
+/*.vlist .vcard p a {
   color: #BF1827 !important;
-}
+}*/
