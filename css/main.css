@@ -1435,6 +1435,6 @@ sup a:after {
 textarea::placeholder {
   color: #e8e8e8 !important;
 }
-/*.vlist .vcard p a {
-  color: #BF1827 !important;
-}*/
+.vlist .vcard p a {
+  font-weight: bold !important;
+}
