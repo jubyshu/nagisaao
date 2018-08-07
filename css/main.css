@@ -4,6 +4,7 @@
 */
 @import url(animate.css);
 @import url(prism.css);
+@import url(valine.css)
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1385,56 +1386,4 @@ sup a:after {
 }
 
 #markdown-toc {
-}
-
-/*--comment box-- */
-.vwrap {
-  padding: 5px !important;
-  margin-top: 20px !important;
-  border: 1px solid #ddd !important;
-}
-.vwrap .vcontrol {
-  padding-top: 0 !important;
-}
-.vbtn{
-  padding: .15rem .5rem !important;
-  font-size: .725rem !important;
-}
-.vwrap .vedit .vctrl span{
-  padding: 0 !important;
-  color: #ccc !important;
-}
-.vinput {
-  padding: 5px 0 !important;
-}
-.vwrap .vheader .vinput {
-  border-bottom: 1px solid #ddd !important;
-}
-.veditor {
-  min-height: 0 !important;
-}
-.vwrap .vcontrol .col.col-20 a {
-  color: #ccc !important;
-  pointer-events: none !important;
-}
-.vwrap .vcontrol .col.col-20 {
-  font-size: .6rem !important;
-  vertical-align: bottom !important;
-}
-.vlist .vcard .vhead .vsys {
-  display: none !important;
-  padding: .1rem .2rem !important;
-  font-size: .6rem !important;
-}
-.txt-right {
-  display: none !important;
-}
-.vempty {
-  font-size: .725rem !important;
-}
-textarea::placeholder {
-  color: #e8e8e8 !important;
-}
-.vlist .vcard a {
-  color: #0698BD !important;
 }
