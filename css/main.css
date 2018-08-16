@@ -1209,6 +1209,7 @@ nav a {
 }
 
 .nav-menu-item a {
+  font-family: "PT Serif", "source-han-serif-sc", serif;
   padding: 0px;
   color: #999;
   font-weight: 700;
