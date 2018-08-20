@@ -71,7 +71,7 @@ html {
 }
 
 body {
-  font-family: "PT Serif", "source-han-serif-sc", serif;
+  font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
   font-size: 1em;
   color: #000000;
   -webkit-font-smoothing: antialiased; 
@@ -112,7 +112,7 @@ h5,
 h5 {
   margin-top: 1.0em;
   margin-bottom: .5em;
-  font-family: "PT Serif", "source-han-serif-sc", serif;
+  font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
   font-weight: lighter;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
@@ -196,7 +196,7 @@ em {
   font-style: italic; }
 
 blockquote {
-  font-family: "PT Serif", "source-han-serif-sc", serif;
+  font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
   font-weight: normal;
   font-size: 1em;
   color: #999;
@@ -360,7 +360,7 @@ img::-moz-selection {
   }
 
   .intro {
-    font-family: "PT Serif", "source-han-serif-sc", serif;
+    font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
     font-size: 1.2em;
     font-weight: lighter;
     color: #999999; }
@@ -487,7 +487,7 @@ img::-moz-selection {
     color: #FFF; }
 
   .panel-subtitle {
-    font-family: "PT Serif", "source-han-serif-sc", serif;
+    font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
     font-size: 0.6em;
     font-weight: lighter;
     letter-spacing: 3px;
@@ -824,23 +824,6 @@ img::-moz-selection {
   color: #7ECA02;
 }
 
-/*.zhuanzai{
-  display:block;
-  text-align:center;
-  font-size:0.8em;
-}
-
-.zhuanzai a{
-  text-decoration:none;
-}
-
-.zhuanzai_line{
-  border:0.7px solid #DDDDDD;
-  display:center;
-  width:30%;
-  margin-top:30px;
-}*/
-
 .post-list_divider {
   width: 30%;
   margin: 10px 0 5px 10px;
@@ -1093,7 +1076,7 @@ input[type="tel"]:-ms-input-placeholder {
 /*头像效果-start*/
 
 html {
-    font-family: "PT Serif", "source-han-serif-sc", serif;
+    font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -1209,7 +1192,7 @@ nav a {
 }
 
 .nav-menu-item a {
-  font-family: "PT Serif", "source-han-serif-sc", serif;
+  font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
   padding: 0px;
   color: #999;
   font-weight: 700;
