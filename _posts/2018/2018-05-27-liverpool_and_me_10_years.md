@@ -2,7 +2,7 @@
 layout: post
 title: 十年磨一剑
 data: 2018-05-27
-tags: 足球 人物 生活
+tags: 情感
 ---
 #### 1
 在很早之前，我就想好了球队夺冠后的庆祝方式——在朋友圈分享Queen的名曲《We Are Champions》，现在是不可能这样做了，但我仍要再听一遍这首歌，这并不会让我感到羞愧，因为我挚爱的球队已经“keep on fighting till the end”。我们不是冠军，但我们也不是失败者。

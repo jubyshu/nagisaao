@@ -2,7 +2,7 @@
 layout: post
 title: 清凉牛奶糖
 date: 2015-01-01
-tags: 生活 情感
+tags: 情感
 ---
 
 这种糖，清凉而又甘甜，一如相送之人。
