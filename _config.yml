@@ -1,6 +1,5 @@
 # Basic
-title: 渚碧漫笔
-subtitle: The Blog of Juby
+title: 渚碧
 description: 种菜的时候，也想种点玫瑰
 url: "https://jubeny.com"
 
@@ -8,14 +7,10 @@ url: "https://jubeny.com"
 comment:
     valine: true
 
-# Social
-social:
-    mail: juby@jubeny.com
-
 # Google Analytics
 ga:
     id: UA-112090731-1
-    host: auto  
+    host: auto
 
 
 # ----------------- 上面的信息修改成你自己的 ---------------------------

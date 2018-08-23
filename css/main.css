@@ -486,14 +486,6 @@ img::-moz-selection {
     letter-spacing: 3px;
     color: #FFF; }
 
-  .panel-subtitle {
-    font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
-    font-size: 0.6em;
-    font-weight: lighter;
-    letter-spacing: 2px;
-    color: #999;
-    -webkit-font-smoothing: antialiased; }
-
   .panel-cover {
     display: block;
     position: fixed;
@@ -952,9 +944,6 @@ input[type="tel"]:-ms-input-placeholder {
   .panel-title {
     font-size: 1em; }
 
-  .panel-subtitle {
-    font-size: 0.6em; }
-
   .panel-cover__description {
     margin: 0 10px;
     font-size: .9em; }
@@ -1065,10 +1054,6 @@ input[type="tel"]:-ms-input-placeholder {
  .panel-title {
     margin-bottom: .1em;
     font-size: 1.8em; 
-  }
-
-  .panel-subtitle {
-    font-size: .6em; 
   }
 }
 
