@@ -5,7 +5,7 @@
 @import url(animate.css);
 @import url(prism.css);
 @import url(valine.css);
-@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Alice');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -196,10 +196,10 @@ em {
   font-style: italic; }
 
 blockquote {
-  font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
+  font-family: "Alice", STKaiti, KaiTi, "楷体", SimKai, DFKai-SB, serif;
   font-weight: normal;
   font-size: 1em;
-  color: #999;
+  color: #4f4f4f;
   margin:15px 0;
   border-left: 2px solid #e9e9e9;
 }
@@ -483,14 +483,14 @@ img::-moz-selection {
     margin: 0 0 5px 0;
     margin-top: 20px;
     font-size: 1.8em;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #FFF; }
 
   .panel-subtitle {
     font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
     font-size: 0.6em;
     font-weight: lighter;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #999;
     -webkit-font-smoothing: antialiased; }
 
