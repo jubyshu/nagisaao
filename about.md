@@ -21,3 +21,8 @@ header: 关于我
 - 2018.05.12：开始使用HTTPS，并将DNS解析从DNSPod迁移至HE.net
 - 2018.05.20：引入Valine评论系统取代LiveRe
 - 2018.07.22：字体改为使用Typekit的思源宋体
+
+<h3>小视频</h3>
+<video width="540" height="360" controls="controls">
+    <source src="/assets/about.mp4" type="video/mp4">
+</video>
