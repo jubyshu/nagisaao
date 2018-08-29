@@ -85,6 +85,6 @@ textarea::placeholder {
   padding-top: 0 !important;
 }
 .vlist .vcard .vimg {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
 }
