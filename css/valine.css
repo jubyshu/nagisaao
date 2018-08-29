@@ -47,11 +47,13 @@ textarea::placeholder {
   color: #e8e8e8 !important;
 }
 .vlist .vcard a {
-  color: #3a3a3a !important;
+  color: #aaa !important;
 }
 .vlist .vcard a:hover {
   color: #7b0f19 !important;
-  text-decoration: none !important;
+}
+.vlist .vcard a:before {
+  background: none !important;
 }
 .v .vlist .vcard .vh {
   border-bottom: none !important;
@@ -66,7 +68,13 @@ textarea::placeholder {
   font-size: .75rem !important;
 }
 .vlist .vcard .vhead .vnick {
-  color: #3a3a3a !important;
+  color: #aaa !important;
+}
+.vlist .vcard .vhead .vnick:hover {
+  color: #7b0f19 !important;
+}
+.vlist .vcard .vhead .vnick:before {
+  background: none !important;
 }
 .vlist .vcard {
   padding-top: 0.35rem !important;
