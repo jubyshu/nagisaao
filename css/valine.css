@@ -47,10 +47,11 @@ textarea::placeholder {
   color: #e8e8e8 !important;
 }
 .vlist .vcard a {
-  color: #e3e3e3 !important;
+  color: #3a3a3a !important;
 }
 .vlist .vcard a:hover {
   color: #7b0f19 !important;
+  text-decoration: none !important;
 }
 .v .vlist .vcard .vh {
   border-bottom: none !important;
@@ -63,4 +64,14 @@ textarea::placeholder {
   float: none !important;
   color: #b3b3b3 !important;
   font-size: .75rem !important;
+}
+.vlist .vcard .vhead .vnick {
+  color: #3a3a3a !important;
+}
+.vlist .vcard {
+  padding-top: 0.35rem !important;
+}
+.vlist .vcard .vcontent {
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
 }
