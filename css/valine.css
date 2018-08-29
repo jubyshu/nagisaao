@@ -61,6 +61,7 @@ textarea::placeholder {
 }
 .vlist .vcard .vquote {
   border-left: none !important;
+  padding-left: 0 !important;
 }
 .vlist .vcard .vh .vmeta .vat {
   float: none !important;
@@ -82,4 +83,8 @@ textarea::placeholder {
 .vlist .vcard .vcontent {
   margin-bottom: 0 !important;
   padding-top: 0 !important;
+}
+.vlist .vcard .vimg {
+  width: 2.5rem;
+  height: 2.5rem;
 }
