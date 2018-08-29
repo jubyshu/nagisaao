@@ -114,7 +114,7 @@ h5 {
   margin-bottom: .5em;
   font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
   font-weight: lighter;
-  color: #333333;
+  color: #333;
   -webkit-font-smoothing: antialiased; }
 
 h1 {
@@ -161,12 +161,6 @@ h4 {
   padding: auto 5px;
   font-weight: bold;
 }
-/*h4:after {
-  display: inline-block;
-  content: '\00B6';
-  color: #50b3b6;
-  margin-left: 5px;
-}*/
 
 h5 {
 	font-size:1.05em; 
@@ -210,7 +204,7 @@ blockquote p{
 }
 
 ol, ul {
-  margin: 0 0 1.3em 2.5em; }
+  margin: 0 0 1.3em 2.2em; }
 ol li, ul li {
   margin: 0 0 .2em 0;
   line-height: 1.6em; }
@@ -614,15 +608,15 @@ img::-moz-selection {
     z-index: 9999;
     width: 100%;
     height: 40px;
-    background: rgba(51, 51, 51, 0.98);
+    background: rgba(248, 248, 248, 0.98);
     text-align: center; 
   }
   .btn-mobile-menu_item {
     position: relative;
     top: 12px;
     margin-right: 20px;
-    float: right;;
-    color: #FFF; 
+    float: right;
+    color: #333; 
   }
   .btn-mobile-menu_item a {
     color: #666; 
@@ -630,7 +624,7 @@ img::-moz-selection {
 
   .btn-mobile-menu_item a :hover, 
   .btn-mobile-menu_item :hover {
-    color: #FFF; 
+    color: #333;
   }
 
   nav {
@@ -668,7 +662,7 @@ img::-moz-selection {
   }
 
   .navigation__item a:hover {
-    color: #7ECA02;
+    color: #0096A0;
   }
 
   .navigation__item_social {
@@ -813,13 +807,13 @@ img::-moz-selection {
   font-size: 0.9em;
 }
 .post-list__meta--tags:hover{
-  color: #7ECA02;
+  color: #0096A0;
 }
 
 .post-list_divider {
   width: 30%;
   margin: 10px 0 5px 10px;
-  border-top: 1px solid #DDDDDD; }
+  border-top: 1px solid #DDD; }
 
 *:focus {
   outline: none; }
@@ -942,7 +936,7 @@ input[type="tel"]:-ms-input-placeholder {
     width: 70px; }
 
   .panel-title {
-    font-size: 1em; }
+    font-size: 1.5em; }
 
   .panel-cover__description {
     margin: 0 10px;
@@ -1194,7 +1188,7 @@ nav a {
   left: 0;
   width: 100%;
   height: 1px;
-  background: #fff;
+  background: #333;
   content: '';
   opacity: 0;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1217,7 +1211,7 @@ nav a {
 }
 
 .nav-menu-item a:hover{
-  color: #fff;
+  color: #333;
 }
 
 .nav-menu-item a:hover::before,

@@ -46,9 +46,21 @@
 textarea::placeholder {
   color: #e8e8e8 !important;
 }
-.vlist .vcard .vcontent a {
-  color: #0698BD !important;
+.vlist .vcard a {
+  color: #e3e3e3 !important;
 }
-.vlist .vcard .vcontent a:hover {
-  color: #ef2f11 !important;
+.vlist .vcard a:hover {
+  color: #7b0f19 !important;
+}
+.v .vlist .vcard .vh {
+  border-bottom: none !important;
+  border-top: 1px solid #f5f5f5 !important;
+}
+.vlist .vcard .vquote {
+  border-left: none !important;
+}
+.vlist .vcard .vh .vmeta .vat {
+  float: none !important;
+  color: #b3b3b3 !important;
+  font-size: .75rem !important;
 }
