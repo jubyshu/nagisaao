@@ -18,5 +18,5 @@ tags: 风景
 
 <details>
     <summary>点击查看照片</summary>
-    <p><a href="https://i.imgur.com/5mCcF33.png" data-lightbox="groupphoto" data-title="到山顶啦！！"><img src="https://i.imgur.com/G5gBWVo.png"></a></p>
+    <p>骗你的啦:)</p>
 </details>
