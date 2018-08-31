@@ -291,7 +291,7 @@ tbody tr:nth-child(2n) {
 }*/
 .pager li>a:hover>span,
 .pager li>a:focus>span{
-  color:#42b983;
+  color:#0096A0;
 }
 ::-moz-selection { 
   color:#fff;
