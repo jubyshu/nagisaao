@@ -4,6 +4,16 @@
         <nav class="cover-navigation navigation--social">
           <ul class="navigation">
 
+          % if site.social.twitter %}
+          <!-- Twitter -->
+          <li class="navigation__item_social">
+            <a href="http://twitter.com/{{site.social.twitter}}" title="我的Twitter" target="_blank">
+              <i class='social fa fa-twitter fa-2x'></i>
+              <span class="label">Twitter</span>
+            </a>
+          </li>
+          {% endif %}
+
           <!-- Wechat -->
           <li class="navigation__item_social">
             <a href="javascript:;" id="pay_weixin" onclick="openWindow(this)" title="赞赏我">
