@@ -4,28 +4,18 @@
         <nav class="cover-navigation navigation--social">
           <ul class="navigation">
 
-          {% if site.social.twitter %}
           <!-- Twitter -->
           <li class="navigation__item_social">
-            <a href="http://twitter.com/{{site.social.twitter}}" title="我的Twitter" target="_blank">
-              <i class='social fa fa-twitter fa-2x'></i>
-              <span class="label">Twitter</span>
-            </a>
-          </li>
-          {% endif %}
-
-          <!-- Wechat -->
-          <li class="navigation__item_social">
             <a href="javascript:;" id="pay_weixin" onclick="openWindow(this)" title="赞赏我">
-              <i class='social fa fa-weixin fa-2x'></i>
-              <span class="label">Wechat</span>
+              <i class='fab fa-twitter fa-2x'></i>
+              <span class="label">Twitter</span>
             </a>
           </li>
 
           <!-- RSS -->
           <li class="navigation__item_social">
             <a href="/feed.xml" rel="author" title="订阅我的博客" target="_blank">
-              <i class='social fa fa-rss fa-2x'></i>
+              <i class="fas fa-rss fa-2x"></i>
               <span class="label">RSS</span>
             </a>
           </li>
@@ -36,10 +26,13 @@
         </div>
         <br/>
 
-        <div id="light_weixin" class="white_content">  
-          <p class="weixin_zhifu">如果喜欢，可以打赏我:)</p>
+        <div id="light_weixin" class="white_content">
+          <a class="twitter-timeline" href="https://twitter.com/jubyshu?ref_src=twsrc%5Etfw">
+            <p class="weixin_zhifu">您的网络无法访问推特</p>
             <span class="weixin_img"><img src="/images/wechatpay.png" /></span>
-          <p class="weixin_zhifu"> 微信支付 金额随意</p> 
+            <p class="weixin_zhifu">如果喜欢，可以打赏我:)</p>
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         <div id="fade" class="black_overlay"  onClick="closeWindow()">
         </div>

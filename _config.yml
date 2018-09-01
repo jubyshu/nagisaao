@@ -7,10 +7,6 @@ url: "https://jubeny.com"
 comment:
     valine: true
 
-# Social
-social:
-    twitter: jubyshu
-
 # Google Analytics
 ga:
     id: UA-112090731-1

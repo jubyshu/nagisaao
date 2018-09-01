@@ -92,7 +92,7 @@ a {
 p a {
   margin-left: 4px;
   margin-right: 4px;
-  text-decoration: underline;
+/*  text-decoration: underline;*/
 }
 
 a:hover {
@@ -1275,7 +1275,8 @@ details[open] > summary {
   background-color: white; 
   z-index:1002;
   overflow: auto;
-  border: 4px dotted #02baca;
+  border: 2px solid #02baca;
+  border-radius: 10px;
   -webkit-transform: translate(-50%, -50%);   
   -moz-transform: translate(-50%, -50%);   
   -ms-transform: translate(-50%, -50%);   
