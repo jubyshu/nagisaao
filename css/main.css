@@ -1352,11 +1352,16 @@ sup a:after {
 }
 
 /* 404页面 */
+.nfbody {
+  background: url(/assets/arose.jpeg) no-repeat;
+}
 .notfound {
   display: block;
   text-align: center;
-  border: 2px solid #02baca;
-  width: 25%;
+  background-color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+  border-radius: 10px;
+  width: 20%;
   position: fixed; 
   top: 50%; 
   left: 50%;
@@ -1366,6 +1371,10 @@ sup a:after {
   -o-transform: translate(-50%, -50%);   
   transform: translate(-50%, -50%);    
 }
-.nfbody {
-  background: url(/assets/arose.jpeg) no-repeat;
+.notfound a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.notfound h1{
+  padding-top: 0.5em;
 }
