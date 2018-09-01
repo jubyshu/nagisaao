@@ -218,21 +218,21 @@ ol {
   list-style-type: decimal; }
 
 ul {
-  list-style-type: disc; }
+  list-style-type: circle; }
 
 table {
-  color: #333333;
+  color: #333;
   font-size: .9em;
   text-align: center;
   line-height: 40px;
   border-spacing: 0;
-  border: 2px solid #92121e;
-  width: 90%;
+  border: 1px solid #f0f0f0;
+  width: 75%;
   margin: 50px auto; }
 
 thead tr:first-child {
-  background-color: #92121e;
-  color: #F8F8F8;
+  background-color: #d3d3d3;
+  color: #333;
   border: none; }
 
 th {
@@ -243,7 +243,7 @@ tbody tr:last-child td {
   border: none; }
 
 tbody tr:nth-child(2n) {
-  background-color: #DDDDDD;
+  background-color: #f0f0f0;
 }
 
 /*pager start----------------*/
