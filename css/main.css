@@ -1351,5 +1351,21 @@ sup a:after {
   text-decoration: none;
 }
 
-#markdown-toc {
+/* 404页面 */
+.notfound {
+  display: block;
+  text-align: center;
+  border: 2px solid #02baca;
+  width: 25%;
+  position: fixed; 
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);   
+  -moz-transform: translate(-50%, -50%);   
+  -ms-transform: translate(-50%, -50%);   
+  -o-transform: translate(-50%, -50%);   
+  transform: translate(-50%, -50%);    
+}
+.nfbody {
+  background: url(/assets/arose.jpeg) no-repeat;
 }
