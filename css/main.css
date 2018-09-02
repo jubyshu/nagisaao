@@ -112,7 +112,6 @@ h5,
 h5 {
   margin-top: 1.0em;
   margin-bottom: .5em;
-  font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
   font-weight: lighter;
   color: #333;
   -webkit-font-smoothing: antialiased; }
@@ -354,7 +353,6 @@ img::-moz-selection {
   }
 
   .intro {
-    font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
     font-size: 1.2em;
     font-weight: lighter;
     color: #999999; }
@@ -512,7 +510,7 @@ img::-moz-selection {
   .panel-cover__divider {
     width: 50%;
     margin: 20px auto;
-    border-top: 1px solid rgba(102, 102, 102, 0.5); }
+    border-top: 1px solid #e8e8e8; }
 
   .panel-cover__divider--secondary {
     width: 15%; }
@@ -737,6 +735,10 @@ img::-moz-selection {
   .post-list li {
     margin: 0 0 2.2em 0;
     float: left;
+  }
+  /*.post-list li {
+    margin: 0 0 2.2em 0;
+    float: left;
 
     -moz-box-shadow:4px 4px 4px #fbfbfb, 
     -4px -4px 4px #fbfbfb, 
@@ -766,7 +768,7 @@ img::-moz-selection {
     4px -4px 4px #C1C1C1, 
     -4px 4px 4px #C1C1C1;
     background-color: #fff;
-  }
+  }*/
 
   .post-list__post-title {
     margin-top: 5px;
@@ -1055,7 +1057,6 @@ input[type="tel"]:-ms-input-placeholder {
 /*头像效果-start*/
 
 html {
-    font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -1171,7 +1172,6 @@ nav a {
 }
 
 .nav-menu-item a {
-  font-family: "PT Serif", "Noto Serif", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", serif;
   padding: 0px;
   color: #999;
   font-weight: 700;
