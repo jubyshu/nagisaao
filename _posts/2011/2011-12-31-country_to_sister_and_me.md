@@ -2,7 +2,7 @@
 layout: post
 title: 村庄——给妹妹和我
 date: 2011-12-31
-tags:诗歌
+tags: 诗歌
 ---
 
 已经黄昏了  你孤独地走出村庄  
