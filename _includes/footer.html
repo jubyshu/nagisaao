@@ -1,45 +1,16 @@
 <section class="footer">
     <footer>
-        <div class = "footer_div">  
-        <nav class="cover-navigation navigation--social">
-          <ul class="navigation">
-
-          <!-- Twitter -->
-          <li class="navigation__item_social">
-            <a href="javascript:;" id="pay_weixin" onclick="openWindow(this)" title="赞赏我">
-              <i class='fab fa-twitter fa-2x'></i>
-              <span class="label">Twitter</span>
-            </a>
-          </li>
-
-          <!-- RSS -->
-          <li class="navigation__item_social">
-            <a href="/feed.xml" rel="author" title="订阅我的博客" target="_blank">
-              <i class="fas fa-rss fa-2x"></i>
-              <span class="label">RSS</span>
-            </a>
-          </li>
-
-          </ul>
-        </nav>
-
-        </div>
-        <br/>
 
         <div id="light_weixin" class="white_content">
-          <a class="twitter-timeline" href="https://twitter.com/jubyshu?ref_src=twsrc%5Etfw">
-            <p class="weixin_zhifu">您的网络无法访问推特</p>
+            <p class="weixin_zhifu">如果喜欢，可以赞赏我:)</p>
             <span class="weixin_img"><img src="/images/default/wechatpay.png" /></span>
-            <p class="weixin_zhifu">如果喜欢，可以打赏我:)</p>
-          </a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <p class="weixin_zhifu">微信支付 金额随意</p>
         </div>
-        <div id="fade" class="black_overlay"  onClick="closeWindow()">
-        </div>
+        <div id="fade" class="black_overlay"  onClick="closeWindow()"></div>
 
         <div class = "footer_div">  
            <div class="copyright text-muted" style="float:left; width:100%;margin-right: -200px;">
-            &copy; <a href="https://db.tt/IR6uIeK4ls" target="_blank"><span style="color: #7b0f19;">Juby</span></a> 2015-{{ site.time | date: '%Y' }}
+            &copy;  <a href="javascript:;" id="pay_weixin" onclick="openWindow(this)" title="赞赏我"><span style="color: #7b0f19;">Juby</span></a> 2015-{{ site.time | date: '%Y' }}
            </div>
 
            <div align="right" style="float: right; width: 200px;">
@@ -47,5 +18,6 @@
     			  <span id="busuanzi_container_site_pv">访问 <span id="busuanzi_value_site_pv"></span> 次</span>          
            </div>           
         </div>
+
     </footer>
 </section>
