@@ -1,7 +1,7 @@
 ---
 layout: page 
 title: 关于
-header: 关于我
+header: 关于
 ---
 
 <h3>关于</h3>

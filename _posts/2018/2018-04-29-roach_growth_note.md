@@ -1,9 +1,8 @@
 ---
-title: 萝卜成长记
-date: 2018-04-29 00:00:00 Z
-tags:
-- 生活
 layout: post
+title: 萝卜成长记
+date: 2018-04-29
+tags: 生活
 ---
 
 <a href="https://i.imgur.com/ijadMvF.jpg" data-lightbox='Roach' title-lightbox='我萌吗？'><img src="https://i.imgur.com/UTv6Yng.jpg?1" width='450px'></a>

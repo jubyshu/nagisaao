@@ -1,9 +1,8 @@
 ---
-title: 明天的我与昨天的你约会
-date: 2018-04-20 00:00:00 Z
-tags:
-- 电影
 layout: post
+title: 明天的我与昨天的你约会
+date: 2018-04-20
+tags: 电影
 ---
 
 <a href="https://i.imgur.com/Z1GJgMF.jpg" data-lightbox="ashita" data-title="ぼくは明日"><img src="https://i.imgur.com/SQg7B9j.jpg"></a>

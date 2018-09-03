@@ -1,9 +1,8 @@
 ---
-title: 毕业的一天
-date: 2017-06-20 00:00:00 Z
-tags:
-- 情感
 layout: post
+title: 毕业的一天
+date: 2017-06-20
+tags: 情感
 ---
 
 毕业了。

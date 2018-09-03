@@ -1,9 +1,8 @@
 ---
-title: 我之社交观
-date: 2018-05-10 00:00:00 Z
-tags:
-- 生活
 layout: post
+title: 我之社交观
+date: 2018-05-10
+tags: 生活
 ---
 
 #### 1
