@@ -102,7 +102,7 @@ a:hover {
   -ms-transition: .5s;
   -moz-transition: .5s;
   -webkit-transition: .5s;
-  cursor:url('/images/umbrella.ico'), auto;
+  cursor:url('/images/default/umbrella.ico'), auto;
 }
 
 h1,
@@ -1243,7 +1243,7 @@ summary:hover {
   color: #000;
 }
 summary:after {
-  content: url(/images/feather.svg);
+  content: url(/images/default/feather.svg);
   padding-left: 2px;
 }
 summary::-webkit-details-marker {
@@ -1355,7 +1355,7 @@ sup a:after {
 
 /* 404页面 */
 .nfbody {
-  background: url(/assets/arose.jpeg) no-repeat;
+  background: url(/assets/default/arose.jpeg) no-repeat;
 }
 .notfound {
   display: block;
