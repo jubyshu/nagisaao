@@ -1,8 +1,9 @@
 ---
-layout: post
 title: 姥爷和老屋
-date: 2014-02-17
-tags: 情感
+date: 2014-02-17 00:00:00 Z
+tags:
+- 情感
+layout: post
 ---
 
 姥爷的家，现在已是一片废墟。

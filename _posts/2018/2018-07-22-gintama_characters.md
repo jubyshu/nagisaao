@@ -1,9 +1,11 @@
 ---
+title: "《银魂》里的幕末人物原型"
+date: 2018-07-22 00:00:00 Z
+tags:
+- 人物
 layout: post
-title: 《银魂》里的幕末人物原型
-date: 2018-07-22
-tags: 人物
 ---
+
 <a href="https://i.imgur.com/KetsLAp.png" data-lightbox="katsuma" data-title="坂本辰马">
     <img src="https://i.imgur.com/KetsLAp.png" width="480px" height="300px">
 </a>

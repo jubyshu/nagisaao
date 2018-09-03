@@ -1,9 +1,11 @@
 ---
-layout: post
 title: 明天的我与昨天的你约会
-date: 2018-04-20
-tags: 电影
+date: 2018-04-20 00:00:00 Z
+tags:
+- 电影
+layout: post
 ---
+
 <a href="https://i.imgur.com/Z1GJgMF.jpg" data-lightbox="ashita" data-title="ぼくは明日"><img src="https://i.imgur.com/SQg7B9j.jpg"></a>
 
 前段时间，在推特上偶然看到随便关注的一个女孩发的推文，是对「ぼくは明日、昨日のきみとデートする」的感想，说看过电影后自己也想约会了。我被电影的名字和海报上女主治愈的笑容吸引了，想着什么时候也看一下，但一搁就是一个月，直到碰到另一个契机。

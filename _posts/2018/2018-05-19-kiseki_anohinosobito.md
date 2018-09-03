@@ -1,9 +1,11 @@
 ---
-layout: post
 title: 奇迹——那时的普通人
-date: 2018-05-19
-tags: 电影
+date: 2018-05-19 00:00:00 Z
+tags:
+- 电影
+layout: post
 ---
+
 * 目录:
 {:toc}
 

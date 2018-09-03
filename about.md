@@ -1,8 +1,9 @@
 ---
-layout: page 
 title: 关于
+layout: page
 header: 关于我
 ---
+
 <h3>关于本人</h3>
 - Juby Shu，鲁人，90后，就读于南京大学  
 - 好读书，不求甚解 ➥ [我的书单](http://jubeny.com/assets/my_booklist.html)  
