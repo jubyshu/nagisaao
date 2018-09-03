@@ -1,9 +1,8 @@
 ---
-title: 梦开始的地方
-date: 2013-04-12 00:00:00 Z
-tags:
-- 情感
 layout: post
+title: 梦开始的地方
+date: 2013-04-12
+tags: 情感
 ---
 
 亲爱的，

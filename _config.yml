@@ -1,43 +1,45 @@
----
+# Basic
 title: 渚碧
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 description: 种菜的时候，也想种点玫瑰
 url: https://jubeny.com
+
+# Comment
 comment:
   valine: true
+
+# Google Analytics
 ga:
   id: UA-112090731-1
   host: auto
+
+# ----------------- 上面的信息修改成你自己的 ---------------------------
+#
+#  _post/   文章目录
+#  _drafts/ 未发布的文章目录
+#  目录结构具体参考文档：http://jekyll.com.cn/docs/structure/
+#
+# --------------- 下面的信息可以自行选择是否修改 ------------------------
+
 permalink: "/:year/:month/:title.html"
+# Format
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
     disable: true
+
+# The blog button should not be removed.
 blog_button:
   title: 主页
   description: blog
+
+# Navigation buttons in the front page.s
 nav:
-- title: 存档
-  description: archive
-  url: "/archive.html"
-- title: 标签
-  description: tags
-  url: "/tags.html"
-- title: 留言
-  description: guestbook
-  url: "/guestbook.html"
-- title: 关于
-  description: about
-  url: "/about.html"
-plugins:
-- jekyll-paginate
-- jekyll-sitemap
+  - {title: 存档, description: archive, url: '/archive.html'}   
+  - {title: 标签, description: tags, url: '/tags.html'}
+  - {title: 留言, description: guestbook, url: '/guestbook.html'}      
+  - {title: 关于, description: about, url: '/about.html'}         
+
+# Pagination
+plugins: [jekyll-paginate,jekyll-sitemap]
 paginate: 9
 paginate_path: page/:num/
