@@ -1,9 +1,11 @@
 ---
-layout: post
 title: 少年游
-date: 2016-05-23
-tags: 虚构
+date: 2016-05-23 00:00:00 Z
+tags:
+- 虚构
+layout: post
 ---
+
 #### 扬子江头
 八月，秋高风急，落木萧萧。
 

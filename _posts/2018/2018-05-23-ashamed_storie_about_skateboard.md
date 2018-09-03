@@ -1,9 +1,11 @@
 ---
-layout: post
 title: 滑板糗事
-date: 2018-05-23
-tags: 生活
+date: 2018-05-23 00:00:00 Z
+tags:
+- 生活
+layout: post
 ---
+
 * 目录:
 {:toc}
 

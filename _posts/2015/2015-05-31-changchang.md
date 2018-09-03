@@ -1,8 +1,9 @@
 ---
-layout: post
 title: 由《常常》想起的
-date: 2015-05-31
-tags: 读书
+date: 2015-05-31 00:00:00 Z
+tags:
+- 读书
+layout: post
 ---
 
 >常常她们占据公园的一把铁椅  

@@ -1,8 +1,9 @@
 ---
-layout: post
 title: 厌世与青春小说
-date: 2018-02-02
-tags: 读书
+date: 2018-02-02 00:00:00 Z
+tags:
+- 读书
+layout: post
 ---
 
 #### 2017年5月11日

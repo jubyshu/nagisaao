@@ -1,8 +1,9 @@
 ---
-layout: post
 title: 仙林的半日
-date: 2016-09-03
-tags: 诗歌
+date: 2016-09-03 00:00:00 Z
+tags:
+- 诗歌
+layout: post
 ---
 
 偏在这时才惊见  

@@ -1,9 +1,11 @@
 ---
-layout: post
 title: 萝卜成长记
-date: 2018-04-29
-tags: 生活
+date: 2018-04-29 00:00:00 Z
+tags:
+- 生活
+layout: post
 ---
+
 <a href="https://i.imgur.com/ijadMvF.jpg" data-lightbox='Roach' title-lightbox='我萌吗？'><img src="https://i.imgur.com/UTv6Yng.jpg?1" width='450px'></a>
 
 萝卜是我给新养的豹纹守宫取的名字。为什么取这个名字呢？有三个原因：一是它所属的品系为Carrot-tail，即萝卜尾；二是在玩的昆特牌中有一张很喜欢的卡叫萝卜（Roach[^1]）；三是萝卜叫起来挺顺口的，以后的宠物名字也会沿用蔬菜系列。虽然给它取了名字，但对于冷血动物来说，是不会记得的吧，所以当我叫出“萝卜”的时候，大概永远没有回应。

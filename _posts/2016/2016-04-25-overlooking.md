@@ -1,9 +1,11 @@
 ---
-layout: post
 title: 遥望
-date: 2016-04-25
-tags: 诗歌
+date: 2016-04-25 00:00:00 Z
+tags:
+- 诗歌
+layout: post
 ---
+
 （你听树叶沙沙的声）  
 在这夜，月白如水  
 如纱，蒙住风的眼睛  

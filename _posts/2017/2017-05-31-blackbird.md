@@ -1,8 +1,9 @@
 ---
-layout: post
 title: 黑鸟
-date: 2017-05-31
-tags: 诗歌
+date: 2017-05-31 00:00:00 Z
+tags:
+- 诗歌
+layout: post
 ---
 
 夜色降临在门前一具尸体  
