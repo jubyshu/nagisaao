@@ -5,6 +5,9 @@ date: 2018-09-03
 tags: 情感
 cover: https://i.imgur.com/MM9XvWd.jpg
 ---
+<a href="https://i.imgur.com/MM9XvWd.jpg" data-lightbox="knife" data-title="Photo by John-Mark Smith from Pexels">
+    <img src="/images/posts/writeletter.jpeg">
+</a>
 
 在知乎上常会看到这样的问题：“如何优雅地xxxx？”，这算是一种美学上的追求吧。在我的自发的美学观念中，“优雅”二字也占了极大的分量，以至于过度追求表面效果，反而忽略了本质。
 
@@ -13,10 +16,6 @@ cover: https://i.imgur.com/MM9XvWd.jpg
 我不知道正宗的拆信刀是什么样的，我买的这把无疑不中用，刚到手的时候拿来拆快递，非但没有割开胶带，刀身上的镀膜反而脱落了，所谓刀是假的，不过是一个小玩具罢了，但哪怕是塑料做的，还是很容易便能划破纸张的吧。只是，这样的时刻一直没有到来。
 
 并不是因为我没有收到过信件，而只是时机不凑巧而已。一般我都是在出门的时候发现有自己的信，这时懒得回楼上去取拆信刀，又不能等到回寝室的时候再读信，便只好先用削铅笔的刀子拆开了，等着下次来信的时候再试，而下次又是同样的情节······
-
-<a href="https://i.imgur.com/MM9XvWd.jpg" data-lightbox="knife" data-title="Photo by John-Mark Smith from Pexels">
-    <img src="/images/posts/writeletter.jpeg">
-</a>
 
 其实，拆信刀只是一个可有可无的工具，并不会对信件本身产生丝毫影响，所以无用也就无用吧。重要的是信。
 
