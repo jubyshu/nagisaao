@@ -1,9 +1,8 @@
 ---
-title: 少年游
-date: 2016-05-23 00:00:00 Z
-tags:
-- 虚构
 layout: post
+title: 少年游
+date: 2016-05-23
+tags: 虚构
 ---
 
 #### 扬子江头

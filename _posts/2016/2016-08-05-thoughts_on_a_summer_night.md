@@ -1,9 +1,8 @@
 ---
+layout: post
 title: 夏夜有怀
 date: 2016-08-05 00:00:00 Z
-tags:
-- 诗歌
-layout: post
+tags: 诗歌
 ---
 
 我以手持的雨伞拂过草丛  

@@ -1,9 +1,8 @@
 ---
-title: 故人
-date: 2014-05-04 00:00:00 Z
-tags:
-- 诗歌
 layout: post
+title: 故人
+date: 2014-05-04
+tags: 诗歌
 ---
 
 当落英缤纷或绿树成荫  
