@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 是“精芬”还是小众？
+title: 是“精芬”还是叛逆？
 date: 2018-08-31
 tags: 生活
 ---

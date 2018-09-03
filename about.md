@@ -13,7 +13,8 @@ header: 关于
 - 宠物是豹纹守宫，名字叫萝卜
 
 <i class="fa fa-folder-o"></i> 本站
-- 2015年1月搭建Wordpress博客，2018年1月改用Jekyll。
+- 2015年1月搭建Wordpress博客
+- 2018年1月改用Jekyll
 
 <i class="fa fa-paper-plane-o"></i> 联系
 - 邮箱：juby#jubeny.com
