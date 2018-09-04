@@ -2,10 +2,15 @@
 title: 渚碧
 description: 种菜的时候，也想种点玫瑰
 url: https://jubeny.com
+author: Juby
 
 # Comment
 comment:
   valine: true
+
+# Social
+social:
+  twitter: jubyshu
 
 # Google Analytics
 ga:

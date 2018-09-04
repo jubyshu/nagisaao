@@ -10,11 +10,11 @@
     {% endif %}
   </title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="author" content="Juby">
+  <meta name="author" content="{{site.author}}">
 
   {% if page.cover %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@jubyshu">
+  <meta name="twitter:site" content="@{{site.social.twitter}}">
   <meta property="og:type" content="article">
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
   <meta property="og:image" content="{{page.cover}}">
@@ -49,14 +49,6 @@
       ga('send', 'pageview');
   </script>
   {% endif %}
-
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-9005224472374751",
-          enable_page_level_ads: true
-      });
-  </script>
 
 <!-- google 广告 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
