@@ -9,14 +9,14 @@
       {{ page.title }} | {{ site.title }}
     {% endif %}
   </title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate:160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.content %}{{ page.content | strip_html | strip_newlines | truncate:160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{site.author}}">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@{{site.social.twitter}}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-  <meta property="og:image" content="{% if page.cover %}{{page.cover}}{% else %}{% cover='/images/default/avatar.jpg' %}{% endif %}">
+  <meta property="og:image" content="{% if page.cover %}{{page.cover}}{% else %}{{ site.logo }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate:160 }}{% else %}{{ site.description }}{% endif %}">
   
   <link rel="icon" type="image/x-icon" href="/images/default/favicon.ico" />
