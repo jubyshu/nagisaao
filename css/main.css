@@ -661,8 +661,6 @@ img::-moz-selection {
     display: inline-block;
     position: relative;
     width: 100%;
-    border-color: #666;
-    color: #666;
   }
 
   .navigation__item a:hover {
@@ -1034,7 +1032,15 @@ input[type="tel"]:-ms-input-placeholder {
   .navigation__item {
       width: 100%;
       margin: 0 0 .4em 0;
-    }
+  }
+  .navigation__item a {
+    display: inline-block;
+    position: relative;
+    border: 1px solid #333;
+    border-radius: 7px;
+    width: 25%;
+    color: #333;
+  }
 }
 @media all and (max-width: 420px) {
   .panel-main__inner {
