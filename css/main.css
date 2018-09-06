@@ -16,15 +16,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline; }
 
 code {
-  font-size: 14px;
+  font-size: 0.9em;
   color: #07a;
   background: #f9f2f4;
-  padding: 2px 4px;
-  margin: 2px;
+  /*padding: auto 1px;
+  /*margin: 2px;*/
   border: 1px solid #d6d6d6;
   font: inherit;
   vertical-align: baseline;
-  border-radius: 3px;}
+  border-radius: 3px; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1369,6 +1369,16 @@ sup a:after {
 }
 .footnotes a{
   text-decoration: none;
+}
+#markdown-toc {
+  display: block;
+  float: right;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+#markdown-toc li {
+  list-style-position: inside;
+  margin: auto 5px;
 }
 
 /* 404页面 */
