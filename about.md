@@ -8,7 +8,7 @@ header: 关于
 
 <i class="fa fa-user-o"> </i> 本人
 - 90后，就读于南京大学
-- 好读书，不求甚解 ➥ [我读过的书](http://jubeny.com/assets/my_booklist.html)
+- 好读书，不求甚解 ➥ [我读过的书](http://jubeny.com/assets/my-booklist.html)
 - 兴趣广泛，特长没有 ➥ [我在听的歌](https://itunes.apple.com/cn/playlist/ilisten/pl.u-V9D7mXkiB91RDY2)
 - 宠物是豹纹守宫，名字叫萝卜
 
