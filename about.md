@@ -17,5 +17,5 @@ header: 关于
 - 2018年1月改用Jekyll
 
 <i class="fa fa-paper-plane-o"></i> 联系
-- 推特：[jubyshu](https://twitter.com/jubyshu)
+- 电报：jubyshu
 - 邮箱：juby#jubeny.com
