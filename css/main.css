@@ -1381,15 +1381,9 @@ sup a:after {
 }
 
 /* 404页面 */
-.nfbody {
-  background-color: rgba(219,219,219,0.7);
-  font-size: 1.2em;
-}
 .notfound {
   display: block;
   text-align: center;
-  background-color: #fcfcfc;
-  border-radius: 50%;
   width: 25%;
   position: fixed; 
   top: 50%; 
