@@ -88,7 +88,7 @@ textarea::placeholder {
   width: 2.5rem !important;
   height: 2.5rem !important;
 }
-.vavatar:hover {
+.vimg:hover {
   transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
