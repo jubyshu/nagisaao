@@ -89,12 +89,9 @@ textarea::placeholder {
   height: 2.5rem !important;
 }
 .vimg:hover {
-  transform: rotate(270deg) !important;
-  -moz-transform: rotate(270deg) !important;
-  -webkit-transform: rotate(270deg) !important;
-  -o-transform: rotate(270deg) !important;
-  animation: rotate 0.5s linear 1 !important;
-}
-.vcontent >a .at {
-  word-break: keep-all !important;
+  transform: rotate(360deg) !important;
+  -moz-transform: rotate(360deg) !important;
+  -webkit-transform: rotate(360deg) !important;
+  -o-transform: rotate(360deg) !important;
+  /*animation: rotate 0.5s linear 1 !important;*/
 }
