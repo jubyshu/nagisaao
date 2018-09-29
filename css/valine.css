@@ -88,6 +88,10 @@ textarea::placeholder {
   width: 2.5rem !important;
   height: 2.5rem !important;
 }
-.vcontent .at {
-  white-space: nowrap !important;
+.vavatar {
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  animation: rotate 0.25s linear infinite;
 }
