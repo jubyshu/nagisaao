@@ -2,16 +2,16 @@
     <footer>
 
         <div class="footer_div">{% include social.html %}</div>
+
         <div id="light_weixin" class="white_content">
+            <span class="weixin_img"><img src="/images/default/rewardcode.png" /></span>
             <p class="weixin_zhifu">如果喜欢，可以赞赏我:)</p>
-            <span class="weixin_img"><img src="/images/default/wechatpay.png" /></span>
-            <p class="weixin_zhifu">微信支付 金额随意</p>
         </div>
         <div id="fade" class="black_overlay"  onClick="closeWindow()"></div>
 
         <div class = "footer_div">  
            <div class="copyright text-muted" style="float:left; width:100%;margin-right: -200px;">
-            &copy;  <a href="javascript:;" id="pay_weixin" onclick="openWindow(this)" title="赞赏我"><span style="color: #7b0f19;">Juby</span></a> 2015-{{ site.time | date: '%Y' }}
+            &copy; <span style="color: #7b0f19;">Juby</span> 2015-{{ site.time | date: '%Y' }}
            </div>
 
            <div align="right" style="float: right; width: 200px;">
