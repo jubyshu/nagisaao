@@ -1,0 +1,115 @@
+/*--comment box-- */
+#comment {
+  .vwrap {
+    padding: 5px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    .vcontrol {
+      padding-top: 0;
+      .col {
+        &.col-20 {
+          font-size: .6rem;
+          vertical-align: bottom;
+          a {
+            color: #ccc;
+            pointer-events: none;
+          }
+        }
+      }
+    }
+    .vedit {
+      .vctrl {
+        span {
+          padding: 0;
+          color: #ccc;
+        }
+      }
+    }
+    .vheader {
+      .vinput {
+        border-bottom: 1px solid #ddd;
+      }
+    }
+  }
+  .vbtn {
+    padding: .15rem .5rem;
+    font-size: .725rem;
+  }
+  .vinput {
+    padding: 5px 0;
+  }
+  .veditor {
+    min-height: 0;
+  }
+  .vlist {
+    .vcard {
+      padding-top: 0.35rem;
+      .vhead {
+        .vsys {
+          display: none;
+          padding: .1rem .2rem;
+          font-size: .6rem;
+        }
+        .vnick {
+          color: #aaa;
+          &:hover {
+            color: #7b0f19;
+          }
+          &:before {
+            background: none;
+          }
+        }
+      }
+      a {
+        color: #aaa;
+        &:hover {
+          color: #7b0f19;
+        }
+        &:before {
+          background: none;
+        }
+      }
+      .vh {
+        border-bottom: none;
+        border-top: 1px solid #f5f5f5;
+        .vmeta {
+          .vat {
+            float: none;
+            color: #b3b3b3;
+            font-size: .75rem;
+          }
+        }
+      }
+      .vquote {
+        border-left: none;
+        padding-left: 0;
+      }
+      .vcontent {
+        margin-bottom: 0;
+        padding-top: 0;
+        line-height: 1.7em;
+      }
+      .vimg {
+        width: 2.5rem;
+        height: 2.5rem;
+        &:hover {
+          transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+        }
+      }
+    }
+  }
+  .txt-right {
+    display: none;
+  }
+  .vempty {
+    font-size: .725rem;
+  }
+  textarea {
+    &::placeholder {
+      color: #e8e8e8;
+    }
+  }
+}
