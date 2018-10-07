@@ -1,6 +1,8 @@
 /*--comment box-- */
 #comment {
-  line-height: 1.8em;
+  * {
+    line-height: 1.8em;
+  }
   .vwrap {
     padding: 5px;
     margin-top: 20px;
@@ -78,7 +80,7 @@
             float: none;
             color: #b3b3b3;
             font-size: .75rem;
-            &hover {
+            &:hover {
               color: #7b0f19;
             }
           }
