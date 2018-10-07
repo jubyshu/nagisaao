@@ -1,5 +1,6 @@
 /*--comment box-- */
 #comment {
+  line-height: 1.8em;
   .vwrap {
     padding: 5px;
     margin-top: 20px;
@@ -43,7 +44,7 @@
   }
   .vlist {
     .vcard {
-      padding-top: 0.35rem;
+      padding-top: 0;
       .vhead {
         .vsys {
           display: none;
@@ -77,6 +78,9 @@
             float: none;
             color: #b3b3b3;
             font-size: .75rem;
+            &hover {
+              color: #7b0f19;
+            }
           }
         }
       }
@@ -87,7 +91,6 @@
       .vcontent {
         margin-bottom: 0;
         padding-top: 0;
-        line-height: 1.5em;
       }
       .vimg {
         width: 2.5rem;
