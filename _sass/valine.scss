@@ -1,8 +1,5 @@
 /*--comment box-- */
 #comment {
-  * {
-    line-height: 1.8em;
-  }
   .vwrap {
     padding: 5px;
     margin-top: 20px;
@@ -93,6 +90,9 @@
       .vcontent {
         margin-bottom: 0;
         padding-top: 0;
+        p {
+          line-height: 1.8em;
+        }
       }
       .vimg {
         width: 2.5rem;
