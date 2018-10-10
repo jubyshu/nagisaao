@@ -53,7 +53,7 @@
         .vnick {
           color: #aaa;
           &:hover {
-            color: #7b0f19;
+            color: $red-dark;
           }
           &:before {
             background: none;
@@ -63,7 +63,7 @@
       a {
         color: #aaa;
         &:hover {
-          color: #7b0f19;
+          color: $red-dark;
         }
         &:before {
           background: none;
@@ -78,7 +78,7 @@
             color: #b3b3b3;
             font-size: .75rem;
             &:hover {
-              color: #7b0f19;
+              color: $red-dark;
             }
           }
         }
@@ -96,10 +96,7 @@
         width: 2.5rem;
         height: 2.5rem;
         &:hover {
-          transform: rotate(360deg);
-          -moz-transform: rotate(360deg);
-          -webkit-transform: rotate(360deg);
-          -o-transform: rotate(360deg);
+          @include rotate-circle;
         }
       }
     }

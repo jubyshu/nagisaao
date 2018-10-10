@@ -42,7 +42,7 @@
 
 // post
 .post-comments {
-  border-top: 1px solid #DDD;
+  border-top: 1px solid $border-color;
   padding: 60px 0; 
 }
 
@@ -53,7 +53,7 @@
 }
 
 .post {
-  p {  //两端对齐
+  p {  // 两端对齐
   	text-align: justify;
     text-justify: inter-word;
   }
@@ -73,7 +73,7 @@
 
   hr {
   	margin: 1.2em auto;
-    border-top: 1px solid #DDD;
+    border-top: 1px solid $border-color;
   }
 }
 
@@ -119,8 +119,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: -webkit-linear-gradient(-410deg, rgba(248, 248, 248, 1) 20%, rgba(248, 248, 248, 1));
-  background-image: linear-gradient(140deg,rgba(248, 248, 248, 1) 20%, rgba(248, 248, 248, 1)); 
+  @include cover-image;
 }
 
 .panel-cover__logo {
@@ -130,7 +129,7 @@
 .panel-cover__divider {
   width: 50%;
   margin: 20px auto;
-  border-top: 1px solid #e8e8e8; 
+  border-top: 1px solid $border-color; 
 }
 
 .panel-cover__divider--secondary {
@@ -198,7 +197,6 @@
     border-color: #fff; 
   }
 }
-
 
 .btn-secondary {
   border-color: #5BA4E5;
@@ -377,7 +375,6 @@ i {
   }
 }
 
-
 .post-list__post-title {
   margin-top: 5px;
   margin-bottom: .2em;
@@ -394,8 +391,7 @@ i {
 }
 
 .post-list__meta {
-  display: block;
-  margin: 0.7em 0 0 0;
+  margin: 0;
   display: inline-block;
 }
 
@@ -414,16 +410,19 @@ i {
   float: left;
   margin-bottom: 10px;
   font-size: 0.9em;
-}
-
-.post-list__meta--tags:hover {
-  color: $blue-dark;
+  &:hover {
+    color: $blue-dark;
+  }
 }
 
 .post-list_divider {
-  width: 30%;
+  width: 28%;
   margin: 10px 0 5px 10px;
   border-top: 1px solid #DDD; 
+}
+
+*:focus {
+  outline: none; 
 }
 
 .read-more {
@@ -431,17 +430,20 @@ i {
   margin-bottom: 1em;
   padding-top: 1.2em;
   padding-bottom: 1em;
-  border-top: 1px solid #DDD; }
+  border-top: 1px solid #DDD; 
+}
 
 .read-more-item {
   display: inline-block;
   vertical-align: top;
-  width: 48%; }
+  width: 48%; 
+}
 
 .read-more-item-dim {
-  color: #7b0f19;
+  color: $red-dark;
   font-size: .8em;
 }
+
 .cover-navigation .navigation {
   display: block;
   width: 100%;      
@@ -451,7 +453,7 @@ i {
 
 // panel avatar
 
-/* 头像效果-start */
+// 头像效果-start //
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -461,46 +463,28 @@ body {
     margin: 0
 }
 
-/* 旋转效果开始 */
-@keyframes rotate{
-from{transform:rotate(0deg)}
-to{transform:rotate(360deg)}
+// 旋转效果开始 //
+@include keyframes(rotate) {
+  from{transform:rotate(0deg)}
+  to{transform:rotate(360deg)}
 }
 
-@-webkit-keyframes rotate{
-from{-webkit-transform:rotate(0deg)}
-to{-webkit-transform:rotate(360deg)}
+.ih-item.circle.effect a .img:hover{
+  @include rotate-infinite;
 }
-
-@-moz-keyframes rotate{
-from{-moz-transform:rotate(0deg)}
-to{-moz-transform:rotate(360deg)}
-}
-
-@-o-keyframes rotate{
-from{-o-transform:rotate(0deg)}
-to{-o-transform:rotate(360deg)}
-}
-
-.ih-item.circle.effect a:hover .img:hover{
-    animation: rotate 0.25s linear infinite;
-    -moz-animation: rotate 0.25s linear infinite;
-    -webkit-animation: rotate 0.25s linear infinite;
-    -o-animation: rotate 0.25s linear infinite;
-}
-/* 旋转效果结束 */
+// 旋转效果结束 //
 
 .ih-item.circle.effect {
-    margin: 0 auto;
-    -webkit-perspective: 900px;
-    -moz-perspective: 900px;
-    perspective: 900px;
-    .img {
-      z-index: 11;
-      -webkit-transition: all 1s ease-in-out;
-      -moz-transition: all 1s ease-in-out;
-      transition: all 1s ease-in-out;
-    }
+  margin: 0 auto;
+  -webkit-perspective: 900px;
+  -moz-perspective: 900px;
+  perspective: 900px;
+  .img {
+    z-index: 11;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
 }
 
 .ih-item {
@@ -517,19 +501,19 @@ to{-o-transform:rotate(360deg)}
 }
 
 .ih-item.circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  .img {
     position: relative;
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    .img {
-      position: relative;
-      width: 120px;
-      height: 120px;
+    img {
       border-radius: 50%;
-      img {
-        border-radius: 50%;
-      }
     }
+  }
 }
-/* 头像效果-end */
+// 头像效果-end //
 
