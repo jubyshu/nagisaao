@@ -76,12 +76,12 @@ body {
   -webkit-font-smoothing: antialiased; 
 }
 
-::selection {
+/*::selection {
   background: #27408B; 
   color: #ffffff}
 
 ::-moz-selection {
-  background: #f39ca4; }
+  background: #f39ca4; }*/
 
 a {
   text-decoration: none;
