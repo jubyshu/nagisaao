@@ -15,7 +15,7 @@
       padding: 10px 10px;
     }
     &:hover>span, &:focus>span {
-      color: $blue-dark;
+      color: $sub-hover-color;
     }
   }
   > span {
@@ -294,7 +294,7 @@ nav {
     position: relative;
     width: 100%;
     &:hover {
-      color: $blue-dark;
+      color: $sub-hover-color;
     }
   }
 }
@@ -411,7 +411,7 @@ i {
   margin-bottom: 10px;
   font-size: 0.9em;
   &:hover {
-    color: $blue-dark;
+    color: $sub-hover-color;
   }
 }
 
@@ -440,7 +440,7 @@ i {
 }
 
 .read-more-item-dim {
-  color: $red-dark;
+  color: $hover-color;
   font-size: .8em;
 }
 

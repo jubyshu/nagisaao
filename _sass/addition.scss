@@ -4,7 +4,6 @@ details {
     color: #4f4f4f;
     padding: 5px 20px;
     border-radius: 3px;
-    font-size: 0.95em;
     border-left: 2px solid $border-color;
   }
 }
@@ -12,12 +11,10 @@ details {
 summary {
   display: inline;
   margin: 3px auto;
-  font-size: 0.95em;
-  border-bottom: 0.5px solid;
   cursor: pointer;
-  color: #696f7c;
+  color: $link-color;
   &:hover {
-    color: #000;
+    color: $hover-color;
   }
   &:after {
     content: url(/images/default/feather.svg);

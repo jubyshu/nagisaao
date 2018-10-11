@@ -68,10 +68,10 @@ code {
 }
 
 a {
-  color: $red-normal;
+  color: $link-color;
   text-decoration: none;
   &:hover {
-  	color: $red-dark;
+  	color: $hover-color;
   	-o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -202,7 +202,7 @@ th, td {
   a {
     color: #fff;
     &:hover {
-      color: $red-normal;
+      color: $link-color;
     }
   }
 }
@@ -240,7 +240,7 @@ th, td {
   position: relative;
   display: inline-block;
   padding: 8px 18px 9px 18px;
-  background: $red-normal;
+  background: $link-color;
   border-radius: 3px;
   text-align: center;
   color: #FFF; 
@@ -300,7 +300,7 @@ hr {
 .section-title__divider {
   width: 30%;
   margin: 2.2em 0 2.1em 0;
-  border-top: 1px solid #DDD; 
+  border-top: 1px solid $border-color; 
 }
 
 .hidden {
