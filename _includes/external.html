@@ -1,42 +1,43 @@
-<script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
-<script type="text/javascript" src="/js/prism.js"></script>
-<script type="text/javascript" src="/js/lightbox.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+<script src="/js/main.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/lightbox.js"></script>
+<script async src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> 
+<script async src='//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 
-<!-- <script type="text/javascript">
+<!-- <script>
   $('pre').addClass("line-numbers").css("white-space", "pre-wrap");
 </script> -->
 
 <script>
-    lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true,
-    })
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true,
+  })
 </script>
 
 <!-- back to top -->
-<script type="text/javascript">
-$("#back-top").hide();
-$(document).ready(function () {
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 150) {
-      $('#back-top').fadeIn();
-    } else {
-      $('#back-top').fadeOut();
-    }
+<script>
+  $("#back-top").hide();
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 150) {
+        $('#back-top').fadeIn();
+      } else {
+        $('#back-top').fadeOut();
+      }
+    });
+    $('#back-top a').click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
   });
-  $('#back-top a').click(function () {
-    $('body,html').animate({
-      scrollTop: 0
-    }, 800);
-    return false;
-  });
-});
 </script>
 
 <!-- reward -->
-<script type="text/javascript">
+<script>
   function openWindow(obj){
     document.getElementById('light_weixin').style.display='block';
     document.getElementById('fade').style.display='block';
