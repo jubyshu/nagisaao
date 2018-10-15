@@ -26,7 +26,7 @@ ga:
 #
 # --------------- 下面的信息可以自行选择是否修改 ------------------------
 
-permalink: "/:year/:month/:title.html"
+permalink: "/:year/:month/:title"
 # Format
 markdown: kramdown
 kramdown:
@@ -34,8 +34,8 @@ kramdown:
     disable: true
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 # The blog button should not be removed.
 blog_button:
