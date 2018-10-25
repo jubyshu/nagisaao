@@ -30,6 +30,5 @@ tags: 生活
 从上周开始，每天都想着为蝾螈换水，可一屁股坐下后就不想起身了，所以拖到现在还没动手。Rocchi也要喂食。做完这些，看会儿『我爱我家』，睡觉。前几天看的集子突然就消失了，应该是被YouTube清理了吧，所以要赶紧看完，否则资源都被版权风暴卷走了。
 
 -------
-我不会拍摄，Rocchi也不配合，哼。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wK_gpIFh8Go" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PvptSlO3LCo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
