@@ -31,4 +31,5 @@ tags: 生活
 
 -------
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PvptSlO3LCo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="ytb-container">
+<iframe class="ytb-video" src="https://www.youtube.com/embed/PvptSlO3LCo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
