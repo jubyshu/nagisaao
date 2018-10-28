@@ -6,7 +6,7 @@ tags: 生活
 ---
 
 <a href="https://i.imgur.com/SD2oZYb.png" data-lightbox="rocchi" data-title="可爱即是正义">
-    <img src="https://i.imgur.com/SD2oZYb.png" width="400px" height="300px">
+    <img src="https://i.imgur.com/Zp5aoIv.png?1">
 </a>
 
 今天，送走了萝卜。
@@ -18,7 +18,7 @@ tags: 生活
 每当看到萝卜瞪着圆溜溜的眼珠，嘴角带着迷之微笑，我的心就完全被它融化了。虽然最近几个月与它亲近的少，但它对我的手却并没有太大的抗拒，这是记得我了吗？可惜的是，萝卜体型太小，胆子也小，不能经常和我一起玩耍。
 
 <a href="https://i.imgur.com/HxmJG1r.png?1" data-lightbox="rocchi" data-title="萝卜长大了">
-    <img src="https://i.imgur.com/HxmJG1r.png?1" width="400px" height="255px">
+    <img src="https://i.imgur.com/RrgehW3.png?1">
 </a>
 
 不过，比起刚来的时候，萝卜在不经意间已经长成了立派的大人，这让我想起了一句歌词：「**時も行けば、幼い君も、大人になると、気づかないまま**」。这样的萝卜，即使去到了陌生的环境，应该也能很快适应吧。
