@@ -6,16 +6,16 @@ header: 关于
 
 <h3>关于</h3>
 
-<i class="fa fa-user-o"> </i> 本人
-- 90后，就读于南京大学
-- 好读书，不求甚解 ➥ [我读过的书](http://jubeny.com/assets/my-booklist/)
-- 兴趣广泛，特长没有 ➥ [我在听的歌](https://open.spotify.com/user/ybaichfkjx5z3yyu2d6s2ocyp?si=hlDROl_ESn-JSzDk_boJZQ)
-- 宠物是豹纹守宫，名字叫Rocchi
+<i class="fa fa-book" style="color:#0096a0;"></i>[我读过的书](http://jubeny.com/assets/my-booklist/) <i class="fa fa-spotify" style="color:#0096a0;"></i>[我在听的歌](https://open.spotify.com/user/ybaichfkjx5z3yyu2d6s2ocyp?si=hlDROl_ESn-JSzDk_boJZQ)  
 
-<i class="fa fa-folder-o"></i> 本站
-- 2015年1月搭建Wordpress
-- 2018年1月改用Jekyll
+自我介绍什么的，最让人讨厌了，我喜欢糊涂地活着，不认识自己也没关系。
 
-<i class="fa fa-paper-plane-o"></i> 联系
-- 电报：[jubyshu](https://t.me/jubyshu)
-- 邮箱：juby#jubeny.com
+自己紹介なんて、一番嫌い。自由に生きて、自分自身を知らなくてもいい。
+
+-------------------
+
+话虽如此，还是简单说明一下：
+
+Juby是我的名字，渚碧是音译，碧色的小洲（青い渚），是不是能让人感到一点诗意呢？曾经取过很多名字的我，今后要化作南海中的一礁了。
+
+这个博客，几年来面貌虽然经常改变，内容却都是我的流水账，并非是我想这样写，而是写不出干货。枉受了几年教育，最终却没有拿得出手的能力，如今的我，要为过去虚度光阴、耽于享乐的行径埋单了。

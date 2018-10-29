@@ -15,3 +15,17 @@ header: 关于本站
 - 2018.05.12：开始使用HTTPS，并将DNS解析从DNSPod迁移至HE.net  
 - 2018.05.20：引入Valine评论系统取代LiveRe  
 - 2018.07.22：使用Typekit的思源宋体作为主要字体  
+
+<i class="fa fa-user-o"> </i> 本人
+- 90后，就读于南京大学
+- 好读书，不求甚解 ➥ [我读过的书](http://jubeny.com/assets/my-booklist/)
+- 兴趣广泛，特长没有 ➥ [我在听的歌](https://open.spotify.com/user/ybaichfkjx5z3yyu2d6s2ocyp?si=hlDROl_ESn-JSzDk_boJZQ)
+- 宠物是豹纹守宫，名字叫Rocchi
+
+<i class="fa fa-folder-o"></i> 本站
+- 2015年1月搭建Wordpress
+- 2018年1月改用Jekyll
+
+<i class="fa fa-paper-plane-o"></i> 联系
+- 电报：[jubyshu](https://t.me/jubyshu)
+- 邮箱：juby#jubeny.com
