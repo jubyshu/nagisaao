@@ -6,7 +6,7 @@ header: 关于
 
 <h3>关于</h3>
 
-<i class="fa fa-book" style="color:#0096a0;"></i>[我读过的书](http://jubeny.com/assets/my-booklist/) <i class="fa fa-spotify" style="color:#0096a0;"></i>[我在听的歌](https://open.spotify.com/user/ybaichfkjx5z3yyu2d6s2ocyp?si=hlDROl_ESn-JSzDk_boJZQ)  
+<i class="fa fa-book" style="color:#0096a0;"></i>[我读过的书](https://jubeny.com/assets/my-booklist/) <i class="fa fa-spotify" style="color:#0096a0;"></i>[我在听的歌](https://spoti.fi/2SrrUW6)  
 
 自我介绍什么的，最让人讨厌了，我喜欢糊涂地活着，不认识自己也没关系。
 
@@ -22,4 +22,4 @@ Juby是我的名字，渚碧是音译，碧色的小洲（青い渚），是不�
 
 对于未经允许就喜欢过很多人这件事，我还没有改悔之意，如果因此给她们添了麻烦，只能说声抱歉了。不过，现在的我，似乎已经失去了喜欢的能力。
 
-很怕麻烦，很爱折腾，胸怀不大，爱憎分明。常怀悲观心情，却想努力微笑。如果对我有兴趣或不满，可以寄邮件给我{[juby#jubeny.com]()}。
+很怕麻烦，很爱折腾，胸怀不大，爱憎分明。常怀悲观心情，却想努力微笑。如果对我有兴趣或不满，可以寄邮件给我{[juby#jubeny.com]()}，如果想要赞赏我，可以点击下方按钮。
