@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: default
+description: 种菜的时候，也想种点玫瑰
 ---
 
 <div class="main-post-list hidden">
@@ -18,7 +19,7 @@ layout: default
         <a href="/tags">  
             <span class="post-list__meta--tags">{% for tag in post.tags %}{{ tag | xml_escape }}&nbsp{% endfor %}</span>
 
-        <a class="btn-border-small" href={{ post.url }}>继续阅读››</a>
+        <a rel="nofollow" class="btn-border-small" href={{ post.url }}>继续阅读››</a>
       </div>
     </li>
     {% endfor %}

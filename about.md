@@ -1,7 +1,8 @@
 ---
 layout: page 
 title: 关于
-header: 关于
+keywords: Juby 渚碧
+description: Juby是我的名字，渚碧是音译，碧色的小洲（青い渚），是不是能让人感到一点诗意呢？曾经取过很多名字的我，今后要化作南海中的一礁了······
 ---
 
 <h3>关于</h3>
