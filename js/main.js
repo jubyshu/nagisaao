@@ -22,7 +22,7 @@ $(document).ready(function() {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
-  if (window.location.href == "https://jubeny.com") {
+  if (window.location.href && window.location.href == "https://jubeny.com/") {
     $('.footer').css('display', 'none');
   }
  
