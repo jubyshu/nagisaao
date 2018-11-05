@@ -1,27 +1,23 @@
 
-<section class="footer">
+<footer class="footer">
 
-  <footer>
+  <div>{% include social.html %}</div>
 
-    <div class="footer_div">{% include social.html %}</div>
+  <div id="light_weixin" class="white_content">
+    <span><img src="/images/default/rewardcode.png"></span>
+    <p> </p>
+  </div>
+  
+  <div id="fade" class="black_overlay"  onClick="closeWindow()"></div>
 
-    <div id="light_weixin" class="white_content">
-      <span><img src="/images/default/rewardcode.png"></span>
-      <p> </p>
-    </div>
-    
-    <div id="fade" class="black_overlay"  onClick="closeWindow()"></div>
+  <div class = "footer_div">  
+     <div class="copyright text-muted" style="float:left; width:100%;margin-right: -200px;">
+       &copy; <span style="color: #7b0f19;">Juby</span> 2015-{{ site.time | date: '%Y' }}
+     </div>
 
-    <div class = "footer_div">  
-       <div class="copyright text-muted" style="float:left; width:100%;margin-right: -200px;">
-         &copy; <span style="color: #7b0f19;">Juby</span> 2015-{{ site.time | date: '%Y' }}
-       </div>
+     <div align="right" style="float: right; width: 200px;">
+		   <span id="busuanzi_container_site_pv">访问 <span id="busuanzi_value_site_pv"></span> 次</span>          
+     </div>           
+  </div>
 
-       <div align="right" style="float: right; width: 200px;">
-			   <span id="busuanzi_container_site_pv">访问 <span id="busuanzi_value_site_pv"></span> 次</span>          
-       </div>           
-    </div>
-
-  </footer>
-
-</section>
+</footer>

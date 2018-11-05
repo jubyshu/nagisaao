@@ -274,18 +274,6 @@ th, td {
   color: #b3b3b3; 
 }
 
-.footer__copyright {
-    display: block;
-    margin-bottom: .7em;
-    a {
-      color: #a6a6a6;
-      text-decoration: underline;
-      &:hover {
-      	color: red-dark;
-      } 
-    }
-}
-
 .avatar,
 .logo {
   border-radius: 50%;
