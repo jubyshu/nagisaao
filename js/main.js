@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
     if (location.hash && location.hash == "#blog") return;
@@ -21,6 +20,10 @@ $(document).ready(function() {
 
   if (window.location.pathname.substring(0, 5) == "/tag/") {
     $('.panel-cover').addClass('panel-cover--collapsed');
+  }
+
+  if (window.location.href == "https://jubeny.com") {
+    $('.footer').css('display', 'none');
   }
  
  $('.btn-mobile-menu__icon').click(function() {
@@ -50,3 +53,33 @@ $(document).ready(function() {
     $('.btn-mobile-menu__icon').toggleClass('fa fa-list fa fa-angle-up animated fadeIn');
   });
 });
+
+// back to top
+$("#back-top").hide();
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 150) {
+      $('#back-top').fadeIn();
+    } else {
+      $('#back-top').fadeOut();
+    }
+  });
+  $('#back-top a').click(function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
+  });
+});
+
+// weixin reward
+$(document).ready(function() {
+  $('#pay_weixin').click(function() {
+    $('#light_weixin').css('display', 'block');
+    $('#fade').css('display', 'block');
+  });
+  $('#fade').click(function() {
+    $('#light_weixin').css('display', 'none');
+    $('#fade').css('display', 'none');
+  })
+})
