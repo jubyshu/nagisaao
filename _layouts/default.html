@@ -15,7 +15,9 @@
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
             {{ content }}
+            {% if page.title != 'Home' %}
             {% include footer.html %}
+            {% endif %}
         </div>
     </div>
     
