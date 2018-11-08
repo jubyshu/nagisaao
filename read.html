@@ -6,13 +6,14 @@ group: navigation
 
 <h3>读书</h3>
 
-<div id="archives">
-  <div id="douban" class="douban">
-    <div id="book-reading-wrap"></div>
-    <div id="book-wish-wrap"></div>
-    <div id="book-read-wrap"></div>
-  </div>
+詳しくはこちら：<a href="https://jubeny.com/assets/my-booklist" style="color:#0096a0;">我读过的书</a><hr>
+
+<div id="douban">
+  <div id="book-reading-wrap"></div>
+  <div id="book-wish-wrap"></div>
+  <div id="book-read-wrap"></div>
 </div>
+
 <div class="clear"></div>
 
 <script src="/js/douban.api.js"></script>
@@ -22,3 +23,5 @@ group: navigation
     dbapi.show();
   });
 </script>
+
+{% include comments.html %}

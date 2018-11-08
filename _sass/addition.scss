@@ -173,10 +173,12 @@ sup {
 .douban-list ul li {
   width: 80px;
   float: left;
+  margin: 5px;
   list-style: none outside none;
   img {
     width: 70px;
     height: 100px;
+    padding: 5px;
     border: solid 1px #DDD;
   }
 }
@@ -187,5 +189,9 @@ sup {
 
 .douban-title {
   font-size: 0.9em;
-  color: #333;
+  color: $blue-dark;
+  &:before {
+    content: '#';
+    color: $blue-dark;
+  }
 }
