@@ -79,3 +79,11 @@ $(document).ready(function() {
     $('#fade').css('display', 'none');
   })
 })
+
+// nprogress
+NProgress.configure({ showSpinner: false, minimum: 0.1 });
+NProgress.start();
+    $(window).load(function() {
+    NProgress.done(true);
+    $('.fade').removeClass('out');
+});
