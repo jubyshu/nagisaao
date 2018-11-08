@@ -185,36 +185,7 @@ sup {
   clear: both;
 }
 
-#douban {
-  div {
-    display: block;
-  }
-}
-
-#book-reading-wrap,
-#book-read-wrap,
-#book-wish-wrap {
-  position: relative;
-  table-layout: fixed;
-  word-break: break-all;
-  margin: 0 auto;
-  width: auto;
-  min-height: 300px;
-  display: inline-block;
-  padding: 0 5px 0 5px;
-}
-
 .douban-title {
+  font-size: 0.9em;
   color: #333;
-}
-
-.douban li {
-  list-style:none outside none;
-  float:left;
-  width:80px;
-  padding: 0;
-  img {
-    width: 70px;
-    height: 100px;
-  }
 }
