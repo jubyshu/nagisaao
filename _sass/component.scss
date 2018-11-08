@@ -309,8 +309,8 @@ nav {
 
 .navigation__item_social {
   display: inline-block;
-  margin-right: 20px;
-  width: 25px;
+  margin: auto 5px;
+  // width: 25px;
   a {
     position: relative;
     color: #999;
@@ -318,17 +318,24 @@ nav {
       color: #000;
     }
   }
+  img:hover {
+    background: #fff;
+    border-radius: 50%;
+  }
 }
 
-.navigation--social a {
-  border: 0px;
-  padding: 10px 10px 10px 10px; 
-  .label {
-    display: none;
-  }
-  .icon {
-    display: block;
-    font-size: 1.7em;
+.navigation--social {
+  margin-top: .5em;
+  a {
+    border: 0px;
+    padding: 10px 10px 10px 10px; 
+    .label {
+      display: none;
+    }
+    .icon {
+      display: inline-block;
+      font-size: .5em;
+    }
   }
 }
 

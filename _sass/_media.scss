@@ -42,7 +42,8 @@
   }
 
   .panel-cover__divider--secondary {
-    display: none;
+    // display: none;
+    margin: 1em auto;
   }
 
   .panel-cover {
@@ -64,12 +65,15 @@
         border-width: 2px;
       }
       .panel-cover__description {
-      	display: block; 
+      	display: none; 
         margin-top: 10px;
       }
       .panel-cover__divider {
-      	display: none;
+      	// display: none;
         margin: 1em auto;
+      }
+      .panel-cover__divider--secondary {
+        display: none;
       }
     }
   }
