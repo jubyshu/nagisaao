@@ -38,9 +38,9 @@ sass:
   style: compressed
 
 # The blog button should not be removed.
-# blog_button:
-#   title: 主页
-#   description: blog
+blog_button:
+  title: 主页
+  description: blog
 
 # Navigation buttons in the front page.s
 nav:
