@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一晚——今天的日记
+title: 一晚
 date: 2018-10-24 21:00
 tags: 生活
 ---

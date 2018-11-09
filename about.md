@@ -23,4 +23,12 @@ Juby是我的名字，渚碧是音译，碧色的小洲（青い渚），是不�
 
 对于未经允许就喜欢过很多人这件事，我还没有改悔之意，如果因此给她们添了麻烦，只能说声抱歉了。不过，现在的我，似乎也失去了喜欢的欲望。
 
-很怕麻烦，很爱折腾，胸怀不大，爱憎分明。常怀悲观心情，却想努力微笑。如果对我有兴趣或不满，可以寄邮件给我{[juby#jubeny.com](javascript:;)}，如果想要赞赏我，可以点击下方按钮。
+很怕麻烦，很爱折腾，胸怀不大，爱憎分明。常怀悲观心情，却想努力微笑。如果对我有兴趣或有问题，可以寄邮件给我{[juby#jubeny.com](javascript:;)}，楽しみにしています。
+
+-------------------
+
+感谢：
+
+博客主题来自[leopardpan](https://github.com/leopardpan/leopardpan.github.io/)，它是在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的，最初的来源则是Ghost主题[uno](https://github.com/daleanthony/uno)。我也依照自己的审美和需求做了力所能及的改动。
+
+字数统计参考自[Jekyll的中文字数统计](https://blog.fooleap.org/jekyll-count-of-chinese-characters.html)，豆瓣读书展示页来自[likebeta's Blog](https://github.com/likebeta/blog)，评论系统使用[Valine](https://valine.js.org/)和[ Valine Admin](https://panjunwen.com/valine-admin-document/)（用于邮件提醒）。
