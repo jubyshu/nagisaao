@@ -14,8 +14,19 @@
      </div>
 
      <div align="right" style="float: right; width: 200px;">
-		   <span id="busuanzi_container_site_pv">访问 <span id="busuanzi_value_site_pv"></span> 次</span>          
+		   <!-- <span id="busuanzi_container_site_pv">访问 <span id="busuanzi_value_site_pv"></span> 次</span> -->
+      Run <span id="time"></span>
      </div>           
   </div>
 
 </footer>
+<script type="text/javascript">
+var dateBegin = new Date('2015/01/03 23:15:15');
+var dateEnd = new Date();
+var dateDiff = dateEnd.getTime() - dateBegin.getTime();
+var dayDiff = Math.floor(dateDiff / (24 * 3600 * 1000));
+var timeLeft = dateDiff % (24 * 3600 * 1000); 
+var hours = Math.floor(timeLeft / (3600 * 1000));
+var time = dayDiff + 'd' + hours + 'h';
+document.getElementById('time').innerHTML = time;
+</script>
