@@ -1,6 +1,5 @@
 <head>
   <meta charset="utf-8">
-  <meta name="referrer" content="never">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
   <title> 
@@ -21,6 +20,8 @@
   <meta property="og:image" content="{% if page.cover %}{{page.cover}}{% else %}{{ site.banner }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate:120 }}{% else %}{{ page.description }}{% endif %}">
   
+  {% if page.read %}<meta name="referrer" content="default">{% endif %}
+
   <link rel="icon" type="image/x-icon" href="/images/default/favicon.ico" />
   <link href="/images/default/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link rel="apple-touch-icon" href="/images/default/favicon.ico" type="image/x-icon" />
