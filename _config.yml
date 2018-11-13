@@ -51,6 +51,6 @@ nav:
   - {title: 关于, description: about, url: '/about/'}         
 
 # Pagination
-plugins: [jekyll-paginate,jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-sitemap]
 paginate: 9
 paginate_path: page/:num/
