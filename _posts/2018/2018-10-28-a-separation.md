@@ -3,7 +3,7 @@ layout: post
 title: 一次别离
 date: 2018-10-28 20:30
 tags: 生活
-cover: https://i.imgur.com/SD2oZYb.png
+ogimage: https://i.imgur.com/SD2oZYb.png
 ---
 
 <a href="https://i.imgur.com/SD2oZYb.png" data-lightbox="rocchi" data-title="可爱即是正义">

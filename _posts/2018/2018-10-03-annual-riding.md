@@ -3,7 +3,7 @@ layout: post
 title: 年度一次的骑行
 date: 2018-10-03
 tags: 生活
-cover: https://i.imgur.com/FsUNZ1V.png
+ogimage: https://i.imgur.com/FsUNZ1V.png
 ---
 
 <a href="https://i.imgur.com/FsUNZ1V.png" data-lightbox="riding" data-title="鼓楼-仙林">

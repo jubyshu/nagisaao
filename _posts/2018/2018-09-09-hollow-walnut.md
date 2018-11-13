@@ -3,7 +3,7 @@ layout: post
 title: 空心核桃
 date: 2018-09-09
 tags: 读书
-cover: https://i.imgur.com/dQiePUg.jpg
+ogimage: https://i.imgur.com/dQiePUg.jpg
 ---
 
 桃子是个爱操心的人，同事的婚礼上，她看作是自己的一般忙来忙去。是啊，如果当初和新郎进了情人旅馆，或许此时站在这里的新娘便是自己了。

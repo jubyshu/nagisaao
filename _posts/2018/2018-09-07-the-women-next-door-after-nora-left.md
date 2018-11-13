@@ -3,7 +3,7 @@ layout: post
 title: 隔壁的女人——娜拉走后？
 date: 2018-09-07 16:00
 tags: 读书
-cover: https://i.imgur.com/dQiePUg.jpg
+ogimage: https://i.imgur.com/dQiePUg.jpg
 ---
 
 一个是家庭主妇，一个是酒吧小姐，隔着公寓的一堵薄薄的墙，双方都在窥听着对方的日常生活。

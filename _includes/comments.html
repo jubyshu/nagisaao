@@ -1,7 +1,5 @@
 <section class="post-comments">
 
-{% if site.comment.valine %}
-
 <div id="comment">
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
@@ -9,8 +7,8 @@
     var valine = new Valine();
     valine.init({
       el: '#comment',
-      appId: 'CRU9WNiFOXtffNHePc2WD4sT-gzGzoHsz',
-      appKey: 'YsaHf3ahdzk2NkPOmNBohvgd',
+      appId: '{{ leancloud_appid }}',
+      appKey: '{{ leancloud_appkey }}',
       placeholder: "If you were coming in the fall, I'd brush the summer by...",
       avatar: 'mp',
       visitor: true
@@ -28,7 +26,5 @@
     }, 100);
   }
 </script>
-
-{% endif %}
 
 </section>

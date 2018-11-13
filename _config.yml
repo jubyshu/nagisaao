@@ -1,22 +1,26 @@
 # Basic
 title: 渚碧
-description: 种菜的时候，也想种点玫瑰
-url: https://jubeny.com
 author: Juby
-banner: https://jubeny.com/images/default/tcard.png
+url: https://jubeny.com
 
-# Comment
-comment:
-  valine: true
+# SEO
+keywords: 
+description: 种菜的时候，也想种点玫瑰
 
 # Social
 social:
   twitter: jubyshu
 
-# Google Analytics
-ga:
-  id: UA-112090731-1
-  host: auto
+# Google
+google_analytics: UA-112090731-1
+google_adsense: ca-pub-1918559515694686
+
+# Leancloud used for Valine
+leancloud_appid: CRU9WNiFOXtffNHePc2WD4sT-gzGzoHsz
+leancloud_appkey: YsaHf3ahdzk2NkPOmNBohvgd
+
+# Open Graph
+ogimage: https://jubeny.com/images/default/tcard.png
 
 # ----------------- 上面的信息修改成你自己的 ---------------------------
 #
@@ -26,13 +30,16 @@ ga:
 #
 # --------------- 下面的信息可以自行选择是否修改 ------------------------
 
+# Permalink
 permalink: "/:year/:month/:title/"
+
 # Format
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
     disable: true
 
+# Sass
 sass:
   sass_dir: _sass
   style: compressed
