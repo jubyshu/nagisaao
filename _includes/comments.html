@@ -7,8 +7,8 @@
     var valine = new Valine();
     valine.init({
       el: '#comment',
-      appId: '{{ leancloud_appid }}',
-      appKey: '{{ leancloud_appkey }}',
+      appId: '{{ site.leancloud.appid }}',
+      appKey: '{{ site.leancloud.appkey }}',
       placeholder: "If you were coming in the fall, I'd brush the summer by...",
       avatar: 'mp',
       visitor: true

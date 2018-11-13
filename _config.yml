@@ -12,15 +12,22 @@ social:
   twitter: jubyshu
 
 # Google
-google_analytics: UA-112090731-1
-google_adsense: ca-pub-1918559515694686
+google: 
+  analytics: UA-112090731-1
+  adsense: ca-pub-1918559515694686
+  site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
+
+#Baidu
+baidu: 
+  site_verification: QmO5oVMpYN
 
 # Leancloud used for Valine
-leancloud_appid: CRU9WNiFOXtffNHePc2WD4sT-gzGzoHsz
-leancloud_appkey: YsaHf3ahdzk2NkPOmNBohvgd
+leancloud: 
+  appid: CRU9WNiFOXtffNHePc2WD4sT-gzGzoHsz
+  appkey: YsaHf3ahdzk2NkPOmNBohvgd
 
 # Open Graph
-ogimage: https://jubeny.com/images/default/tcard.png
+ogimage: /images/default/tcard.png
 
 # ----------------- 上面的信息修改成你自己的 ---------------------------
 #
