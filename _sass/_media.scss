@@ -86,6 +86,12 @@
     }
   }
 
+  .panel-cover.panel-cover--collapsed {
+    .navigation-wrapper {
+      width: 100%
+    }
+  }
+
   .content-wrapper {
     width: 80%;
     max-width: none;

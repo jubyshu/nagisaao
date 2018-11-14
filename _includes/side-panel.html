@@ -1,6 +1,11 @@
 <header class="panel-cover {% if page.layout == 'post' or page.layout == 'page' %}panel-cover--collapsed{% endif %}">
-  <div class="panel-main">
+ 
+  <span class="mobile btn-mobile-menu">
+    <i class="fa fa-bars btn-mobile-menu__icon"></i>
+    <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+  </span>
 
+  <div class="panel-main">
     <div class="panel-main__inner panel-inverted">
       <div class="panel-main__content">
 
@@ -14,6 +19,7 @@
         <hr class="panel-cover__divider" />
         <p class="panel-cover__description">{{ site.description }}</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
         <div class="navigation-wrapper">
           <div>
             <nav class="cover-navigation cover-navigation--primary">
@@ -30,7 +36,6 @@
     </div>
 
     <div class="panel-cover--overlay"></div>
-
   </div>
 
 </header>
