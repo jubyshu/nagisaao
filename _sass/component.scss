@@ -103,12 +103,12 @@
   z-index: 900;
   width: 100%;
   max-width: none;
-  height: 100%; 
+  height: 100%;
 }
 
 .panel-cover--collapsed {
   width: 22%;
-  max-width: 320px; 
+  max-width: 320px;
 }
 
 .panel-cover--overlay {
@@ -120,10 +120,6 @@
   bottom: 0;
   left: 0;
   @include cover-image;
-}
-
-.panel-cover__logo {
-  margin-bottom: .2em; 
 }
 
 .panel-cover__divider {
@@ -139,7 +135,7 @@
 .panel-main {
   display: table;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 .panel-main__inner {

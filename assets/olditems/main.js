@@ -87,6 +87,6 @@ $(document).ready(function() {
   var dayDiff = Math.floor(dateDiff / (24*3600*1000));
   var timeLeft = dateDiff % (24*3600*1000);
   var hours = Math.floor(timeLeft / (3600*1000));
-  var time = dayDiff + "d" + hours + "h";
+  var time = dayDiff + "d " + hours + "h";
   $("#runtime").html(time);
 });
