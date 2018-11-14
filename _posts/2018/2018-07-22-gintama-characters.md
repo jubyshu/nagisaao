@@ -5,7 +5,7 @@ date: 2018-07-22
 tags: 人物
 ---
 
-<a href="https://i.imgur.com/KetsLAp.png" data-lightbox="katsuma" data-title="坂本辰马">
+<a href="https://i.imgur.com/KetsLAp.png" data-fancybox="katsuma" data-caption="坂本辰马">
     <img src="https://i.imgur.com/KetsLAp.png" width="480px" height="300px">
 </a>
 

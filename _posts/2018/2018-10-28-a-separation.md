@@ -6,7 +6,7 @@ tags: 生活
 ogimage: https://i.imgur.com/SD2oZYb.png
 ---
 
-<a href="https://i.imgur.com/SD2oZYb.png" data-lightbox="rocchi" data-title="可爱即是正义">
+<a href="https://i.imgur.com/SD2oZYb.png" data-fancybox="rocchi" data-caption="可爱即是正义">
     <img src="https://i.imgur.com/Zp5aoIv.png?1">
 </a>
 
@@ -18,7 +18,7 @@ ogimage: https://i.imgur.com/SD2oZYb.png
 
 每当看到萝卜瞪着圆溜溜的眼珠，嘴角带着迷之微笑，我的心就完全被它融化了。虽然最近几个月与它亲近的少，但它对我的手却并没有太大的抗拒，这是记得我了吗？可惜的是，萝卜体型太小，胆子也小，不能经常和我一起玩耍。
 
-<a href="https://i.imgur.com/HxmJG1r.png?1" data-lightbox="rocchi" data-title="萝卜长大了">
+<a href="https://i.imgur.com/HxmJG1r.png?1" data-fancybox="rocchi" data-caption="萝卜长大了">
     <img src="https://i.imgur.com/RrgehW3.png?1">
 </a>
 

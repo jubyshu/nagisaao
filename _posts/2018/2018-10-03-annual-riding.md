@@ -6,7 +6,7 @@ tags: 生活
 ogimage: https://i.imgur.com/FsUNZ1V.png
 ---
 
-<a href="https://i.imgur.com/FsUNZ1V.png" data-lightbox="riding" data-title="鼓楼-仙林">
+<a href="https://i.imgur.com/FsUNZ1V.png" data-fancybox="riding" data-caption="鼓楼-仙林">
     <img src="https://i.imgur.com/FsUNZ1V.png">
 </a>
 

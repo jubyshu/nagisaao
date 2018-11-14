@@ -11,7 +11,7 @@
     
     
       <div class="hat_title">
-        <h3>{{this_year}}</h3>
+        <h3>{{this_year}}</h3><hr>
       </div>
       <div class="post_list">
       <ul>
@@ -35,7 +35,7 @@
          </div>         
          
         <div class="hat_title">
-         <h3> {{next_year}}</h3>
+         <h3> {{next_year}}</h3><hr>
         </div>
         <div class="post_list">
         <ul>

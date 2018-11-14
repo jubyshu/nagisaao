@@ -6,7 +6,7 @@ description: Juby是我的名字，渚碧是音译，碧色的小洲（青い渚
 ---
 
 <h3>关于</h3>
-
+<hr>
 <i class="fa fa-book" style="color:#0096a0;"></i>[我读过的书](https://jubeny.com/assets/my-booklist/) <i class="fa fa-spotify" style="color:#0096a0;"></i>[我在听的歌](https://spoti.fi/2SrrUW6)  
 
 自我介绍什么的，最让人讨厌了，我喜欢糊涂地活着，不认识自己也没关系。

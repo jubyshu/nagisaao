@@ -8,7 +8,7 @@ ogimage: https://i.imgur.com/eB3lmbs.jpg
 #### 1
 昨天整理Apple Music的歌单时，无意中发现之前收藏的一首歌变成了灰色，是张惠妹的「没有烟抽的日子」，出自「妹力四射」这张专辑。专辑中的其他歌都还在，单单是这首莫名其妙地消失了。
 
-<a href="https://i.imgur.com/u87nOFf.jpg" data-lightbox="smoke" data-title="没有烟抽的日子">
+<a href="https://i.imgur.com/u87nOFf.jpg" data-fancybox="smoke" data-caption="没有烟抽的日子">
     <img src="https://i.imgur.com/u87nOFf.jpg">
 </a>
 

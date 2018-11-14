@@ -72,7 +72,7 @@
   }
 
   hr {
-  	margin: 1.2em auto;
+  	margin: 1em auto;
     border-top: 1px solid $border-color;
   }
 }
@@ -335,6 +335,16 @@ nav {
   }
 }
 
+.panel-cover.panel-cover--collapsed {
+  .navigation {
+    .navigation__item {
+      width: 100%;
+      margin: 0;
+      font-size: 1.2em;
+      letter-spacing: 0.1em;
+    }
+  }
+}
 // pagination
 .pagination {
     display: block;

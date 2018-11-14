@@ -105,23 +105,22 @@ h2 {
 }
 
 h3 {
-  font-size: 1.15em;
+  position: relative;
+  font-size: 1.25em;
   font-weight: bold;
-  padding: 5px auto;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  &:after {
-  	display: block;
-    content: ' ';
-    margin-top: 5px;
-    width: auto;
-    border-bottom: 1px solid $border-color;
-  }
+  // margin-top: 5px;
+  // margin-bottom: 20px;
+  // &:after {
+  // 	 display: block;
+  //   content: ' ';
+  //   margin-top: 5px;
+  //   width: auto;
+  //   border-bottom: 1px solid $border-color;
+  // }
 }
 
 h4 {
   font-size: 1.1em; 
-  padding: auto 5px;
   font-weight: bold;
 }
 
