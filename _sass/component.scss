@@ -341,6 +341,7 @@ nav {
     width: 22%;
   }
   .navigation-wrapper {
+    z-index: 999;
     display: none;
     position: fixed;
     top: 20px;
