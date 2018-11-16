@@ -1,0 +1,21 @@
+---
+title: 存档
+layout: page
+group: navigation
+permalink: /archive/
+---
+
+<div>
+  <h3>统计</h3><hr>
+  <ul>
+	<li>文章: <span style="color:#BF1827;">{{ site.posts | size }}</span> 篇</li>
+	{% assign count = 0 %}
+	{% for post in site.posts %}
+	  {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
+	  {% assign count = count | plus: single_count %}
+	{% endfor %}	
+	<li>字数: <span style="color:#BF1827;">{{ count | divided_by: 1000.0 | round: 2 }}K</span> 字</li>
+  </ul>
+</div>
+
+{% include JB/posts_archive %}

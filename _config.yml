@@ -4,7 +4,7 @@ author: Juby
 url: https://jubeny.com
 
 # SEO
-keywords: 
+keywords: [Juby, Jekyll, 读书, なぎさ]
 description: 种菜的时候，也想种点玫瑰
 
 # Social
@@ -66,3 +66,8 @@ nav:
 plugins: [jekyll-paginate, jekyll-sitemap]
 paginate: 9
 paginate_path: page/:num/
+
+# Increase jekyll build speed
+exclude: [Gemfile, Gemfile.lock, README.md]
+keep_files: [images]
+incrumental: true

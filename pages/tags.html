@@ -2,9 +2,8 @@
 title: 标签
 layout: page
 group: navigation
+permalink: /tags/
 ---
-
-{% include JB/setup %}
 
 <h3 id="tag-index">索引</h3><hr>
 <ul class="tag_box inline">
@@ -20,7 +19,5 @@ group: navigation
     {% assign pages_list = tag[1] %}  
     {% include JB/pages_list %}
   </ul>
-
-
 {% endfor %}
 </div>
