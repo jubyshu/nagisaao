@@ -8,8 +8,6 @@ read: true
 
 <h3>读书</h3><hr>
 
-詳しくはこちら：<a href="https://jubeny.com/assets/my-booklist" style="color:#0096a0;">我读过的书</a><hr>
-
 <div id="douban">
   <div id="book-reading-wrap"></div>
   <div id="book-wish-wrap"></div>
@@ -17,6 +15,20 @@ read: true
 </div>
 
 <div class="clear"></div>
+<hr>
+
+{% include mybooks.html %}
+
+<h5>詳しくはこちら：</h5><br>
+<ul class="book-list">
+  <li><a data-fancybox data-src="#prev-books" href="javascript:;">~2013</a></li>
+  <li><a data-fancybox data-src="#2013-books" href="javascript:;">2013</a></li>
+  <li><a data-fancybox data-src="#2014-books" href="javascript:;">2014</a></li>
+  <li><a data-fancybox data-src="#2015-books" href="javascript:;">2015</a></li>
+  <li><a data-fancybox data-src="#2016-books" href="javascript:;">2016</a></li>
+  <li><a data-fancybox data-src="#2017-books" href="javascript:;">2017</a></li>
+  <li><a data-fancybox data-src="#2018-books" href="javascript:;">2018</a></li>
+</ul>
 
 <script src="/assets/js/douban.api.js"></script>
 <script>

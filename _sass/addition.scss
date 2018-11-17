@@ -223,3 +223,12 @@ ul.post_list {
   color: $blue-dark;
   font-size: .8em;
 }
+
+// Book List
+.book-list{
+  li {
+    list-style-type: none; 
+    display: inline; 
+    padding: 5px;
+  }
+}
