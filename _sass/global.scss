@@ -58,12 +58,14 @@ p {
 }
 
 code {
-  font-size: 0.9em;
+  font-size: 1.2em;
   color: #07a;
   background: #f5f2f0;
-  font: inherit;
+  // font: inherit;
   vertical-align: baseline;
-  border-radius: 3px; 
+  border-radius: 3px;
+  padding: 3px; 
+  margin: auto 3px;
 }
 
 a {

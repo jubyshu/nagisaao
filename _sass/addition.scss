@@ -129,14 +129,30 @@ sup {
 }
 
 // 目录
-#markdown-toc {
+.post-toc {
+  visibility: hidden;
+  position: fixed;
   display: block;
-  float: right;
-  border: 1px solid #aaa;
+  right: 20px;
+  top: 60px;
+  padding: 5px;
+  // border: 1px solid #aaa;
+  background: #f6f6f6;
   border-radius: 3px;
   li {
     list-style-position: inside;
+    list-style-type: none;
     margin: auto 5px;
+    a {
+      color: #666;
+      font-size: 0.9em;
+    }
+  }
+  &:before {
+    display: block;
+    content: "目录";
+    margin: 5px;
+    font-size: 1.1em;
   }
 }
 

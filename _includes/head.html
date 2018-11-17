@@ -11,7 +11,7 @@
     {% endif %}
   </title>
   <meta name="author" content="{{site.author}}">
-  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords | join: ', ' }}{% endif %}">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate:120 }}{% else %}{{ page.description }}{% endif %}">  
 
   <meta name="twitter:card" content="summary_large_image">

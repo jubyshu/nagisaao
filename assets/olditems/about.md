@@ -29,3 +29,28 @@ header: 关于本站
 <i class="fa fa-paper-plane-o"></i> 联系
 - 电报：[jubyshu](https://t.me/jubyshu)
 - 邮箱：juby#jubeny.com
+
+```javascript
+$(document).ready(function() {
+    var toc = $('.post-toc');
+    var clientWidth = $(document).outerWidth(true);
+    var clientHeight = $(document).outerHeight(true);
+    var tocWrapper = $('.content-wrapper__inner');
+    var twMargin = tocWrapper.css('margin-right');
+    if (toc.outerHeight(true) < clientHeight*0.5 && tocWrapper.outerWidth(true) >750) {
+        toc.css('visibility', 'visible');
+        if (toc.outerWidth(true) < 100) {
+            tocWrapper.css('margin-right', '140px');
+        } else {
+            tocWrapper.css('margin-right', 1.2 * toc.outerWidth(true) + 'px');
+        }
+        tocWrapper.css('margin-left', '20px');
+    } else {
+        toc.css('visibility', 'hidden');
+        tocWrapper.removeAttr('style');
+    }
+    if (!!toc) {
+        $(window).bind('resize', tocShow, false);
+    }
+});
+```

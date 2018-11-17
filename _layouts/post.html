@@ -12,7 +12,7 @@ layout: default
   </header>
 
   <section class="post">
-    {{ content }}
+    {{ content | replace_first:'id="markdown-toc"','class="post-toc"' }}
   </section>
   
 </article>
