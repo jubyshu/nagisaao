@@ -2,7 +2,7 @@
 title: 留言
 layout: page
 group: navigation
-permalink: /guestbok/
+permalink: /guestbook/
 ---
 
 <h3>留言</h3>
