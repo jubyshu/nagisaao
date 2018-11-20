@@ -78,7 +78,7 @@ tags: 随笔
 然后，得到了这样的结果：
 
 <a href="https://i.imgur.com/yC2HscK.jpg" data-fancybox data-caption="我的哲学气质">
-<img src="/images/posts/philosophy.jpeg"></a>
+<img src="https://i.imgur.com/lWA8Nvo.jpg"></a>
 
 **反叛[荒诞主义]**
 

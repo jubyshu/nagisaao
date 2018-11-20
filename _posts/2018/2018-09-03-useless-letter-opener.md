@@ -6,7 +6,7 @@ tags: 情感
 ogimage: https://i.imgur.com/MM9XvWd.jpg
 ---
 <a href="https://i.imgur.com/MM9XvWd.jpg" data-fancybox="knife" data-caption="Photo by John-Mark Smith from Pexels">
-    <img src="/images/posts/writeletter.jpeg">
+    <img src="https://i.imgur.com/euhnLNH.jpg">
 </a>
 
 在知乎上常会看到这样的问题：“如何优雅地xxxx？”，这算是一种美学上的追求吧。在我的自发的美学观念中，“优雅”二字也占了极大的分量，以至于过度追求表面效果，反而忽略了本质。
