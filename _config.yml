@@ -11,7 +11,6 @@ description: 种菜的时候，也想种点玫瑰
 social:
   twitter: jubyshu
   weibo: trustinourlove
-  douban: jubytschu
   spotify: ybaichfkjx5z3yyu2d6s2ocyp
 
 # Google
@@ -30,7 +29,7 @@ leancloud:
   appkey: YsaHf3ahdzk2NkPOmNBohvgd
 
 # Open Graph
-ogimage: /images/default/tcard.png
+card: /images/default/tcard.png
 
 # ----------------- 上面的信息修改成你自己的 ---------------------------
 #

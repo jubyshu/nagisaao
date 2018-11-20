@@ -152,21 +152,21 @@
 
 // avatar < 780px
 @media all and (max-width: 780px) {
-  .ih-item.circle.effect {
+  .panel-avatar.circle.effect {
     margin: 0 auto;
     -webkit-perspective: 900px;
     -moz-perspective: 900px;
     perspective: 900px;
   }
 
-  .ih-item.circle {
+  .panel-avatar.circle {
     position: relative;
     width: 120px;
     height: 120px;
     border-radius: 50%;
   }
 
-  .ih-item.circle .img {
+  .panel-avatar.circle .img {
     position: relative;
     width: 120px;
     height: 120px;

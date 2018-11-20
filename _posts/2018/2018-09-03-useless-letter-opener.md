@@ -3,7 +3,7 @@ layout: post
 title: 无用的拆信刀
 date: 2018-09-03
 tags: 情感
-ogimage: https://i.imgur.com/MM9XvWd.jpg
+card: https://i.imgur.com/MM9XvWd.jpg
 ---
 <a href="https://i.imgur.com/MM9XvWd.jpg" data-fancybox="knife" data-caption="Photo by John-Mark Smith from Pexels">
     <img src="https://i.imgur.com/euhnLNH.jpg">

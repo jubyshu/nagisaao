@@ -8,16 +8,37 @@ permalink: /tags/
 <h3 id="tag-index">索引</h3><hr>
 <ul class="tag_box inline">
   {% assign tags_list = site.tags %}  
-  {% include JB/tags_list %}
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %} 
+  	<li><a href="{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %} 
+  	<li><a href="{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
+    {% endfor %}
+  {% endif %}
+  {% assign tags_list = nil %}
 </ul>
 
 <div class = "card">
 {% for tag in site.tags %} 
 
-  <h3 id="{{ tag[0] }}-ref">{{ tag[0] }}</h3><hr>
-  <ul>
-    {% assign pages_list = tag[1] %}  
-    {% include JB/pages_list %}
-  </ul>
-{% endfor %}
+<h3 id="{{ tag[0] }}-ref">{{ tag[0] }}</h3><hr>
+<ul>
+  {% assign pages_list = tag[1] %}  
+  {% for node in pages_list %}
+  {% if node.title != null %}
+    {% if group == null or group == node.group %}
+    	{% if page.url == node.url %}
+    	<li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+    	{% else %}
+    	<li><a href="{{node.url}}">{{node.title}}</a></li>
+    	{% endif %}
+    {% endif %}
+  {% endif %}
+  {% endfor %}
+  {% assign pages_list = nil %}
+  {% assign group = nil %}
+</ul>
+  {% endfor %}
 </div>

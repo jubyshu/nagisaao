@@ -128,6 +128,10 @@
   border-top: 1px solid $border-color; 
 }
 
+.panel-cover__description {
+  font-size: 0.9em;
+}
+
 .panel-cover__divider--secondary {
   width: 15%; 
 }
@@ -350,8 +354,7 @@ nav {
     float: left;
     width: 22%;
     padding: 20px 0;
-    background: rgba(248, 248, 248, 1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15); 
+    background: rgba(248, 248, 248, 1); 
     &.visible {
       display: block;
     }
@@ -510,12 +513,12 @@ body {
   to{transform:rotate(360deg)}
 }
 
-.ih-item.circle.effect a .img:hover{
+.panel-avatar.circle.effect a .img:hover{
   @include rotate-infinite;
 }
 // 旋转效果结束 //
 
-.ih-item.circle.effect {
+.panel-avatar.circle.effect {
   margin: 0 auto;
   -webkit-perspective: 900px;
   -moz-perspective: 900px;
@@ -528,7 +531,7 @@ body {
   }
 }
 
-.ih-item {
+.panel-avatar {
   a {
     color: #333;
     &:hover {
@@ -541,7 +544,7 @@ body {
   }
 }
 
-.ih-item.circle {
+.panel-avatar.circle {
   position: relative;
   width: 120px;
   height: 120px;

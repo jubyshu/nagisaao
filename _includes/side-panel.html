@@ -9,7 +9,7 @@
     <div class="panel-main__inner panel-inverted">
       <div class="panel-main__content">
 
-        <div class="ih-item circle effect">            
+        <div class="panel-avatar circle effect">            
           <a href="/#blog" title="前往 {{ site.title }} 的主页" class="blog-button">
             <div class="img"><img src="/images/default/avatar.jpg" alt="img"></div>
           </a>
@@ -17,7 +17,7 @@
         
         <h1 class="panel-cover__title panel-title"><a href="/#blog" title="前往 {{ site.title }} 的主页" class="blog-button">{{ site.title }}</a></h1>
         <hr class="panel-cover__divider" />
-        <p class="panel-cover__description">{{ site.description }}</p>
+        <p class="panel-cover__description">< {{ site.description }} ></p>
         <hr class="panel-cover__divider panel-cover__divider--secondary" />
         
         <div class="navigation-wrapper">
@@ -25,7 +25,7 @@
             <nav class="cover-navigation cover-navigation--primary">
               <ul class="navigation">
                 {% for item in site.nav %}
-                <li class="navigation__item"><a class="{% if item.description == 'blog' %}{{ blog-button }}{% endif %}" href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
+                <li class="navigation__item"><a rel="nofollow" class="{% if item.description == 'blog' %}{{ blog-button }}{% endif %}" href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
                 {% endfor %}
               </ul>
             </nav>

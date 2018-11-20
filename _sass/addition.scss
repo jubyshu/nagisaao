@@ -159,47 +159,24 @@ sup {
 }
 
 // Douban Read
-.douban-list ul li {
-  width: 80px;
-  float: left;
-  margin: 5px;
-  list-style: none outside none;
-  img {
-    width: 70px;
-    height: 100px;
-    padding: 5px;
-    border: solid 1px #DDD;
-  }
-}
-
-.clear {
-  clear: both;
-}
-
-.douban-title {
-  font-size: 0.9em;
-  color: $blue-dark;
-  &:before {
-    content: '#';
-    color: $blue-dark;
-  }
-}
+// .douban-list ul li {
+//   width: 80px;
+//   float: left;
+//   margin: 5px;
+//   list-style: none outside none;
+//   img {
+//     width: 70px;
+//     height: 100px;
+//     padding: 5px;
+//     border: solid 1px #DDD;
+//   }
+// }
 
 // Post Achive
 ul.post_list {
     margin-bottom: 0.2em;
 }
-
 .post_count {
   color: $blue-dark;
   font-size: .8em;
-}
-
-// Book List
-.book-list{
-  li {
-    list-style-type: none; 
-    display: inline; 
-    padding: 5px;
-  }
 }
