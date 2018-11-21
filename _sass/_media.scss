@@ -80,8 +80,7 @@
     float: left;
     width: 100%;
     padding: 20px 0;
-    background: rgba(248, 248, 248, 1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15); 
+    background: rgba(248, 248, 248, 1); 
     &.visible {
     	display: block;
     }
@@ -161,15 +160,15 @@
 
   .panel-avatar.circle {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
   }
 
   .panel-avatar.circle .img {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
   }
 }

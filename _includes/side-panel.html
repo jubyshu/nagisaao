@@ -25,7 +25,7 @@
             <nav class="cover-navigation cover-navigation--primary">
               <ul class="navigation">
                 {% for item in site.nav %}
-                <li class="navigation__item"><a rel="nofollow" class="{% if item.description == 'blog' %}{{ blog-button }}{% endif %}" href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
+                <li class="navigation__item"><a rel="nofollow" href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
                 {% endfor %}
               </ul>
             </nav>
