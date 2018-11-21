@@ -78,7 +78,7 @@ function tocShow() {
 		if (toc.clientWidth < 100) {
 			tocWrapper.style.marginRight = "160px"
 		} else {
-			tocWrapper.style.marginRight = 1.3 * toc.clientWidth + "px"
+			tocWrapper.style.marginRight = 1.4 * toc.clientWidth + "px"
 		}
 		tocWrapper.style.marginLeft = "0px"
 	} else {
