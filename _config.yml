@@ -5,7 +5,7 @@ url: https://jubeny.com
 
 # SEO
 keywords: [Juby, Jekyll, 读书, なぎさ]
-description: 种菜的时候，也想种点玫瑰
+description: 我欲种菜，亦植蔷薇
 
 # Social
 social:
@@ -28,7 +28,7 @@ leancloud:
   appid: CRU9WNiFOXtffNHePc2WD4sT-gzGzoHsz
   appkey: YsaHf3ahdzk2NkPOmNBohvgd
 
-# Open Graph
+# OpenGraph & TwitterCard
 card: /images/default/tcard.png
 
 # ----------------- 上面的信息修改成你自己的 ---------------------------
