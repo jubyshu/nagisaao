@@ -3,15 +3,16 @@
   <div class="panel-main">
     <div class="panel-main__inner">        
       <h1 class="panel-title"><a href="/" title="前往 {{ site.title }} 的主页">{{ site.title }}</a></h1>
-      <p class="panel-description">< {{ site.description }} ></p>      
-      <nav class="cover-navigation">
-        <ul class="navigation">
-          {% for item in site.nav %}
-          <li class="navigation__item"><a rel="nofollow" href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>         
+      <p class="panel-description">< {{ site.description }} ></p>              
     </div>
   </div>
+
+  <nav class="cover-navigation">
+    <ul class="navigation">
+      {% for item in site.nav %}
+      <li class="navigation__item"><a rel="nofollow" href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
 
 </header>

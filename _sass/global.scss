@@ -257,14 +257,14 @@ th, td {
 .content-wrapper {
   z-index: 800;
   width: 60%;
-  margin-left: 20%; 
+  margin-left: 20%;
+  margin-top: 240px;
 }
 
 .content-wrapper__inner {
   padding: 50px; 
   border: 1px solid #ddd;
-  border-radius: 15px;
-  margin: 180px auto auto;
+  border-radius: 10px;
 }
 
 .footer {

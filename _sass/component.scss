@@ -80,8 +80,7 @@
 
 // panel
 .panel-title {
-  margin: 0 0 5px 0;
-  margin-top: 20px;
+  margin: 20px 0 10px 0;
   font-size: 1.8em;
   letter-spacing: 3px;
   color: #FFF;
@@ -95,6 +94,11 @@
   max-width: none;
   height: 20%;
   margin-left: 20%;
+  .cover-navigation {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+  }
 }
 
 .panel-description {
