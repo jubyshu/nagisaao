@@ -1,41 +1,17 @@
-<header class="panel-cover {% if page.layout == 'post' or page.layout == 'page' %}panel-cover--collapsed{% endif %}">
- 
-  <span class="mobile btn-mobile-menu">
-    <i class="fa fa-bars btn-mobile-menu__icon"></i>
-    <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
-  </span>
+<header class="panel-cover">
 
   <div class="panel-main">
-    <div class="panel-main__inner panel-inverted">
-      <div class="panel-main__content">
-
-        <div class="panel-avatar circle effect">            
-          <a href="/#blog" title="前往 {{ site.title }} 的主页" class="blog-button">
-            <div class="img"><img src="/images/default/avatar.jpg" alt="img"></div>
-          </a>
-        </div>
-        
-        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="前往 {{ site.title }} 的主页" class="blog-button">{{ site.title }}</a></h1>
-        <hr class="panel-cover__divider" />
-        <p class="panel-cover__description">< {{ site.description }} ></p>
-        <hr class="panel-cover__divider panel-cover__divider--secondary" />
-        
-        <div class="navigation-wrapper">
-          <div>
-            <nav class="cover-navigation cover-navigation--primary">
-              <ul class="navigation">
-                {% for item in site.nav %}
-                <li class="navigation__item"><a rel="nofollow" href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
-                {% endfor %}
-              </ul>
-            </nav>
-          </div>          
-        </div>
-        <div>{% include social.html %}</div>
-      </div>
+    <div class="panel-main__inner">        
+      <h1 class="panel-title"><a href="/" title="前往 {{ site.title }} 的主页">{{ site.title }}</a></h1>
+      <p class="panel-description">< {{ site.description }} ></p>      
+      <nav class="cover-navigation">
+        <ul class="navigation">
+          {% for item in site.nav %}
+          <li class="navigation__item"><a rel="nofollow" href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>         
     </div>
-
-    <div class="panel-cover--overlay"></div>
   </div>
 
 </header>

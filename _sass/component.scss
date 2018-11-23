@@ -1,6 +1,7 @@
 // pager
 .post-container { 
   margin-top: 20px;
+
 }
 
 .pager li {
@@ -78,62 +79,26 @@
 }
 
 // panel
-.panel {
-  display: table;
-  width: 100%;
-  height: 100%; 
-}
-
-.panel__vertical {
-  display: table-cell;
-  vertical-align: middle; 
-}
-
 .panel-title {
   margin: 0 0 5px 0;
   margin-top: 20px;
   font-size: 1.8em;
   letter-spacing: 3px;
-  color: #FFF; 
+  color: #FFF;
 }
 
 .panel-cover {
   display: block;
-  position: fixed;
-  z-index: 900;
-  width: 100%;
-  max-width: none;
-  height: 100%;
-}
-
-.panel-cover--collapsed {
-  width: 22%;
-  max-width: 320px;
-}
-
-.panel-cover--overlay {
-  display: block;
   position: absolute;
-  z-index: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  @include cover-image;
+  z-index: 900;
+  width: 60%;
+  max-width: none;
+  height: 20%;
+  margin-left: 20%;
 }
 
-.panel-cover__divider {
-  width: 30%;
-  margin: 20px auto;
-  border-top: 1px solid $border-color; 
-}
-
-.panel-cover__description {
+.panel-description {
   font-size: 0.9em;
-}
-
-.panel-cover__divider--secondary {
-  width: 15%; 
 }
 
 .panel-main {
@@ -147,26 +112,14 @@
   vertical-align: middle;
   position: relative;
   z-index: 800;
-  padding: 0 0; 
-}
-
-.panel-main__content {
-  max-width: 620px;
-  margin: 0 auto; 
-}
-
-.panel-main__content--fixed { // Safari
-  width: 480px;
-  transition: width 1s;
-  -webkit-transition: width 1s;
-}
-
-.panel-inverted {
+  padding: 0 0;
   font-weight: 100;
   text-align: center;
+  max-width: 620px;
+  margin: 0 auto; 
   color: #666;
   a {
-  	color: #333;
+    color: #333;
   }
 }
 
@@ -174,16 +127,9 @@
 .cover-navigation {
     margin-top: 0px; 
     width: 100%;
-  }
-
-.navigation__flink {
-  color: #999;
-  margin-top: 40px;
-  text-align: left;
-  font-size: .6em;
 }
 
-.btn, .navigation__flink_item a {
+.btn a {
   display: block;
   text-align: left;  
   margin-left: 10px;
@@ -224,43 +170,6 @@
 .btn-small {
   padding: 8px 12px;
   font-size: .7em; 
-}
-
-.btn-mobile-menu {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  top: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 40px;
-  background: rgba(248, 248, 248, 1);
-  text-align: center; 
-}
-
-.btn-mobile-menu_item {
-  position: relative;
-  top: 12px;
-  margin-right: 20px;
-  float: right;
-  color: #333; 
-  a {
-    color: #666;
-    &:hover {
-      color: #333;
-    }
-  }
-  &:hover {
-    color: #333;
-  }
-}
-
-.btn-mobile-menu__icon,
-.btn-mobile-close__icon {
-  position: relative;
-  top: 10px;
-  color: #333;
 }
 
 nav {
@@ -339,39 +248,11 @@ nav {
   }
 }
 
-.panel-cover.panel-cover--collapsed {
-  .btn-mobile-menu {
-    display: block;
-    width: 22%;
-  }
-  .navigation-wrapper {
-    z-index: 999;
-    display: none;
-    position: fixed;
-    top: 20px;
-    right: 0;
-    left: 0;
-    float: left;
-    width: 22%;
-    padding: 20px 0;
-    background: rgba(248, 248, 248, 1); 
-    &.visible {
-      display: block;
-    }
-    .navigation {
-      .navigation__item {
-        width: 100%;
-        margin: 5px auto;
-        font-size: 1.2em;
-      }
-    }
-  }
-}
-
 // pagination
 .pagination {
     display: block;
-    margin: 0 0 4em 0; 
+    margin: 0 0 2em 0; 
+    text-align: center;
   }
 
 .pagination__page-number {
@@ -494,70 +375,3 @@ i {
   margin-left: 0px;
   text-align: center;
 }
-
-// panel avatar
-
-// 头像效果-start //
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
-}
-
-body {
-    margin: 0
-}
-
-// 旋转效果开始 //
-@include keyframes(rotate) {
-  from{transform:rotate(0deg)}
-  to{transform:rotate(360deg)}
-}
-
-.panel-avatar.circle.effect a .img:hover{
-  @include rotate-infinite;
-}
-// 旋转效果结束 //
-
-.panel-avatar.circle.effect {
-  margin: 0 auto;
-  -webkit-perspective: 900px;
-  -moz-perspective: 900px;
-  perspective: 900px;
-  .img {
-    z-index: 11;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-  }
-}
-
-.panel-avatar {
-  a {
-    color: #333;
-    &:hover {
-      text-decoration: none;
-    }
-  }
-  img {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.panel-avatar.circle {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  .img {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    img {
-      border-radius: 50%;
-    }
-  }
-}
-// 头像效果-end //
-
