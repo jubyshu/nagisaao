@@ -92,12 +92,14 @@
   z-index: 900;
   width: 60%;
   max-width: none;
-  height: 20%;
+  height: 25%;
   margin-left: 20%;
+  background: url("/images/default/cover.jpg");
+  background-position: center center;
   .cover-navigation {
-    border-top: 1px solid #ddd;
+    color: #666;
+    margin: 10px auto;
     border-bottom: 1px solid #ddd;
-    border-radius: 5px;
   }
 }
 
@@ -201,7 +203,7 @@ nav {
   display: inline-block;
   margin-right: 0px;
   padding: 5px 0;
-  font-size: 0.8em;
+  font-size: 0.9em;
   text-shadow: none;
   color: #666;
 }

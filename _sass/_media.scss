@@ -27,6 +27,7 @@
     height: 20%;
     display: block;
     position: relative;
+    background-position: center center;
     .panel-description {
       display: block; 
       margin-top: 10px;
@@ -38,19 +39,22 @@
 
   .content-wrapper {
     width: 60%;
-    max-width: none;
     margin: 0 auto; 
   }
 
   .content-wrapper__inner {
     margin: 20px 0 auto 0;
-    border: none;
-    padding: 50px 0 0;
+    padding: 60px 0 0 0;
   }
 }
 
 // < 420px
 @media all and (max-width: 420px) {
+  .panel-cover {
+    width: 100%;
+    margin-left: 0;
+  }
+
   .panel-main__inner {
     padding: 0 5%; 
   }
