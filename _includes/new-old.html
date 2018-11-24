@@ -2,8 +2,8 @@
   <ul class="pager">
   {% if page.previous.url %}
     <li class="previous">
-        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">上一篇：<span>{{page.previous.title}}</span>
-        </a>
+      <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">上一篇：<span>{{page.previous.title}}</span>
+      </a>
     </li>
   {% endif %}
   {% if page.next.url %}

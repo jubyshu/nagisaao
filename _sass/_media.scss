@@ -1,7 +1,7 @@
 // < 1100px
 @media all and (max-width: 1100px) {
   .panel-title {
-    font-size: 1.5em; 
+    font-size: 1.8em; 
   }
 
   .panel-description {
@@ -24,7 +24,7 @@
 
   .panel-cover {
     width: 60%;
-    height: 20%;
+    height: 210px;
     display: block;
     position: relative;
     background-position: center center;
@@ -72,13 +72,13 @@
   h1 {
     margin-top: 0;
     font-size: 1.6em;
-    line-height: 1.0em;
+    line-height: 1.1em;
     letter-spacing: 0;
   }
 
   h2{
     font-size: 1.4em;
-    line-height: 0.8em;
+    line-height: 0.9em;
   }
   
   .panel-title {
@@ -86,30 +86,6 @@
     font-size: 1.8em; 
   }
 }
-
-// avatar < 780px
-// @media all and (max-width: 780px) {
-//   .panel-avatar.circle.effect {
-//     margin: 0 auto;
-//     -webkit-perspective: 900px;
-//     -moz-perspective: 900px;
-//     perspective: 900px;
-//   }
-
-//   .panel-avatar.circle {
-//     position: relative;
-//     width: 100px;
-//     height: 100px;
-//     border-radius: 50%;
-//   }
-
-//   .panel-avatar.circle .img {
-//     position: relative;
-//     width: 100px;
-//     height: 100px;
-//     border-radius: 50%;
-//   }
-// }
 
 // pager < 600px
 @media all and (max-width: 600px) {
@@ -121,5 +97,23 @@
   }
   .vwrap {
     float: left !important;
+  }
+  .panel-cover {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .panel-main__inner {
+    padding: 0 5%; 
+  }
+
+  .post-container--single{
+    margin: auto 2%; // 左右边距
+  }
+
+  .content-wrapper {
+    width: 93%;
+    max-width: none;
+    margin: 0 auto; 
   }
 }

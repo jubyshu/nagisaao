@@ -13,32 +13,20 @@
     > span {
       padding-right: 10px;
       color:gray;
-      padding: 10px 10px;
+      padding: 10px 0;
     }
     &:hover>span, &:focus>span {
       color: $sub-hover-color;
     }
-  }
-  > span {
-    margin-top: 40px;
-    line-height:1.7;
-    text-transform:uppercase;
-    font-size:13px;
-    font-weight:800;
-    padding:10px;
-    background-color:#fff;
-    border-radius:0;
-  }
+  } 
 }
 
 .next{
-  margin-top: 20px;
-  float:right
+  float: right;
 }
 
 .previous{
-  margin-top: 20px;
-  float:left
+  float: left;
 }
 
 // post
@@ -92,7 +80,7 @@
   z-index: 900;
   width: 60%;
   max-width: none;
-  height: 25%;
+  height: 210px;
   margin-left: 20%;
   background: url("/images/default/cover.jpg");
   background-position: center center;
@@ -148,34 +136,6 @@
     color: #fff;
     border-color: #fff; 
   }
-}
-
-.btn-secondary {
-  border-color: #5BA4E5;
-  color: #5BA4E5; 
-  &:hover {
-  	color: #217fd2;
-    border-color: #217fd2;
-  }
-}
-
-.btn-tertiary {
-  border-color: #999;
-  color: #999; 
-  &:hover {
-  	color: #737373;
-    border-color: #737373; 
-  }
-}
-
-.btn-large {
-  padding: 10px 24px;
-  font-size: 1.1em; 
-}
-
-.btn-small {
-  padding: 8px 12px;
-  font-size: .7em; 
 }
 
 nav {
@@ -261,7 +221,7 @@ nav {
     text-align: center;
   }
 
-.pagination__page-number {
+.btn, .pagination__page-number {
   margin: 0;
   font-size: .8em;
   color: #999; 
