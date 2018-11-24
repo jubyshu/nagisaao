@@ -28,6 +28,11 @@ Juby是我的名字，渚碧是音译，碧色的小洲（青い渚），是不�
 
 感谢：
 
-博客主题来自[leopardpan](https://github.com/leopardpan/leopardpan.github.io/)，它是在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的，最初的来源则是Ghost主题[uno](https://github.com/daleanthony/uno)。我也依照自己的审美和需求做了力所能及的改动。
+博客主题来自[leopardpan](https://github.com/leopardpan/leopardpan.github.io/)，它是在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的，最初的来源则是Ghost主题[uno](https://github.com/daleanthony/uno)。评论系统使用[Valine](https://valine.js.org/)和[ Valine Admin](https://panjunwen.com/valine-admin-document/)（用于邮件提醒）。
 
-字数和文章数统计参考自[Jekyll的中文字数统计](https://blog.fooleap.org/jekyll-count-of-chinese-characters.html)和[Jekyll显示每一年的文章数](https://blog.fooleap.org/posts-size-for-each-year-in-jekyll.html)，评论系统使用[Valine](https://valine.js.org/)和[ Valine Admin](https://panjunwen.com/valine-admin-document/)（用于邮件提醒），其他的一些改动则得益于网络共享知识。
+我依照自己的审美和需求对主题做了力所能及的改动，这多亏了网友分享的知识，具体的参考文章如下，虽然无法一一列举，但在此一并表示感谢。
+
+- [Jekyll的中文字数统计](https://blog.fooleap.org/jekyll-count-of-chinese-characters.html)
+- [Jekyll显示每一年的文章数](https://blog.fooleap.org/posts-size-for-each-year-in-jekyll.html)
+- [jekyll - 侧边栏目录的滚动效果](https://creeperdance.github.io/2017/05/jekyll-catalog.html)
+

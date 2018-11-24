@@ -42,3 +42,19 @@ if ( !! toc) {
 	window.addEventListener("resize", tocShow, false);
 	tocShow()
 };
+
+function tocScroll(){
+ var alis = $('.post :header');
+ var toc_alis = $('.post-toc').find('a');
+ var scroll_height = $(window).scrollTop();
+ for(var i =0; i<alis.length; i++){
+   var a_height = $(alis[i]).offset().top;
+   if (a_height < scroll_height){
+     toc_alis.removeClass('active');
+     $(toc_alis[i]).addClass('active');
+   }
+ }
+}
+$(function() {
+ $(window).bind('scroll',tocScroll); 
+});

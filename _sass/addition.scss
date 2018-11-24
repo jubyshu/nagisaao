@@ -104,7 +104,7 @@ sup {
   visibility: hidden;
   position: fixed;
   display: block;
-  right: 40px;
+  right: 50px;
   top: 170px;
   padding: 5px;
   max-width: 170px;
@@ -117,6 +117,9 @@ sup {
     a {
       color: #666;
       font-size: 0.9em;
+      &.active {
+      color: #0096a0;
+      }
     }
   }
   &:before {
