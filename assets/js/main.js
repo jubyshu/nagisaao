@@ -28,16 +28,18 @@ $(document).ready(function() {
 
 var toc = document.querySelector(".post-toc");
 function tocShow() {
-	var clientHeight = document.documentElement.clientHeight;
+  var clientHeight = document.documentElement.clientHeight;	
 	var clientWidth = document.documentElement.clientWidth;
 	var tocWrapper = document.querySelector(".content-wrapper__inner");
-	if (toc.clientHeight < clientHeight * 0.6 && tocWrapper.clientWidth > 750) {
+  var leftMargin = (clientWidth - tocWrapper.clientWidth) / 2 - toc.clientWidth - 50;
+	if (toc.clientHeight < clientHeight * 0.6 && leftMargin >= 50) {
 		toc.style.visibility = "visible";
 	} else {
 		toc.style.visibility = "hidden";
 	}
 }
 if ( !! toc) {
+  document.addEventListener('scroll', tocScroll, false);
 	window.addEventListener("resize", tocShow, false);
 	tocShow()
 };

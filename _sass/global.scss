@@ -256,10 +256,11 @@ th, td {
 }
 
 .content-wrapper {
+  display: block;
   z-index: 800;
-  width: 60%;
-  margin-left: 20%;
-  margin-top: 300px;
+  width: 100%;
+  max-width: 780px;
+  margin: 80px auto auto auto;
 }
 
 .content-wrapper__inner {

@@ -76,12 +76,12 @@
 
 .panel-cover {
   display: block;
-  position: absolute;
+  position: relative;
   z-index: 900;
-  width: 60%;
-  max-width: none;
+  width: 100%;
+  max-width: 780px;
   height: 210px;
-  margin-left: 20%;
+  margin: auto;
   background: url("/images/default/cover.jpg");
   background-position: center center;
   .cover-navigation {
