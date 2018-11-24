@@ -39,7 +39,6 @@ function tocShow() {
 	}
 }
 if ( !! toc) {
-  document.addEventListener('scroll', tocScroll, false);
 	window.addEventListener("resize", tocShow, false);
 	tocShow()
 };
