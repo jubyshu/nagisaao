@@ -70,3 +70,8 @@ paginate_path: page/:num/
 exclude: [Gemfile, Gemfile.lock, README.md]
 keep_files: [images]
 incrumental: true
+
+# Collections
+collections:
+  notes:
+    output: true
