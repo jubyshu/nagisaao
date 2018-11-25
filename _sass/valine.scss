@@ -3,7 +3,7 @@
   .vwrap {
     padding: 5px;
     margin-top: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid $border-color;
     .vcontrol {
       padding-top: 0;
       .col {
@@ -27,7 +27,7 @@
     }
     .vheader {
       .vinput {
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid $border-color;
       }
     }
   }
