@@ -2,10 +2,10 @@
 details {
   font-family: $kaiti-serif;
   p {
-    color: #4f4f4f;
+    color: $sub-font-color;
     padding: 0.5em 2em;
     border-radius: 5px;
-    background: #f5f2f0;
+    background: $background-color;
   }
 }
 
@@ -15,7 +15,7 @@ summary {
   cursor: pointer;
   color: $link-color;
   &:hover {
-    color: $hover-color;
+    text-decoration: underline;
   }
   &:after {
     content: url(/images/default/feather.svg);
@@ -39,16 +39,12 @@ details[open] {
     bottom: 30px;
     right: 20px;
     display: block;
-    border: 1px solid #dedede;
+    border: 1px solid $border-color;
     border-radius: 50%;
     height: 36px;
     width: 36px;
-    background-color: #f0f0f0;
+    background-color: #fff;
     text-align: center;
-    &:hover {
-      border: 1px solid #5c5c5c;
-      background-color: #fff;
-    }
   }
 }
 
@@ -73,11 +69,11 @@ sup {
     text-decoration: none;
     &:before {
       content: '[';
-      color: $red-normal;
+      color: $link-color;
     }
     &:after {
       content: ']';
-      color: $red-normal;
+      color: $link-color;
     }
   }
 }
@@ -90,7 +86,7 @@ sup {
   &:before {
     display: block;
     content: '';
-    border-top: 0.6px solid #999;
+    border-top: 0.6px solid $border-color;
     width: 5%;
     margin-bottom: 7px;
   }
@@ -115,10 +111,10 @@ sup {
     list-style-type: none;
     margin: auto 5px;
     a {
-      color: #666;
+      color: $sub-font-color;
       font-size: 0.9em;
       &.active {
-      color: #0096a0;
+      color: $hover-color;
       }
     }
   }
@@ -170,7 +166,7 @@ sup {
 //     width: 70px;
 //     height: 100px;
 //     padding: 5px;
-//     border: solid 1px #DDD;
+//     border: solid 1px $border-color;
 //   }
 // }
 
@@ -179,6 +175,9 @@ ul.post_list {
     margin-bottom: 0.2em;
 }
 .post_count {
-  color: $blue-dark;
+  color: $hover-color;
   font-size: .8em;
+}
+.post_num {
+  color: $hover-color;
 }

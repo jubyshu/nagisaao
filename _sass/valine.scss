@@ -53,7 +53,7 @@
         .vnick {
           color: #aaa;
           &:hover {
-            color: $red-dark;
+            color: $link-color;
           }
           &:before {
             background: none;
@@ -63,7 +63,7 @@
       a {
         color: #aaa;
         &:hover {
-          color: $red-dark;
+          color: $link-color;
         }
         &:before {
           background: none;
@@ -78,7 +78,7 @@
             color: #b3b3b3;
             font-size: .75rem;
             &:hover {
-              color: $red-dark;
+              color: $link-color;
             }
           }
         }

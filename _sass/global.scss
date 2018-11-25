@@ -14,7 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 q {
   quotes: none; 
-  background-color: #f0f0f0;
+  background-color: $background-color;
   &:before, &:after {
   	content: "";
   	content: none;
@@ -34,7 +34,7 @@ body {
   line-height: 1;
   font-family: $source-serif;
   font-size: 1em;
-  color: #000;
+  color: $ro;
   background: #fcfcfc;
   -webkit-font-smoothing: antialiased; 
   &:before {
@@ -61,7 +61,7 @@ p {
 code {
   font-size: 1.2em;
   color: #07a;
-  background: #f5f2f0;
+  background: $background-color;
   // font: inherit;
   vertical-align: baseline;
   border-radius: 3px;
@@ -73,7 +73,8 @@ a {
   color: $link-color;
   text-decoration: none;
   &:hover {
-  	color: $hover-color;
+    text-decoration: underline;
+  	// color: $hover-color;
   	-o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -91,7 +92,7 @@ h5 {
   margin-top: 1.0em;
   margin-bottom: .5em;
   font-weight: normal;
-  color: #333;
+  color: $title-color;
   -webkit-font-smoothing: antialiased; 
 }
 
@@ -144,7 +145,7 @@ blockquote {
   font-family: $kaiti-serif;
   font-weight: normal;
   font-size: 1em;
-  color: #4f4f4f;
+  color: $sub-font-color;
   margin:15px 0;
   border-left: 2px solid $border-color;
   p {
@@ -178,49 +179,30 @@ ul {
 }
 
 table {
-  color: #333;
+  color: $sub-font-color;
   font-size: .9em;
   text-align: center;
   line-height: 40px;
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid #ddd;
+  border: 1px solid $border-color;
   width: 75%;
   margin: 50px auto; 
 }
 
 th, td {
-  border: 1px solid #ddd;
+  border: 1px solid $border-color;
   text-align: center; 
 }
 
 // post-info
-.date,
-.time,
-.author,
-.tags {
-  color: #c7c7c7;
-  a {
-    color: #fff;
-    &:hover {
-      color: $link-color;
-    }
-  }
-}
-
 .excerpt {
   padding-left: 10px; 
   padding-right: 10px;
   font-size: 1em;
-  color: #4F4F4F; 
+  color: $sub-font-color; 
   text-align: justify;
   text-justify:inter-word;
-}
-
-.intro {
-  font-size: 1.2em;
-  font-weight: lighter;
-  color: #999; 
 }
 
 .block-heading {
@@ -270,17 +252,20 @@ th, td {
 .footer {
   display: block;
   padding: 2em 0 0 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid $border-color;
   font-size: .7em;
-  color: #b3b3b3; 
+  color: $sub-font-color; 
   margin-bottom: 4%;
-}
-
-.avatar,
-.logo {
-  border-radius: 50%;
-  border: 3px solid #FFF;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3); 
+  .footer_div {
+    text-align: center; 
+    width: 100%;
+    .copyright {
+      color: $link-color;
+    }
+    #runtime {
+      color: $hover-color;
+    }
+  }
 }
 
 hr {

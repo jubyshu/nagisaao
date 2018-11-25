@@ -4,29 +4,29 @@
 
 }
 
-.pager li {
+.pager {
   margin-top: 20px;
-  > a {
+  a {
     width:100%;
     padding: 10px 10px;
-    color: #404040;
+    color: $meta-color;
     > span {
-      padding-right: 10px;
-      color:gray;
       padding: 10px 0;
     }
     &:hover>span, &:focus>span {
-      color: $sub-hover-color;
+      color: $hover-color;
     }
   } 
 }
 
 .next{
   float: right;
+  margin-top: 20px;
 }
 
 .previous{
   float: left;
+  margin-top: 20px;
 }
 
 // post
@@ -37,7 +37,7 @@
 
 .post-meta {
   margin: 0 0 1.8em 0;
-  color: #c7c7c7; 
+  color: $meta-color; 
   font-size: 0.9em;
 }
 
@@ -85,9 +85,9 @@
   background: url("/images/default/cover.jpg");
   background-position: center center;
   .cover-navigation {
-    color: #666;
+    color: $sub-font-color;
     margin: 10px auto;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid $border-color;
   }
 }
 
@@ -111,9 +111,9 @@
   text-align: center;
   max-width: 620px;
   margin: 0 auto; 
-  color: #666;
+  color: $sub-font-color;
   a {
-    color: #333;
+    color: $title-color;
   }
 }
 
@@ -129,13 +129,9 @@
   margin-left: 10px;
   margin-right: 10px;
   font-size: .4em;
-  color: #666;
-  border-bottom: 0.1px solid #666;
+  color: $sub-font-color;
+  border-bottom: 0.1px solid $border-color;
   text-shadow: none;
-  &:hover {
-    color: #fff;
-    border-color: #fff; 
-  }
 }
 
 nav {
@@ -165,7 +161,7 @@ nav {
   padding: 5px 0;
   font-size: 0.9em;
   text-shadow: none;
-  color: #666;
+  color: $sub-font-color;
 }
 
 .navigation__item {
@@ -177,7 +173,7 @@ nav {
     position: relative;
     width: 100%;
     &:hover {
-      color: $sub-hover-color;
+      color: $hover-color;
     }
   }
 }
@@ -188,10 +184,6 @@ nav {
   // width: 25px;
   a {
     position: relative;
-    color: #999;
-    &:hover {
-      color: #000;
-    }
   }
   img:hover {
     background: #fff;
@@ -224,7 +216,7 @@ nav {
 .btn, .pagination__page-number {
   margin: 0;
   font-size: .8em;
-  color: #999; 
+  color: $sub-font-color; 
 }
 
 .pagination__newer {
@@ -276,7 +268,7 @@ i {
     padding-top: 5px;
     padding-left: 10px;
     &:hover {
-      color: #961501;
+      color: $link-color;
     }
   }
 }
@@ -297,19 +289,19 @@ i {
   padding-top: -5px;
   padding-bottom: 3px;
   background-size: 100% 100%;
-  color: #c7c7c7;
+  color: $meta-color;
   float: left;
   margin-bottom: 10px;
   font-size: 0.8em;
-  &:hover {
-    color: $sub-hover-color;
-  }
+  // &:hover {
+  //   color: $sub-hover-color;
+  // }
 }
 
 .post-list_divider {
   width: 28%;
   margin: 10px 0 5px 10px;
-  border-top: 1px solid #DDD; 
+  border-top: 1px solid $border-color; 
 }
 
 *:focus {
@@ -321,7 +313,7 @@ i {
   margin-bottom: 1em;
   padding-top: 1.2em;
   padding-bottom: 1em;
-  border-top: 1px solid #DDD; 
+  border-top: 1px solid $border-color; 
 }
 
 .read-more-item {
@@ -331,7 +323,7 @@ i {
 }
 
 .read-more-item-dim {
-  color: $hover-color;
+  color: $link-color;
   font-size: .8em;
 }
 
