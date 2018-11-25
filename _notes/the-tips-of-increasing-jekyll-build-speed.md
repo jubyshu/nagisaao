@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll本地预览加速技巧
 date: 2018-11-16 20:00
-tags: 折腾
+tags: 笔记
 ---
 
 * 目录

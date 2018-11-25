@@ -2,7 +2,7 @@
 layout: post
 title: 我的哲学气质
 date: 2018-11-15 12:50
-tags: 随笔
+tags: 笔记
 ---
 <style>
     ul li {
