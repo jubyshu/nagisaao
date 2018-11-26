@@ -63,14 +63,13 @@
     padding: 0 5%; 
   }
 
-  .post-container--single{
-    margin: auto 2%; // 左右边距
-  }
-
   .content-wrapper {
-    width: 93%;
+    width: 96%;
     max-width: none;
     margin: 0 auto; 
+  }
+  .content-wrapper__inner {
+    margin: 20px 2% 0 2%;
   }
 
   h1 {
