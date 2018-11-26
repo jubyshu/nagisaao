@@ -23,7 +23,7 @@
 
   .panel-main__inner {
     display: table-cell;
-    padding: 30px 0 3% 3%; 
+    // padding: 30px 0 3% 3%; 
   }
 
   .panel-cover {
@@ -43,12 +43,19 @@
 
   .content-wrapper {
     width: 94%;
-    margin: 0 auto; 
+    // margin: 0 auto; 
   }
 
   .content-wrapper__inner {
-    margin: 20px 0 auto 0;
-    padding: 60px 0 0 0;
+    // margin: 20px 0 auto 0;
+    padding: 0 3%;
+  }
+}
+
+// pager < 600px
+@media all and (max-width: 600px) {
+  .vwrap {
+    float: left !important;
   }
 }
 
@@ -65,11 +72,10 @@
 
   .content-wrapper {
     width: 96%;
-    max-width: none;
-    margin: 0 auto; 
+    max-width: none; 
   }
   .content-wrapper__inner {
-    margin: 20px 2% 0 2%;
+    padding: 0 2%;
   }
 
   h1 {
@@ -90,27 +96,3 @@
   }
 }
 
-// pager < 600px
-@media all and (max-width: 600px) {
-  .vwrap {
-    float: left !important;
-  }
-  .panel-cover {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .panel-main__inner {
-    padding: 0 5%; 
-  }
-
-  .post-container--single{
-    margin: auto 2%; // 左右边距
-  }
-
-  .content-wrapper {
-    width: 93%;
-    max-width: none;
-    margin: 0 auto; 
-  }
-}

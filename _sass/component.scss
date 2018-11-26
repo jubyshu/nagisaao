@@ -141,9 +141,10 @@ nav {
 
 .navigation {
   display: inline-block;
-  float: left;
   position: relative;
   margin: 0;
+  text-align: center;
+  width: 100%;
   list-style-type: none;
   li {
     &:first-child {
@@ -327,9 +328,8 @@ i {
   font-size: .8em;
 }
 
-.cover-navigation .navigation {
-  display: block;
-  width: 100%;      
-  margin-left: 0px;
-  text-align: center;
-}
+// .cover-navigation .navigation {
+//   display: block;
+//   width: 100%;      
+//   text-align: center;
+// }
