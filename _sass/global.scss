@@ -35,7 +35,7 @@ body {
   font-family: $source-serif;
   font-size: 1em;
   color: $ro;
-  background: #fcfcfc;
+  background-color: #efefef;
   -webkit-font-smoothing: antialiased; 
   &:before {
   	content: "";
@@ -221,10 +221,14 @@ th, td {
 
 // container
 .container {
-  position: relative;
-  z-index: 500;
-  width: 940px;
-  margin: 0 auto; 
+  // position: relative;
+  // z-index: 500;
+  // width: 940px;
+  // margin: 0 auto; 
+  margin: 60px auto;
+  background-color: #fcfcfc;
+  max-width: 780px;
+
 }
 
 .content-wrapper {
@@ -236,7 +240,7 @@ th, td {
 }
 
 .content-wrapper__inner {
-  padding: 0; 
+  padding: 0 30px; 
 }
 
 .footer {
@@ -245,7 +249,7 @@ th, td {
   border-top: 1px solid $border-color;
   font-size: .7em;
   color: $sub-font-color; 
-  margin-bottom: 4%;
+  padding-bottom: 15px;
   .footer_div {
     text-align: center; 
     width: 100%;
