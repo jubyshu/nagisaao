@@ -20,9 +20,9 @@ google:
   adsense: ca-pub-1918559515694686
   site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
 
-#Baidu
-baidu: 
-  site_verification: QmO5oVMpYN
+#Bing
+bing: 
+  site_verification: 10BEE8610C0E89AB722E5862C2C5CB0F
 
 # Leancloud used for Valine
 leancloud: 
