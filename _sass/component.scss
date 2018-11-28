@@ -294,9 +294,9 @@ i {
   float: left;
   margin-bottom: 10px;
   font-size: 0.8em;
-  // &:hover {
-  //   color: $sub-hover-color;
-  // }
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .post-list_divider {
