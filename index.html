@@ -14,10 +14,10 @@ description: Juby是我的名字，渚碧是音译，碧色的小洲（青い渚
       
       <hr class="post-list_divider" />
       <div class="post-list__meta">
-        <a href="/archive">
+        <a href="/archive" rel="nofollow">
         <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time></a>
 
-        <a href="/tags">  
+        <a href="/tags" rel="nofollow">  
             <span class="post-list__meta--tags">{% for tag in post.tags %}{{ tag | xml_escape }}&nbsp{% endfor %}</span></a>
 
         <a rel="nofollow" class="btn-border-small" href={{ post.url }}>继续阅读››</a>
