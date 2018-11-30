@@ -35,4 +35,7 @@ Juby是我的名字，渚碧是音译，碧色的小洲（青い渚），是不�
 - [Jekyll的中文字数统计](https://blog.fooleap.org/jekyll-count-of-chinese-characters.html)
 - [Jekyll显示每一年的文章数](https://blog.fooleap.org/posts-size-for-each-year-in-jekyll.html)
 - [jekyll - 侧边栏目录的滚动效果](https://creeperdance.github.io/2017/05/jekyll-catalog.html)
+- [How to list your jekyll posts by tags](https://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/)
+- [3 Simple Steps To Setup Jekyll Categories And Tags
+](https://blog.webjeda.com/jekyll-categories/)
 
