@@ -4,19 +4,17 @@ details {
   p {
     color: $sub-font-color;
     padding: 0.5em 2em;
-    border-radius: 5px;
+    border-radius: 3px;
     background: $background-color;
   }
 }
 
 summary {
-  display: inline;
+  display: inline-block;
   margin: 3px auto;
   cursor: pointer;
   color: $link-color;
-  &:hover {
-    text-decoration: underline;
-  }
+  border-bottom: 1px solid $link-color;
   &:after {
     content: url(/images/default/feather.svg);
     padding-left: 2px;
