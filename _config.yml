@@ -76,3 +76,6 @@ incrumental: true
 collections:
   notes:
     output: true
+
+# Redirect
+include: [_redirects]

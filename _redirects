@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://jubeny.netlify.com/* https://jubeny.com/:splat 301!
