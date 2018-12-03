@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 不想让高中的暑假结束
+title: 不想讓高中的暑假結束
 date: 2018-12-02 19:40
 tags: 情感
 keywords: 失恋 写诗
