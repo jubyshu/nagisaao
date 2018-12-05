@@ -2,7 +2,7 @@
 layout: post
 title: 晏七公子
 date: 2015-09-07
-tags: 虚构
+tags: 故事
 ---
 
 #### 家变

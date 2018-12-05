@@ -2,7 +2,7 @@
 layout: post
 title: 姥爷和老屋
 date: 2014-02-17
-tags: 情感
+tags: 故事
 ---
 
 姥爷的家，现在已是一片废墟。

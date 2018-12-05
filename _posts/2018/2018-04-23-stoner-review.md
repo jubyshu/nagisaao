@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《斯通纳》简评
+title: 「斯通纳」简评
 date: 2018-04-23
 tags: 读书
 ---

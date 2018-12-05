@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 村庄——给妹妹和我
-date: 2011-12-31
+date: 2011-12-31 20:00
 tags: 诗歌
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 由《春醪集》想到的
+title: 由「春醪集」想到的
 date: 2016-08-20
 tags: 读书
 ---

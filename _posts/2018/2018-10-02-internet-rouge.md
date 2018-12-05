@@ -2,7 +2,7 @@
 layout: post
 title: 互联网流氓
 date: 2018-10-02
-tags: 随笔
+tags: 思考
 ---
 
 在互联网的世界里，有太多的流氓。

@@ -2,7 +2,7 @@
 layout: post
 title: 一包烟也不留
 date: 2018-09-17
-tags: 随笔
+tags: 影音
 card: https://i.imgur.com/eB3lmbs.jpg
 ---
 
@@ -10,7 +10,7 @@ card: https://i.imgur.com/eB3lmbs.jpg
 昨天整理Apple Music的歌单时，无意中发现之前收藏的一首歌变成了灰色，是张惠妹的「没有烟抽的日子」，出自「妹力四射」这张专辑。专辑中的其他歌都还在，单单是这首莫名其妙地消失了。
 
 <a href="https://i.imgur.com/u87nOFf.jpg" data-fancybox="smoke" data-caption="没有烟抽的日子">
-    <img src="https://i.imgur.com/u87nOFf.jpg">
+​    <img src="https://i.imgur.com/u87nOFf.jpg">
 </a>
 
 我的第一反应是这首歌被和谐了，像漏网之鱼又被抓回了网中。毕竟，这是首与某事件相关的歌曲，在QQ、虾米、网易云等主流的流媒体服务中是没有的，而现在国区的Apple Music也难逃被下架的命运了。

@@ -2,7 +2,7 @@
 layout: post
 title: 少年游
 date: 2016-05-23
-tags: 虚构
+tags: 故事
 ---
 
 #### 扬子江头

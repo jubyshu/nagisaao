@@ -3,11 +3,11 @@ layout: post
 title: 年度一次的骑行
 date: 2018-10-03
 tags: 生活
-ogimage: https://i.imgur.com/FsUNZ1V.png
+card: https://i.imgur.com/FsUNZ1V.png
 ---
 
 <a href="https://i.imgur.com/FsUNZ1V.png" data-fancybox="riding" data-caption="鼓楼-仙林">
-    <img src="https://i.imgur.com/FsUNZ1V.png">
+​    <img src="https://i.imgur.com/FsUNZ1V.png">
 </a>
 
 国庆节那天，起床后便一直在整理过去的信件，在肚子饿坏了的时候，才不情愿地出门。虽然从前几天开始便在考虑去哪里玩，这时才突然想到仙林校区，而且要骑着自行车去。

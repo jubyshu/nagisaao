@@ -2,7 +2,7 @@
 layout: post
 title: 不存在的恋人
 date: 2018-11-04 21:30
-tags: 虚构
+tags: 故事
 keywords: 初恋
 ---
 

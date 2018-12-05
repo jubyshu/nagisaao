@@ -2,7 +2,7 @@
 layout: post
 title: 梦里的故事
 date: 2017-06-14
-tags: 虚构
+tags: 故事
 ---
 
 故事应该发生在民国。
