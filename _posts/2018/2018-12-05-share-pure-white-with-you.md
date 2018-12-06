@@ -3,7 +3,7 @@ layout: post
 title: 那片纯白，也想让你看看
 date: 2018-12-05 10:30
 categories: essay
-tags: TAKURO 情感 歌词
+tags: GLAY 情感 歌词
 ---
 
 对于自己珍视的东西，大概会有想与喜欢的人分享的心情吧。

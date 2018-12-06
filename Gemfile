@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 gem 'jekyll'
 gem 'redcarpet'
-gem 'jekyll-paginate'
+gem 'jekyll-paginate-v2'
 gem 'jekyll-sitemap'

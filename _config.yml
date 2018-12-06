@@ -45,7 +45,7 @@ card: /images/default/tcard.png
 # --------------- 下面的信息可以自行选择是否修改 ------------------------
 
 # Permalink
-permalink: "/:year/:month/:title/"
+permalink: '/:year/:month/:title/'
 
 # Format
 markdown: kramdown
@@ -74,9 +74,17 @@ categs:
   - {title: 说, url: '/story/'}
 
 # Pagination
-plugins: [jekyll-paginate, jekyll-sitemap]
-paginate: 9
-paginate_path: page/:num/
+plugins: [jekyll-paginate-v2, jekyll-sitemap]
+# paginate: 9
+# paginate_path: '/page/:num/'
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Increase jekyll build speed
 exclude: [Gemfile, Gemfile.lock, README.md]

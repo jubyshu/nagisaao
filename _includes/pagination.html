@@ -1,7 +1,7 @@
 <hr class="post-list__divider " />
 
 <nav class="pagination" role="navigation">
-	
+	{% if paginator.total_pages > 1 %}
   {% if paginator.previous_page %}
     <a class="newer-posts pagination__newer btn" href="{{ paginator.previous_page_path }}">&larr; 最近</a>
   {% endif %}
@@ -9,5 +9,5 @@
   {% if paginator.next_page %}
     <a class="older-posts pagination__older btn" href="{{ paginator.next_page_path }}">更早 &rarr;</a>
   {% endif %}
-  
+  {% endif %}
 </nav>
