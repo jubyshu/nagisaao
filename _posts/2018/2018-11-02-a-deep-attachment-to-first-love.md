@@ -2,8 +2,8 @@
 layout: post
 title: 初恋的执念
 date: 2018-11-02 21:40
-tags: 读书
-keywords: 川端康成 初恋
+categories: review
+tags: 川端康成 初恋
 ---
 
 这几天在看川端康成的小说集[^1]，有一个相似的情节反复出现在不同的故事中：

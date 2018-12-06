@@ -1,9 +1,6 @@
 ---
-title: Home
 layout: default
-description: Juby是我的名字，渚碧是音译，碧色的小洲（青い渚），是不是能让人感到一点诗意呢？曾经取过很多名字的我，今后要化作南海中的一礁了······
 ---
-
 <div class="main-post-list">
 
   <ul class="category">| 
@@ -13,7 +10,7 @@ description: Juby是我的名字，渚碧是音译，碧色的小洲（青い渚
   </ul>
 
   <ol class="post-list">
-    {% for post in paginator.posts %}
+    {% for post in site.categories[page.category] %}
     <li>
       <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
       <div class="post-list__meta">
@@ -24,7 +21,5 @@ description: Juby是我的名字，渚碧是音译，碧色的小洲（青い渚
     </li>
     {% endfor %}
   </ol>
-
-  {% include pagination.html %}
 
 </div>

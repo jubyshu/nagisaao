@@ -2,6 +2,7 @@
 layout: post
 title: 速度的意义
 date: 2018-11-15 22:55
+categories: essay
 tags: 思考
 ---
 

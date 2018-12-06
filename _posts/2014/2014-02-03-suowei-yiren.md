@@ -2,6 +2,7 @@
 layout: post
 title: 所谓伊人
 date: 2014-02-03
+categories: essay
 tags: 情感
 ---
 

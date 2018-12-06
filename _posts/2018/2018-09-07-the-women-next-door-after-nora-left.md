@@ -2,7 +2,8 @@
 layout: post
 title: 隔壁的女人——娜拉走后？
 date: 2018-09-07 16:00
-tags: 读书
+categories: review
+tags: 读书 向田邦子
 card: https://i.imgur.com/dQiePUg.jpg
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: 是「精芬」还是叛逆？
 date: 2018-08-31
+categories: essay
 tags: 思考
 ---
 

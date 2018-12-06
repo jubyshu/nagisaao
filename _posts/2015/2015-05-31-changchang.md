@@ -2,7 +2,8 @@
 layout: post
 title: 由「常常」想起的
 date: 2015-05-31
-tags: 读书
+categories: review
+tags: 多多 诗歌
 ---
 
 >常常她们占据公园的一把铁椅  

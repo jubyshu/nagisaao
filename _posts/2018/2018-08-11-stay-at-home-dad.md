@@ -2,6 +2,7 @@
 layout: post
 title: 家庭妇男
 date: 2018-08-11
+categories: essay
 tags: 生活
 ---
 

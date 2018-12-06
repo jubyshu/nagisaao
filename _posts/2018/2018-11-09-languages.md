@@ -2,6 +2,7 @@
 layout: post
 title: 语言
 date: 2018-11-09 23:30
+categories: essay
 tags: 生活
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: 我之社交观
 date: 2018-05-10
+categories: essay
 tags: 生活
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: 我不是在哭
 date: 2014-05-07 21:25
+categories: poetry
 tags: 诗歌
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: 草原
 date: 2014-07-11 00:05
+categories: poetry
 tags: 诗歌
 ---
 

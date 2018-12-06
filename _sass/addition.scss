@@ -179,3 +179,21 @@ ul.post_list {
 .post_num {
   color: $hover-color;
 }
+
+// Category
+.category {
+  float: right;
+  margin-top: -40px;
+  font-size: 0.8em;
+  li {
+    display: inline;
+  }
+}
+
+.tag_box {
+  margin: 0;
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+}

@@ -2,7 +2,8 @@
 layout: post
 title: 「银魂」里的幕末人物原型
 date: 2018-07-22
-tags: 读书
+categories: review
+tags: 读书 银魂
 ---
 
 <a href="https://i.imgur.com/KetsLAp.png" data-fancybox="katsuma" data-caption="坂本辰马">

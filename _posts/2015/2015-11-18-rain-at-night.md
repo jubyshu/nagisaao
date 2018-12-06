@@ -2,6 +2,7 @@
 layout: post
 title: 夜雨
 date: 2015-11-18 00:30
+categories: poetry
 tags: 诗歌
 ---
 

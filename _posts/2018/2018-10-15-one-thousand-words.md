@@ -2,6 +2,7 @@
 layout: post
 title: 一千字
 date: 2018-10-15
+categories: essay
 tags: 思考
 ---
 

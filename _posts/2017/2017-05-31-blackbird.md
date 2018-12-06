@@ -2,6 +2,7 @@
 layout: post
 title: 黑鸟
 date: 2017-05-31
+categories: poetry
 tags: 诗歌
 ---
 

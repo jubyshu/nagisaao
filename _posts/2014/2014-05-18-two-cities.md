@@ -2,6 +2,7 @@
 layout: post
 title: 双城
 date: 2014-05-18 22:45
+categories: poetry
 tags: 诗歌
 ---
 

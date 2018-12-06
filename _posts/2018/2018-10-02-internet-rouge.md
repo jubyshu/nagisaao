@@ -2,6 +2,7 @@
 layout: post
 title: 互联网流氓
 date: 2018-10-02
+categories: essay
 tags: 思考
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: 萝卜成长记
 date: 2018-04-29
-tags: 生活
-keywords: 豹纹守宫
+categories: essay
+tags: 豹纹守宫
 ---
 
 <a href="https://i.imgur.com/ijadMvF.jpg" data-fancybox='Roach' data-caption='我萌吗？'><img src="https://i.imgur.com/UTv6Yng.jpg?1" width='450px'></a>

@@ -2,6 +2,7 @@
 layout: post
 title: 期待
 date: 2014-06-04 20:30
+categories: poetry
 tags: 诗歌
 ---
 

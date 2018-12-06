@@ -2,6 +2,7 @@
 layout: post
 title: 仙林的半日
 date: 2016-09-03
+categories: poetry
 tags: 诗歌
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: 泛滥的青春
 date: 2013-12-10
-tags: 读书
+categories: review
+tags: 读书 青春
 ---
 
 像饿虎扑食一样读书是我的习惯，冯唐的《十八岁给我一个姑娘》也逃脱不了这样的命运。

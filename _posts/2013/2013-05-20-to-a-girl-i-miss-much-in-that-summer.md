@@ -2,6 +2,7 @@
 layout: post
 title: To a Girl I Miss Much in that Summer
 date: 2013-05-20
+categories: poetry
 tags: 诗歌
 ---
 
@@ -70,7 +71,7 @@ When I leant to the door, I saw
  A tree shook its boughs to the wind,  
 And whispered, and got to bow,  
  And I would have my fancy pinn'd.  
-  
+
 Follow its music, tho' I may be sick,  
  And dance with the green shade,  
 When I feel the vitality not trick,  

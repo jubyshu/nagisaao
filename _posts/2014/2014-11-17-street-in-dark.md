@@ -2,6 +2,7 @@
 layout: post
 title: 暗街
 date: 2014-11-17 23:50
+categories: poetry
 tags: 诗歌
 ---
 

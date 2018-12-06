@@ -2,6 +2,7 @@
 layout: post
 title: 乡居
 date: 2014-08-02 00:40
+categories: poetry
 tags: 诗歌
 ---
 

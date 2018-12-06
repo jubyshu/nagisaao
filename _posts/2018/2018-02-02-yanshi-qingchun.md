@@ -2,7 +2,8 @@
 layout: post
 title: 厌世与青春小说
 date: 2018-02-02
-tags: 读书
+categories: review
+tags: 读书 青春
 ---
 
 #### 2017年5月11日

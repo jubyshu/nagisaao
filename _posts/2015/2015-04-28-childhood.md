@@ -2,7 +2,8 @@
 layout: post
 title: 童年
 date: 2015-04-28 14:50
-tags: 诗歌
+categories: poetry
+tags: 诗歌 童年
 ---
 
 电风扇在二〇〇〇年转着  

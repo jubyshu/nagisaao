@@ -2,7 +2,8 @@
 layout: post
 title: 少年游
 date: 2016-05-23
-tags: 故事
+categories: story
+tags: 武侠 送别
 ---
 
 #### 扬子江头

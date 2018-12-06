@@ -2,6 +2,7 @@
 layout: post
 title: 记一个下午
 date: 2016-08-18
+categories: essay
 tags: 生活
 ---
 

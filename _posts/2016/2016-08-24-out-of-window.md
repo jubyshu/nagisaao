@@ -2,6 +2,7 @@
 layout: post
 title: 窗外
 date: 2016-08-24
+categories: essay
 tags: 情感
 ---
 

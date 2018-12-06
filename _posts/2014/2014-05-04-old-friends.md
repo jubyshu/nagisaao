@@ -2,7 +2,8 @@
 layout: post
 title: 故人
 date: 2014-05-27
-tags: 诗歌
+categories: poetry
+tags: 故人
 ---
 
 当落英缤纷或绿树成荫  

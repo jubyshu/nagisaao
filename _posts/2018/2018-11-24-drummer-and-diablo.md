@@ -2,6 +2,7 @@
 layout: post
 title: 打鼓与暗黑
 date: 2018-11-24 22:30
+categories: essay
 tags: 生活
 ---
 

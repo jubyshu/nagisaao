@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 夏夜有怀
-date: 2016-08-05 00:00:00 Z
+date: 2016-08-05
+categories: poetry
 tags: 诗歌
 ---
 

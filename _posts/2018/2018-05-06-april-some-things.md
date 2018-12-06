@@ -2,6 +2,7 @@
 layout: post
 title: 四月杂记
 date: 2018-05-06
+categories: essay
 tags: 生活
 ---
 

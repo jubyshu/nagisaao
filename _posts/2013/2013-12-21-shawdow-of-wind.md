@@ -2,6 +2,7 @@
 layout: post
 title: 感冒的一天
 date: 2013-12-21
+categories: review
 tags: 读书
 ---
 

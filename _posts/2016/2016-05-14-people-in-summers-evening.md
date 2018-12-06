@@ -2,6 +2,7 @@
 layout: post
 title: 夏夜里的人们
 date: 2016-05-14 01:10
+categories: poetry
 tags: 诗歌
 ---
 

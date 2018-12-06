@@ -2,7 +2,8 @@
 layout: post
 title: 中秋之后
 date: 2018-09-25
-tags: 生活
+categories: essay
+tags: 中秋
 ---
 秋天是让人感到幸福的季节，即使什么也不做。
 

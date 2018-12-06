@@ -2,6 +2,7 @@
 layout: post
 title: 在这北方的小城
 date: 2015-09-09
+categories: story
 tags: 故事
 ---
 

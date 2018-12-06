@@ -267,7 +267,7 @@ i {
   a {
     color: #333; 
     padding-top: 5px;
-    padding-left: 10px;
+    // padding-left: 10px;
     &:hover {
       color: $link-color;
     }
@@ -279,20 +279,15 @@ i {
   display: inline-block;
 }
 
-.btn-border-small,
-.post-list__meta--date,
-.post-list__meta--tags {
-  height: 20px;
-  margin-top: 3px;
-  margin-left: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: -5px;
-  padding-bottom: 3px;
+.post-list__meta--date {
+  // height: 20px;
+  // padding-left: 10px;
+  // padding-right: 10px;
+  // padding-top: -5px;
+  // padding-bottom: 3px;
   background-size: 100% 100%;
   color: $meta-color;
   float: left;
-  margin-bottom: 10px;
   font-size: 0.8em;
   &:hover {
     text-decoration: underline;
@@ -300,8 +295,8 @@ i {
 }
 
 .post-list_divider {
-  width: 28%;
-  margin: 10px 0 5px 10px;
+  // width: 28%;
+  margin: 10px 0;
   border-top: 1px solid $border-color; 
 }
 

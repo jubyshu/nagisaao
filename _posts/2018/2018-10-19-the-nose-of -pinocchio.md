@@ -2,6 +2,7 @@
 layout: post
 title: 匹诺曹的鼻子
 date: 2018-10-19
+categories: essay
 tags: 思考
 ---
 

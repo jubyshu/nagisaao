@@ -2,7 +2,8 @@
 layout: post
 title: 晏七公子
 date: 2015-09-07
-tags: 故事
+categories: story
+tags: 晏殊 晏几道
 ---
 
 #### 家变

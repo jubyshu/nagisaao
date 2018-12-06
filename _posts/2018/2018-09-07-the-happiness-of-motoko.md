@@ -2,7 +2,8 @@
 layout: post
 title: 素子的幸福
 date: 2018-09-07 20:00
-tags: 读书
+categories: review
+tags: 读书 向田邦子
 card: https://i.imgur.com/dQiePUg.jpg
 ---
 

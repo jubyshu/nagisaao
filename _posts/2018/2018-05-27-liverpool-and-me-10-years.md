@@ -2,7 +2,8 @@
 layout: post
 title: 十年磨一剑 
 date: 2018-05-27
-tags: 情感
+categories: essay
+tags: 利物浦 欧冠
 ---
 
 #### 1

@@ -2,7 +2,8 @@
 layout: post
 title: 毕业的一天
 date: 2017-06-20
-tags: 情感
+categories: essay
+tags: 毕业
 ---
 
 毕业了。

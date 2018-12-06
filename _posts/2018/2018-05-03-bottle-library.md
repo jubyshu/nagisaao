@@ -2,6 +2,7 @@
 layout: post
 title: 水杯
 date: 2018-05-03
+categories: essay
 tags: 生活
 ---
 

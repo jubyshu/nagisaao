@@ -2,6 +2,7 @@
 layout: post
 title: 讲故事的人
 date: 2018-10-23
+categories: essay
 tags: 故事
 ---
 

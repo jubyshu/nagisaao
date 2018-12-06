@@ -2,6 +2,7 @@
 layout: post
 title: 菜园子
 date: 2018-08-07
+categories: essay
 tags: 生活
 ---
 

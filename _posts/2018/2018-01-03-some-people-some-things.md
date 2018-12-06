@@ -2,6 +2,7 @@
 layout: post
 title: 一些人·一些事
 date: 2018-01-03
+categories: essay
 tags: 生活
 ---
 

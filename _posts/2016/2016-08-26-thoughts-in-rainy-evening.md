@@ -2,6 +2,7 @@
 layout: post
 title: 雨夜思
 date: 2016-08-26
+categories: poetry
 tags: 诗歌
 ---
 

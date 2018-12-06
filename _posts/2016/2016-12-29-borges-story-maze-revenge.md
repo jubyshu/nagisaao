@@ -2,7 +2,8 @@
 layout: post
 title: 博尔赫斯关于迷宫和复仇的故事
 date: 2016-12-29
-tags: 读书
+categories: review
+tags: 读书 博尔赫斯 迷宫
 ---
 
 #### 关于迷宫的故事

@@ -2,7 +2,8 @@
 layout: post
 title: 空心核桃
 date: 2018-09-09
-tags: 读书
+categories: review
+tags: 向田邦子
 card: https://i.imgur.com/dQiePUg.jpg
 ---
 

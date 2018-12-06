@@ -2,7 +2,8 @@
 layout: post
 title: 滑板糗事
 date: 2018-05-23
-tags: 生活
+categories: essay
+tags: 滑板
 ---
 
 #### 入门

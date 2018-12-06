@@ -2,6 +2,7 @@
 layout: post
 title: 想象苦难
 date: 2018-01-12
+categories: essay
 tags: 生活
 ---
 

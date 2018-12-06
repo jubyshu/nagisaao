@@ -2,6 +2,7 @@
 layout: post
 title: 人间失格
 date: 2018-04-26
+categories: essay
 tags: 生活
 ---
 

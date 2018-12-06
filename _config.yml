@@ -17,7 +17,7 @@ social:
 # Google
 google: 
   analytics: UA-112090731-1
-  adsense: ca-pub-1918559515694686
+  # adsense: ca-pub-1918559515694686
   site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
 
 # Baidu
@@ -62,9 +62,16 @@ sass:
 nav:
   - {title: 主页, description: blog, url: '/'}
   - {title: 存档, description: archive, url: '/archive/'}   
-  - {title: 读书, description: read, url: '/read/'}
+  - {title: 读书, description: read, url: '/book/'}
   - {title: 留言, description: guestbook, url: '/guestbook/'}      
   - {title: 关于, description: about, url: '/about/'}         
+
+# Categories
+categs:
+  - {title: 诗, url: '/poetry/'}
+  - {title: 文, url: '/essay/'}
+  - {title: 评, url: '/review/'}
+  - {title: 说, url: '/story/'}
 
 # Pagination
 plugins: [jekyll-paginate, jekyll-sitemap]

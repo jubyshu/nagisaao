@@ -2,6 +2,7 @@
 layout: post
 title: 没有峰顶的山
 date: 2018-02-15
+categories: essay
 tags: 生活
 ---
 

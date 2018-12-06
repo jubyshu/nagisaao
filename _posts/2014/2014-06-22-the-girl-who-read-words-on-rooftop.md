@@ -2,6 +2,7 @@
 layout: post
 title: 天台上读单词的女孩
 date: 2014-06-22
+categories: poetry
 tags: 诗歌
 ---
 

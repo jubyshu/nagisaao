@@ -2,7 +2,8 @@
 layout: post
 title: 奇迹——那时的普通人
 date: 2018-05-19
-tags: 影音
+categories: review
+tags: 电影 GReeeeN
 ---
 
 #### 花唄

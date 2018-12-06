@@ -2,8 +2,8 @@
 layout: post
 title: 不存在的恋人
 date: 2018-11-04 21:30
-tags: 故事
-keywords: 初恋
+categories: story
+tags: 初恋
 ---
 
 据朋友说，晚上在同寝室的同学入睡后，她曾偷偷地哭泣。偶尔想起桃子的时候，手辰唯有对这件事感到很抱歉。
