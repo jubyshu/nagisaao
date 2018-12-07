@@ -43,6 +43,7 @@ Juby是我的名字，渚碧是音译，碧色的小洲（青い渚），是不�
 
 赞助：
 <details>
-    <summary>广告影响体验，所以还是放个码试一下运气吧</summary>
+    <summary>广告影响体验，所以还是放个码吧</summary>
     <br><img src="/images/default/wxreward.jpg"><br>
 </details>
+<br>
