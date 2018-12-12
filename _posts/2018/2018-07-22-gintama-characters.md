@@ -7,7 +7,7 @@ tags: 读书 银魂
 ---
 
 <a href="https://i.imgur.com/KetsLAp.png" data-fancybox="katsuma" data-caption="坂本辰马">
-​    <img src="https://i.imgur.com/KetsLAp.png" width="480px" height="300px">
+​    ![坂本辰马](https://i.imgur.com/VY6YKCY.png)
 </a>
 
 吉田松阳 —— 吉田松阴，长州武士，黑船事件时试图偷渡出国，被捕后判处切腹，明治维新前三杰之一。
