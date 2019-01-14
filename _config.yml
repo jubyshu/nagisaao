@@ -34,7 +34,7 @@ leancloud:
   appkey: YsaHf3ahdzk2NkPOmNBohvgd
 
 # OpenGraph & TwitterCard
-card: /images/default/tcard.jpg
+card: /images/default/tcard.png
 
 # ----------------- 上面的信息修改成你自己的 ---------------------------
 #
