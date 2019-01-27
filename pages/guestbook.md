@@ -6,7 +6,7 @@ permalink: /guestbook/
 ---
 
 <h3>留言</h3><hr>
-桜の花びら散るたびに  
-届かぬ思いがまた一つ
+桜の花びら散るときに  
+届かぬ想いがまた一つ
 
 {% include comments.html %}
