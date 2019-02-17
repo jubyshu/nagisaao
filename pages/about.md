@@ -38,3 +38,13 @@ Juby是我的昵称，来源于我的名字，渚碧则是音译，绿色的小�
 - [How to list your jekyll posts by tags](https://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/)
 - [3 Simple Steps To Setup Jekyll Categories And Tags
 ](https://blog.webjeda.com/jekyll-categories/)
+
+--------
+
+赞助：
+
+请我喝一杯可乐吧～
+
+|微信|支付宝|
+|---|-----|
+|![wechatpay](/images/default/wechatpay.png)| ![alipay](/images/default/alipay.png)|
