@@ -10,9 +10,6 @@ tags: 狄金森 诗歌 爱情 音乐
 
 几年前，我在听歌的时候，偶然间听到一首以狄金森的诗为词的歌，是Port of Notes的「If you were coming in the fall」，来自专辑「Luminous Halo ~燦然と輝く光彩~」。其实，我一直都没有注意到这首歌是日本人唱的，直到今天想听，在Spotify上检索时才发现。Port of Notes是一个二人乐队，由主唱畠山美由紀和吉他手小島大介于1996年结成，现在依然活跃，但作品不是很多。其实，为狄金森这首诗配曲的歌有很多，但我还是最喜欢初遇的这一首。
 
-<div style="text-align:center;">
-  <iframe src="https://open.spotify.com/embed/track/2slO5U7fDPPZ0vTMfe6S1x" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>    
-</div>
 
 诗的原文如下：
 
