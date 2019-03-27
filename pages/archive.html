@@ -38,11 +38,11 @@ permalink: /archive/
   {% assign nyear = post.next.date | date: '%Y' %}
   {% if year != nyear %}
 <div>
-	<h3>{{ post.date | date: '%Y' }}<span class="post_count"> [{{ counts[i] }}]<span></h3><hr>
+  <hr><h3>{{ post.date | date: '%Y' }}<sup class="post_count"> [{{ counts[i] }}]</sup></h3>
   {% assign i = i | plus: 1 %}
-  {% endif %} 
+  {% endif %}
   <ul class="post_list">
   <li>{{ post.date | date: '%m-%d' }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li> 
-  </ul> 
-{% endfor %} 
+  </ul>
+{% endfor %}
 </div>

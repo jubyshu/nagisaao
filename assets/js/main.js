@@ -2,17 +2,17 @@ $("#back-top").hide();
 $(document).ready(function() {
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 150) {
-			$("#back-top").fadeIn()
+			$("#back-top").fadeIn();
 		} else {
-			$("#back-top").fadeOut()
+			$("#back-top").fadeOut();
 		}
 	});
 	$("#back-top a").click(function() {
-		$("body,html").animate({
+		$("body, html").animate({
 			scrollTop: 0
 		}, 800);
-		return false
-	})
+		return false;
+	});
 });
 
 $(document).ready(function() {
@@ -23,7 +23,7 @@ $(document).ready(function() {
 	var timeLeft = dateDiff % (24 * 3600 * 1000);
 	var hours = Math.floor(timeLeft / (3600 * 1000));
 	var time = dayDiff + "d " + hours + "h";
-	$("#runtime").html(time)
+	$("#runtime").html(time);
 });
 
 var toc = document.querySelector(".post-toc");
@@ -40,8 +40,8 @@ function tocShow() {
 }
 if ( !! toc) {
 	window.addEventListener("resize", tocShow, false);
-	tocShow()
-};
+	tocShow();
+}
 
 function tocScroll(){
  var alis = $('.post :header');

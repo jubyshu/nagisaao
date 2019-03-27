@@ -174,7 +174,8 @@ ul.post_list {
 }
 .post_count {
   color: $hover-color;
-  font-size: .8em;
+  font-size: .6em;
+  vertical-align: text-top;
 }
 .post_num {
   color: $hover-color;
@@ -196,4 +197,21 @@ ul.post_list {
     display: inline;
     margin-right: 10px;
   }
+}
+
+.collcontent {
+  display: none;
+}
+
+.collapsible {
+  border: none;
+  outline: none;
+  background: none;
+  position: relative;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 1.0em;
+  margin-bottom: .5em;
+  color: $title-color;
+  -webkit-font-smoothing: antialiased; 
 }
