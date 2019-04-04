@@ -13,8 +13,8 @@ summary {
   display: inline-block;
   margin: 3px auto;
   cursor: pointer;
-  color: $link-color;
-  border-bottom: 1px solid $link-color;
+  color: $hover-color;
+  border-bottom: 0.8px solid $hover-color;
   &:after {
     content: url(/images/default/feather.svg);
     padding-left: 2px;
@@ -154,24 +154,7 @@ sup {
   height: 100%;
 }
 
-// Douban Read
-// .douban-list ul li {
-//   width: 80px;
-//   float: left;
-//   margin: 5px;
-//   list-style: none outside none;
-//   img {
-//     width: 70px;
-//     height: 100px;
-//     padding: 5px;
-//     border: solid 1px $border-color;
-//   }
-// }
-
 // Post Achive
-ul.post_list {
-    margin-bottom: 0.2em;
-}
 .post_count {
   color: $hover-color;
   font-size: .6em;
