@@ -206,6 +206,10 @@ sup {
     width: 100%;
     margin-bottom: 15px;
   }
+  .ais-search-box--powered-by {
+    margin-top: 5px;
+    color: #424242;
+  }
 }
 .post-item {
   margin-bottom: 30px;
@@ -234,9 +238,6 @@ sup {
   font-weight: bold;
 }
 .post-snippet img {
-  display: none;
-}
-.ais-search-box--powered-by {
   display: none;
 }
 #search-hits {
