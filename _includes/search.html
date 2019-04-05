@@ -1,0 +1,56 @@
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script>
+const search = instantsearch({
+  appId: '{{ site.algolia.application_id }}',
+  apiKey: '{{ site.algolia.search_only_api_key }}',
+  indexName: '{{ site.algolia.index_name }}'
+});
+
+const hitTemplate = function(hit) {
+
+  let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
+
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="post-item">
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+      <div class="post-snippet">${content}</div>
+    </div>
+  `;
+}
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: '请输入关键词',
+    poweredBy: true
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+search.start();
+
+let searchInput = document.getElementById('search-searchbar');
+let postItem = document.getElementById('search-hits');
+searchInput.onkeyup = function() {
+  postItem.style.display = 'block';
+};
+</script>

@@ -74,7 +74,7 @@ categs:
   - {title: 说, url: '/story/'}
 
 # Pagination
-plugins: [jekyll-paginate-v2, jekyll-sitemap]
+plugins: [jekyll-paginate-v2, jekyll-sitemap, jekyll-algolia]
 # paginate: 9
 # paginate_path: '/page/:num/'
 pagination:
@@ -85,6 +85,11 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+# algolia search
+algolia:
+  application_id: XTX1EOVMI5
+  index_name: jubeny
+  search_only_api_key: c05381f747c5207b6dd655ca29e18fce
 
 # Increase jekyll build speed
 exclude: [Gemfile, Gemfile.lock, README.md]

@@ -165,12 +165,20 @@ sup {
 }
 
 // Category
+.index-meta {
+  margin-top: -40px;
+}
 .category {
   float: right;
-  margin-top: -40px;
   font-size: 0.8em;
   li {
     display: inline;
+  }
+}
+.search-icon {
+  float: left;
+  a {
+    color: $hover-color;
   }
 }
 
@@ -188,4 +196,55 @@ sup {
 
 .collapsible {
   cursor: default;
+}
+
+// algolia search
+#search-searchbar {
+  .ais-search-box {
+    max-width: 100%;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+.post-item {
+  margin-bottom: 30px;
+  padding-left: 15px;
+  border-left: 2px solid $hover-color;
+}
+.post-link .ais-Highlight {
+  background: #F7D94C;
+  font-style: normal;
+}
+.post-breadcrumbs {
+  color: #424242;
+  display: block;
+}
+.post-breadcrumb {
+  font-size: 18px;
+  color: #424242;
+}
+.post-breadcrumb .ais-Highlight {
+  font-weight: bold;
+  font-style: normal;
+}
+.post-snippet .ais-Highlight {
+  background: #F7D94C;
+  font-style: normal;
+  font-weight: bold;
+}
+.post-snippet img {
+  display: none;
+}
+.ais-search-box--powered-by {
+  display: none;
+}
+#search-hits {
+  display: none;
+  h2 {
+    font-size: 1.2em;
+  }
+  h3 {
+    font-size: 1em;
+  }
 }
