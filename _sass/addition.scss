@@ -207,7 +207,9 @@ sup {
     margin-bottom: 15px;
   }
   .ais-search-box--powered-by {
-    display: none;
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: $meta-color;
   }
 }
 .post-item {
