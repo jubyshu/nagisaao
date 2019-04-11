@@ -47,4 +47,4 @@ Juby是我的昵称，来源于我的名字，渚碧则是音译，绿色的小�
 
 |微信|支付宝|
 |---|-----|
-|![wechatpay](/images/default/wechatpay.png)| ![alipay](/images/default/alipay.png)|
+|![wechatpay](/images/wechatpay.png)| ![alipay](/images/alipay.png)|

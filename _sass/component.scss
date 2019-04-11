@@ -49,7 +49,7 @@
 
   img {
   	max-width: 100%;
-    margin: 0 auto;
+    margin: 1em auto 0.5em auto;
     border-radius: 3px;
     text-align: center;
     display: block;
@@ -82,7 +82,7 @@
   max-width: 780px;
   height: 210px;
   margin: auto;
-  background: url("/images/default/cover.jpg");
+  background: url("/images/cover.jpg");
   background-position: center center;
   .cover-navigation {
     color: $sub-font-color;

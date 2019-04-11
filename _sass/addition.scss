@@ -16,7 +16,7 @@ summary {
   color: $hover-color;
   border-bottom: 0.8px solid $hover-color;
   &:after {
-    content: url(/images/default/feather.svg);
+    content: url(/images/feather.svg);
     padding-left: 2px;
   }
   &::-webkit-details-marker {
@@ -196,6 +196,21 @@ sup {
 
 .collapsible {
   cursor: default;
+}
+
+// post figure
+.post-figcaption {
+  position: relative;
+  display: inline-block;
+  color: $tobi;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  &:before {
+    content: '\25BA';
+    color: $tobi;
+    font-size: 0.9em;
+    margin-right: 5px;
+  }
 }
 
 // algolia search

@@ -6,7 +6,7 @@ categories: essay
 tags: 孤独 爱情 社交
 ---
 
-![hug](/images/posts/hug.jpg)
+{% include image.html url="hug-children.jpg" caption="きらきらと大地で君と抱き合いたい" %}
 
 我是一个非常容易满足的人，换言之，其实就是对自己的要求很低。如果一块钱就能让我变得快乐，我绝不会去索要两块钱。同样地，如果有了一个朋友，我也不再想去认识更多的人。
 
@@ -25,4 +25,4 @@ tags: 孤独 爱情 社交
 没有多少经验的我，却总觉得恋爱是麻烦的事。有一个原因是，不得不去面对她的家人甚至朋友。我是不想把自己的朋友介绍给她，也不想把她介绍给朋友，也不想特意去认识她的朋友的，这应该不是什么奇怪的想法吧。双方还是拥有各自的社交圈，在交汇的时空里紧紧相拥，不就足够了吗？
 
 -----
-Photo by Annie Spratt on Unsplash.
+Photo by [Annie Spratt](https://unsplash.com/@anniespratt) on Unsplash.

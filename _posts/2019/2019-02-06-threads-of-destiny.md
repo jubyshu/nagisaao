@@ -6,7 +6,7 @@ categories: review
 tags: 红线 赤い糸 日剧 南泽奈央 
 ---
 
-![赤い糸](https://i.imgur.com/VCj148N.jpg)
+{% include image.html url="akaiito-poster.jpg" caption="赤い糸のポスター" %}
 
 红线的含义，想必大家都知道，是传说中月老用来联结姻缘的线。至于其出处，大概很少有人会去关注吧。
 

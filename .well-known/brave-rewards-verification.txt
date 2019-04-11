@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: jubeny.com 
-Token: f6079f4f9c2b649b49ccd468ae62a55ba93fd7f54d1f1af2d9df41711d37d55a

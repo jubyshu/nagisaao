@@ -25,7 +25,7 @@ tags: 豹纹守宫
 最后算一下在萝卜身上的花费吧，现在看来树脂食盆和造景钙沙是没必要买的，由于担心萝卜会误食沙子影响肠胃，我一直没有不敢用钙沙做垫材，昨天才终于给它铺了一层，但还是在沙子上盖了一张纸，不过等它成年后就可以放心使用了。
 
 <figure>
-      <embed type="image/svg+xml" src="/images/posts/roach_cost.svg" />
+      <embed type="image/svg+xml" src="/images/roach_cost.svg" />
 </figure>
 
 [^1]: Roach: also *Rutilus rutilus*, a common European fresh water fish.
