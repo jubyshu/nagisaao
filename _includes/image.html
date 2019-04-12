@@ -1,6 +1,4 @@
 <figure class="post-figure">
-  {% assign link = "//rosemary.ink/img/" %}
-  <a href="{{ link }}{{ include.url }}">
-  <img src="{{ link }}{{ include.url }}" alt="{{ include.caption }}"></a>
+  <img class="post-img" src="//rosemary.ink/img/{{ include.url }}" alt="{{ include.caption }}">
   <figcaption class="post-figcaption">{{ include.caption }}</figcaption>
 </figure>
