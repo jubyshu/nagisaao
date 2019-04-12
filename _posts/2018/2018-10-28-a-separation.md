@@ -7,10 +7,6 @@ tags: 宠物
 card: https://i.imgur.com/SD2oZYb.png
 ---
 
-<a href="https://i.imgur.com/SD2oZYb.png" data-fancybox="rocchi" data-caption="可爱即是正义">
-​    <img src="https://i.imgur.com/Zp5aoIv.png?1">
-</a>
-
 今天，送走了萝卜。
 
 冬日渐近，我恐怕已无法为它提供舒适的生活环境了，而且懒惰的我，也不再像以前一样悉心照顾它。因而，为它找一个新主人是最好的选择了。
@@ -19,9 +15,7 @@ card: https://i.imgur.com/SD2oZYb.png
 
 每当看到萝卜瞪着圆溜溜的眼珠，嘴角带着迷之微笑，我的心就完全被它融化了。虽然最近几个月与它亲近的少，但它对我的手却并没有太大的抗拒，这是记得我了吗？可惜的是，萝卜体型太小，胆子也小，不能经常和我一起玩耍。
 
-<a href="https://i.imgur.com/HxmJG1r.png?1" data-fancybox="rocchi" data-caption="萝卜长大了">
-​    <img src="https://i.imgur.com/RrgehW3.png?1">
-</a>
+{% include image.html url="roach-compare.jpg" caption="萝卜长大了" %}
 
 不过，比起刚来的时候，萝卜在不经意间已经长成了立派的大人，这让我想起了一句歌词：「**時も行けば、幼い君も、大人になると、気づかないまま**」。这样的萝卜，即使去到了陌生的环境，应该也能很快适应吧。
 

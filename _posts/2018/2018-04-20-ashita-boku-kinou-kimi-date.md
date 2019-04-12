@@ -7,7 +7,7 @@ tags: 电影
 card: https://i.imgur.com/Z1GJgMF.jpg
 ---
 
-<a href="https://i.imgur.com/Z1GJgMF.jpg" data-fancybox="ashita" data-caption="ぼくは明日"><img src="https://i.imgur.com/SQg7B9j.jpg"></a>
+{% include image.html url="bokuashita-still.jpg" caption="南山高寿与福寿爱美" %}
 
 前段时间，在推特上偶然看到随便关注的一个女孩发的推文，是对「ぼくは明日、昨日のきみとデートする」的感想，说看过电影后自己也想约会了。我被电影的名字和海报上女主治愈的笑容吸引了，想着什么时候也看一下，但一搁就是一个月，直到碰到另一个契机。
 

@@ -7,9 +7,7 @@ tags: 生活 骑行
 card: https://i.imgur.com/FsUNZ1V.png
 ---
 
-<a href="https://i.imgur.com/FsUNZ1V.png" data-fancybox="riding" data-caption="鼓楼-仙林">
-​    <img src="https://i.imgur.com/FsUNZ1V.png">
-</a>
+{% include image.html url="gulou-xianlin.png" caption="鼓楼-仙林" %}
 
 国庆节那天，起床后便一直在整理过去的信件，在肚子饿坏了的时候，才不情愿地出门。虽然从前几天开始便在考虑去哪里玩，这时才突然想到仙林校区，而且要骑着自行车去。
 
