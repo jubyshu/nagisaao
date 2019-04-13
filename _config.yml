@@ -71,7 +71,7 @@ categs:
   - {title: 诗, url: '/poetry/'}
   - {title: 文, url: '/essay/'}
   - {title: 评, url: '/review/'}
-  - {title: 说, url: '/story/'}
+  - {title: 事, url: '/story/'}
 
 # Pagination
 plugins: [jekyll-paginate-v2, jekyll-sitemap, jekyll-algolia]

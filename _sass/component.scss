@@ -147,6 +147,7 @@ nav {
   text-align: center;
   width: 100%;
   list-style-type: none;
+  letter-spacing: 1px;
   li {
     &:first-child {
       margin-left: 0;
@@ -257,6 +258,9 @@ i {
   li {
     margin: 0 0 2.2em 0;
     float: left;
+  }
+  &:first-child {
+    margin-top: 20px;
   }
 }
 
