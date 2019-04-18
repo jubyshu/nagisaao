@@ -3,8 +3,8 @@ details {
   p {
     font-family: $kaiti-serif;
     color: $sub-font-color;
-    padding: 0.5em 2em;
-    border-radius: 3px;
+    padding: 1em 2em;
+    border-radius: 5px;
     background: $background-color;
   }
 }
@@ -248,6 +248,7 @@ sup {
   color: #424242;
 }
 .post-breadcrumb .ais-Highlight {
+  background: #F7D94C;
   font-weight: bold;
   font-style: normal;
 }

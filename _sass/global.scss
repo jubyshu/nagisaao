@@ -146,10 +146,11 @@ blockquote {
   font-size: 1em;
   color: $sub-font-color;
   margin:15px 0;
-  border-left: 2px solid $border-color;
+  background: $background-color;
+  border-radius: 5px;
+  // border-left: 2px solid $border-color;
   p {
-  	padding-left: 2em;
-    padding-right: 2em;
+  	padding: 1em 2em;
   }
 }
 
