@@ -8,7 +8,7 @@ permalink: /tags/
 <h3 id="tag-index">标签</h3><hr>
 <ul class="tag_box">
   {% for tag in site.tags %}
-  <li><a href="/tags/#{{ tag | first }}-ref">{{ tag | first }}[<span>{{ tag | last | size }}</span>]</a></li>
+  <li><a href="/tags/#{{ tag | first }}-ref">{{ tag | first }}(<span>{{ tag | last | size }}</span>)</a></li>
   {% endfor %}
 </ul>
 
