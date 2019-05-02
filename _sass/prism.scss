@@ -1,5 +1,5 @@
-/* PrismJS 1.13.0
-http://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript+latex+liquid+markdown+matlab+python&plugins=line-numbers */
+/* PrismJS 1.16.0
+https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript+markup-templating+git+json+latex+markdown+liquid+django+sql+scss+python+r+yaml+toml&plugins=line-numbers */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -12,6 +12,7 @@ pre[class*="language-"] {
 	background: none;
 	text-shadow: 0 1px white;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	/*font-size: 1em;*/
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -19,20 +20,20 @@ pre[class*="language-"] {
 	word-wrap: normal;
 	line-height: 1.5;
 
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
+	-moz-tab-size: 2;
+	-o-tab-size: 2;
+	tab-size: 2;
 
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
 
-	/*added by juby*/
-	border: 0;
-	padding: 0;
-	border-radius: 5px;
-	font-size: 0.9em;
+  /* adition */
+  border: 0;
+  padding: 0;
+  border-radius: 5px;
+  font-size: 0.9em;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -56,7 +57,7 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 
 /* Code blocks */
 pre[class*="language-"] {
-	padding: .5em;
+	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
 }
@@ -145,15 +146,15 @@ pre[class*="language-"] {
 	cursor: help;
 }
 
-pre.line-numbers {
+pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
 	counter-reset: linenumber;
 }
 
-pre.line-numbers > code {
+pre[class*="language-"].line-numbers > code {
 	position: relative;
-    white-space: inherit;
+	white-space: inherit;
 }
 
 .line-numbers .line-numbers-rows {
@@ -186,3 +187,4 @@ pre.line-numbers > code {
 			padding-right: 0.8em;
 			text-align: right;
 		}
+
