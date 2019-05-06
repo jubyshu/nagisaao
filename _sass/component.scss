@@ -65,6 +65,15 @@
   	margin: 1em auto;
     border-top: 1px solid $border-color;
   }
+
+  h3, h4{
+    &:hover::after {
+      content: "\00B6";
+      margin-left: .5em;
+      display: inline-block;
+      color: $hover-color;
+    }
+  }
 }
 
 // panel
