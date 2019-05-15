@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: 初学R语言
-date: 2019-05-15 19:40
+date: 2019-05-14 19:40
 categories: essay
 tags: 编程 R语言 计量
 ---
