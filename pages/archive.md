@@ -15,6 +15,14 @@ permalink: /archive/
   {% endfor %}  
 - 字数: <span class="post_num">{{ count | divided_by: 1000.0 | round: 2 }}K</span> 字
 
+### 精选
+<hr>
+{% for post in site.posts %}
+  {% if post.recommend %}
+  - {{ post.date | date: '%y-%m-%d' }} &raquo; [{{ post.title }}]({{ post.url }})
+  {% endif %} 
+{% endfor %}
+
 {% assign count = 1 %}
 {% for post in site.posts reversed %}
   {% assign year = post.date | date: '%Y' %}
@@ -35,7 +43,7 @@ permalink: /archive/
   {% assign nyear = post.next.date | date: '%Y' %}
   {% if year != nyear %}
 <hr>
-### {{ post.date | date: '%Y' }}<sup class="post_count"> [{{ counts[i] }}]</sup>
+### {{ post.date | date: '%Y' }}<span class="post_count"> ({{ counts[i] }})</span>
   {% assign i = i | plus: 1 %}
   {% endif %}
 - {{ post.date | date: '%m-%d' }} &raquo; [{{ post.title }}]({{ post.url }})
