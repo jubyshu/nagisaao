@@ -12,8 +12,14 @@ permalink: /archive/
   {% for post in site.posts %}
     {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
     {% assign count = count | plus: single_count %}
-  {% endfor %}  
-- 字数: <span class="post_num">{{ count | divided_by: 1000.0 | round: 2 }}K</span> 字
+  {% endfor %}
+  {% assign note_count = 0 %}
+  {% for post in site.categories.note %}
+    {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
+    {% assign note_count = note_count | plus: single_count %}
+  {% endfor %}
+
+- 字数: <span class="post_num">{{ count | minus: note_count | divided_by: 1000.0 | round: 2 }}K</span> 字
 
 ### 精选
 <hr>
