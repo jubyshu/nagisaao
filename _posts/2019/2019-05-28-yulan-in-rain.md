@@ -2,7 +2,7 @@
 layout: post
 title: 雨中的玉兰
 date: 2019-05-28 20:00
-categories: poem
+categories: poetry
 tags: 玉兰 下雨 孤独
 ---
 
