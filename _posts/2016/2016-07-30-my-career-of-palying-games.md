@@ -3,7 +3,7 @@ layout: post
 title: 我的游戏生涯
 date: 2016-07-30
 categories: essay
-tags: 生活
+tags: 暴雪 游戏
 ---
 
 真正开始玩游戏，是从大学开始的。

@@ -3,7 +3,7 @@ layout: post
 title: 遥望
 date: 2016-04-25
 categories: poetry
-tags: 诗歌
+tags: 思念
 ---
 
 （你听树叶沙沙的声）  

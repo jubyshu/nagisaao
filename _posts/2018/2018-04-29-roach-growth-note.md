@@ -3,7 +3,7 @@ layout: post
 title: 萝卜成长记
 date: 2018-04-29
 categories: essay
-tags: 豹纹守宫
+tags: 宠物 豹纹守宫
 ---
 
 {% include image.html url="roach-small.jpg" caption="萌萌哒的小萝卜" %}

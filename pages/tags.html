@@ -6,12 +6,20 @@ permalink: /tags/
 ---
 
 <h3 id="tag-index">标签</h3><hr>
-<ul class="tag_box">
+
+<p>
+{% for tag in site.tags %}
+  <a href="/tags/#{{ tag[0] }}-ref" style="font-size: {{ tag[1] | size | times: 0.8 | plus: 13 }}px">
+    {{ tag[0] }}  
+  </a>
+{% endfor %}
+</p>
+<!-- <ul class="tag_box">
   {% for tag in site.tags %}
   <li><a href="/tags/#{{ tag | first }}-ref">{{ tag | first }}(<span>{{ tag | last | size }}</span>)</a></li>
   {% endfor %}
 </ul>
-
+ -->
 <!-- <div>
   {% for tag in site.tags %}
   {% capture tag_name %}{{ tag | first }}{% endcapture %}

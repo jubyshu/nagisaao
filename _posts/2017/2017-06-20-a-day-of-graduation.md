@@ -3,7 +3,7 @@ layout: post
 title: 毕业的一天
 date: 2017-06-20
 categories: essay
-tags: 毕业
+tags: 南大 毕业 人生
 recommend: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 四月杂记
 date: 2018-05-06
 categories: essay
-tags: 生活
+tags: 日语 健身
 ---
 
 过去的四月，看起来好像每天都很忙，忙的没有时间玩游戏和看直播，其实到头来什么结果也未收获，反而更添焦虑。

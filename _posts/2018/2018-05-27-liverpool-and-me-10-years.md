@@ -3,7 +3,7 @@ layout: post
 title: 十年磨一剑 
 date: 2018-05-27
 categories: essay
-tags: 利物浦 欧冠
+tags: 利物浦 欧冠 足球
 ---
 
 #### 1
