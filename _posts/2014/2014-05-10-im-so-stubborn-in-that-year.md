@@ -3,7 +3,7 @@ layout: post
 title: 那一年的我，那么的倔强
 date: 2014-05-10
 categories: essay
-tags: 情感 青春
+tags: 夏日 青春 倔强
 recommend: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 草原
 date: 2014-07-11 00:05
 categories: poetry
-tags: 诗歌
+tags: 孤独
 ---
 
 我“大”字型躺在草原  

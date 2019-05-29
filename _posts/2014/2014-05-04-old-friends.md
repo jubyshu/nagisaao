@@ -3,7 +3,7 @@ layout: post
 title: 故人
 date: 2014-05-27
 categories: poetry
-tags: 故人
+tags: 故人 思念
 ---
 
 当落英缤纷或绿树成荫  

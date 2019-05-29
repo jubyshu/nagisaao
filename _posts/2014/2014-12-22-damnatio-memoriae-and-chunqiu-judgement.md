@@ -3,7 +3,7 @@ layout: post
 title: 古罗马的“除名毁忆”与西汉的“春秋断狱”
 date: 2014-12-22 13:00
 categories: review
-tags: 古罗马 除名毁忆 春秋断狱 专制
+tags: 古罗马 除名毁忆 西汉 春秋断狱
 ---
 
 ### 一、前言
