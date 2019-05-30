@@ -3,7 +3,7 @@ layout: post
 title: 少年游
 date: 2016-05-23
 categories: story
-tags: 武侠小说
+tags: 虚构
 ---
 
 #### 扬子江头

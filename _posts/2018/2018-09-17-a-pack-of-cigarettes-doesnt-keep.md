@@ -3,7 +3,7 @@ layout: post
 title: 一包烟也不留
 date: 2018-09-17
 categories: review
-tags: 音乐 Spotify 六四
+tags: 影音 工具
 card: https://i.imgur.com/eB3lmbs.jpg
 ---
 

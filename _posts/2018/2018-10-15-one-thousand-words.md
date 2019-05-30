@@ -3,7 +3,7 @@ layout: post
 title: 一千字
 date: 2018-10-15
 categories: essay
-tags: 思考
+tags: 杂谈
 ---
 
 我很想学习写作，但正如我做其他事情一样，也只有一时的热情，甚至都持续不了三天。

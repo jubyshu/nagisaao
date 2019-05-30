@@ -3,7 +3,7 @@ layout: post
 title: 滑板糗事
 date: 2018-05-23
 categories: essay
-tags: 滑板 校园
+tags: 好玩
 ---
 
 #### 入门

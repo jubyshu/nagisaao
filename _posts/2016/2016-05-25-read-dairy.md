@@ -3,7 +3,7 @@ layout: post
 title: 重读日记
 date: 2016-05-25
 categories: essay
-tags: 日记 张大飞 巨流河 姥爷
+tags: 生活 杂谈
 recommend: true
 ---
 

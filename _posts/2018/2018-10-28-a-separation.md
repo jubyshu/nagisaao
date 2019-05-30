@@ -3,7 +3,7 @@ layout: post
 title: 一次别离
 date: 2018-10-28 20:30
 categories: essay
-tags: 宠物
+tags: 生活
 card: https://i.imgur.com/SD2oZYb.png
 ---
 

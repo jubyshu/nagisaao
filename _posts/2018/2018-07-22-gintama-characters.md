@@ -3,7 +3,7 @@ layout: post
 title: 「银魂」里的幕末人物原型
 date: 2018-07-22
 categories: review
-tags: 银魂 坂本龙马 幕末
+tags: 阅读 日本
 ---
 
 {% include image.html url="sakamoto-tatsuma.png" caption="嗓门很大的坂本辰马" %}

@@ -3,7 +3,7 @@ layout: post
 title: 四五事
 date: 2018-11-10 22:25
 categories: essay
-tags: 生活
+tags: 生活 杂谈
 ---
 
 #### 1

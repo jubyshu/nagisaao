@@ -3,7 +3,7 @@ layout: post
 title: 瓦莱里的序文
 date: 2018-10-13
 categories: review
-tags: 读书 瓦莱里 盛成
+tags: 阅读
 ---
 
 日本作家芹泽光治良在『人间的命运——致巴金』一书中回忆了在法国友人邵可侣家中遇到的一个中国人陈君（Mush Chang）的故事。

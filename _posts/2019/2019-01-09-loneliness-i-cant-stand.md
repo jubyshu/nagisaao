@@ -3,7 +3,7 @@ layout: post
 title: 不能承受的孤独
 date: 2019-01-09 21:20
 categories: essay
-tags: 孤独 爱情 社交
+tags: 情感
 ---
 
 {% include image.html url="hug-children.jpg" caption="きらきらと大地で君と抱き合いたい" %}

@@ -3,7 +3,7 @@ layout: post
 title: 梦开始的地方
 date: 2013-04-12
 categories: essay
-tags: 初恋 情书
+tags: 情感
 ---
 
 亲爱的，

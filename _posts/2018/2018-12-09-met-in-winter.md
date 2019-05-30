@@ -3,7 +3,7 @@ layout: post
 title: 冬の出逢い
 date: 2018-12-09 20:15
 categories: poetry
-tags: 情书 歌词
+tags: 情感 日本
 ---
 
 秋が去ってイチョウの葉も落ちかけた  

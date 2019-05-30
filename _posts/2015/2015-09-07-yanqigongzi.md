@@ -3,7 +3,7 @@ layout: post
 title: 晏七公子
 date: 2015-09-07
 categories: story
-tags: 武侠小说
+tags: 虚构
 ---
 
 #### 家变

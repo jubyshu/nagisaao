@@ -3,7 +3,7 @@ layout: post
 title: 人间失格
 date: 2018-04-26
 categories: essay
-tags: 人生 道德 南大
+tags: 南大 杂谈
 recommend: true
 ---
 

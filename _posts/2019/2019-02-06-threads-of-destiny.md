@@ -3,7 +3,7 @@ layout: post
 title: 红线
 date: 2019-02-06 12:10
 categories: review
-tags: 红线 赤い糸 日剧 南泽奈央 
+tags: 日本 影音 
 ---
 
 {% include image.html url="akaiito-poster.jpg" caption="赤い糸のポスター" %}

@@ -7,11 +7,11 @@ permalink: /tags/
 
 <h3 id="tag-index">标签</h3><hr>
 
-<ul class="tag_box">
+<p>
   {% for tag in site.tags %}
-  <li><a href="/tags/#{{ tag | first }}-ref">{{ tag | first }}(<span>{{ tag | last | size }}</span>)</a></li>
+  <a href="/tags/#{{ tag[0] }}-ref">{{ tag[0] }}</a> 
   {% endfor %}
-</ul>
+</p>
 
 <!-- <div>
   {% for tag in site.tags %}

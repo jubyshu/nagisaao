@@ -3,7 +3,7 @@ layout: post
 title: 夏夜有怀
 date: 2016-08-05
 categories: poetry
-tags: 夏日 孤独
+tags: 生活
 ---
 
 我以手持的雨伞拂过草丛  

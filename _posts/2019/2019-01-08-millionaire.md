@@ -3,7 +3,7 @@ layout: post
 title: 百万富翁
 date: 2019-01-08 14:50
 categories: essay
-tags: 运气 抽奖 前泽社长
+tags: 生活
 ---
 
 「明天醒来会中一百万日元哦」，昨晚我是怀着这样乐观的想法入睡的。

@@ -3,7 +3,7 @@ layout: post
 title: 黑鸟
 date: 2017-05-31
 categories: poetry
-tags: 人生
+tags: 杂谈
 ---
 
 夜色降临在门前一具尸体  

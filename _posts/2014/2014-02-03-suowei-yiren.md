@@ -3,7 +3,7 @@ layout: post
 title: 所谓伊人
 date: 2014-02-03
 categories: essay
-tags: 孤独 爱情
+tags: 情感
 recommend: true
 ---
 

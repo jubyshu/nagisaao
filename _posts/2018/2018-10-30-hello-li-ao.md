@@ -3,7 +3,7 @@ layout: post
 title: 哈囉李敖
 date: 2018-10-30 23:00
 categories: review
-tags: 李敖
+tags: 杂谈
 ---
 
 前几天整理微博，意外地发现我还关注着李敖先生。由于李敖长时间不发微博，我已经忘记这回事了。

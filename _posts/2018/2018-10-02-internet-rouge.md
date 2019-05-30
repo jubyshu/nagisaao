@@ -3,7 +3,7 @@ layout: post
 title: 互联网流氓
 date: 2018-10-02
 categories: essay
-tags: 思考
+tags: 杂谈
 ---
 
 在互联网的世界里，有太多的流氓。

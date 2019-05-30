@@ -3,7 +3,7 @@ layout: post
 title: 一个孤独漫步者的日记
 date: 2017-10-09
 categories: essay
-tags: 日记 人生 孤独
+tags: 生活 杂谈
 ---
 
 #### 5月6日

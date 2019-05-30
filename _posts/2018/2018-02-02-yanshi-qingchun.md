@@ -3,7 +3,7 @@ layout: post
 title: 厌世与青春小说
 date: 2018-02-02
 categories: review
-tags: 日记 青春 郑允
+tags: 杂谈 阅读
 ---
 
 #### 2017年5月11日

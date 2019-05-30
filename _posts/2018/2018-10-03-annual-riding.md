@@ -3,7 +3,7 @@ layout: post
 title: 年度一次的骑行
 date: 2018-10-03
 categories: essay
-tags: 生活 骑行
+tags: 生活
 card: https://i.imgur.com/FsUNZ1V.png
 ---
 

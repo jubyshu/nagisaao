@@ -3,7 +3,7 @@ layout: post
 title: 晴天八月
 date: 2016-08-16
 categories: essay
-tags: 夏日 校园
+tags: 南大 生活
 recommend: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 下雨天不打伞
 date: 2014-01-08
 categories: essay
-tags: 下雨天 孤独
+tags: 生活
 recommend: true
 ---
 

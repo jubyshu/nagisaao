@@ -3,7 +3,7 @@ layout: post
 title: 并非在思考
 date: 2018-11-01 20:50
 categories: essay
-tags: 宠物
+tags: 生活 杂谈
 ---
 
 #### 1

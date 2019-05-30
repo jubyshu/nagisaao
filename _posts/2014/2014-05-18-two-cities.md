@@ -3,7 +3,7 @@ layout: post
 title: 双城
 date: 2014-05-18 22:45
 categories: poetry
-tags: 思念
+tags: 情感
 ---
 
 风雪收敛于秦岭以北  

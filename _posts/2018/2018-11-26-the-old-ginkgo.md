@@ -3,7 +3,7 @@ layout: post
 title: 老银杏
 date: 2018-11-26 10:50
 categories: poetry
-tags: 银杏
+tags: 情感 季语
 ---
 
 我的窗外只有一棵

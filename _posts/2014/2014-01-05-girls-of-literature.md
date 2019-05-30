@@ -3,7 +3,7 @@ layout: post
 title: 中文系的女生
 date: 2014-01-05
 categories: essay
-tags: 文学 女生 爱情
+tags: 情感 生活
 ---
 
 我的一个愿望，就是交一个中文系的女友。

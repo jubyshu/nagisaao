@@ -3,7 +3,7 @@ layout: post
 title: 写作与阅读
 date: 2018-08-10
 categories: essay
-tags: 阅读 写作
+tags: 杂谈
 recommend: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Be Liverable
 date: 2019-05-08 19:30
 categories: essay
-tags: 利物浦 足球 欧冠 信念
+tags: 情感 杂谈
 ---
 
 {% include image.html url="liverpool-coat.jpg" caption="红色是幸运的颜色" %}

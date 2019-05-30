@@ -3,7 +3,7 @@ layout: post
 title: 明天的我与昨天的你约会
 date: 2018-04-20
 categories: review
-tags: 爱情 青春 日本电影
+tags: 日本 影音
 card: https://i.imgur.com/Z1GJgMF.jpg
 ---
 

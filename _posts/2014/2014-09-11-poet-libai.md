@@ -3,7 +3,7 @@ layout: post
 title: 诗人李白
 date: 2014-09-11
 categories: story
-tags: 李白 诗人
+tags: 虚构
 ---
 
 李白自称是个诗人，但我从来没见他写过一行诗。

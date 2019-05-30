@@ -3,7 +3,7 @@ layout: post
 title: 乡居
 date: 2014-08-02 00:40
 categories: poetry
-tags: 孤独 思念
+tags: 生活
 ---
 
 树叶在书写着历史  

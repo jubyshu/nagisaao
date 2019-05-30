@@ -3,7 +3,7 @@ layout: post
 title: 不想讓高中的暑假結束
 date: 2018-12-02 19:40
 categories: essay
-tags: 失恋 写诗 GLAY
+tags: 情感
 recommend: true
 ---
 

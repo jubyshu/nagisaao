@@ -3,7 +3,7 @@ layout: post
 title: 玩机
 date: 2019-04-16 13:30
 categories: essay
-tags: adb Magisk AR Android
+tags: 工具 好玩
 ---
 
 #### Magisk

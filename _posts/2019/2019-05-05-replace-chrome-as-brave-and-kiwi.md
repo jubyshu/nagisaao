@@ -3,7 +3,7 @@ layout: post
 title: Chrome的替代者
 date: 2019-05-05 13:40
 categories: essay
-tags: 浏览器 Brave Kiwi Chrome
+tags: 工具
 ---
 
 无论是在电脑还是在手机上，浏览器都是我使用最多的应用，凡是可以用浏览器做到的事，我都倾向于不再下载相应的App。因此，挑选一款趁手的浏览器，将大大提高自己的上网体验。

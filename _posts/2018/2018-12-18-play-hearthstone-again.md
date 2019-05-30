@@ -3,7 +3,7 @@ layout: post
 title: 重玩炉石
 date: 2018-12-18 10:50
 categories: essay
-tags: 炉石 游戏
+tags: 杂谈
 ---
 
 朋友说，他最近又开始玩炉石了，于是我也回归了。当初，也是在他的推荐下才玩的。

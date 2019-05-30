@@ -3,7 +3,7 @@ layout: post
 title: 夏夜里的人们
 date: 2016-05-14 01:10
 categories: poetry
-tags: 夏日 孤独
+tags: 生活
 ---
 
 我走下图书馆的台阶  

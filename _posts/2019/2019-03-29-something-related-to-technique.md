@@ -3,7 +3,7 @@ layout: post
 title: 与技术沾点边
 date: 2019-03-29 18:00
 categories: essay
-tags: Gboard Imgur Feedly
+tags: 工具 好玩
 ---
 
 #### 1
