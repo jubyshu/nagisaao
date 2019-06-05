@@ -28,6 +28,16 @@ permalink: /about/
 评论通知：[Deserts](https://panjunwen.com/valine-admin-document/)  
 功能扩展：[fooleap](https://blog.fooleap.org/)
 
+-------------------
+**订阅**
+
+为了提高日语的阅读能力，利用RSSHub自制了几个RSS订阅源，但事实上我几乎没有看过，有需要的人也可以进行订阅。
+
+- [telling,](http://rss.rosemary.ink/telling/story)：あなただけに言うね。
+- [soar](http://rss.rosemary.ink/soar/home)：人の持つ可能性が広がる瞬間を捉え、伝えていくメディア。
+- [BookBang](http://rss.rosemary.ink/bookbang/news)：新聞・出版社の書評まとめ読み！読書家のための本の総合情報サイト。
+- [南沢奈央の読書日記](http://rss.rosemary.ink/bookbang/serial/minamisawanao)：ドラマや舞台、ラジオナビゲーターとして活躍する女優の南沢奈央さんは大の読書家。毎週、南沢さんが近況を交えつつ、興味のおもむくままに様々なジャンルの本を紹介します。
+
 
 <style>
   img {
