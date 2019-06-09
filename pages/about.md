@@ -8,7 +8,7 @@ permalink: /about/
 ------------------
 **博客**
 
-[![Jekyll Version](https://img.shields.io/badge/Jekyll-v3.8.5-yellow.svg)](https://jekyllrb.com/)[![Netlify Status](https://img.shields.io/badge/Netlify-success-blue.svg)](https://app.netlify.com/sites/jubeny/deploys)[![Valine Version](https://img.shields.io/badge/Valine-v1.3.6-brightgreen.svg)](https://valine.js.org/)[![](https://img.shields.io/badge/Juby-unhappy-orange.svg)](https://rosemary.ink)
+[![Jekyll Version](https://img.shields.io/badge/Jekyll-v3.8.5-yellow.svg)](https://jekyllrb.com/)[![Netlify Status](https://img.shields.io/badge/Netlify-success-blue.svg)](https://app.netlify.com/sites/jubeny/deploys)[![Valine Version](https://img.shields.io/badge/Valine-v1.3.6-brightgreen.svg)](https://valine.js.org/)[![](https://img.shields.io/badge/-juby-orange.svg?labelColor=gray&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTdweCIgaGVpZ2h0PSIxNXB4IiB2aWV3Qm94PSIwIDAgMTcgMTUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU0LjEgKDc2NDkwKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5TbGljZSAxPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8ZyBpZD0icm9zZSIgc3Ryb2tlPSIjRkZGRkZGIj4KICAgICAgICAgICAgPHBhdGggZD0iTTguNSwxNC41IEw4LjUsOS41IiBpZD0iUGF0aCI+PC9wYXRoPgogICAgICAgICAgICA8cG9seWdvbiBpZD0iUGF0aCIgcG9pbnRzPSI4LjUgOS41IDMgNi41IDIuNSAzLjUgOC41IDAuNSAxNC41IDMuNSAxNCA2LjUiPjwvcG9seWdvbj4KICAgICAgICAgICAgPHBvbHlsaW5lIGlkPSJQYXRoIiBwb2ludHM9IjguNSA0LjUgOC41IDMgMTIgNSA4LjUgNi41IDIuNSAzLjUiPjwvcG9seWxpbmU+CiAgICAgICAgICAgIDxwb2x5bGluZSBpZD0iUGF0aCIgcG9pbnRzPSIxNC4zNSA0LjM5OSAxNi41IDUuNSAxNSAxMCA4LjUgMTMgMiAxMCAwLjUgNS41IDIuNjUgNC4zOTkiPjwvcG9seWxpbmU+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=)](https://rosemary.ink)
 
 博客搭建于2015年初，2018年开始使用Jekyll，目前托管在Netlify，评论系统由Valine支持，文章均为Juby的自说自话。
 
@@ -31,7 +31,7 @@ permalink: /about/
 -------------------
 **订阅**
 
-为了提高日语的阅读能力，利用RSSHub自制了几个RSS订阅源，但事实上我几乎没有看过，有需要的人也可以进行订阅。
+为了提高日语阅读能力，利用RSSHub自制了几个RSS订阅源，但事实上我几乎没有看过，有需要的人可以在此获取订阅链接。
 
 - [telling,](http://rss.rosemary.ink/telling/story)：あなただけに言うね。
 - [soar](http://rss.rosemary.ink/soar/home)：人の持つ可能性が広がる瞬間を捉え、伝えていくメディア。
