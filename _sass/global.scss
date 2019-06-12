@@ -150,7 +150,14 @@ blockquote {
   border-radius: 5px;
   // border-left: 2px solid $border-color;
   p {
-  	padding: 1em 2em;
+  	padding-left: 2em;
+    padding-right: 2em;
+    &:first-child {
+      padding-top: 1em;
+    }
+    &:last-child {
+      padding-bottom: 1em;
+    }
   }
 }
 
