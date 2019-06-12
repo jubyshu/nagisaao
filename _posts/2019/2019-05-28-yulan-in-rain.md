@@ -6,10 +6,7 @@ categories: poetry
 tags: 情感 季语
 ---
 
-<video width="100%" controls="controls">
-  <source src="https://rosemary.ink/img/yulan-rain.mp4" type="video/mp4">
-</video>
-<br>
+{% include image.html url="yulan-rain.jpg" caption="" %}
 
 玉兰花只开了一朵，或者说，玉兰花只剩下一朵。  
 那硕大而洁白的花朵，孤悬在树的一角。  
