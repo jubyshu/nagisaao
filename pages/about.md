@@ -21,6 +21,10 @@ permalink: /about/
 
 经常出没于自己的内心世界，以及[twitter](https://twitter.com/jubyshu)和[telegram](https://t.me/jubyshu)。
 
+喜欢的作家：鲁迅，芥川龙之介，博尔赫斯，夏目漱石，兰姆，陀思妥耶夫斯基。
+
+喜欢的乐队：The Beatles，Queen，Eagles，KISS，GLAY，X Japan，JUDY AND MARY，Every Little Thing，Do As Infinity，いきものがかり。
+
 -------------------
 **感谢**
 
