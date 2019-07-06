@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 跑步与饮酒
-date: 2019-07-06
+date: 2019-07-06 16:00
 categories: essay
 tags: 生活
 ---
