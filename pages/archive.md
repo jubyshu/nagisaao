@@ -15,13 +15,13 @@ permalink: /archive/
   {% endfor %}
 - 字数: <span class="post_num">{{ count | divided_by: 1000.0 | round: 2 }}K</span> 字
 
-<hr>
+<!-- <hr>
 ### 精选
 {% for post in site.posts %}
   {% if post.recommend %}
   - {{ post.date | date: '%y-%m-%d' }} &raquo; [{{ post.title }}]({{ post.url }})
   {% endif %} 
-{% endfor %}
+{% endfor %} -->
 
 {% assign count = 1 %}
 {% for post in site.posts reversed %}
