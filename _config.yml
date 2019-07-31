@@ -68,10 +68,10 @@ nav:
 
 # Categories
 categs:
-  - {title: 诗, url: '/poetry/'}
-  - {title: 文, url: '/essay/'}
-  - {title: 评, url: '/review/'}
-  - {title: 事, url: '/story/'}
+  - {title: P, url: '/poetry/'}
+  - {title: E, url: '/essay/'}
+  - {title: R, url: '/review/'}
+  - {title: S, url: '/story/'}
 
 # Pagination
 plugins: [jekyll-paginate-v2, jekyll-sitemap, jekyll-algolia]
