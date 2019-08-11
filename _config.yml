@@ -30,8 +30,8 @@ bing:
 
 # Leancloud used for Valine
 leancloud: 
-  appid: CRU9WNiFOXtffNHePc2WD4sT-gzGzoHsz
-  appkey: YsaHf3ahdzk2NkPOmNBohvgd
+  appid: QSgMGPbA7GNASFnb69vrBVxT-MdYXbMMI
+  appkey: 5LnIvn6xAMPXGlMAssqbQCB6
 
 # OpenGraph & TwitterCard
 card: /images/tcard.png
