@@ -6,7 +6,7 @@ categories: essay
 tags: 情感
 ---
 
-{% include image.html url="hug-children.jpg" caption="きらきらと大地で君と抱き合いたい" %}
+{% include image.html url="hug_children.jpg" caption="きらきらと大地で君と抱き合いたい" %}
 
 我是一个非常容易满足的人，换言之，其实就是对自己的要求很低。如果一块钱就能让我变得快乐，我绝不会去索要两块钱。同样地，如果有了一个朋友，我也不再想去认识更多的人。
 

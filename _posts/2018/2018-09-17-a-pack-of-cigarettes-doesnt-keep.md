@@ -10,7 +10,7 @@ card: https://i.imgur.com/eB3lmbs.jpg
 #### 1
 昨天整理Apple Music的歌单时，无意中发现之前收藏的一首歌变成了灰色，是张惠妹的「没有烟抽的日子」，出自「妹力四射」这张专辑。专辑中的其他歌都还在，单单是这首莫名其妙地消失了。
 
-{% include image.html url="amei-song.jpg" caption="阿妹的歌被下架？" %}
+{% include image.html url="amei_song.jpg" caption="阿妹的歌被下架？" %}
 
 我的第一反应是这首歌被和谐了，像漏网之鱼又被抓回了网中。毕竟，这是首与某事件相关的歌曲，在QQ、虾米、网易云等主流的流媒体服务中是没有的，而现在国区的Apple Music也难逃被下架的命运了。
 

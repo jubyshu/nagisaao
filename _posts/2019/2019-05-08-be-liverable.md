@@ -6,7 +6,7 @@ categories: essay
 tags: 情感 杂谈
 ---
 
-{% include image.html url="liverpool-coat.jpg" caption="红色是幸运的颜色" %}
+{% include image.html url="liverpool_coat.jpg" caption="红色是幸运的颜色" %}
 
 #### 缘起
 我并不是一个狂热而专业的球迷，既不能对球队的主力、替补甚至青训如数家珍，也不会观看球队的每一场比赛。但就在这样的一种状态下，我成为利物浦的球迷也已近十年了。

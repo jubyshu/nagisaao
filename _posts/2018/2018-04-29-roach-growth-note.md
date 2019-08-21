@@ -6,7 +6,7 @@ categories: essay
 tags: 生活 好玩
 ---
 
-{% include image.html url="roach-small.jpg" caption="萌萌哒的小萝卜" %}
+{% include image.html url="roach_small.jpg" caption="萌萌哒的小萝卜" %}
 
 萝卜是我给新养的豹纹守宫取的名字。为什么取这个名字呢？有三个原因：一是它所属的品系为Carrot-tail，即萝卜尾；二是在玩的昆特牌中有一张很喜欢的卡叫萝卜（Roach[^1]）；三是萝卜叫起来挺顺口的，以后的宠物名字也会沿用蔬菜系列。虽然给它取了名字，但对于冷血动物来说，是不会记得的吧，所以当我叫出“萝卜”的时候，大概永远没有回应。
 

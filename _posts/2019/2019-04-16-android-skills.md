@@ -25,7 +25,7 @@ adb可以用来传输文件、安装和卸载应用，这也是我能用到的�
 #### Pixel Camera
 很早之前便羡慕Pixel相机的AR功能，也查过在一加上实现的教程，觉得麻烦就放弃了。这次想着，既然手机都root了，还怕这点麻烦吗，遂决定搞一下。在非Pixel上使用谷歌相机和AR模式只需四步，而且不用root手机。首先，下载修改过的谷歌相机[^1]；其次，安装AR Core；然后，安装修改过的Playground或 AR Stickers;[^2]最后，通过[APKMirror](https://www.apkmirror.com/)或Google Paly下载贴纸。至于谷歌相机与自带相机孰优孰劣，我这种小白就不知道了。
 
-{% include image.html url="greenwall-hulk.jpg" caption="绿山墙的绿巨人" %}
+{% include image.html url="greenwall_hulk.jpg" caption="绿山墙的绿巨人" %}
 
 
 [^1]: 下载地址：[Google Camera Port](https://www.celsoazevedo.com/files/android/google-camera/)

@@ -6,7 +6,7 @@ categories: review
 tags: 阅读 日本
 ---
 
-{% include image.html url="sakamoto-tatsuma.png" caption="嗓门很大的坂本辰马" %}
+{% include image.html url="sakamoto_tatsuma.png" caption="嗓门很大的坂本辰马" %}
 
 吉田松阳 —— 吉田松阴，长州武士，黑船事件时试图偷渡出国，被捕后判处切腹，明治维新前三杰之一。
 

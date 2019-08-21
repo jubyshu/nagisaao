@@ -6,7 +6,7 @@ categories: review
 tags: 日本 影音 
 ---
 
-{% include image.html url="akaiito-poster.jpg" caption="赤い糸のポスター" %}
+{% include image.html url="akaiito_poster.jpg" caption="赤い糸のポスター" %}
 
 红线的含义，想必大家都知道，是传说中月老用来联结姻缘的线。至于其出处，大概很少有人会去关注吧。
 
