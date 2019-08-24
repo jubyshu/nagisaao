@@ -2,7 +2,7 @@
 layout: post
 title: 披头士的歌词
 date: 2019-08-24 15:30
-categories: essay
+categories: review
 tags: 影音 好玩
 ---
 
