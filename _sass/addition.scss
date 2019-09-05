@@ -269,3 +269,13 @@ sup {
     font-size: 1em;
   }
 }
+
+.gist th, td {
+  border: none;
+}
+.gist {
+  max-width: 720px;
+}
+.gist-file .gist-data {
+  max-height: 400px; 
+}
