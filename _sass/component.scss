@@ -42,11 +42,6 @@
 }
 
 .post {
-  p {  // 两端对齐
-  	text-align: justify;
-    text-justify: inter-word;
-  }
-
   img {
     cursor: pointer;
   	max-width: 100%;
@@ -62,8 +57,22 @@
   }
 
   hr {
-  	margin: 1em auto;
+    margin: 1em auto;
     border-top: 1px solid $border-color;
+  }
+}
+.post.not_page {
+  hr {
+    margin: 1em 40%;
+    border-top: 1px solid $link-color;
+  }
+
+  a {
+    color: $tobi;
+    border-bottom: 1px solid $hover-color;
+    &:hover {
+      color: $hover-color;
+    }
   }
 }
 
@@ -268,7 +277,7 @@ i {
 .post-list__post-title {
   margin-top: 5px;
   margin-bottom: .2em;
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 1.3em;
   a {
     color: #333; 

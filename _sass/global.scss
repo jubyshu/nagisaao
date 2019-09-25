@@ -73,8 +73,8 @@ a {
   color: $link-color;
   text-decoration: none;
   &:hover {
-    text-decoration: underline;
-  	// color: $hover-color;
+    // text-decoration: underline;
+  	color: $hover-color;
   	-o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -97,13 +97,13 @@ h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 1.8em;
+  font-size: 1.6em;
   line-height: 1.2em;
   letter-spacing: .05em; 
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 0.8em;
 }
 
@@ -244,6 +244,12 @@ th, td {
   width: 100%;
   max-width: 780px;
   margin: 100px auto auto auto;
+  p {
+    text-align: justify;
+    text-justify: distribute;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
 }
 
 .content-wrapper__inner {
@@ -271,6 +277,7 @@ th, td {
 
 hr {
   border: none; 
+  // margin: 1em 50%;
 }
 
 .section-title__divider {
