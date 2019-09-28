@@ -1,4 +1,6 @@
 <figure class="post-figure">
-  <img class="post-img" src="//rosemary.ink/image/{{ include.url }}" alt="{{ include.caption }}">
+  <a href="//rosemary.ink/image/{{ include.url }}" data-fancybox="images" data-caption="{{ include.caption }}">
+    <img class="post-img" src="//rosemary.ink/image/{{ include.url }}" alt="{{ include.caption }}">
+  </a>
   <figcaption class="post-figcaption">{{ include.caption }}</figcaption>
 </figure>

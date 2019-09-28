@@ -59,9 +59,9 @@ $(function() {
  $(window).bind('scroll',tocScroll); 
 });
 
-let imgArr = document.querySelectorAll('.post-img');
-for (let i = 0; i < imgArr.length; i++) {
-  imgArr[i].onclick = function() {
-    window.open(imgArr[i].src, '_self');
-  };
-}
+// let imgArr = document.querySelectorAll('.post-img');
+// for (let i = 0; i < imgArr.length; i++) {
+//   imgArr[i].onclick = function() {
+//     window.open(imgArr[i].src, '_self');
+//   };
+// }
