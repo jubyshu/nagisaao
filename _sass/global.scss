@@ -32,9 +32,9 @@ body {
   width: 100%;
   *zoom: 1;
   line-height: 1;
-  font-family: $source-serif;
-  font-size: 1em;
-  color: $ro;
+  font-family: $body-font;
+  font-size: 15px;
+  color: $font-color;
   background-color: #efefef;
   -webkit-font-smoothing: antialiased; 
   &:before {
@@ -247,7 +247,7 @@ th, td {
   p {
     text-align: justify;
     text-justify: distribute;
-    word-break: break-all;
+    word-break: break-word;
     word-wrap: break-word;
   }
 }

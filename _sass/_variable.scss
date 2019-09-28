@@ -12,8 +12,8 @@ $tobi: #724832; //鳶
 
 $link-color: $aimirucha;
 $hover-color: $seiheki;
-$border-color: $shironezumi;
-$font-color: $ro;
+$border-color: #e1e1e1;
+$font-color: rgba(0, 0, 0, 0.8);
 $sub-font-color: $aonibi;
 $background-color: #eef5f6;
 $meta-color: $ginnezumi;
@@ -21,6 +21,7 @@ $title-color: $aisumicha;
 
 $source-serif: "PT Serif", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", "Noto Serif", "Noto Serif SC", "Noto Serif JP", serif;
 $heiti-sans: "PT Sans", "Source Han Sans SC", "Source Han Sans CN", "Source Han Sans", "Noto Sans", "Noto Sans SC", "Noto Sans JP", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", SimHei, sans-serif;
+$body-font: $heiti-sans;
 $quote-font: $source-serif;
 
 @mixin div-middle {

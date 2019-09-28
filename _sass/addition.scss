@@ -65,6 +65,7 @@ sup {
     position: relative;
     bottom: -0.1em;
     text-decoration: none;
+    border-bottom: none !important;
     &:before {
       content: '[';
       color: $link-color;
@@ -118,7 +119,7 @@ sup {
   }
   &:before {
     display: block;
-    content: "目录";
+    content: "TOC";
     margin: 5px;
     font-size: 1.1em;
   }
