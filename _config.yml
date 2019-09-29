@@ -85,6 +85,19 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
+# autopage_tags
+autopages:
+  enabled: true
+  categories: 
+    enabled: false
+  collections:
+    enabled: false
+  tags:
+    layouts: 
+      - 'autopage_tags.html'
+    title: '标签 - :tag'
+    permalink: '/tags/:tag'
 # algolia search
 algolia:
   application_id: XTX1EOVMI5

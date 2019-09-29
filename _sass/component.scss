@@ -61,7 +61,7 @@
     border-top: 1px solid $border-color;
   }
 }
-.post.not_page {
+.post.not_page, .post-tags {
   hr {
     margin: 1em auto;
     border-top: 1.8px dashed $tobi;

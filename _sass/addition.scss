@@ -280,3 +280,16 @@ sup {
 .gist-file .gist-data {
   max-height: 400px; 
 }
+
+.post-tags {
+  font-size: 0.85em;
+  margin-top: 2em;
+  ul {
+    margin: 0;
+    li {
+      display: inline;
+      list-style: none;
+      margin-right: 1em;
+    }
+  }
+}
