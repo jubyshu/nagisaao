@@ -94,6 +94,7 @@ autopages:
   collections:
     enabled: false
   tags:
+    enabled: true
     layouts: 
       - 'autopage_tags.html'
     title: '标签 - :tag'
