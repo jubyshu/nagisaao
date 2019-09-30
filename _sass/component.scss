@@ -74,6 +74,10 @@
       color: $hover-color;
     }
   }
+  h3 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ececec;
+  }
 }
 
 // panel
@@ -285,7 +289,7 @@ i {
     padding-top: 5px;
     // padding-left: 10px;
     &:hover {
-      color: $link-color;
+      color: $hover-color;
     }
   }
 }

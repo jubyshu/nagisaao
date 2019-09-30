@@ -68,9 +68,10 @@ nav:
 
 # Categories
 categs:
-  - {title: P, url: '/poetry/'}
+  - {title: J, url: '/journal/'}
   - {title: E, url: '/essay/'}
   - {title: R, url: '/review/'}
+  - {title: P, url: '/poetry/'}
   - {title: S, url: '/story/'}
 
 # Pagination

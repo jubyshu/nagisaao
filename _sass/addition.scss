@@ -102,9 +102,13 @@ sup {
   right: 50px;
   top: 170px;
   padding: 5px;
+  width: 210px;
   max-width: 210px;
   background: #f6f6f6;
   border-radius: 3px;
+  ol, ul {
+    margin-left: 1em;
+  }
   li {
     list-style-position: inside;
     list-style-type: none;
