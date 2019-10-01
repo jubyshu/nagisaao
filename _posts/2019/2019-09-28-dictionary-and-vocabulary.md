@@ -43,7 +43,7 @@ Kindle的生词，保存在默认隐藏的`system`文件夹中，Mac上可以打
 CREATE TABLE ENGLISH AS
   SELECT word_key, usage, timestamp
   FROM LOOKUPS
-  WHERE word_key LIKE 'en:%'
+  WHERE word_key REGEXP '^en:([A-z]+)'
 ```
 
 做了这些华而不实的工作，如果不用心温故，也只是白费力气而已。当然，不管遇到多少生词，硬着头皮也要看下去，这一点也很重要。
