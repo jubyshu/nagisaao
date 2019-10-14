@@ -13,8 +13,8 @@ summary {
   display: inline-block;
   margin: 3px auto;
   cursor: pointer;
-  color: $hover-color;
-  border-bottom: 0.8px solid $hover-color;
+  color: $tobi;
+  border-bottom: 1px solid $link-color;
   &:after {
     content: url(/images/feather.svg);
     padding-left: 2px;

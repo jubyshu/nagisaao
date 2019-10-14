@@ -14,11 +14,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 q {
   quotes: none; 
-  background-color: $background-color;
-  &:before, &:after {
-  	content: "";
-  	content: none;
+  &:before{
+  	content: "「";
   }
+  &:after {
+    content: "」";
+  }
+  border-bottom: 1px dashed $link-color;
 }
 
 // basic
@@ -134,11 +136,13 @@ h5 {
 
 strong {
   font-weight: bold;
-  font-size: 0.95em;
+  margin: auto 2px;
 }
 
 em {
-  font-style: italic; }
+  font-style: italic;
+  margin: auto 2px;
+}
 
 blockquote {
   font-family: $quote-font;
