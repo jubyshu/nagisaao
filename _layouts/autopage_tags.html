@@ -1,24 +1,23 @@
 ---
 layout: page
 pagination:
-  enabled: true
-  per_page: 100
+enabled: true
+per_page: 100
 ---
 
-<h3 id="tag-index">标签</h3><hr>
-
+<h3 id="tag-index">标签</h3>
+<hr>
 <p>
   {% for tag in site.tags %}
-  <a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a> 
+  <a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a>
   {% endfor %}
 </p>
-
 {% if page.autopages %}
-<h3>{{page.autopages.display_name}}</h3><hr>
+<h3>{{ page.autopages.display_name }}</h3>
 {% endif %}
-
+<hr>
 <ul>
-{% for post in paginator.posts %}
-  <li>{{ post.date | date: '%b %d, %Y' }} &raquo; <a href = "{{ post.url }}">{{ post.title }}</a></li>
-{% endfor%}
+  {% for post in paginator.posts %}
+  <li>{{ post.date | date: '%b %d, %Y' }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor%}
 </ul>

@@ -17,7 +17,6 @@ social:
 # Google
 google: 
   analytics: UA-112090731-1
-  adsense: ca-pub-1918559515694686
   site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
 
 # Leancloud used for Valine
@@ -25,16 +24,16 @@ leancloud:
   appid: QSgMGPbA7GNASFnb69vrBVxT-MdYXbMMI
   appkey: 5LnIvn6xAMPXGlMAssqbQCB6
 
+
+
 # OpenGraph & TwitterCard
 card: /images/tcard.png
 
-# ----------------- 上面的信息修改成你自己的 ---------------------------
+# ---------------------上面信息改为自己的-------------------------
+# 
+#          jekyll文档参考: https://jekyllrb.com/docs/
 #
-#  _posts/   文章目录
-#  _drafts/ 未发布的文章目录
-#  目录结构具体参考文档：http://jekyll.com.cn/docs/structure/
-#
-# --------------- 下面的信息可以自行选择是否修改 ------------------------
+# ---------------------下面信息视情况更改-------------------------
 
 # Permalink
 permalink: '/:year/:month/:title/'
@@ -50,7 +49,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# Navigation buttons in the front page.s
+# Navigation buttons
 nav:
   - {title: 主页, description: blog, url: '/'}
   - {title: 存档, description: archive, url: '/archive/'}   
@@ -66,10 +65,10 @@ categs:
   - {title: P, url: '/poetry/'}
   - {title: S, url: '/story/'}
 
-# Pagination
+# Plugins
 plugins: [jekyll-paginate-v2, jekyll-sitemap, jekyll-algolia]
-# paginate: 9
-# paginate_path: '/page/:num/'
+
+# Pagination
 pagination:
   enabled: true
   per_page: 9
@@ -92,6 +91,7 @@ autopages:
       - 'autopage_tags.html'
     title: '标签 - :tag'
     permalink: '/tags/:tag'
+
 # algolia search
 algolia:
   application_id: XTX1EOVMI5

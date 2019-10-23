@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html>
+{% include head.html %}
 
-  {% include head.html %}
-
-  <body>
-
-    <div class="container">
-    {% include side-panel.html %}
+<body>
+  <div class="container">
+    {% include panel.html %}
     <div class="content-wrapper">
-        <div class="content-wrapper__inner">
-            {{ content }}
-        </div>
-        {% include footer.html %}
+      <div class="content-wrapper__inner">
+        {{ content }}
+      </div>
+      {% include footer.html %}
     </div>
-    </div>
-    <div id="back-top">
-      <a href="#top" title="回到顶部"><span id="arrow"></span> </a>
-    </div>
-
-    {% include external.html %}
-    
-  </body>
+  </div>
+  <div id="back-top">
+    <a href="#top" title="回到顶部"><span id="arrow"></span> </a>
+  </div>
+  {% include scripts.html %}
+</body>
 
 </html>

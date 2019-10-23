@@ -1,4 +1,3 @@
-
 $aonibi: #535953;         // 青钝
 $ro: #0C0C0C;             // 吕
 $aimirucha: #0F4C3A;      // 蓝海松茶
@@ -20,7 +19,7 @@ $meta-color: $ginnezumi;
 $title-color: $aisumicha;
 
 $source-serif: "PT Serif", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "source-han-serif-sc", "Noto Serif", "Noto Serif SC", "Noto Serif JP", serif;
-$heiti-sans: "PT Sans", "Source Han Sans SC", "Source Han Sans CN", "Source Han Sans", "Noto Sans", "Noto Sans SC", "Noto Sans JP", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", SimHei, sans-serif;
+$heiti-sans: "PT Sans", "Source Han Sans SC", "Source Han Sans CN", "Source Han Sans", "Noto Sans", "Noto Sans SC", "Noto Sans JP", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", STHeiti, "WenQuanYi Micro Hei", SimHei, sans-serif;
 $body-font: $heiti-sans;
 $quote-font: $source-serif;
 
@@ -33,33 +32,6 @@ $quote-font: $source-serif;
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-
-@mixin cover-image {
-  background-image: -webkit-linear-gradient(-410deg, rgba(248, 248, 248, 1) 20%, rgba(248, 248, 248, 1));
-  background-image: linear-gradient(140deg,rgba(248, 248, 248, 1) 20%, rgba(248, 248, 248, 1)); 
-}
-
-@mixin keyframes($animationName) {
-  @-webkit-keyframes #{$animationName} {
-    @content;
-  }
-  @-moz-keyframes #{$animationName} {
-    @content;
-  }
-  @-o-keyframes #{$animationName} {
-    @content;
-  }
-  @keyframes #{$animationName} {
-    @content;
-  }
-}
-
-@mixin rotate-infinite {
-  animation: rotate 0.25s linear infinite;
-  -moz-animation: rotate 0.25s linear infinite;
-  -webkit-animation: rotate 0.25s linear infinite;
-  -o-animation: rotate 0.25s linear infinite;
 }
 
 @mixin rotate-circle {

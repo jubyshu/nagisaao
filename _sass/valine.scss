@@ -3,16 +3,20 @@
   .vinfo {
     font-size: 1em;
   }
+
   .vwrap {
     padding: 5px;
     margin-top: 20px;
     border: 1px solid $border-color;
+
     .vcontrol {
       padding-top: 0;
+
       .col {
         &.col-20 {
           font-size: .6rem;
           vertical-align: bottom;
+
           a {
             color: #ccc;
             pointer-events: none;
@@ -20,6 +24,7 @@
         }
       }
     }
+
     .vedit {
       .vctrl {
         span {
@@ -28,68 +33,85 @@
         }
       }
     }
+
     .vheader {
       .vinput {
         border-bottom: 1px solid $border-color;
       }
     }
   }
+
   .vbtn {
     padding: .15rem .5rem;
     font-size: .725rem;
   }
+
   .vinput {
     padding: 5px 0;
   }
+
   .veditor {
     min-height: 0;
   }
+
   .vlist {
     .vcard {
       padding-top: 0;
+
       .vhead {
         .vsys {
           display: none;
           padding: .1rem .2rem;
           font-size: .6rem;
         }
+
         .vnick {
           color: #aaa;
+
           &:hover {
             color: $link-color;
           }
+
           &:before {
             background: none;
           }
         }
       }
+
       a {
         color: #aaa;
+
         &:hover {
           color: $link-color;
         }
+
         &:before {
           background: none;
         }
       }
+
       .vh {
         border-bottom: none;
         border-top: 1px solid #ccc;
+
         .vmeta {
           .vat {
             float: none;
             color: #b3b3b3;
             font-size: .75rem;
+
             &:hover {
               color: $link-color;
             }
           }
         }
       }
+
       .vquote {
         border-left: none;
         padding-left: 0;
       }
+
       .vcontent {
         margin-bottom: 0;
         padding-top: 0;
@@ -97,21 +119,26 @@
         text-align: justify;
         text-justify: distribute;
       }
+
       .vimg {
         width: 2.5rem;
         height: 2.5rem;
+
         &:hover {
           @include rotate-circle;
         }
       }
     }
   }
+
   .txt-right {
     display: none;
   }
+
   .vempty {
     font-size: .725rem;
   }
+
   textarea {
     &::placeholder {
       color: #e8e8e8;

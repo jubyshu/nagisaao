@@ -15,17 +15,19 @@ summary {
   cursor: pointer;
   color: $tobi;
   border-bottom: 1px solid $link-color;
+
   &:after {
     content: url(/images/feather.svg);
     padding-left: 2px;
   }
+
   &::-webkit-details-marker {
     display: none;
   }
 }
 
 details[open] {
-  > summary {
+  >summary {
     border-bottom: none;
   }
 }
@@ -66,10 +68,12 @@ sup {
     bottom: -0.1em;
     text-decoration: none;
     border-bottom: none !important;
+
     &:before {
       content: '[';
       color: $link-color;
     }
+
     &:after {
       content: ']';
       color: $link-color;
@@ -82,6 +86,7 @@ sup {
   color: #999;
   margin-top: 25px;
   padding-top: 10px;
+
   &:before {
     display: block;
     content: '';
@@ -89,6 +94,7 @@ sup {
     width: 5%;
     margin-bottom: 7px;
   }
+
   a {
     text-decoration: none;
   }
@@ -106,21 +112,27 @@ sup {
   max-width: 210px;
   background: #f6f6f6;
   border-radius: 3px;
-  ol, ul {
+
+  ol,
+  ul {
     margin-left: 1em;
   }
+
   li {
     list-style-position: inside;
     list-style-type: none;
     margin: auto 5px;
+
     a {
       color: $sub-font-color;
       font-size: 0.9em;
+
       &.active {
-      color: $hover-color;
+        color: $hover-color;
       }
     }
   }
+
   &:before {
     display: block;
     content: "TOC";
@@ -133,12 +145,13 @@ sup {
 .notfound {
   display: block;
   text-align: center;
-  // width: 25%;
   @include div-middle;
+
   a {
     text-decoration: none;
     font-weight: bold;
   }
+
   h1 {
     padding-top: 0.5em;
   }
@@ -151,6 +164,7 @@ sup {
   height: 0;
   padding-bottom: 56.25%;
 }
+
 .ytb-video {
   position: absolute;
   top: 0;
@@ -165,6 +179,7 @@ sup {
   font-size: .8em;
   vertical-align: baseline;
 }
+
 .post_num {
   color: $hover-color;
 }
@@ -173,15 +188,19 @@ sup {
 .index-meta {
   margin-top: -40px;
 }
+
 .category {
   float: right;
   font-size: 0.8em;
+
   li {
     display: inline;
   }
 }
+
 .search-icon {
   float: left;
+
   a {
     color: $hover-color;
   }
@@ -189,6 +208,7 @@ sup {
 
 .tag_box {
   margin: 0;
+
   li {
     display: inline;
     margin-right: 10px;
@@ -210,13 +230,8 @@ sup {
   color: $tobi;
   margin-bottom: 1em;
   font-size: 0.9em;
-  // &:before {
-  //   content: '\25BA';
-  //   color: $tobi;
-  //   font-size: 0.9em;
-  //   margin-right: 5px;
-  // }
 }
+
 .post-figure {
   display: table;
 }
@@ -229,67 +244,83 @@ sup {
     width: 100%;
     margin-bottom: 15px;
   }
+
   .ais-search-box--powered-by {
     margin-top: 10px;
     font-size: 0.8em;
     color: $meta-color;
   }
 }
+
 .post-item {
   margin-bottom: 30px;
   padding-left: 15px;
   border-left: 2px solid $hover-color;
 }
+
 .post-link .ais-Highlight {
   background: #F7D94C;
   font-style: normal;
 }
+
 .post-breadcrumbs {
   color: #424242;
   display: block;
 }
+
 .post-breadcrumb {
   font-size: 18px;
   color: #424242;
 }
+
 .post-breadcrumb .ais-Highlight {
   background: #F7D94C;
   font-weight: bold;
   font-style: normal;
 }
+
 .post-snippet .ais-Highlight {
   background: #F7D94C;
   font-style: normal;
   font-weight: bold;
 }
+
 .post-snippet img {
   display: none;
 }
+
 #search-hits {
   display: none;
+
   h2 {
     font-size: 1.2em;
   }
+
   h3 {
     font-size: 1em;
   }
 }
 
-.gist th, td {
+.gist th,
+td {
   border: none;
 }
+
 .gist {
   max-width: 720px;
 }
+
 .gist-file .gist-data {
-  max-height: 400px; 
+  max-height: 400px;
 }
 
 .post-tags {
   font-size: 0.85em;
   margin-top: 2em;
+
   ul {
     margin: 0;
+
     li {
       display: inline;
       list-style: none;

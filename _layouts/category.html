@@ -1,27 +1,27 @@
 ---
 layout: default
 ---
-<div class="index-meta">
-    <div class="search-icon"><a href="/search/" title="搜索"><img src="/images/search.svg"></a></div>
-    <ul class="category">
-      {% for categ in site.categs %}
-      <li><a href="{{categ.url}}">{{categ.title}}</a></li>
-      {% endfor %}
-    </ul>
-</div>
 
+<div class="index-meta">
+  <div class="search-icon"><a href="/search/" title="搜索"><img src="/images/search.svg"></a></div>
+  <ul class="category">
+    {% for categ in site.categs %}
+    <li><a href="{{categ.url}}">{{categ.title}}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 <div class="main-post-list">
   <ol class="post-list">
     {% for post in paginator.posts %}
     <li>
-      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+      <h2 class="post-list__title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
       <div class="post-list__meta">
-        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time>
+        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__date">{{ post.date | date: "%F"}}</time>
       </div>
       <p class="excerpt">{{ post.content | markdownify | strip_html | strip_newlines | truncate: 120 }}&hellip;</p>
       <hr class="post-list_divider" />
     </li>
     {% endfor %}
   </ol>
-{% include pagination.html %}
+  {% include pagination.html %}
 </div>
