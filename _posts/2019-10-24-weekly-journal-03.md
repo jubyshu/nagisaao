@@ -16,11 +16,11 @@ tags: 杂谈
 
 在自我介绍的页面有提到，当初为了学日语，自制了几个日本网站的RSS，其中就有BookBang上的连载栏目。我的想法是根据ID来订阅不同的连载，比如南泽奈央专栏的订阅地址是
 ```html
-https://jubyrss.rosemary.ink/bookbang/serial/minamisawanao
+https://rss.rosemary.ink/bookbang/serial/minamisawanao
 ```
 想订阅其他人的专栏将`minamisawanao`改为相应的ID即可。但测试的时候发现，有些ID会报错，我花了很多时间也没找到原因所在，再加上只有自己使用，也就没再深究。
 
-今天在浏览中国政府网的时候，突然想订阅一下上面服务信息，虽然最终没有成功，但又让我想起了上面这件事，遂决定重新研究一下。在本地运行代码之后，报错说
+今天在浏览中国政府网的时候，突然想订阅一下上面的服务信息，虽然最终没有成功，但又让我想起了上面这件事，遂决定重新研究一下。在本地运行代码之后，报错说
 ```js
 TypeError: Parameter `url` must be a string or object, not undefined.
 ```
