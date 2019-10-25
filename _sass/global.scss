@@ -14,15 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 q {
   quotes: none;
-
-  &:before {
-    content: "「";
-  }
-
-  &:after {
-    content: "」";
-  }
-
+  color: $kon;
   border-bottom: 1px dashed $link-color;
 }
 
