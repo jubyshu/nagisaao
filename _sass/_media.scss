@@ -57,8 +57,15 @@
 
 // pager < 600px
 @media all and (max-width: 600px) {
-  .vwrap {
-    float: left !important;
+  #comment {
+    .vcomment-children {
+      margin-left: 20px;
+      border-left: none;
+    }
+
+    .vcomment-body {
+    border-top: 1px solid rgba(150, 150, 150, 0.08) !important;
+    }
   }
 }
 
