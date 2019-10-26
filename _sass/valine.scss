@@ -1,147 +1,68 @@
-/*--comment box-- */
 #comment {
-  .vinfo {
-    font-size: 1em;
-  }
+  .auth-section {
+    padding: 0;
 
-  .vwrap {
-    padding: 5px;
-    margin-top: 20px;
-    border: 1px solid $border-color;
+    .post-action button {
+      border: none;
+      background-color: #7DB9DE;
 
-    .vcontrol {
-      padding-top: 0;
-
-      .col {
-        &.col-20 {
-          font-size: .6rem;
-          vertical-align: bottom;
-
-          a {
-            color: #ccc;
-            pointer-events: none;
-          }
-        }
-      }
-    }
-
-    .vedit {
-      .vctrl {
-        span {
-          padding: 0;
-          color: #ccc;
-        }
-      }
-    }
-
-    .vheader {
-      .vinput {
-        border-bottom: 1px solid $border-color;
+      &:hover {
+        background-color: $hover-color;
       }
     }
   }
 
-  .vbtn {
-    padding: .15rem .5rem;
-    font-size: .725rem;
+  .info {
+    margin: 1em 0;
+    text-align: left;
+
+    .col {
+      padding: 0;
+      background: none;
+    }
+
+    &::before {
+      display: none;
+    }
   }
 
-  .vinput {
-    padding: 5px 0;
-  }
+  .vcomment-body {
+    padding: 1.5em 0;
 
-  .veditor {
-    min-height: 0;
-  }
+    &:hover .vat {
+      background: #7DB9DE !important;
+      border-radius: 15px;
+      color: #efefef;
+    }
 
-  .vlist {
-    .vcard {
-      padding-top: 0;
+    .vavatar:hover {
+      @include rotate-circle;
+    }
 
-      .vhead {
-        .vsys {
-          display: none;
-          padding: .1rem .2rem;
-          font-size: .6rem;
-        }
-
-        .vnick {
-          color: #aaa;
-
-          &:hover {
-            color: $link-color;
-          }
-
-          &:before {
-            background: none;
-          }
-        }
-      }
-
-      a {
-        color: #aaa;
-
-        &:hover {
-          color: $link-color;
-        }
-
-        &:before {
-          background: none;
-        }
-      }
-
-      .vh {
-        border-bottom: none;
-        border-top: 1px solid #ccc;
-
-        .vmeta {
-          .vat {
-            float: none;
-            color: #b3b3b3;
-            font-size: .75rem;
-
-            &:hover {
-              color: $link-color;
-            }
-          }
-        }
-      }
-
-      .vquote {
-        border-left: none;
-        padding-left: 0;
-      }
-
-      .vcontent {
-        margin-bottom: 0;
-        padding-top: 0;
-        line-height: 1.7em;
-        text-align: justify;
+    .vcomment {
+      p{
+        word-break: break-word;
         text-justify: distribute;
       }
 
-      .vimg {
-        width: 2.5rem;
-        height: 2.5rem;
-
-        &:hover {
-          @include rotate-circle;
-        }
+      a {
+        color: $link-color;
       }
     }
+
   }
 
-  .txt-right {
-    display: none;
+  .vbtn {
+    border: none;
+    border-radius: 15px;
   }
 
-  .vempty {
-    font-size: .725rem;
+  .trigger_title {
+    color: #e8e8e8;
+    font-size: 1em;
   }
 
-  textarea {
-    &::placeholder {
-      color: #e8e8e8;
-    }
+  .comment_trigger {
+    padding: 0 0 0 0.5em;
   }
 }
