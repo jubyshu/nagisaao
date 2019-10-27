@@ -10,3 +10,5 @@ permalink: /guestbook/
 届かぬ想いがまた一つ
 
 {% include comments.html %}
+
+<style>.post img {margin: 0;}</style>
