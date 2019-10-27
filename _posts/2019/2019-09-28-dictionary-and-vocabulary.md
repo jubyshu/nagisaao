@@ -18,11 +18,7 @@ tags: 工具 阅读
 
 近来又有了学习英语的热情，因而使用词典的频率也增多，欧陆词典虽然功能挺丰富，但很多单词却并无解释，还得从例句中琢磨意思，有点不能满足我的需求了。于是，我的目光开始转向剑桥、牛津、朗文等知名词典。这些词典的网页版做得挺好，但手机App就不敢恭维了，像我比较重视的生词同步功能根本没有。综合考虑之后，我决定使用剑桥进阶学习词典（CALD）。虽然羞于开口，但还是要说一下，CALD的价格是25.99美元，我只好从网上找了一个免费版。在Kindle上，我没有找到CALD，于是装了牛津进阶学习词典（OALD）。
 
-今天，在Kindle上查一个单词**pompous**时，将OALD和CALD对比了一下，OALD的解释是这样的：
-
-> showing that you think you are more important than other people, especially by using long and formal words
-
-CALD的解释则很简洁：<q>too serious and full of importance</q>。相比之下，我觉得OALD的解释更清楚，于是又在手机上下了一个OALD，当然也是免费版。
+今天，在Kindle上查一个单词**pompous**时，将OALD和CALD对比了一下，OALD的解释是这样的：<q>showing that you think you are more important than other people, especially by using long and formal words</q>，CALD的解释则很简洁：<q>too serious and full of importance</q>。相比之下，我觉得OALD的解释更清楚，于是又在手机上下了一个OALD，当然也是免费版。
 
 以一个单词的解释来评价两本词典的优劣显然有点武断，但从Play Store上的评分来看，OALD的App评分为3.9，CALD只有2.4，至少可以说牛津App的体验要好于剑桥。在我看来，两款App做的都挺~~简洁~~简陋，功能也差不多，OALD的界面稍微好一点，单词和例句的发音也可以联网获取而不必本地下载，CALD却要下载200多M的内容。至于网页版，剑桥支持的语言多一些，牛津似乎没有英中词典。
 

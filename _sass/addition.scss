@@ -3,7 +3,7 @@ details {
   p {
     font-family: $quote-font;
     color: $sub-font-color;
-    padding: 1em 2em;
+    padding: 1em;
     border-radius: 5px;
     background: $background-color;
   }
@@ -13,7 +13,7 @@ summary {
   display: inline-block;
   margin: 3px auto;
   cursor: pointer;
-  color: $tobi;
+  color: $sub-link-color;
   border-bottom: 1px solid $link-color;
 
   &:after {
@@ -175,7 +175,7 @@ sup {
 
 // Post Achive
 .post_count {
-  color: $aonibi;
+  color: $sub-font-color;
   font-size: .8em;
   vertical-align: baseline;
 }
@@ -227,7 +227,7 @@ sup {
 .post-figcaption {
   position: relative;
   display: inline-block;
-  color: $tobi;
+  color: $sub-link-color;
   margin-bottom: 1em;
   font-size: 0.9em;
 }

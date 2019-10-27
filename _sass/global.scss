@@ -14,7 +14,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 q {
   quotes: none;
-  color: $kon;
   border-bottom: 1px dashed $link-color;
 }
 
@@ -142,8 +141,8 @@ blockquote {
   border-radius: 5px;
 
   p {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
 
     &:first-child {
       padding-top: 1em;

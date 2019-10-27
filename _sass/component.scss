@@ -70,11 +70,11 @@
 .post-tags {
   hr {
     margin: 1em auto;
-    border-top: 1.8px dashed $tobi;
+    border-top: 1.8px dashed $sub-link-color;
   }
 
   a {
-    color: $tobi;
+    color: $sub-link-color;
     border-bottom: 1px solid $hover-color;
 
     &:hover {
