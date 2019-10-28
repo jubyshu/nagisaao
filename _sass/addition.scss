@@ -141,22 +141,6 @@ sup {
   }
 }
 
-// 404页面
-.notfound {
-  display: block;
-  text-align: center;
-  @include div-middle;
-
-  a {
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  h1 {
-    padding-top: 0.5em;
-  }
-}
-
 // YouTube
 .ytb-container {
   position: relative;
@@ -227,7 +211,7 @@ sup {
 // post figure
 .post-figcaption {
   position: relative;
-  display: inline-block;
+  display: none;
   color: $sub-link-color;
   margin-bottom: 1em;
   font-size: 0.9em;

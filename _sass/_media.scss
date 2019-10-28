@@ -28,7 +28,6 @@
   }
 
   .panel-cover {
-    width: 100%;
     display: block;
     position: relative;
     background-position: center center;
@@ -43,12 +42,17 @@
     }
   }
 
-  .content-wrapper {
-    width: 94%;
-  }
-
   .content-wrapper__inner {
     padding: 0 3%;
+  }
+}
+
+@media all and (max-width: 780px) {
+  .panel-cover {
+    width: 100%;
+  }
+  .content-wrapper {
+    width: 100%
   }
 }
 
