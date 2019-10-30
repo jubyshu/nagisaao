@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 每周闲话·其三
+title: 我在遥远的星空下
 date: 2019-10-24 20:20
 categories: journal
 tags: 杂谈

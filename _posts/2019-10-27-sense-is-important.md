@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 每周闲话·其四
+title: センスは大事
 date: 2019-10-27 16:00
 categories: journal
 tags: 杂谈
