@@ -21,13 +21,17 @@
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link rel="apple-touch-icon" href="/images/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+  {% if page.layout == "post" %}
   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+  {% endif %}
+  {% if page.title == "搜索" %}
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+  {% endif %}
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.url }}">
   <script src="//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
   <meta name="google-site-verification" content="{{ site.google.site_verification }}" />
 </head>

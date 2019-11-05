@@ -63,9 +63,22 @@ $(function() {
   $(window).bind("scroll", tocScroll);
 });
 
-// let imgArr = document.querySelectorAll('.post-img');
-// for (let i = 0; i < imgArr.length; i++) {
-//   imgArr[i].onclick = function() {
-//     window.open(imgArr[i].src, '_self');
-//   };
-// }
+$(document).ready(function() {
+  let coll = document.querySelectorAll('.collapsible');
+  for (let i = 0; i < coll.length; i++) {
+    let firstcoll = coll[0].nextElementSibling;
+    firstcoll.style.display = 'block';
+    coll[i].addEventListener('click', function() {
+      let collcontent = this.nextElementSibling;
+      if (collcontent.style.display === 'block') {
+        collcontent.style.display = 'none';
+      } else {
+        collcontent.style.display = 'block';
+      }
+    });
+  }
+})
+
+if ($("div.gitlab-embed-snippets").length > 0) {
+  $("div.gitlab-embed-snippets").attr("id", "gitlab-gist");
+}

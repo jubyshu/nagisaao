@@ -17,7 +17,7 @@ summary {
   border-bottom: 1px solid $link-color;
 
   &:after {
-    content: url(/images/feather.svg);
+    content: url("//cdn.statically.io/gl/jubyshu/nagisaao/master/images/feather.svg");
     padding-left: 2px;
   }
 
@@ -161,7 +161,7 @@ sup {
 .post_count {
   color: $sub-font-color;
   font-size: .8em;
-  vertical-align: baseline;
+  vertical-align: text-bottom;
 }
 
 .post_num {
@@ -215,10 +215,7 @@ sup {
   color: $sub-link-color;
   margin-bottom: 1em;
   font-size: 0.9em;
-}
-
-.post-figure {
-  display: table;
+  text-align: center;
 }
 
 // algolia search
@@ -292,10 +289,22 @@ sup {
   th, td {
     border: none;
   }
+
+  tbody tr:nth-child(2n) {
+    background: none;
+  }
+
+  .blob-wrapper {
+    background: #f5f2f0;
+  }
+
+  .highlight {
+    background: #f5f2f0 !important;
+  }
 }
 
 .gist-file .gist-data {
-  max-height: 400px;
+  max-height: 360px;
 }
 
 .post-tags {
@@ -309,6 +318,55 @@ sup {
       display: inline;
       list-style: none;
       margin-right: 1em;
+    }
+  }
+}
+
+#gitlab-gist.gitlab-embed-snippets {
+  margin: 0;
+
+  a {
+    border-bottom: none;
+  }
+
+  .line-numbers {
+    display: none;
+  }
+
+  .blob-content {
+    width: 100%;
+    max-height: 360px;
+
+    pre {
+      font-size: 0.95em;
+      border-left: none;
+      padding: 0 1em;
+      background-color: #f5f2f0;
+    }
+
+    code {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .file-title-flex-parent {
+    padding: 3px 1em;
+    font-size: 0.9em;
+
+    .file-header-content {
+      .gl-snippet-icon {
+        display: none;
+      }
+    }
+  }
+
+  .btn-group a.btn {
+    background-color: #fafafa;
+    border: none;
+
+    &:last-child {
+      border-right: none;
     }
   }
 }

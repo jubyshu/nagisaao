@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 棒球是圆的
+title: 每周闲话·其二
 date: 2019-10-11 15:25
 categories: journal
 tags: 杂谈

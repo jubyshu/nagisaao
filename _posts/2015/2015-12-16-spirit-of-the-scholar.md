@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 孔孟"士"的精神
+title: 孔孟「士」的精神
 date: 2015-12-16 20:00
 categories: review
 tags: 杂谈

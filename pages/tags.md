@@ -5,13 +5,14 @@ group: navigation
 permalink: /tags/
 ---
 
-<h3 id="tag-index">标签</h3><hr>
+### 标签
+{:#tag-index}
 
-<p>
-  {% for tag in site.tags %}
-  <a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a> 
-  {% endfor %}
-</p>
+--------
+
+{% for tag in site.tags %}
+- [{{ tag[0] }}](/tags/{{ tag[0] }})
+{% endfor %}
 
 <!-- <div>
   {% for tag in site.tags %}

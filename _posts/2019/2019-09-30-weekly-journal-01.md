@@ -1,6 +1,6 @@
 ---
 layout: post
-title: あなたの幸せ願わない日はない
+title: 每周闲话·其一
 date: 2019-09-30 14:20
 categories: journal
 tags: 杂谈

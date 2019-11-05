@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 古罗马的“除名毁忆”与西汉的“春秋断狱”
+title: 古罗马的「除名毁忆」与西汉的「春秋断狱」
 date: 2014-12-22 13:00
 categories: review
 tags: 杂谈

@@ -15,14 +15,6 @@ permalink: /archive/
   {% endfor %}
 - 字数: <span class="post_num">{{ count | divided_by: 1000.0 | round: 2 }}K</span> 字
 
-<!-- <hr>
-### 精选
-{% for post in site.posts %}
-  {% if post.recommend %}
-  - {{ post.date | date: '%y-%m-%d' }} &raquo; [{{ post.title }}]({{ post.url }})
-  {% endif %} 
-{% endfor %} -->
-
 {% assign count = 1 %}
 {% for post in site.posts reversed %}
   {% assign year = post.date | date: '%Y' %}
@@ -44,7 +36,10 @@ permalink: /archive/
   {% if year != nyear %}
 <hr>
 ### {{ post.date | date: '%Y' }}<span class="post_count"> ({{ counts[i] }})</span>
+{:.collapsible}
   {% assign i = i | plus: 1 %}
   {% endif %}
 - {{ post.date | date: '%m-%d' }} &raquo; [{{ post.title }}]({{ post.url }})
 {% endfor %}
+
+<script>$('.collapsible+ul').attr('class', 'collcontent');</script>

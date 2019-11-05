@@ -5,7 +5,10 @@ group: navigation
 permalink: /guestbook/
 ---
 
-<h3>留言</h3><hr>
+### 留言
+
+---------
+
 桜の花びら散るときに  
 届かぬ想いがまた一つ
 
