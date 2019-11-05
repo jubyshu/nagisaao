@@ -14,9 +14,9 @@ tags: 工具 好玩
 
 **Youcut**：视频剪辑软件，轻巧易用。
 
-**Dcoder**：支持多种编程语言的IDE，有免费版和付费版，虽然怎么用，一直没有卸载。
+**Dcoder**：支持多种编程语言的IDE，有免费版和付费版，虽然没怎么用过，一直没有卸载。
 
-**Termux**：功能强大的终端模拟器，可以用来安装Python、Node.js等，我安装了git和R，其中R不能直接安装，可以从网上搜索教程解决。
+**Termux**：功能强大的终端模拟器，可以用来安装Python、Node.js等，我装了git和R，其中R不能直接安装，需要从网上搜索教程解决。
 
 **Markroid**：图片标注工具，有局部放大等功能。
 
@@ -24,7 +24,7 @@ tags: 工具 好玩
 
 **Surfboard**：科学上网工具，支持我要用到的https和ss协议。
 
-**VPN Hotspot**：网友[WithdewHua](https://withdewhua.space/)推荐的应用，可以利用手机热点分享VPN连接，我用来给Kindle翻墙以下载日亚账号的个人文档。
+**VPN Hotspot**：[WithdewHua](https://withdewhua.space/)推荐的应用，可以利用手机热点分享VPN连接，我用来给Kindle翻墙以下载日亚账号的个人文档。
 
 **Magisk Manager**：手机root框架Magisk的管理器。
 
