@@ -5,7 +5,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: baseline; 
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -14,7 +14,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 q {
   quotes: none;
-  margin: auto 4px;
   border-bottom: 1px dashed $link-color;
 }
 
@@ -32,6 +31,7 @@ body {
   font-family: $body-font;
   font-size: 15px;
   color: $font-color;
+  letter-spacing: 0.03em;
   background-color: #efefef;
   -webkit-font-smoothing: antialiased;
 
@@ -123,12 +123,10 @@ h5 {
 
 strong {
   font-weight: bold;
-  margin: auto 4px;
 }
 
 em {
   font-style: italic;
-  margin: auto 4px;
 }
 
 blockquote {

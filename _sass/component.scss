@@ -69,8 +69,17 @@
 .post.not_page,
 .post-tags {
   hr {
-    margin: 1em auto;
-    border-top: 1.8px dashed $sub-link-color;
+    border-top: none;
+    text-align: center;
+
+    &::before {
+      content: "...";
+      display: inline-block;
+      font-size: 1.5em;
+      letter-spacing: 0.5em;
+      margin: 0.5em auto;
+      color: $sub-link-color;
+    }
   }
 
   a {

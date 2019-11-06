@@ -2,7 +2,7 @@
 layout: post
 title: Apps I'm Using on Android
 date: 2019-11-06 01:40
-categories: essay
+categories: journal
 tags: 工具 好玩
 ---
 
@@ -48,7 +48,7 @@ tags: 工具 好玩
 
 **BePTT**：台湾论坛PTT的手机客户端，个人以为很好用。
 
-**OpenHub**：一款Github的客户端，权且算在社交类里吧，以前用来看Trending repos的，现在看不了了。
+**OpenHub**：一款Github的客户端，权且算在社交类里吧，以前用来看trending repos的，现在看不了了。
 
 ### 学习类
 
