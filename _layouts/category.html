@@ -4,11 +4,13 @@ layout: default
 
 <div class="index-meta">
   <div class="search-icon"><a href="/search/" title="搜索"><img src="//cdn.jsdelivr.net/gh/jubyshu/nagisaao/images/search.svg"></a></div>
-  <ul class="category">
-    {% for categ in site.categs %}
-    <li><a href="{{categ.url}}">{{categ.title}}</a></li>
-    {% endfor %}
-  </ul>
+  <div class="category">
+    <ul>
+      {% for categ in site.categs %}
+      <li><a href="{{categ.url}}">{{categ.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 <div class="main-post-list">
   <ol class="post-list">

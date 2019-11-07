@@ -1,6 +1,6 @@
 ---
 layout: category
-title: 小说
+title: 故事
 permalink: /story/
 pagination:
   enabled: true

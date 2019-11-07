@@ -79,6 +79,6 @@ $(document).ready(function() {
   }
 })
 
-if ($("div.gitlab-embed-snippets").length > 0) {
+if ($("div.gitlab-embed-snippets")) {
   $("div.gitlab-embed-snippets").attr("id", "gitlab-gist");
 }
