@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apps I'm Using on Android
+title: 我使用的安卓应用
 date: 2019-11-06 01:40
 categories: journal
 tags: 工具 好玩
@@ -24,7 +24,7 @@ tags: 工具 好玩
 
 **Surfboard**：科学上网工具，支持我要用到的https和ss协议。
 
-**VPN Hotspot**：[WithdewHua](https://withdewhua.space/)推荐的应用，可以利用手机热点分享VPN连接，我用来给Kindle翻墙以下载日亚账号的个人文档。
+**VPN Hotspot**：可以利用手机热点分享VPN网络，我用来给Kindle翻墙以下载日亚账号的个人文档。
 
 **Magisk Manager**：手机root框架Magisk的管理器。
 
