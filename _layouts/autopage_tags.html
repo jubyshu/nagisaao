@@ -1,8 +1,8 @@
 ---
 layout: page
 pagination:
-enabled: true
-per_page: 100
+  enabled: true
+  per_page: 100
 ---
 
 <h3 id="tag-index">标签</h3>
@@ -19,5 +19,5 @@ per_page: 100
 <ul>
   {% for post in paginator.posts %}
   <li>{{ post.date | date: '%b %d, %Y' }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor%}
+  {% endfor %}
 </ul>
