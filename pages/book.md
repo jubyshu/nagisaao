@@ -27,6 +27,7 @@ description: A reader lives a thousand lives before he dies.
 12. 《小径分叉的花园》,博尔赫斯,王永年,上海译文出版社,2015
 13. 《堂吉诃德（上下）》,塞万提斯,杨绛,人民文学出版社,2003
 14. 《Leviathan Wakes》,James S.A. Corey,,Orbit,2011
+15. 《痛苦的中国人》,彼得·汉德克,刘学慧/张帆,上海人民出版社,2016
 {:.collcontent}
 
 --------
