@@ -25,7 +25,7 @@ description: 2015年开始用Wordpress搭建博客，2018年迁移至Jekyll，�
 
 喜欢的作家：鲁迅，芥川龙之介，博尔赫斯，夏目漱石，兰姆，陀思妥耶夫斯基。
 
-喜欢的乐队：The Beatles，Eagles，Queen，KISS，GLAY，X Japan，JUDY AND MARY，Every Little Thing，Do As Infinity。
+喜欢的乐队：The Beatles，Bob Dylan，Eagles，Queen，KISS，GLAY，X Japan，JUDY AND MARY，Every Little Thing，Do As Infinity。
 
 -------------------
 
