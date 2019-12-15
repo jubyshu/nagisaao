@@ -4,4 +4,4 @@ Hello, everyone.
 
 I'm Juby, welcome to visit my blog.
 
-If you have any questions, you can contact me via [twitter](https://twitter.com/jubyshu).
+If you have any questions, you can contact me via [email](mailto:juby@jubeny.com).

@@ -17,9 +17,9 @@ description: 2015年开始用Wordpress搭建博客，2018年迁移至Jekyll，�
 
 #### 自己
 
-很喜欢痖弦写给妻子的诗中的一句：想着，生活着，偶尔也微笑着，既不快活也不不快活。我的人生就是这样的吧，没有什么可卖的，也并不想买什么，只愿侍弄好自己的菜园，在种菜的时候，也想栽下一丛蔷薇。
+很喜欢痖弦写给妻子的诗中的一句：想着，生活着，偶尔也微笑着，既不快活也不不快活。我的人生也是这样的简单，没有什么可卖的，也并不想买什么，只愿侍弄好自己的菜园，在种菜的时候，也栽下一丛蔷薇。
 
-经常出没于自己的内心世界，以及[twitter](https://twitter.com/jubyshu)和[telegram](https://t.me/jubyshu)。如果你想支持我，可以使用[paypal](https://www.paypal.me/jubyshu)。
+经常出没于自己的内心世界以及[twitter](https://twitter.com/jubyshu)，联系请发邮件至[email](mailto:juby@jubeny.com)。
 
 目前的兴趣：R，日语，棒球，跑步，科幻，······
 
