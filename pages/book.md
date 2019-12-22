@@ -28,6 +28,7 @@ description: A reader lives a thousand lives before he dies.
 13. 《堂吉诃德（上下）》,塞万提斯,杨绛,人民文学出版社,2003
 14. 《Leviathan Wakes》,James S.A. Corey,,Orbit,2011
 15. 《痛苦的中国人》,彼得·汉德克,刘学慧/张帆,上海人民出版社,2016
+16. 《白天的房子，夜晚的房子》,奥尔加·托卡尔丘克,易丽君/袁汉镕,四川人民出版社,2017
 {:.collcontent}
 
 --------
