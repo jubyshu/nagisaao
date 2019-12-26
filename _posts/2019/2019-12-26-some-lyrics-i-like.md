@@ -2,7 +2,7 @@
 layout: post
 title: 几句喜欢的歌词
 date: 2019-12-26 18:30
-categories: essay
+categories: journal
 tags: 影音
 ---
 
