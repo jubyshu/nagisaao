@@ -20,7 +20,7 @@ layout: default
       <div class="post-list__meta">
         <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__date">{{ post.date | date: "%F"}}</time>
       </div>
-      <p class="excerpt">{{ post.content | markdownify | strip_html | strip_newlines | truncate: 120 }}&hellip;</p>
+      <p class="excerpt">{{ post.content | markdownify | strip_html | strip_newlines | truncate: 100 }}&hellip;</p>
       <hr class="post-list_divider" />
     </li>
     {% endfor %}
