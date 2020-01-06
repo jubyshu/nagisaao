@@ -16,7 +16,7 @@ tags: 工具 影音
 
 ### Great Long Rock Songs
 
-<iframe src="https://open.spotify.com/embed/playlist/5u6AOTSiDOT70KxH1eCHzZ" width="720" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/playlist/5u6AOTSiDOT70KxH1eCHzZ" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 我的同学是拉中提琴的，他常听的也是古典音乐，但有一次，我在听Stairway to Heaven的时候，他说了一句，「你也听这首歌啊？」这就是我们在音乐上为数不多的交集了。这几天，我又开始反复听Led Zepplin的这首歌，这大概也与重温HIMYM有关，Marshall好像有惋惜John Bonham的早殇。其实，我之前对齐柏林飞艇并不熟悉，只听名字还以为是德国乐队，他们的歌也基本只听这一首。后来，在查鼓手的资料时，发现Bonham好像是公认的最厉害的摇滚鼓手，其次就是The Who的Keith Moon。重听Stairway to Heaven给了我全新的体验，这首时长8:02的歌大概从4:18才加入鼓声，而4:20处敲响的碎音镲（？）是最让我兴奋的地方，感觉自己可以不厌烦地循环听下去。
 
