@@ -16,6 +16,8 @@ tags: 工具 影音
 
 ### Great Long Rock Songs
 
+<iframe src="https://open.spotify.com/embed/playlist/5u6AOTSiDOT70KxH1eCHzZ" width="720" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 我的同学是拉中提琴的，他常听的也是古典音乐，但有一次，我在听Stairway to Heaven的时候，他说了一句，「你也听这首歌啊？」这就是我们在音乐上为数不多的交集了。这几天，我又开始反复听Led Zepplin的这首歌，这大概也与重温HIMYM有关，Marshall好像有惋惜John Bonham的早殇。其实，我之前对齐柏林飞艇并不熟悉，只听名字还以为是德国乐队，他们的歌也基本只听这一首。后来，在查鼓手的资料时，发现Bonham好像是公认的最厉害的摇滚鼓手，其次就是The Who的Keith Moon。重听Stairway to Heaven给了我全新的体验，这首时长8:02的歌大概从4:18才加入鼓声，而4:20处敲响的碎音镲（？）是最让我兴奋的地方，感觉自己可以不厌烦地循环听下去。
 
 最近听的另一首歌就是Guns N' Roses的November Rain，在Lily的婚礼上，她的高中男友要给她朗诵的诗就是这首歌的歌词，这首歌长达8:56。老实说，我挺喜欢听这种很长的歌，就像我喜欢看很长的小说一样，于是突然想做一个单曲时长8分钟以上的摇滚歌单，本来以为这样的歌不太好找，其实还是挺多的，特别是Pink Floyd的歌，也未免太长了。我并不太懂音乐，虽然有些歌很经典，但我可能并不喜欢听，等确定了自己的口味再把它们慢慢淘汰出歌单吧。
