@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 每周闲话（其五）
+title: 每周闲话·其五
 date: 2020-01-06 13:10
 categories: journal
 tags: 工具 影音
