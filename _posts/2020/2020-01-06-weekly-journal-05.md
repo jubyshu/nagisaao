@@ -12,7 +12,7 @@ tags: 工具 影音
 
 今天上午，终于抽出时间把移动硬盘插到了Windows电脑上，经过扫描修复之后，丢失的文件又找回来了。虽然很开心，但发现磁盘的空间被莫名其妙地占用了，我把所有文件的容量加了一下，有100多G的差值。我的移动硬盘是好几年前买的，容量只有1T，之前空间就告急了，只好把不会再玩的游戏和只为了做种而下载的电影全部删掉，现在一下子又少了这么多空间，岂能善罢甘休？然而，在网上搜索了半天，也没有找到好的解决办法。
 
-{% include image.html url="toshiba-disk-volume.png" caption="东芝移动硬盘容量" %}
+{% include image.html url="toshiba-disk-volume.png" caption="东芝移动硬盘使用情况" %}
 
 ### Great Long Rock Songs
 
