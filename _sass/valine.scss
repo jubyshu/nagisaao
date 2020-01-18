@@ -1,6 +1,7 @@
 #comment {
   .auth-section {
     padding: 0;
+    background: #3e3e3e;
 
     .post-action button {
       border: none;
@@ -9,6 +10,11 @@
       &:hover {
         background-color: $link-color;
       }
+    }
+
+    .input-wrapper input {
+      background: #3e3e3e;
+      color: $sub-font-color;
     }
   }
 
@@ -19,6 +25,11 @@
     .col {
       padding: 0;
       background: none;
+      color: $meta-color;
+
+      .count {
+        color: $link-color;
+      }
     }
 
     &::before {
@@ -28,6 +39,10 @@
 
   .vcomment-body {
     padding: 1.5em 0;
+
+    .vat {
+      color: #232222;
+    }
 
     &:hover .vat {
       background: $hover-color !important;
@@ -43,11 +58,16 @@
       p{
         word-break: break-word;
         text-justify: distribute;
+        color: $font-color;
       }
 
       a {
         color: $link-color;
       }
+    }
+
+    .vname {
+      color: #b9b9b9;
     }
 
   }
@@ -58,15 +78,28 @@
   }
 
   .trigger_title {
-    color: #e8e8e8;
+    color: $meta-color;//#e8e8e8;
     font-size: 1em;
   }
 
   .comment_trigger {
     padding: 0 0 0 0.5em;
+    background-color: #3e3e3e;
   }
 
   .vinputs-area {
-    background: #fff;
+    background: #3e3e3e;
+    border: 1px solid $border-color;
+    border-radius: 5px;
+
+    .textarea-wrapper textarea {
+      background: #3e3e3e;
+      color: $font-color;
+    }
+  }
+
+  .vpage .more {
+    background: #3e3e3e;
+    color: $link-color;
   }
 }

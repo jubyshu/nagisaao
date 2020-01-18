@@ -94,7 +94,7 @@
   h3 {
     padding-bottom: 5px;
     margin-top: 1.5em;
-    border-bottom: 1px solid #ececec;
+    border-bottom: 1px solid $border-color;
   }
 
   h3,
@@ -148,11 +148,11 @@
   font-weight: 100;
   text-align: center;
   margin: 0 auto;
-  color: $sub-font-color;
+  color: #535953;//$sub-font-color;
   background-color: rgba(250, 250, 250, 0.3);
 
   a {
-    color: $title-color;
+    color: #373C38;//$title-color;
   }
 }
 
@@ -229,7 +229,7 @@ nav {
   }
 
   img:hover {
-    background: #fff;
+    background: $seiheki;
     border-radius: 50%;
   }
 }
@@ -316,7 +316,7 @@ i {
   line-height: 1.3em;
 
   a {
-    color: #333;
+    color: #c4c4c4;//#333;
     padding-top: 5px;
 
     &:hover {

@@ -32,7 +32,7 @@ body {
   font-size: 15px;
   color: $font-color;
   letter-spacing: 0.03em;
-  background-color: #efefef;
+  background-color: #171514; //#efefef;
   -webkit-font-smoothing: antialiased;
 
   &:before {
@@ -123,7 +123,7 @@ h5 {
 
 strong {
   font-weight: bold;
-  color: #333;
+  color: $title-color;
 }
 
 em {
@@ -233,7 +233,7 @@ td {
 // container
 .container {
   margin: 60px auto;
-  background-color: #fcfcfc;
+  background-color: #232222;//#fcfcfc;
   max-width: 780px;
 
 }
