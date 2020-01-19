@@ -55,6 +55,10 @@
     }
 
     .vcomment {
+      * {
+        color: $font-color;
+      }
+
       p{
         word-break: break-word;
         text-justify: distribute;
