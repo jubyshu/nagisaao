@@ -14,6 +14,7 @@ description: A reader lives a thousand lives before he dies.
 {:.collapsible}
 
 1. 《桜の森の満開の下》,坂口安吾,,青空文库,2011
+2. 《古拉格之恋：一个爱情与求生的真实故事》,奥兰多·费吉斯,李广平,广西师范大学出版社,2016
 
 -------
 
