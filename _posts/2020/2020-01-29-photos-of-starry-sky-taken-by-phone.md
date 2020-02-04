@@ -52,9 +52,9 @@ tags: 生活 好玩
 
 ### 2月3日
 
-{% include image.html url="moon_aldebaran_rigel_0203.jpg" caption="月光下的毕宿五与参宿七" %}
+{% include image.html url="moon_aldebaran_rigel_0203.jpeg" caption="月光下的毕宿五与参宿七" %}
 
-{% include image.html url="moon_aldebaran_capella_0203.jpg" caption="月光下的毕宿五与五车二" %}
+{% include image.html url="moon_aldebaran_capella_0203.jpeg" caption="月光下的毕宿五与五车二" %}
 
 经过几天的时间，月亮移动到了金牛座，而金星已经看不到了。听说有月亮的时候不适合拍星空，试着拍了一下，还是抓到了几颗亮星。第一张图是蓝白色的参宿七和橙色的毕宿五，第二张图是毕宿五和黄色的五车二。
 
