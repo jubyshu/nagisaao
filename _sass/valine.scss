@@ -82,7 +82,7 @@
   }
 
   .trigger_title {
-    color: $meta-color;//#e8e8e8;
+    color: $meta-color;  //#e8e8e8;
     font-size: 1em;
   }
 
@@ -95,6 +95,10 @@
     background: #3e3e3e;
     border: 1px solid $border-color;
     border-radius: 5px;
+
+    .textarea-wrapper {
+      background: #3e3e3e;
+    }
 
     .textarea-wrapper textarea {
       background: #3e3e3e;
