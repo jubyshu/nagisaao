@@ -38,7 +38,7 @@ The Last Wish则讲了Geralt与Yennefer的因缘。Yennefer诱使Dandelion许下
 
 Geralt在调查路边的死尸时，来到了一座城堡，遇到了Nivellen，他原本是一个强盗，因为奸杀神庙的女祭司而被诅咒变成了怪兽。Nivellen相信童话中的故事，一个处女的吻会解除自己的诅咒。多年来，一些穷人会把自己的女儿送给Nivellen，Nivellen像对待公主一样照顾她们，并且不会强求和她们发生关系，大约一年后那些父亲会领回自己的女儿，而Nivellen则会给他们一笔钱。Geralt说可以帮他解开诅咒，但Nivellen却拒绝了，怕自己恢复人形后会失去魅力。其实，杰洛特已经知道Nivellen现在有女伴，他在来的路上看到了一个女孩。Nivellen说那个女孩叫Vereena，他们是真心相爱的。Nivellen知道Vereena并不是人类，而他正是怕自己变回人后Vereena会离开才拒绝了Geralt。
 
-第二天，Geralt又来到城堡，Vereena变成了一个巨大的蝙蝠与Geralt战斗，而Geralt处于下风并负了伤。这是，Nevillen出来了，他用一根木棍刺穿了Vereena的胸口，Vereena顺着木棍向Nivellen走去，口中发出的声音在Geralt听来是「我爱你」，而Nivellen却非常害怕，这时Geralt跳起来，砍下了Verrena的首级。在战斗结束后，Nivellen恢复了人形，他非常惊讶，询问Geralt这是怎么回事：
+第二天，Geralt又来到城堡，Vereena变成了一个巨大的蝙蝠与Geralt战斗，而Geralt处于下风并负了伤。这是，Nevillen出来了，他用一根木棍刺穿了Vereena的胸口，Vereena顺着木棍向Nivellen走去，口中发出的声音在Geralt听来是「我爱你」，而Nivellen却非常害怕，这时Geralt跳起来，砍下了Vereena的首级。在战斗结束后，Nivellen恢复了人形，他非常惊讶，询问Geralt这是怎么回事：
 
 > "There's a grain of truth in every fairy tale," said the witcher quietly.
 >
