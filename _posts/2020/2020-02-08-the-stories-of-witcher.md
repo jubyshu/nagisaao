@@ -12,7 +12,7 @@ tags: 阅读
 
 ### A Question of Price
 
-A Question of Price讲的是Geralt与Ciri命运相连的缘由，Geralt帮助Duny解开了诅咒，Duny执意报答Geralt，Geralt便要求以意外律作为回报，此时Duny还不知道Paveta已经怀孕了，这个孩子就是Ciri。在故事前面的 「理性之声」部分，Geralt在对Iola的自言自语中提到了自己的身世（故事中的Mousesack也有提及），他是由父亲以意外律送给了Vesemir，并且一直不知道自己的父母是谁。虽然Geralt已经和Ciri的命运绑定，但他似乎还有所逃避。Geralt是这样对Iola说的：
+A Question of Price讲的是Geralt与Ciri命运相连的缘由，Geralt帮助Duny解开了诅咒，Duny执意报答Geralt，Geralt便要求以意外律作为回报，此时Duny还不知道Paveta已经怀孕了，这个孩子就是Ciri。在故事前面的 「理性之声」部分，Geralt在对Iola的自言自语中提到了自己的身世（故事中的Mousesack也有提及），他是由父亲以意外律送给了Vesemir，并且一直不知道自己的父母是谁。[^1]虽然Geralt已经和Ciri的命运绑定，但他似乎还有所逃避。Geralt是这样对Iola说的：
 
 > I never look back. I'll never return to Cintra. I'll avoid it like the plague. I'll never go back there.
 > 
@@ -53,3 +53,4 @@ Vereena是真的爱着Nivellen，但她却无法抑制自己的本性，而Nivel
 总的来说，这六个故事还是挺好看的，除了奇幻风情外，人物的对话和细节的铺设也很讲究。最后，不忘吐槽一下Netflix拍的网剧，有些剧情改动一下还能理解，但时间线设置得比较混乱，Triss的选角太离谱就不说了，Yennefer的演员气质不够，还驾驭不了这个角色。
 
  
+ [^1]: 在Something More这个故事中，Geralt对Calanthe说，自己是由身为女术士的母亲送给猎魔人的。
