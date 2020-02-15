@@ -22,7 +22,7 @@ Geralt在保护商人Yurga时受了伤，昏迷中他梦到自己和Yen在五月
 
 ### Geralt与Ciri
 
-当Geralt在Yurga的马车上昏迷之时，他回想起了往事。Ciri出生六年后，Geralt依照约定来到了Cintra，女王Calanthe当然不会把自己唯一的骨肉拱手相让，她让Geralt在十个男孩中挑选出自己的命定之子，不管选中哪一个都可以带走。然而，Mousesack已经事先把真相告诉了Geralt，Paveta生下的是一个女儿。在两人看着那十个男孩玩耍之时，一个小女孩也跑来一起玩，她就是Ciri，Geralt虽然不知道，但已经发现了她的善良之处。Geralt对女王说Paveta的儿子不在里面，而且他此行也不是来带走命定之子，而是要放弃这种命运的联结。即便如此，女王也没有对Geralt说实话。（Something More）
+当Geralt在Yurga的马车上昏迷之时，他回想起了往事。Ciri出生六年后，Geralt依照约定来到了Cintra，女王Calanthe当然不会把自己唯一的骨肉拱手相让，她让Geralt在十个男孩中挑选出自己的命定之子，不管选中哪一个都可以带走。然而，Mousesack已经事先把真相告诉了Geralt，Pavetta生下的是一个女儿。在两人看着那十个男孩玩耍之时，一个小女孩也跑来一起玩，她就是Ciri，Geralt虽然不知道，但已经发现了她的善良之处。Geralt对女王说Pavetta的儿子不在里面，而且他此行也不是来带走命定之子，而是要放弃这种命运的联结。即便如此，女王也没有对Geralt说实话。（Something More）
 
 后来，当Geralt为完成某位国王的使命而进入Brokilone森林时，他救下了一个被大蜈蚣追的小女孩，这个女孩就是Ciri，此时她已经十岁左右，因为逃婚而闯进了森林。Ciri从奶妈的口中知道自己的母亲是术士，父亲是被诅咒的人，而自己的命运属于猎魔人，当她得知Geralt的名字和身份后，便明白了一切，只有Geralt毫无察觉。因此，当Eithné女士同意让Ciri自己选择命运时，她选择跟着Geralt离开Brokilone。在Geralt送Ciri回去的路上，他们遇到了Mousesack，Mousesack建议Geralt接受命运带走Ciri，但Geralt再次拒绝了，他趁着Ciri睡着的时候悄悄离开，然而Ciri已经醒了，她对着走远的Geralt喊道：「Don't go! Don't think that you'll get away so easily! Don't even think it! You can't run away! I'm part of your destiny, you hear? I am your destiny!」（The Sword of Destiny）
 

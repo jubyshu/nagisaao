@@ -12,7 +12,7 @@ tags: 阅读
 
 ### A Question of Price
 
-A Question of Price讲的是Geralt与Ciri命运相连的缘由，Geralt帮助Duny解开了诅咒，Duny执意报答Geralt，Geralt便要求以意外律作为回报，此时Duny还不知道Paveta已经怀孕了，这个孩子就是Ciri。在故事前面的 「理性之声」部分，Geralt在对Iola的自言自语中提到了自己的身世（故事中的Mousesack也有提及），他是由父亲以意外律送给了Vesemir，并且一直不知道自己的父母是谁。[^1]虽然Geralt已经和Ciri的命运绑定，但他似乎还有所逃避。Geralt是这样对Iola说的：
+A Question of Price讲的是Geralt与Ciri命运相连的缘由，Geralt帮助Duny解开了诅咒，Duny执意报答Geralt，Geralt便要求以意外律作为回报，此时Duny还不知道Pavetta已经怀孕了，这个孩子就是Ciri。在故事前面的 「理性之声」部分，Geralt在对Iola的自言自语中提到了自己的身世（故事中的Mousesack也有提及），他是由父亲以意外律送给了Vesemir，并且一直不知道自己的父母是谁。[^1]虽然Geralt已经和Ciri的命运绑定，但他似乎还有所逃避。Geralt是这样对Iola说的：
 
 > I never look back. I'll never return to Cintra. I'll avoid it like the plague. I'll never go back there.
 > 
