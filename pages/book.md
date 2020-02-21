@@ -17,6 +17,8 @@ description: A reader lives a thousand lives before he dies.
 2. 《古拉格之恋：一个爱情与求生的真实故事》,奥兰多·费吉斯,李广平,广西师范大学出版社,2016
 3. 《The Last Wish》,Andrzej Sapkowski,,Gollancz,2008
 4. 《Sword of Destiny》,Andrzej Sapkowski,,Gollancz,2008
+5. 《Permanent Record》,Edward Snowden,,Macmillan,2019
+6. 《Blood of Elves》,Andrzej Sapkowski,,Gollancz,2008
 
 -------
 
