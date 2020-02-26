@@ -19,6 +19,7 @@ description: A reader lives a thousand lives before he dies.
 4. 《Sword of Destiny》,Andrzej Sapkowski,,Gollancz,2008
 5. 《Permanent Record》,Edward Snowden,,Macmillan,2019
 6. 《Blood of Elves》,Andrzej Sapkowski,,Gollancz,2008
+7. 《棋王》,阿城,,上海三联书店,2019
 
 -------
 
