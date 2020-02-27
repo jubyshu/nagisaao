@@ -3,7 +3,7 @@ layout: post
 title: 不如看剧之利维坦觉醒
 date: 2019-10-14 17:45
 categories: review
-tags: 阅读 影音
+tags: 读书 影音
 ---
 
 用了一个多月的时间，看完了今生的第一本英文小说——*Leviathan Wakes*，虽然小说的生词比较多，但之前已经看过改编的电视剧，即使情节有出入，也基本能读懂书中的故事。

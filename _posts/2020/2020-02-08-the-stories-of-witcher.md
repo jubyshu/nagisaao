@@ -3,7 +3,7 @@ layout: post
 title: 猎魔人的故事
 date: 2020-02-08 14:20
 categories: review
-tags: 阅读
+tags: 读书
 ---
 
 用了十来天的时间，看完了猎魔人系列的第一本小说「The Last Wish」，其实这是一本短篇小说集，包含七个故事。其中，The Voice of Reason的章节穿插在其他故事的前面，起到串联作用，另外六个故事则是Geralt在Nenneke的神庙养伤（也就是上述篇目的内容）时的回忆，按照时间线大概是这样的顺序：A Grain of Truth，The Lesser Evil，The Edge of the World，The Last Wish，A Question of Price和The Witcher。除了A Grain of Truth之外，其余的五个故事都拍到了Netflix的剧中，虽然内容不尽相同。

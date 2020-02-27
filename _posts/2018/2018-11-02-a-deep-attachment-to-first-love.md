@@ -3,7 +3,7 @@ layout: post
 title: 初恋的执念
 date: 2018-11-02 21:40
 categories: review
-tags: 阅读 日本
+tags: 读书 日本
 ---
 
 这几天在看川端康成的小说集[^1]，有一个相似的情节反复出现在不同的故事中：

@@ -3,7 +3,7 @@ layout: post
 title: 不可逃避的命运
 date: 2020-02-12 14:30
 categories: review
-tags: 阅读
+tags: 读书
 ---
 
 猎魔人系列的第二本书「Sword of Destiny」也是短篇小说集，由六个故事组成，分别是The Bounds of Reason，A Shard of Ice，Eternal Fire，A Little Sacrifice，The Sword of Destiny和Something More。与第一本书相比，这六个故事是按时间的先后顺序排列的，不同故事之间的联系也稍微紧密一点。

@@ -3,7 +3,7 @@ layout: post
 title: 肝胆昆仑
 date: 2015-11-01
 categories: review
-tags: 阅读 虚构
+tags: 读书 虚构
 ---
 
 北京城的夜深了，阒无人声，只有法源寺的佛堂里传出阵阵哭泣，一口新漆的棺材停放在那里，案上的香静静地燃着。

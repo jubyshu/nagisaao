@@ -3,7 +3,7 @@ layout: post
 title: 素子的幸福
 date: 2018-09-07 20:00
 categories: review
-tags: 阅读 日本
+tags: 读书 日本
 card: https://i.imgur.com/dQiePUg.jpg
 ---
 
