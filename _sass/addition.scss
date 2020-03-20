@@ -369,3 +369,21 @@ sup {
     }
   }
 }
+
+// mailchimp
+#mc_embed_signup {
+  background: #232222;
+  margin: 30px auto;
+  input.email {
+    background: #3e3e3e;
+    color: $font-color;
+    border: 1px solid #3e3e3e;
+  }
+  .button {
+    background: #383e3e;
+    color: $title-color;
+    &:hover {
+      background: $link-color;
+    }
+  }
+}
