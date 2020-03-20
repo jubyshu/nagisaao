@@ -231,6 +231,11 @@ sup {
     font-size: 0.8em;
     color: $meta-color;
   }
+
+  .ais-search-box--input {
+    background: #3e3e3e;
+    color: $font-color;
+  }
 }
 
 .post-item {
