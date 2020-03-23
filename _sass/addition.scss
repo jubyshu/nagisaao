@@ -383,10 +383,14 @@ sup {
     background: #3e3e3e;
     color: $font-color;
     border: 1px solid #3e3e3e;
+    width: 100%;
+    max-width: 350px;
   }
   .button {
     background: #383e3e;
     color: $title-color;
+    width: 100%;
+    max-width: 350px;
     &:hover {
       background: $link-color;
     }
