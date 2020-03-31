@@ -235,13 +235,15 @@ sup {
   .ais-search-box--input {
     background: #3e3e3e;
     color: $font-color;
+    border: #3e3e3e;
+    line-height: 150%;
   }
 }
 
 .post-item {
   margin-bottom: 30px;
-  padding-left: 15px;
-  border-left: 2px solid $hover-color;
+  // padding-left: 15px;
+  // border-left: 2px solid $hover-color;
 }
 
 .post-link .ais-Highlight {
@@ -255,8 +257,8 @@ sup {
 }
 
 .post-breadcrumb {
-  font-size: 18px;
-  color: #424242;
+  font-size: 1.1em;
+  color: $font-color;
 }
 
 .post-breadcrumb .ais-Highlight {
@@ -269,6 +271,7 @@ sup {
   background: #F7D94C;
   font-style: normal;
   font-weight: bold;
+  color: $sub-link-color;
 }
 
 .post-snippet img {
@@ -287,6 +290,7 @@ sup {
   }
 }
 
+// Gist
 .gist {
   max-width: 720px;
 
