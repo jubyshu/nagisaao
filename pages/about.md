@@ -11,7 +11,7 @@ description: 2015年开始用Wordpress搭建博客，2018年迁移至Jekyll，�
 
 #### 博客
 
-2015年开始使用Wordpress，2018年迁移至Jekyll，源码保存在[Github](https://github.com/jubyshu/nagisaao)，部署于Netlify，评论系统由Valine支持，文章均为Juby的自说自话。
+2015年开始使用Wordpress，2018年迁移至Jekyll，源码保存在[Github](https://github.com/jubyshu/jubyshu.github.io)，部署于Netlify，评论系统由Valine支持，文章均为Juby的自说自话。
 
 -------------------
 
