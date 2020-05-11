@@ -21,9 +21,9 @@ description: 2015年开始用Wordpress搭建博客，2018年迁移至Jekyll，�
 
 经常出没于自己的内心世界以及[twitter](https://twitter.com/jubyshu)，联系请发邮件至[email](mailto:juby@jubeny.com)。
 
-喜欢的作家：鲁迅，芥川龙之介，博尔赫斯，夏目漱石，兰姆，陀思妥耶夫斯基，···
+喜欢的作家：鲁迅，芥川龙之介，博尔赫斯，夏目漱石，兰姆，波拉尼奥，陀思妥耶夫斯基，···
 
-喜欢的乐队：The Beatles，Bob Dylan，Eagles，Queen，Led Zeppelin，GLAY，X Japan，JUDY AND MARY，Every Little Thing，Do As Infinity，···
+喜欢的乐队：The Beatles，Bob Dylan，Eagles，Guns N' Roses，Led Zeppelin，Queen，GLAY，X Japan，JUDY AND MARY，Every Little Thing，Do As Infinity，···
 
 -------------------
 
