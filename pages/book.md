@@ -20,6 +20,7 @@ description: A reader lives a thousand lives before he dies.
 5. 《Permanent Record》,Edward Snowden,,Macmillan,2019
 6. 《Blood of Elves》,Andrzej Sapkowski,,Gollancz,2008
 7. 《棋王》,阿城,,上海三联书店,2019
+8. 《梁漱溟 王实味 储安平》,戴晴,,江苏文艺出版社,1989
 
 -------
 
