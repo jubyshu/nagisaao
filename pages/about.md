@@ -19,7 +19,7 @@ description: 2015年开始用Wordpress搭建博客，2018年迁移至Jekyll，�
 
 很喜欢痖弦写给妻子的诗中的一句：想着，生活着，偶尔也微笑着，既不快活也不不快活。我的人生也是这样的简单，没有什么可卖的，也并不想买什么，只愿侍弄好自己的菜园，在种菜的时候，也栽下一丛蔷薇。
 
-经常出没于自己的内心世界以及[twitter](https://twitter.com/jubyshu)，联系请发邮件至[email](mailto:juby@jubeny.com)。
+经常出没于自己的内心世界以及[twitter](https://twitter.com/jubyshu)，联系请发邮件至[email](mailto:juby@jubeny.com)，赞助可以使用[paypal](https://paypal.me/jubyshu)。
 
 喜欢的作家：鲁迅，芥川龙之介，博尔赫斯，夏目漱石，兰姆，波拉尼奥，陀思妥耶夫斯基，···
 
