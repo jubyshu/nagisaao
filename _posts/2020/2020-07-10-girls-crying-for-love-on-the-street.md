@@ -14,10 +14,10 @@ tags: 生活
 
 周二的天气酷热难当，走几步路便汗流浃背，和人约了去玄武湖跑步，早早地回家做饭，却听到外面暴雨骤至，但等吃完饭，雨也停了，于是继续骑自行车去玄武湖。我是经常跑步的，对方很久没有运动了，但我们还是想来个环湖跑，然而由于对路还不是太熟，中间跑错了地方，从湖上的小岛穿过去了。环湖一圈大概不到10公里，我们跑了6.5公里，虽然我当时不觉得累，但到了第二天却有些疲倦。两个人跑步，比一个人跑步更轻松一点，因为可以说说话。
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1fxpMysTI4-ZSHdVNM6x64L5Rl0pKiK7c" width="720" height="360"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1fxpMysTI4-ZSHdVNM6x64L5Rl0pKiK7c" width="100%" height="360"></iframe>
 
 休息了一天，昨天继续去跑，这次是自己一个人了，虽然仍觉得有点累，但还是可以跑起来的。一般我沿着北京西路跑到秦淮河边，大约是3公里多的路程，这次却在中途就折回来，然后绕了点路跑回家，全程6公里多，配速5:33min比跑玄武湖6:10min快了不少。因为去跑的时间比较晚，街上已经没什么人了，虽然没有风，虽然出了一身汗，但感觉很舒服。这条线路很有意思，正好途经四个大学。
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1ZA2nPUb0UKt46p4JHIFiwzP22hMYdS18" width="720" height="360"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1ZA2nPUb0UKt46p4JHIFiwzP22hMYdS18" width="100%" height="360"></iframe>
 
 说的全是跑步的事，为什么取了这么一个不相关的名字呢。其实，是昨晚跑完步回家的路上，在街边看到一个女子打电话，情绪激动，带有哭腔，于是就自己想象了一下。这样的情景，我碰到过不止一次，觉得很有画面感。然而，置身事外，我并不能感受那份心情。
