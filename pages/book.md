@@ -22,6 +22,7 @@ description: A reader lives a thousand lives before he dies.
 7. 《棋王》,阿城,,上海三联书店,2019
 8. 《梁漱溟 王实味 储安平》,戴晴,,江苏文艺出版社,1989
 9. 《Time of Contempt》,Andrzej Sapkowski,,Gollancz,2013
+10. 《自卑与超越》,阿弗雷德·阿德勒,李青霞,沈阳出版社,2012
 
 -------
 
