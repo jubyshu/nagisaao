@@ -9,7 +9,7 @@ tags: 南大
 昨天冒雨拍了毕业照，心中有些许伤感，看到有那么多的同学尚不认识，感觉自己这几年错过了很多。晚上，等人的间隙，自己在北园散步，一直对拍照很羞耻的我，趁着没人，也拿出手机拍了几张照片。毕竟，这次是真的要说再见了，以此留念吧。
 
 本该是拍毕业照的地方，但因为雨太大且迟迟不肯停，只能移步操场。
-{% include image.html url="nju_square.jpg" caption="北大楼前小广场" %}
+{% include image.html url="nju_small_square.jpg" caption="北大楼前小广场" %}
 
 无人问津的北大楼
 {% include image.html url="nju_beida_building.jpg" caption="北大楼前" %}
