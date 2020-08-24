@@ -4,6 +4,7 @@ title: DeGoogle的进度
 date: 2019-12-28 17:05
 categories: journal
 tags: 工具
+ad: true
 ---
 
 一年之前，我还是一名忠实的谷歌粉丝，现在呢，我已变成了坚定的DeGoogler。**DeGoogle**是什么意思呢，其实我并未查到具体的解释，但肯定不是印度程序员口中的「The Google」，那就可能是「Delete Google」的简写吧。

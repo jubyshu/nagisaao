@@ -3,6 +3,7 @@ title: 留言
 layout: page
 group: navigation
 permalink: /guestbook/
+ad: true
 ---
 
 ### 留言

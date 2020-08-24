@@ -4,6 +4,7 @@ title: 我使用的手机浏览器——Firefox Preview
 date: 2020-04-21 23:50
 categories: review
 tags: 工具
+ad: true
 ---
 有一次更新手机系统时不小心丢失了Root权限，重新Root后需要把所有App再装一遍，当要装Firefox时，想到还得再装一大堆插件并设置，突然觉得麻烦，于是决定转向Firefox Preview（以下简称FP）。
 
