@@ -15,14 +15,14 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    ffi (1.11.1)
+    ffi (1.13.1)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     httpclient (2.8.3)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    jekyll (4.0.0)
+    jekyll (4.1.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -96,4 +96,4 @@ DEPENDENCIES
   jekyll-sitemap
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
