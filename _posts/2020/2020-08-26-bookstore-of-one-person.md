@@ -4,6 +4,7 @@ title: 一個人的書店
 date: 2020-08-26 22:40
 categories: essay
 tags: 读书 生活
+card: https://cdn.jsdelivr.net/gh/jubyshu/rosemary/image/bookstore-taiwan-cornor.jpg
 ---
 
 這是我第三次與向田邦子相遇。第一次是在三年前，在日劇和她妹妹公開的書信裡；第二次是在兩年前，在她的隨筆和小說裡。
