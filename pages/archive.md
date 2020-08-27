@@ -1,11 +1,11 @@
 ---
-title: 存档
+title: 存檔
 layout: page
 group: navigation
 permalink: /archive/
 ---
 
-### 统计
+### 統計
 <hr>
 - 文章: <span class="post_num">{{ site.posts | size }}</span> 篇
   {% assign count = 0 %}
@@ -13,7 +13,7 @@ permalink: /archive/
     {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
     {% assign count = count | plus: single_count %}
   {% endfor %}
-- 字数: <span class="post_num">{{ count | divided_by: 1000.0 | round: 2 }}K</span> 字
+- 字數: <span class="post_num">{{ count | divided_by: 1000.0 | round: 2 }}K</span> 字
 
 {% assign count = 1 %}
 {% for post in site.posts reversed %}

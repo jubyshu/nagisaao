@@ -1,11 +1,11 @@
 ---
-title: 标签
+title: 標籤
 layout: page
 group: navigation
 permalink: /tags/
 ---
 
-### 标签
+### 標籤
 {:#tag-index}
 
 --------

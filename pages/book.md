@@ -1,12 +1,12 @@
 ---
-title: 读书
+title: 讀書
 layout: page
 group: navigation
 permalink: /book/
 description: A reader lives a thousand lives before he dies.
 ---
 
-### 读书
+### 讀書
 
 -------
 

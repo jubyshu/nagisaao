@@ -1,6 +1,6 @@
 ---
 layout: category
-title: 诗歌
+title: 詩歌
 permalink: /poetry/
 pagination:
   enabled: true

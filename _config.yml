@@ -5,8 +5,8 @@ url: https://jubeny.com
 timezone: Asia/Shanghai
 
 # SEO
-keywords: [渚碧, なぎさ, 纯文学爱好者, 日语学习, 读书笔记, 永远追求自由]
-description: 我欲种菜 亦植蔷薇
+keywords: [渚碧, 未木大, 纯文学爱好者, 日语学习, 读书笔记, 永远追求自由]
+description: 我欲種菜 亦植薔薇
 
 # Social
 social:
@@ -49,11 +49,11 @@ sass:
 
 # Navigation buttons
 nav:
-  - {title: 主页, description: blog, url: '/'}
-  - {title: 存档, description: archive, url: '/archive/'}   
-  - {title: 读书, description: read, url: '/book/'}
+  - {title: 主頁, description: blog, url: '/'}
+  - {title: 存檔, description: archive, url: '/archive/'}   
+  - {title: 讀書, description: read, url: '/book/'}
   - {title: 留言, description: guestbook, url: '/guestbook/'}      
-  - {title: 关于, description: about, url: '/about/'}         
+  - {title: 關於, description: about, url: '/about/'}         
 
 # Categories
 categs:
@@ -87,7 +87,7 @@ autopages:
     enabled: true
     layouts: 
       - 'autopage_tags.html'
-    title: '标签 - :tag'
+    title: '標籤 - :tag'
     permalink: '/tags/:tag'
 
 # algolia search
