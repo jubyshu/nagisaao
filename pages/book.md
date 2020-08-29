@@ -23,6 +23,7 @@ description: A reader lives a thousand lives before he dies.
 8. 《梁漱溟 王实味 储安平》,戴晴,,江苏文艺出版社,1989
 9. 《Time of Contempt》,Andrzej Sapkowski,,Gollancz,2013
 10. 《自卑与超越》,阿弗雷德·阿德勒,李青霞,沈阳出版社,2012
+11. 《父亲的道歉信》,向田邦子,张秋明,麦田,2019
 
 -------
 
