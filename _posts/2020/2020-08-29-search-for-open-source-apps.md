@@ -4,6 +4,7 @@ title: 寻找开源应用
 date: 2020-08-29 23:40
 categories: journal
 tags: 工具 好玩
+ad: true
 ---
 
 在散了几天能量后，终于彻底关闭了蚂蚁森林。
