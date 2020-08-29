@@ -57,11 +57,11 @@ nav:
 
 # Categories
 categs:
-  - {title: J, url: '/journal/'}
-  - {title: E, url: '/essay/'}
-  - {title: R, url: '/review/'}
-  - {title: P, url: '/poetry/'}
-  - {title: S, url: '/story/'}
+  - {title: J, description: 日誌, url: '/journal/'}
+  - {title: E, description: 隨筆,url: '/essay/'}
+  - {title: R, description: 評論,url: '/review/'}
+  - {title: P, description: 詩歌,url: '/poetry/'}
+  - {title: S, description: 故事,url: '/story/'}
 
 # Plugins
 plugins: [jekyll-paginate-v2, jekyll-sitemap, jekyll-algolia]

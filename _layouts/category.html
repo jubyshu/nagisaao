@@ -7,7 +7,7 @@ layout: default
   <div class="category">
     <ul>
       {% for categ in site.categs %}
-      <li><a href="{{categ.url}}">{{categ.title}}</a></li>
+      <li><a href="{{categ.url}}" title="{{categ.description}}">{{categ.title}}</a></li>
       {% endfor %}
     </ul>
   </div>
