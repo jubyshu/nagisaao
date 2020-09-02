@@ -1,7 +1,7 @@
 #comment {
   .auth-section {
     padding: 0;
-    background: #3e3e3e;
+    background: $page-color;
 
     .post-action button {
       border: none;
@@ -13,7 +13,7 @@
     }
 
     .input-wrapper input {
-      background: #3e3e3e;
+      background: $page-color;
       color: $sub-font-color;
     }
   }
@@ -41,7 +41,7 @@
     padding: 1.5em 0;
 
     .vat {
-      color: #232222;
+      color: #fcfcfc;
     }
 
     &:hover .vat {
@@ -62,7 +62,7 @@
       p{
         word-break: break-word;
         text-justify: distribute;
-        color: $font-color;
+        color: $sub-font-color;
       }
 
       a {
@@ -71,7 +71,7 @@
     }
 
     .vname {
-      color: #b9b9b9;
+      color: #90bdb2;
     }
 
     .vcomment.expand {
@@ -100,26 +100,26 @@
 
   .comment_trigger {
     padding: 0 0 0 0.5em;
-    background-color: #3e3e3e;
+    background-color: $page-color;
   }
 
   .vinputs-area {
-    background: #3e3e3e;
+    background: $page-color;
     border: 1px solid $border-color;
     border-radius: 5px;
 
     .textarea-wrapper {
-      background: #3e3e3e;
+      background: $page-color;
     }
 
     .textarea-wrapper textarea {
-      background: #3e3e3e;
+      background: $page-color;
       color: $font-color;
     }
   }
 
   .vpage .more {
-    background: #3e3e3e;
+    background: $page-color;
     color: $link-color;
   }
 }

@@ -110,7 +110,7 @@ sup {
   padding: 5px;
   width: 210px;
   max-width: 210px;
-  background: #3c3c3c; //#f6f6f6;
+  background: #f6f6f6; //#3c3c3c;
   border-radius: 3px;
 
   ol,
@@ -233,9 +233,9 @@ sup {
   }
 
   .ais-search-box--input {
-    background: #3e3e3e;
+    background: $page-color;
     color: $font-color;
-    border: #3e3e3e;
+    border: $page-color;
     line-height: 150%;
   }
 }
@@ -485,18 +485,18 @@ sup {
 
 // mailchimp
 #mc_embed_signup {
-  background: #232222;
+  background: #fcfcfc;
   margin: 30px auto;
   input.email {
-    background: #3e3e3e;
+    background: #efefef;
     color: $font-color;
-    border: 1px solid #3e3e3e;
+    border: 1px solid #efefef;
     width: 100%;
     max-width: 350px;
   }
   .button {
-    background: #383e3e;
-    color: $title-color;
+    background: #a3a3a3;
+    color: #fcfcfc;
     width: 100%;
     max-width: 350px;
     &:hover {

@@ -32,7 +32,7 @@ body {
   font-size: 15px;
   color: $font-color;
   letter-spacing: 0.03em;
-  background-color: #171514; //#efefef;
+  background-color: #efefef; //#171514;
   -webkit-font-smoothing: antialiased;
 
   &:before {
@@ -61,7 +61,7 @@ p {
 code {
   font-size: 0.9em;
   color: #2FA4A4;
-  background: #2d2d2d;  //#f5f2f0;
+  background: #f5f2f0;  //#2d2d2d;
   vertical-align: baseline;
   border-radius: 3px;
   padding: 3px;
@@ -233,9 +233,8 @@ td {
 // container
 .container {
   margin: 60px auto;
-  background-color: #232222;  //#fcfcfc;
+  background-color: #fcfcfc;  //#232222;
   max-width: 780px;
-
 }
 
 .content-wrapper {
