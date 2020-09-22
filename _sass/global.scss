@@ -195,16 +195,16 @@ table {
 }
 
 thead tr:nth-child(odd) {
-  background: #d6f7ff;
+  background: #d3f7bb;
 }
 
 tbody tr:nth-child(even) {
-  background: #d6f7ff;
+  background: #d3f7bb;
 }
 
 th,
 td {
-  border: 1px solid $border-color;
+  border: 1px solid #3fc699;
   text-align: center;
 }
 
