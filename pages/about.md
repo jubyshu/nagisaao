@@ -21,7 +21,7 @@ description: 2015年開始用Wordpress搭建博客，2018年遷移至Jekyll，�
 
 不愛學習，不愛思考，不善言語，不思進取。喜歡純文學、重金屬、神秘的宇宙和開源程序，討厭一票科技公司（蘋果、騰訊、阿里、百度、華為，等等）。
 
-經常出沒於自己的夢境以及[Twitter](https://twitter.com/jubyshu)，聯系請發[Email](mailto:juby@jubeny.com)，贊助請用[Paypal](https://paypal.me/jubyshu)。
+經常出沒於自己的夢境以及[Twitter](https://twitter.com/jubyshu)，聯系請發[Email](mailto:juby@jubeny.com)，贊助請用[Paypal](https://paypal.me/jubyshu)，聊天請加[Signal](https://signal.group/#CjQKIFRFKGTFG3WMscAUcY-a2UF5Nw8KN5b7bkFHP-wvHn8CEhBtOokUKPQBs2x4PXs0nh0f)。
 
 -------------------
 
