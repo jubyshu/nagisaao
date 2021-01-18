@@ -10,6 +10,14 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
+### 2021
+{:.collapsible}
+
+1.《灵魂迷宫》,卡洛斯·鲁依斯·萨丰,范湲,上海文艺出版社,2019
+
+
+-------
+
 ### 2020
 {:.collapsible}
 

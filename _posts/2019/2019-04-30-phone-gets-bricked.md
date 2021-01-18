@@ -4,6 +4,7 @@ title: 手机变砖记
 date: 2019-04-30 19:25
 categories: essay
 tags: 工具 好玩
+ad: true
 ---
 
 虽说刷机有风险，但没想到的是，这种事情竟然发生在了我的身上。

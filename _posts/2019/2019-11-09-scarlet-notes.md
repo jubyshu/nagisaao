@@ -4,6 +4,7 @@ title: Scarlet Notes使用心得
 date: 2019-11-09 21:10
 categories: journal
 tags: 工具
+ad: true
 ---
 
 Scarlet是一种颜色的名字，当然也是Scarlet Notes的主色调。在一开始的时候，这个名字让我想到的是『飘』的女主斯嘉丽，我甚至以为开发者的命名即来源于此，就像Joplin取自卓别林一样，后来才发现斯嘉丽的拼写在末尾多了一个t。不过，我似乎并不愿意纠正这个美丽的错误。
