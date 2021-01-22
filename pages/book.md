@@ -13,7 +13,7 @@ description: A reader lives a thousand lives before he dies.
 ### 2021
 {:.collapsible}
 
-1.《灵魂迷宫》,卡洛斯·鲁依斯·萨丰,范湲,上海文艺出版社,2019
+1. 《灵魂迷宫》,卡洛斯·鲁依斯·萨丰,范湲,上海文艺出版社,2019
 
 
 -------
@@ -33,6 +33,7 @@ description: A reader lives a thousand lives before he dies.
 10. 《自卑与超越》,阿弗雷德·阿德勒,李青霞,沈阳出版社,2012
 11. 《父亲的道歉信》,向田邦子,张秋明,麦田,2019
 12. 《埃涅阿斯纪》,维吉尔,杨周翰,译林出版社,1999
+{:.collcontent}
 
 -------
 
