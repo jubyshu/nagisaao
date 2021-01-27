@@ -14,6 +14,7 @@ description: A reader lives a thousand lives before he dies.
 {:.collapsible}
 
 1. 《灵魂迷宫》,卡洛斯·鲁依斯·萨丰,范湲,上海文艺出版社,2019
+2. 《哥伦比亚的倒影》,木心,,广西师范大学出版社,2006
 
 
 -------
