@@ -16,6 +16,9 @@ description: A reader lives a thousand lives before he dies.
 1. 《灵魂迷宫》,卡洛斯·鲁依斯·萨丰,范湲,上海文艺出版社,2019
 2. 《哥伦比亚的倒影》,木心,,广西师范大学出版社,2006
 3. 《Baptism of Fire》,Andrzej Sapkowski,David French,Orbit,2014
+4. 《宛如阿修罗》,向田邦子,李佳星,外语教学与研究出版社,2016
+5. 《自私的基因》,理查德·道金斯,卢允中等,中信出版集团,2018
+6. 《阿吽》,向田邦子,刘子倩,中国友谊出版公司,2018
 
 -------
 
