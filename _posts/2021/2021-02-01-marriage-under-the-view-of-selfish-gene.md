@@ -2,7 +2,7 @@
 layout: post
 title: 自私的基因观点下的婚姻
 date: 2021-02-01 16:00
-categories: essay
+categories: review
 tags: 读书 杂谈
 ---
 

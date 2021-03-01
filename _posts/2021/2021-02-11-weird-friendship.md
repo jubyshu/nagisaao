@@ -2,7 +2,7 @@
 layout: post
 title: 奇妙的友情
 date: 2021-02-11 20:40
-categories: essay
+categories: review
 tags: 读书 情感
 ---
 
