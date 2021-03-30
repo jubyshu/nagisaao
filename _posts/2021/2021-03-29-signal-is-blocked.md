@@ -23,7 +23,7 @@ Signal好像没有退出登录的选项，为了在我的手机上登录朋友�
 不能登录电脑端终究不方便，查看相关的issues，终于找到了一个可用的方法为Signal设置代理，给相关命令设置别名如下：
 
 ```shell
-alias signal="export HTTP_PROXY=socks5://127.0.0.1:7891; export HTTPS_PROXY=$HTTP_PROXY; /Applications/Signal.app/Contents/MacOS/Signal"
+alias signal="export HTTPS_PROXY=socks5://127.0.0.1:7891; /Applications/Signal.app/Contents/MacOS/Signal"
 ```
 至于这样连接Signal有没有泄密的风险，我就不太懂了。
 
