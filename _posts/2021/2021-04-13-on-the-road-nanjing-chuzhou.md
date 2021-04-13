@@ -28,4 +28,4 @@ tags: 生活
 
 骑下长江大桥后就是我熟悉的路了，在南京市内骑车特别容易路怒，电动车很多，还有突然冒出来的行人，我都是摆出一副要杀人的目光。这次骑行是用手机App做的记录，中间断了几次，来回应该有140公里左右，净骑车时间大约8小时，速度相比公路车还是慢太多了，自己的体力也不行，还需要继续锻炼。下周没有意外情况，大概是骑车去镇江、扬州，然后再骑回南京。
 
-<iframe src="https://www.google.com/maps/d/embed?mid=11YnfHLXhOgQxYvCpUZLdzpGmOsh4RLTp" width="720" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=11YnfHLXhOgQxYvCpUZLdzpGmOsh4RLTp" width="100%" height="400"></iframe>
