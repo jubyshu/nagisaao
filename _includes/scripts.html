@@ -3,7 +3,6 @@
 <script src="//cdn.jsdelivr.net/gh/jubyshu/nagisaao/assets/js/prism.js"></script>
 <script async src="//cdn.jsdelivr.net/npm/flowchart.js@1.11.3/release/flowchart.min.js"></script>
 <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
-<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -16,6 +15,8 @@
 <!-- {% if page.ad %}
 <script data-ad-client="ca-pub-1918559515694686" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 {% endif %} -->
+{% if page.math %}
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
@@ -24,3 +25,4 @@
     }
   });
 </script>
+{% endif %}
