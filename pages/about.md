@@ -30,10 +30,3 @@ description: 2015年開始用Wordpress搭建博客，2018年遷移至Jekyll，�
 主題來源：[leopardpan](https://github.com/leopardpan/leopardpan.github.io/) & [onevcat](https://github.com/onevcat/vno-jekyll)  
 評論通知：[Deserts](https://deserts.io/valine-admin-document/)  
 功能擴展：[fooleap](https://blog.fooleap.org/)
-
--------------------
-
-#### 分享
-
-TG频道：[Veg & Rose](https://t.me/vegrose)   
-飛機場：[ssrcloud](https://ntt-co-jp.club/auth/register?code=gbHM)

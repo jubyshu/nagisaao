@@ -24,8 +24,6 @@ leancloud:
   appid: QSgMGPbA7GNASFnb69vrBVxT-MdYXbMMI
   appkey: 5LnIvn6xAMPXGlMAssqbQCB6
 
-# disqus
-# disqus_js: https://juby.disqus.com/embed.js
 # OpenGraph & TwitterCard
 card: /images/tcard.png
 
