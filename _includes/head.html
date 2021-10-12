@@ -16,7 +16,7 @@
   <meta name="twitter:site" content="@{{site.social.twitter}}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-  <meta property="og:image" content="{% if page.card %}{{ page.card }}{% else %}{{ site.card | prepend: site.url }}{% endif %}">
+  <meta property="og:image" content="{% if page.card %}{{ page.card }}{% else %}{{ page.image | prepend: site.url }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | markdownify | strip_html | strip_newlines | truncate:120 }}{% endif %}">
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
