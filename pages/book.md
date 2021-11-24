@@ -10,8 +10,6 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-📚讀過的書：[Books Read](https://bit.ly/3pdtXMJ)
-
 ### 2021
 {:.collapsible}
 
@@ -28,6 +26,7 @@ description: A reader lives a thousand lives before he dies.
 11. 掌控谈话,克里斯·沃斯/塔尔·拉兹,赵坤,北京联合出版公司,2018
 12. 李逵日记之聚义厅,仓土,,,
 13. 李逵日记之忠义堂,仓土,,,
+14. 金瓶梅,兰陵笑笑生,,,
 
 -------
 
