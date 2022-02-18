@@ -30,3 +30,6 @@ description: 2015年開始用Wordpress搭建博客，2018年遷移至Jekyll，�
 主題來源：[leopardpan](https://github.com/leopardpan/leopardpan.github.io/) & [onevcat](https://github.com/onevcat/vno-jekyll)  
 評論通知：[Deserts](https://deserts.io/valine-admin-document/)  
 功能擴展：[fooleap](https://blog.fooleap.org/)
+
+#### 邀请
+Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
