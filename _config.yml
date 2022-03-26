@@ -20,9 +20,9 @@ google:
   site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
 
 # Leancloud used for Valine
-leancloud: 
-  appid: QSgMGPbA7GNASFnb69vrBVxT-MdYXbMMI
-  appkey: 5LnIvn6xAMPXGlMAssqbQCB6
+# leancloud: 
+#   appid: QSgMGPbA7GNASFnb69vrBVxT-MdYXbMMI
+#   appkey: 5LnIvn6xAMPXGlMAssqbQCB6
 
 # OpenGraph & TwitterCard
 card: /images/tcard.png
