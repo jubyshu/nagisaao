@@ -4,8 +4,8 @@ function loadDisqus() {
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
   window.disqus_config = function () {
-    this.page.url = 'https://jubeny.com/2022/03/raskolnikov/';
-    this.page.identifier = '/2022/03/raskolnikov/';
+    this.page.url = window.location.href;
+    this.page.identifier = window.location.href.substring(18);
   };
 }
 
