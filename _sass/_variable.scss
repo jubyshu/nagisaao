@@ -4,24 +4,24 @@ $aimirucha: #0F4C3A;      // 蓝海松茶
 $ginnezumi: #91989F;      // 银鼠
 $seiheki: #268785;        // 青碧
 $aisumicha: #373C38;      // 蓝黑茶
-$ai: #0D5661;            // 蓝
+$ai: #0D5661;             // 蓝
 $tobi: #724832;           // 鳶
 
-$link-color: #00896C; //$aimirucha;  
-$sub-link-color: #CA7A2C; // $tobi; 
+$link-color: #00896C;        //$aimirucha;  
+$sub-link-color: #CA7A2C;    // $tobi; 
 $hover-color: $seiheki;
-$border-color: #e1e1e1;  //#595959;
-$font-color: $ro;  //#b9b9b9;
-$sub-font-color: $aonibi;  //#b9b9b9;  
+$border-color: #e1e1e1;      //#595959;
+$font-color: $ro;            //#b9b9b9;
+$sub-font-color: $aonibi;    //#b9b9b9;  
 $background-color: #dff7e9;  //#1d3437;
 $meta-color: $ginnezumi;
-$title-color: $aisumicha;  //#c1c1c1;
+$title-color: $aisumicha;    //#c1c1c1;
 $page-color: #efefef;
 
-$source-serif: "PT Serif", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "Source Han Serif JP", "Noto Serif", "Noto Serif SC", "Noto Serif JP", serif;
-$heiti-sans: "PT Sans", "Source Han Sans SC", "Source Han Sans CN", "Source Han Sans", "Source Han Sans JP", "Noto Sans", "Noto Sans SC", "Noto Sans JP", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", STHeiti, "WenQuanYi Micro Hei", SimHei, sans-serif;
-$body-font: $source-serif;
-$quote-font: $source-serif;
+$source-serif: "PT Serif", Georgia, "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "Source Han Serif JP", "Noto Serif", "Noto Serif SC", "Noto Serif JP", serif;
+$heiti-sans: "PT Sans", Helvetica, Tahoma, Arial, "Source Han Sans SC", "Source Han Sans CN", "Source Han Sans", "Source Han Sans JP", "Noto Sans", "Noto Sans SC", "Noto Sans JP", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+$body-font: $heiti-sans;
+$quote-font: $heiti-sans;
 
 @mixin div-middle {
   position: fixed;
