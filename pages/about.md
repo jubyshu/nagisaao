@@ -11,7 +11,7 @@ description: 2015年開始用Wordpress搭建博客，2018年遷移至Jekyll，�
 
 #### 博客
 
-2015年開始使用Wordpress，2018年遷移至Jekyll，源碼保存在[Github](https://github.com/jubyshu/nagisaao)，部署於Netlify，評論系統由Valine支持，文章均為Juby的自說自話。
+2015 年開始使用 Wordpress，2018 年遷移至 Jekyll，源碼保存在[Github](https://github.com/jubyshu/nagisaao)，部署於 Netlify，評論系統用 Disqus（需要科学上网），文章均為 Juby 的自說自話。
 
 -------------------
 
@@ -28,7 +28,6 @@ description: 2015年開始用Wordpress搭建博客，2018年遷移至Jekyll，�
 #### 感謝
 
 主題來源：[leopardpan](https://github.com/leopardpan/leopardpan.github.io/) & [onevcat](https://github.com/onevcat/vno-jekyll)  
-評論通知：[Deserts](https://deserts.io/valine-admin-document/)  
 功能擴展：[fooleap](https://blog.fooleap.org/)
 
 -------------------
