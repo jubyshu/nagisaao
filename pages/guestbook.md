@@ -13,8 +13,6 @@ ad: true
 桜の花びら散るときに  
 届かぬ想いがまた一つ  
 
-评论区被人恶意攻击，无奈关闭。
-
 {% include comments.html %}
 
 <style>.post img {margin: 0;}</style>

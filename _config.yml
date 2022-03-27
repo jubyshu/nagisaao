@@ -5,7 +5,7 @@ url: https://jubeny.com
 timezone: Asia/Shanghai
 
 # SEO
-keywords: [渚碧, Juby, 未木大, 文学, 日语学习, 读书笔记, 自由主义]
+keywords: [渚碧, Juby, 未木大, 文学, 日语, 读书笔记, 自由主义]
 description: 我欲種菜 亦植薔薇
 
 # Social
@@ -18,11 +18,6 @@ social:
 google: 
   analytics: UA-112090731-1
   site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
-
-# Leancloud used for Valine
-# leancloud: 
-#   appid: QSgMGPbA7GNASFnb69vrBVxT-MdYXbMMI
-#   appkey: 5LnIvn6xAMPXGlMAssqbQCB6
 
 # OpenGraph & TwitterCard
 card: /images/tcard.png
