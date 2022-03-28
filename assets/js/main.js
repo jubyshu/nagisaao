@@ -82,3 +82,9 @@ $(document).ready(function() {
 if ($("div.gitlab-embed-snippets")) {
   $("div.gitlab-embed-snippets").attr("id", "gitlab-gist");
 }
+
+function showAvifSign() { 
+  var img = event.srcElement; 
+  img.src = "/images/avif.webp"; 
+  img.onerror = null;
+}
