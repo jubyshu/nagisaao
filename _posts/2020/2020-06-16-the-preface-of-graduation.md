@@ -33,7 +33,7 @@ tags: 南大
 {% include image.html url="nju_hall.jpg" caption="小礼堂" %}
 
 从学校可以看到被云雾缭绕的紫峰大厦
-{% include image.html url="zifeng_tower_in_cloud.jpg" caption="云中的紫峰" %}
+{% include image.html url="zifeng_tower_in_cloud.avif" caption="云中的紫峰" %}
 
 灯下的路，在小礼堂的旁边
 {% include image.html url="nju_path1.jpg" caption="灯下的路" %}
