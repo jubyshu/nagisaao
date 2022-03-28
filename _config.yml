@@ -20,27 +20,13 @@ google:
   site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
 
 # OpenGraph & TwitterCard
-card: /images/tcard.png
+card: /images/tcard.webp
 
-# ---------------------上面信息改为自己的-------------------------
-# 
-#          jekyll文档参考: https://jekyllrb.com/docs/
-#
-# ---------------------下面信息视情况更改-------------------------
-
-# Permalink
-permalink: '/:year/:month/:title/'
-
-# Format
-markdown: kramdown
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
+# algolia search
+algolia:
+  application_id: XTX1EOVMI5
+  index_name: jubeny
+  search_only_api_key: c05381f747c5207b6dd655ca29e18fce
 
 # Navigation buttons
 nav:
@@ -58,6 +44,28 @@ categs:
   - {title: R, description: 評論,url: '/review/'}
   - {title: P, description: 詩歌,url: '/poetry/'}
   - {title: S, description: 故事,url: '/story/'}
+
+
+# ---------------------上面信息改为自己的-------------------------
+# 
+#          jekyll文档参考: https://jekyllrb.com/docs/
+#
+# ---------------------下面信息视情况更改-------------------------
+
+
+# Permalink
+permalink: '/:year/:month/:title/'
+
+# Format
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Plugins
 plugins: [jekyll-paginate-v2, jekyll-sitemap, jekyll-algolia]
@@ -85,12 +93,6 @@ autopages:
       - 'autopage_tags.html'
     title: '標籤 - :tag'
     permalink: '/tags/:tag'
-
-# algolia search
-algolia:
-  application_id: XTX1EOVMI5
-  index_name: jubeny
-  search_only_api_key: c05381f747c5207b6dd655ca29e18fce
 
 # Increase jekyll build speed
 exclude: [Gemfile, Gemfile.lock, README.md]
