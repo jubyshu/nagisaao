@@ -18,12 +18,12 @@ description: 書非借不能讀也。
 
 <div class="book-show">
   <ul class="book-list">
-	{% for book in site.data.library %}
-	<li>
-	  <a href="//search.douban.com/book/subject_search?search_text={{ book.name }}" target="_blank">
-	  	<img src="//cdn.jsdelivr.net/gh/jubyshu/rosemary/cover/{{ book.ISBN }}.jpg" alt="{{ book.name }}" />
-	  </a>
-	</li>
-	{% endfor %}
+		{% for book in site.data.library %}
+		<li>
+		  <a href="//search.douban.com/book/subject_search?search_text={{ book.name }}" title="{{ book.name }} by {{ book.author }}" target="_blank">
+		  	<img src="//cdn.jsdelivr.net/gh/jubyshu/rosemary/cover/{{ book.ISBN }}.jpg" alt="{{ book.name }}" />
+		  </a>
+		</li>
+		{% endfor %}
   </ul>
 </div>
