@@ -504,3 +504,23 @@ sup {
     }
   }
 }
+
+.book-show {
+  overflow: hidden;
+}
+
+ul.book-list {
+  margin: auto;
+
+  li {
+    width: 80px;
+    float: left;
+    list-style: none outside none;
+
+    img {
+      width: 70px;
+      height: 100px;
+      border: solid 1px #ddd;
+    }
+  }
+}

@@ -15,9 +15,9 @@ social:
   youtube: UCg-mkLHhCiWZfc2TLlBuR8A
 
 # Google
-google: 
-  analytics: UA-112090731-1
-  site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
+# google: 
+#   analytics: UA-112090731-1
+#   site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
 
 # OpenGraph & TwitterCard
 card: /images/tcard.webp
