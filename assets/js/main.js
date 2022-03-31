@@ -1,3 +1,4 @@
+// back to top
 $("#back-top").hide();
 $(document).ready(function() {
   $(window).scroll(function() {
@@ -18,6 +19,7 @@ $(document).ready(function() {
   });
 });
 
+// count site running time
 $(document).ready(function() {
   let dateBegin = new Date("2015/01/03 23:15:15");
   let dateEnd = new Date();
@@ -29,6 +31,7 @@ $(document).ready(function() {
   $("#runtime").html(time);
 });
 
+// generate post toc
 let toc = document.querySelector(".post-toc");
 function tocShow() {
   let clientHeight = document.documentElement.clientHeight;
@@ -41,12 +44,11 @@ function tocShow() {
   } else {
     toc.style.visibility = "hidden";
   }
-}
+};
 if (!!toc) {
   window.addEventListener("resize", tocShow, false);
   tocShow();
 }
-
 function tocScroll() {
   let alis = $(".post :header");
   let toc_alis = $(".post-toc").find("a");
@@ -58,11 +60,12 @@ function tocScroll() {
       $(toc_alis[i]).addClass("active");
     }
   }
-}
+};
 $(function() {
   $(window).bind("scroll", tocScroll);
 });
 
+// book block collapse
 $(document).ready(function() {
   let coll = document.querySelectorAll('.collapsible');
   for (let i = 0; i < coll.length; i++) {
@@ -77,14 +80,16 @@ $(document).ready(function() {
       }
     });
   }
-})
+});
 
+// gitlab embed snippets
 if ($("div.gitlab-embed-snippets")) {
   $("div.gitlab-embed-snippets").attr("id", "gitlab-gist");
 }
 
+// imgage onerror event
 function showAvifSign() { 
-  var img = event.srcElement; 
+  let img = event.srcElement; 
   img.src = "/images/avif.webp"; 
   img.onerror = null;
-}
+};
