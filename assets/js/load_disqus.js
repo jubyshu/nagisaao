@@ -1,6 +1,6 @@
 function loadDisqus() {
   let d = document, s = d.createElement('script');
-  s.src = '//juby.disqus.com/embed.js';
+  s.src = '//{{ site.disqus | jsonify }}.disqus.com/embed.js';
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
   window.disqus_config = function () {

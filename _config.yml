@@ -15,6 +15,9 @@ social:
   weibo: mi_kihiro  # soulinsight
   youtube: UCg-mkLHhCiWZfc2TLlBuR8A
 
+# Disqus shortname
+disqus: juby
+
 # Google
 # google: 
 #   analytics: UA-112090731-1
@@ -30,7 +33,7 @@ algolia:
   search_only_api_key: c05381f747c5207b6dd655ca29e18fce
 
 # mailchimp link
-mailchimp: //jubeny.us19.list-manage.com/subscribe/post?u=d8acca80de6498b2cd55b8cae&amp;id=aeb4f65fa7
+mailchimp: jubeny.us19.list-manage.com/subscribe/post?u=d8acca80de6498b2cd55b8cae&amp;id=aeb4f65fa7
 
 # Navigation buttons
 nav:
