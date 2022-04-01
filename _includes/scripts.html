@@ -4,18 +4,10 @@
 <script async src="//cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 {% endif %}
 {% if page.flowchart %}
-<script async src="//cdn.jsdelivr.net/npm/flowchart.js@1.11.3/release/flowchart.min.js"></script>
+<script async src="//cdn.jsdelivr.net/npm/flowchart.js/release/flowchart.min.js"></script>
 {% endif %}
 {% if page.math %}
-<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$','$'], ['\\(','\\)']],
-      processEscapes: true
-    }
-  });
-</script>
+<script id="MathJax-script" async src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 {% endif %}
 <script async src="//static.getclicky.com/101359865.js"></script>
 <!-- <script>

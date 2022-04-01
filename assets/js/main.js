@@ -2,13 +2,13 @@
 let backTop = document.querySelector("#back-top");
 backTop.style.display = "none";
 document.addEventListener("DOMContentLoaded", function(){
-  window.onscroll = function() {
+  window.addEventListener("scroll", function() {
     if (this.pageYOffset > 150) {
       backTop.style.display = "block";
     } else {
       backTop.style.display = "none";
     }
-  };
+  });
   backTop.onClick = function() {
     window.pageYOffset = 0;
   };
