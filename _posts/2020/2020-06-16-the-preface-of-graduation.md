@@ -48,4 +48,4 @@ tags: 南大
 {% include image.html url="nju_corner_lamp.jpg" caption="街角的灯" %}
 
 今天去见了导师，大概是最后一次了，给她买了一束鲜花。鲜花虽然好看，但却让我流下了贫穷的泪水。花店桑的心太黑了，再去第二次我就是笨蛋。什么进口的玫瑰，我哪能分辨得出来呢。
-{% include image.html url="flowers_to_tutor.jpg" caption="送给导师的鲜花" %}
+{% include image.html url="flowers_to_tutor.avif" caption="送给导师的鲜花" %}

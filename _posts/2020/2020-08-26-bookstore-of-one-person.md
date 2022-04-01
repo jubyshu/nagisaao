@@ -4,7 +4,7 @@ title: 一個人的書店
 date: 2020-08-26 22:40
 categories: essay
 tags: 读书 生活
-card: https://cdn.jsdelivr.net/gh/jubyshu/rosemary/image/bookstore-taiwan-cornor.jpg
+card: https://cdn.jsdelivr.net/gh/jubyshu/rosemary/image/bookstore-taiwan-cornor.avif
 ---
 
 這是我第三次與向田邦子相遇。第一次是在三年前，在日劇和她妹妹公開的書信裡；第二次是在兩年前，在她的隨筆和小說裡。
@@ -27,5 +27,5 @@ card: https://cdn.jsdelivr.net/gh/jubyshu/rosemary/image/bookstore-taiwan-cornor
 
 書店裡熙熙攘攘，有為買書來的，有為看書來的，也有只為打卡來的，而佔據了這一隅角落的我，旁若無人，把先鋒書店當成了自己的私人書房。
 
-{% include image.html url="bookstore-taiwan-cornor.jpg" caption="賣帽子和台版書的角落" %}
-{% include image.html url="bookstore-sofa.jpg" caption="書店角落裡的沙發" %}
+{% include image.html url="bookstore-taiwan-cornor.avif" caption="賣帽子和台版書的角落" %}
+{% include image.html url="bookstore-sofa.avif" caption="書店角落裡的沙發" %}
