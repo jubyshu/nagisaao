@@ -42,4 +42,7 @@ permalink: /archive/
 - {{ post.date | date: '%m-%d' }} &raquo; [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
-<script>$('.collapsible+ul').attr('class', 'collcontent');</script>
+<script>
+  let years = document.querySelectorAll('.collapsible+ul');
+  years.forEach(year => year.setAttribute('class', 'collcontent'));
+</script>

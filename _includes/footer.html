@@ -7,4 +7,14 @@
     <br>&copy; <span class="copyright">Juby</span> 2015-{{ site.time | date: '%Y' }}<br><br>
     The site has been running for <span id="runtime"></span> silently.
   </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let dateBegin = new Date("{{ site.build_date }}");
+      let dateEnd = new Date();
+      let dateDiff = dateEnd.getTime() - dateBegin.getTime();
+      let dayDiff = Math.floor(dateDiff / (24 * 3600 * 1000));
+      let days = dayDiff + " days ";
+      document.querySelector('#runtime').innerHTML = days;
+    });
+  </script>
 </footer>

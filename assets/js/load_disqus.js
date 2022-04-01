@@ -1,5 +1,5 @@
 function loadDisqus() {
-  var d = document, s = d.createElement('script');
+  let d = document, s = d.createElement('script');
   s.src = '//juby.disqus.com/embed.js';
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
@@ -9,13 +9,13 @@ function loadDisqus() {
   };
 }
 
-var runningOnBrowser = typeof window !== "undefined";
-var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
-var supportsIntersectionObserver = runningOnBrowser && "IntersectionObserver" in window;
+let runningOnBrowser = typeof window !== "undefined";
+let isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+let supportsIntersectionObserver = runningOnBrowser && "IntersectionObserver" in window;
 
 setTimeout(function () {
   if (!isBot && supportsIntersectionObserver) {
-    var disqus_observer = new IntersectionObserver(function(entries) {
+    let disqus_observer = new IntersectionObserver(function(entries) {
       if (entries[0].isIntersecting) {
         loadDisqus();
         disqus_observer.disconnect();

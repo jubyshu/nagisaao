@@ -1,34 +1,17 @@
 // back to top
-$("#back-top").hide();
-$(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 150) {
-      $("#back-top").fadeIn();
+let backTop = document.querySelector("#back-top");
+backTop.style.display = "none";
+document.addEventListener("DOMContentLoaded", function(){
+  window.onscroll = function() {
+    if (this.pageYOffset > 150) {
+      backTop.style.display = "block";
     } else {
-      $("#back-top").fadeOut();
+      backTop.style.display = "none";
     }
-  });
-  $("#back-top a").click(function() {
-    $("body, html").animate(
-      {
-        scrollTop: 0
-      },
-      800
-    );
-    return false;
-  });
-});
-
-// count site running time
-$(document).ready(function() {
-  let dateBegin = new Date("2015/01/03 23:15:15");
-  let dateEnd = new Date();
-  let dateDiff = dateEnd.getTime() - dateBegin.getTime();
-  let dayDiff = Math.floor(dateDiff / (24 * 3600 * 1000));
-  let timeLeft = dateDiff % (24 * 3600 * 1000);
-  let hours = Math.floor(timeLeft / (3600 * 1000));
-  let time = dayDiff + "d " + hours + "h";
-  $("#runtime").html(time);
+  };
+  backTop.onClick = function() {
+    window.pageYOffset = 0;
+  };
 });
 
 // generate post toc
@@ -48,25 +31,25 @@ function tocShow() {
 if (!!toc) {
   window.addEventListener("resize", tocShow, false);
   tocShow();
-}
+} 
 function tocScroll() {
-  let alis = $(".post :header");
-  let toc_alis = $(".post-toc").find("a");
-  let scroll_height = $(window).scrollTop();
-  for (let i = 0; i < alis.length; i++) {
-    let a_height = $(alis[i]).offset().top;
-    if (a_height < scroll_height) {
-      toc_alis.removeClass("active");
-      $(toc_alis[i]).addClass("active");
+  let headers = document.querySelectorAll(".post h1, h2, h3, h4, h5, h6");
+  let tocTitles = document.querySelectorAll('.post-toc a')
+  let scrollHeight = window.pageYOffset;
+  for (let i = 0; i < headers.length; i++) {
+    let contentHeight = headers[i].getBoundingClientRect().top + window.scrollY;
+    if (contentHeight < scrollHeight) {
+      tocTitles.forEach(title => title.classList.remove("active"))
+      tocTitles[i].classList.add("active");
     }
   }
 };
-$(function() {
-  $(window).bind("scroll", tocScroll);
-});
+if (toc) {
+  window.addEventListener("scroll", tocScroll);
+}
 
-// book block collapse
-$(document).ready(function() {
+// block collapse
+document.addEventListener("DOMContentLoaded", function() {
   let coll = document.querySelectorAll('.collapsible');
   for (let i = 0; i < coll.length; i++) {
     let firstcoll = coll[0].nextElementSibling;
@@ -83,8 +66,9 @@ $(document).ready(function() {
 });
 
 // gitlab embed snippets
-if ($("div.gitlab-embed-snippets")) {
-  $("div.gitlab-embed-snippets").attr("id", "gitlab-gist");
+let gitlabGist = document.querySelector(".gitlab-embed-snippets");
+if (gitlabGist) {
+  gitlabGist.setAttribute("id", "gitlab-gist");
 }
 
 // imgage onerror event
