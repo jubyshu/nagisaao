@@ -524,3 +524,30 @@ ul.book-list {
     }
   }
 }
+
+// DisqusJS
+#dsqjs {
+  margin-bottom: 20px;
+
+  a {
+    color: $link-color;
+  }
+
+  #dsqjs-msg {
+    line-height: 1.6em;
+    margin-bottom: 10px;
+  }
+
+  .dsqjs-no-comment {
+    color: #7f8484;
+  }
+
+  .dsqjs-nav {
+    width: 100%;
+  }
+
+  .dsqjs-footer {
+    text-align: right;
+    font-size: 13px;
+  }
+}

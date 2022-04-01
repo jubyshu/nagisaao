@@ -16,7 +16,13 @@ social:
   youtube: UCg-mkLHhCiWZfc2TLlBuR8A
 
 # Disqus shortname
-disqus: juby
+disqus: 
+  shortname: juby
+  sitename: AoiNagisa
+  apikey: dXc0vOCZ1LAX0c9y3FB0fpC5KA7L56QEFDYRXaUeAyvCzowv8hKQRzpsG6ITpxSL
+  admin: mikihiro
+  mod: Mod
+  nocomment: Hello? Is there anybody in there?
 
 # Google
 # google: 
