@@ -29,6 +29,9 @@ disqus:
 #   analytics: UA-112090731-1
 #   site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
 
+# clicky site id
+clicky: 101359865
+
 # OpenGraph & TwitterCard
 card: /images/tcard.webp
 
