@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我用什么写日记
-date: 2022-04-03 23:50:57+08:00
+date: 2022-04-04 14:33:10+08:00
 categories: journal
 tags: 工具
 ---
