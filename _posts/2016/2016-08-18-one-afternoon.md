@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 记一个下午
-date: 2016-08-18
+date: 2016-08-18 21:38:19+08:00
 categories: essay
 tags: 南大 生活
 ---

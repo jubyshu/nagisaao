@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的游戏生涯
-date: 2016-07-30
+date: 2016-07-30 22:35:19+08:00
 categories: essay
 tags: 生活 好玩
 ---
