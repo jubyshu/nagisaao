@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何评价理查德·耶茨？
-date: 2015-06-06
+date: 2015-06-06 18:36:27+08:00
 categories: review
 tags: 读书 杂谈
 ---

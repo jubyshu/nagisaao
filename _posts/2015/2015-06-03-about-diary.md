@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 日记
-date: 2015-06-03
+date: 2015-06-03 19:03:06+08:00
 categories: essay
 tags: 生活
 ---

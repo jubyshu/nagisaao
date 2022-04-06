@@ -1,10 +1,9 @@
 ---
 layout: post
 title: 清凉牛奶糖
-date: 2015-01-01
+date: 2015-01-01 22:22:22+08:00
 categories: essay
 tags: 情感
-recommend: true
 ---
 
 这种糖，清凉而又甘甜，一如相送之人。

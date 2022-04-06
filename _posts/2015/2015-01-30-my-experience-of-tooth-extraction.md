@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 拔牙记
-date: 2015-01-30
+date: 2015-01-30 19:34:56+08:00
 categories: essay
 tags: 生活
 ---

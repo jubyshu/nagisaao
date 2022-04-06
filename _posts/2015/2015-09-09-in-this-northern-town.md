@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在这北方的小城
-date: 2015-09-09
+date: 2015-09-09 18:09:09+08:00
 categories: story
 tags: 虚构
 ---
