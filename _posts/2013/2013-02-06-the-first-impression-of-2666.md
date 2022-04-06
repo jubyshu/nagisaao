@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 「2666」初印象
-date: 2013-02-06
+date: 2013-02-06 18:05:35+08:00
 categories: review
 tags: 读书
 ---

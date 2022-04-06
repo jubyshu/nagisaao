@@ -1,10 +1,9 @@
 ---
 layout: post
 title: 所谓伊人
-date: 2014-02-03
+date: 2014-02-03 15:20:55+08:00
 categories: essay
 tags: 情感
-recommend: true
 ---
 
 抬头仰望夜空里的点点繁星，我相信其中总有一颗是属于我的。这不是一种迷信，而是信仰，这是古老的传说。

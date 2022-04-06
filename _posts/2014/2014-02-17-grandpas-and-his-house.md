@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 姥爷和老屋
-date: 2014-02-17
+date: 2014-02-17 21:45:22+08:00
 categories: essay
-tags: 生活
+tags: 生活 故乡
 ---
 
 姥爷的家，现在已是一片废墟。

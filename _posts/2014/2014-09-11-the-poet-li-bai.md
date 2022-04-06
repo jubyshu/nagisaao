@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 诗人李白
-date: 2014-09-11
+date: 2014-09-11 20:09:11+08:00
 categories: story
 tags: 虚构
 ---

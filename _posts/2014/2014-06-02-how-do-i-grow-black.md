@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我是怎样变黑的
-date: 2014-06-02 02:16
+date: 2014-06-02 02:16:19+08:00
 categories: essay
 tags: 杂谈 生活
 ---

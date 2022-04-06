@@ -1,10 +1,9 @@
 ---
 layout: post
 title: 下雨天不打伞
-date: 2014-01-08
+date: 2014-01-08 20:14:42+08:00
 categories: essay
 tags: 生活
-recommend: true
 ---
 
 早上走出宿舍的那一刻，看到外面淅沥的雨，我竟油然而生一股说不出的惊喜。

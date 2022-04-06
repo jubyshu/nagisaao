@@ -1,10 +1,9 @@
 ---
 layout: post
 title: 家乡的天气
-date: 2014-12-30
+date: 2014-12-30 21:30:21+08:00
 categories: essay
 tags: 季语 情感
-recommend: true
 ---
 
 南京终于有了一点冬天的味道。这个地方，不下场雨天不会冷。
