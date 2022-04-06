@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 请温柔些
-date: 2022-03-28 22:15:36 +0800
+date: 2022-03-28 22:15:36+08:00
 categories: journal
 tags: 工具
 ---

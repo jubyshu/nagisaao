@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 诗一首——徐州
-date: 2022-02-24 04:20:30 +0800
+date: 2022-02-24 04:20:30+08:00
 categories: poetry
 tags: 杂谈
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 谷爱凌与冬奥会
-date: 2022-02-14 14:40:00 +0800
+date: 2022-02-14 14:40:00+08:00
 categories: essay
 tags: 杂谈
 ---

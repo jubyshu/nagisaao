@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 一场事先张扬的花滑闹剧
-date: 2022-02-21 23:49:30 +0800
+date: 2022-02-21 23:49:30+08:00
 categories: essay
 tags: 杂谈 运动
 ---
