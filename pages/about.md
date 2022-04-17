@@ -34,3 +34,53 @@ description: 2015年開始用Wordpress搭建博客，2018年遷移至Jekyll，�
 
 #### 邀请
 Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
+
+-------------------
+
+#### 状态
+
+📖
+
+毛泽东、斯大林与朝鲜战争 / 8%
+
+やがて哀しき外国語 / 42%
+
+圣经 / 以撒与亚米比勒立约 / P24
+
+谢利 / 第五章 / P59
+
+あゝ野麦峠 / 雪の野麦越え / P199
+
+向田邦子 心の風景 / 第五章 / P101
+
+🎶
+
+Rondo Alla Turca
+
+Mozart: Symphony N0. 40 in G Minor, K. 550
+
+Haydn: Symphony No. 94 in G Major, Hob. I:94 "Surprise"
+
+Canon and Gigure in D Major
+
+and more classic music ...
+
+Estranged (GNR)
+
+21 Guns (Green Day)
+
+Fade to Black (Metallica)
+
+Space-Dye Vest (Dream Theater)
+
+and more rock songs ...
+
+🖥️
+
+Working hard ...
+
+🚲
+
+Ride to the company
+
+Climbing Toutuoling once a week
