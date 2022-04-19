@@ -48,7 +48,7 @@ mailchimp: jubeny.us19.list-manage.com/subscribe/post?u=d8acca80de6498b2cd55b8ca
 nav:
   - {title: 主頁, description: blog, url: '/'}
   - {title: 存檔, description: archive, url: '/archive/'}   
-  - {title: 讀書, description: read, url: '/book/'}
+  - {title: 讀書, description: book, url: '/book/'}
   - {title: 藏書, description: library, url: '/library/'}
   - {title: 留言, description: guestbook, url: '/guestbook/'}      
   - {title: 關於, description: about, url: '/about/'}         

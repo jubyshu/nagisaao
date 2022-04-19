@@ -1,43 +1,52 @@
 ---
-layout: page 
 title: 關於
+layout: page 
 permalink: /about/
-description: 2015年開始用Wordpress搭建博客，2018年遷移至Jekyll，源碼保存在Github，部署於Netlify，評論系統由Valine支持，文章均為Juby的自說自話。
+description: Start with Wordpress from 2015, and switch to Jekyll in 2018. Source code is on Github and deloyed with Netlify. Use DisqusJS as comment system, and all the posts only represent Juby's own views.
 ---
 
 ### 關於
 
 ------------------
 
-#### 博客
+#### Blog
 
-2015 年開始使用 Wordpress，2018 年遷移至 Jekyll，源碼保存在[Github](https://github.com/jubyshu/nagisaao)，部署於 Netlify，評論系統用 Disqus（需要科学上网），文章均為 Juby 的自說自話。
+Start with WordPress from 2015, and switch to Jekyll in 2018. The source code is on [Github](https://github.com/jubyshu/nagisaao) and deloyed with Netlify. Use DisqusJS as the comment system, and all the posts only represent Juby's own opinions.
 
--------------------
-
-#### 自己
-
-很喜歡瘂弦寫給妻子的詩中的一句：想著，生活著，偶爾也微笑著，既不快活也不不快活。我的人生也是這樣的簡單，沒有什麽可賣的，也並不想買什麽，只願在種菜的時候，也栽下一叢薔薇。
-
-不愛學習，不愛思考，不善言語，不思進取。喜歡純文學、重金屬、神秘的宇宙和開源程序，討厭一票大手企業。
-
-經常出沒於自己的夢境以及[Twitter](https://twitter.com/jubyshu)，聯系請發[Email](mailto:hbt5aggwr@relay.firefox.com)，贊助請用[AliPay](/images/alipay.webp)，聊天請加[Signal](https://bit.ly/3rMIP6f)或[Session](/images/session.webp)。
+"渚碧" is a transliteration of "Juby" which is the abbreviation of my name. It can be explained as "青い渚" in Japanese, which means "blue beach".
 
 -------------------
 
-#### 感謝
+#### Me
 
-主題來源：[leopardpan](https://github.com/leopardpan/leopardpan.github.io/) & [onevcat](https://github.com/onevcat/vno-jekyll)  
-功能擴展：[fooleap](https://blog.fooleap.org/)
+I'm very fond of two lines of a poem written by Ya Xian(瘂弦):
+
+> Thinking, living, and smiling at times
+> 
+> Neither happy nor unhappy
+
+My life is as simple as this, there's nothing to sell, and there's nothing I want to buy. Only wish to plant some roese when I grow vegetables in the yard.
+
+Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, mysterious universe and FOSS, and dislike many many things.
+
+Often I haunt in dreams and [Twitter](https://twitter.com/jubyshu). Contact me via [Email](mailto:hbt5aggwr@relay.firefox.com), sponsor me by [AliPay](/images/alipay.webp), and chat with [Signal](https://bit.ly/3rMIP6f) or [Session](/images/session.webp).
 
 -------------------
 
-#### 邀请
+#### Thanks
+
+Original themes：[leopardpan](https://github.com/leopardpan/leopardpan.github.io/) & [onevcat](https://github.com/onevcat/vno-jekyll)
+
+Extensions：[fooleap](https://blog.fooleap.org/)
+
+-------------------
+
+#### Invitation
 Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 -------------------
 
-#### 状态
+#### Status
 
 📖
 
