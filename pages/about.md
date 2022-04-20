@@ -21,9 +21,12 @@ Start with WordPress from 2015, and switch to Jekyll in 2018. The source code is
 
 I'm very fond of two lines of a poem written by Ya Xian(瘂弦):
 
+> 想著，生活著，偶爾也微笑著  
 > Thinking, living, and smiling at times
 > 
+> 既不快活也不不快活  
 > Neither happy nor unhappy
+
 
 My life is as simple as this, there's nothing to sell, and there's nothing I want to buy. Only wish to plant some roese when I grow vegetables in the yard.
 
