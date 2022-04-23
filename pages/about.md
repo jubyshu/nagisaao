@@ -28,9 +28,9 @@ I'm very fond of two lines of a poem written by Ya Xian(瘂弦):
 > Neither happy nor unhappy
 
 
-My life is as simple as this, there's nothing to sell, and there's nothing I want to buy. Only wish to plant some roese when I grow vegetables in the yard.
+My life is as simple as this, there's nothing to sell, and there's nothing I want to buy. Only wish to plant some roses when I grow vegetables in the yard.
 
-Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, mysterious universe and FOSS, and dislike many many things.
+Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, the mysterious universe and FOSS, and dislike many many things.
 
 Often I haunt in dreams and [Twitter](https://twitter.com/jubyshu). Contact me via [Email](mailto:hbt5aggwr@relay.firefox.com), sponsor me by [AliPay](/images/alipay.webp), and chat with [Signal](https://bit.ly/3rMIP6f) or [Session](/images/session.webp).
 
@@ -55,7 +55,7 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 毛泽东、斯大林与朝鲜战争 / 8%
 
-やがて哀しき外国語 / 42%
+やがて哀しき外国語 / 54%
 
 圣经 / 以撒与亚米比勒立约 / P24
 
@@ -79,11 +79,11 @@ and more classic music ...
 
 Estranged (GNR)
 
-21 Guns (Green Day)
+Comfortably Numb (Pink Floyd)
 
 Fade to Black (Metallica)
 
-Space-Dye Vest (Dream Theater)
+Amazing (Aerosmith)
 
 and more rock songs ...
 
