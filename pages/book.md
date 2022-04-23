@@ -6,6 +6,22 @@ permalink: /book/
 description: A reader lives a thousand lives before he dies.
 ---
 
+### 藏書
+
+------
+
+<div class="book-show">
+  <ul class="book-list">
+		{% for book in site.data.library %}
+		<li>
+		  <a href="//search.douban.com/book/subject_search?search_text={{ book.name }}" title="{{ book.name }} by {{ book.author }}" target="_blank">
+		  	<img src="//cdn.jsdelivr.net/gh/jubyshu/rosemary/cover/{{ book.ISBN }}.jpg" alt="{{ book.name }}" />
+		  </a>
+		</li>
+		{% endfor %}
+  </ul>
+</div>
+
 ### 讀書
 
 -------

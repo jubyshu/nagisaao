@@ -57,18 +57,18 @@
 }
 
 // pager < 600px
-@media all and (max-width: 600px) {
-  #comment {
-    .vcomment-children {
-      margin-left: 20px;
-      border-left: none;
-    }
+// @media all and (max-width: 600px) {
+//   #comment {
+//     .vcomment-children {
+//       margin-left: 20px;
+//       border-left: none;
+//     }
 
-    .vcomment-body {
-    border-top: 1px solid rgba(150, 150, 150, 0.08) !important;
-    }
-  }
-}
+//     .vcomment-body {
+//     border-top: 1px solid rgba(150, 150, 150, 0.08) !important;
+//     }
+//   }
+// }
 
 // < 420px
 @media all and (max-width: 420px) {
