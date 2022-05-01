@@ -55,7 +55,9 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 毛泽东、斯大林与朝鲜战争 / 8%
 
-やがて哀しき外国語 / 54%
+～～やがて哀しき外国語 / 100%～～
+
+阿桑奇自传 / 6%
 
 圣经 / 以撒与亚米比勒立约 / P24
 
