@@ -27,12 +27,11 @@ I'm very fond of two lines of a poem written by Ya Xian(瘂弦):
 > 既不快活也不不快活  
 > Neither happy nor unhappy
 
-
 My life is as simple as this, there's nothing to sell, and there's nothing I want to buy. Only wish to plant some roses when I grow vegetables in the yard.
 
 Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, the mysterious universe and FOSS, and dislike many many things.
 
-Often I haunt in dreams and [Twitter](https://twitter.com/jubyshu). Contact me via [Email](mailto:hbt5aggwr@relay.firefox.com), sponsor me by [AliPay](/images/alipay.webp), and chat with [Signal](https://bit.ly/3rMIP6f) or [Session](/images/session.webp).
+Often I haunt in dreams, riding and music. Contact me via [Email](mailto:hbt5aggwr@relay.firefox.com), sponsor me by [AliPay](/images/alipay.webp), and I create a [Signal](https://bit.ly/3rMIP6f) group although I seldom use it now.
 
 -------------------
 
@@ -53,29 +52,29 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 📖
 
-毛泽东、斯大林与朝鲜战争 / 8%
+毛泽东、斯大林与朝鲜战争 / 10%
 
-～～やがて哀しき外国語 / 100%～～
+Mao's Last Dancer / 12%
 
 阿桑奇自传 / 6%
 
-圣经 / 以撒与亚米比勒立约 / P24
+圣经 / 约瑟和波提乏之妻 / P39
+
+向田邦子 心の風景 / 第五章 / P104
 
 谢利 / 第五章 / P59
 
 あゝ野麦峠 / 雪の野麦越え / P199
 
-向田邦子 心の風景 / 第五章 / P101
-
 🎶
 
-Rondo Alla Turca
+Mozart: Clarinet Concerto in A Major, K. 581
 
 Mozart: Symphony N0. 40 in G Minor, K. 550
 
 Haydn: Symphony No. 94 in G Major, Hob. I:94 "Surprise"
 
-Canon and Gigure in D Major
+Vivaldi: The Four Seasons
 
 and more classic music ...
 
@@ -95,6 +94,6 @@ Working hard ...
 
 🚲
 
-Ride to the company
-
 Climb Toutuo Peak once a week
+
+Seek bicycle teammates ...
