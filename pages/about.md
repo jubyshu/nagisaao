@@ -54,7 +54,7 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 毛泽东、斯大林与朝鲜战争 / 10%
 
-Mao's Last Dancer / 12%
+Mao's Last Dancer / 30%
 
 阿桑奇自传 / 6%
 
