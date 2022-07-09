@@ -36,6 +36,7 @@ description: A reader lives a thousand lives before he dies.
 5. 一个民国少女的日记,文树新,,九州出版社,2010
 6. 弦理论,大卫·福斯特·华莱士,林晓筱,湖南文艺出版社,2019
 7. やがて哀しき外国語,村上春樹,,講談社,
+8. Mao's Last Dancer,Li Cunxin,,Penguin Books Australia,2003
 
 -------
 

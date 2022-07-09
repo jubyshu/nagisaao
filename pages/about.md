@@ -52,9 +52,9 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 📖
 
-毛泽东、斯大林与朝鲜战争 / 10%
+毛泽东、斯大林与朝鲜战争 / 20%
 
-Mao's Last Dancer / 40%
+文革雜憶 / 4%
 
 阿桑奇自传 / 6%
 
@@ -76,7 +76,7 @@ Mozart: Symphony No. 25 in G Minor, K. 172dB (K. 183)
 
 Haydn: Symphony No. 94 in G Major, Hob. I:94 "Surprise"
 
-Vivaldi: The Four Seasons (1977 Perlman; 2004 Janine Jansen )
+Vivaldi: The Four Seasons (1977 Perlman; 2004 Janine Jansen)
 
 Bach: The Goldberg Variations, BWV 998 (1955, 1981 Gould)
 
