@@ -56,7 +56,7 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 文革雜憶 / 4%
 
-阿桑奇自传 / 6%
+阿桑奇自传 / 20%
 
 圣经 / 约瑟和波提乏之妻 / P39
 
