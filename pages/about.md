@@ -7,6 +7,8 @@ description: Start with Wordpress from 2015, and switch to Jekyll in 2018. Sourc
 
 ### 關於
 
+`Update at 2022-07-31 21:05:08+08:00`
+
 ------------------
 
 #### Blog
@@ -52,9 +54,9 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 📖
 
-毛泽东、斯大林与朝鲜战争 / 20%
+毛泽东、斯大林与朝鲜战争 / 21%
 
-文革雜憶 / 4%
+文革雜憶 / 35%
 
 阿桑奇自传 / 20%
 
@@ -65,6 +67,8 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 谢利 / 第五章 / P59
 
 あゝ野麦峠 / 雪の野麦越え / P199
+
+你喜欢勃拉姆斯吗 / P64
 
 🎶
 
@@ -80,11 +84,11 @@ Vivaldi: The Four Seasons (1977 Perlman; 2004 Janine Jansen)
 
 Bach: The Goldberg Variations, BWV 998 (1955, 1981 Gould)
 
-Mozart: Sonata for Piano and Violin in E Minor, K. 304
+Albinoni: Oboe Concertos, Vol.1 (1993, Anthony Camden, John Georgiadis)
 
 and more classic music ...
 
-Estranged (GNR)
+Estranged (Guns N' Roses)
 
 Comfortably Numb (Pink Floyd)
 
