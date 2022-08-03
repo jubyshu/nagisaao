@@ -7,7 +7,7 @@ description: Start with Wordpress from 2015, and switch to Jekyll in 2018. Sourc
 
 ### 關於
 
-`Update at 2022-07-31 21:05:08+08:00`
+`Update at 2022-08-03 23:29:18+08:00`
 
 ------------------
 
@@ -56,9 +56,9 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 毛泽东、斯大林与朝鲜战争 / 21%
 
-文革雜憶 / 35%
+文革雜憶 / 59%
 
-阿桑奇自传 / 20%
+阿桑奇自传 / 35%
 
 圣经 / 约瑟和波提乏之妻 / P39
 
@@ -68,7 +68,7 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 あゝ野麦峠 / 雪の野麦越え / P199
 
-你喜欢勃拉姆斯吗 / P64
+你喜欢勃拉姆斯吗 / P118
 
 🎶
 
