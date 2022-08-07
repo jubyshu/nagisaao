@@ -56,9 +56,7 @@ Play [Gwent](https://www.playgwent.com/invite-a-friend/2FLB89WUDE)
 
 毛泽东、斯大林与朝鲜战争 / 21%
 
-文革雜憶 / 59%
-
-阿桑奇自传 / 35%
+阿桑奇自传 / 40%
 
 圣经 / 约瑟和波提乏之妻 / P39
 
