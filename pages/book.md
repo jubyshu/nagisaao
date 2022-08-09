@@ -38,6 +38,7 @@ description: A reader lives a thousand lives before he dies.
 7. やがて哀しき外国語,村上春樹,,講談社,
 8. Mao's Last Dancer,Li Cunxin,,Penguin Books Australia,2003
 9. 文革雜憶,陳若曦,,,
+10. 82年生的金智英,赵南柱,尹嘉玄,贵州人民出版社,2019
 
 -------
 
