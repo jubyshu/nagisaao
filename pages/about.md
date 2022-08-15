@@ -37,21 +37,11 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 
 -------------------
 
-#### Thanks
-
-Original themes：[leopardpan](https://github.com/leopardpan/leopardpan.github.io/) & [onevcat](https://github.com/onevcat/vno-jekyll)
-
-Extensions：[fooleap](https://blog.fooleap.org/)
-
--------------------
-
 #### Status
 
 📖
 
-毛泽东、斯大林与朝鲜战争 / 21%
-
-阿桑奇自传 / 52%
+毛泽东、斯大林与朝鲜战争 / 24%
 
 圣经 / 约瑟和波提乏之妻 / P39
 
@@ -61,15 +51,11 @@ Extensions：[fooleap](https://blog.fooleap.org/)
 
 あゝ野麦峠 / 雪の野麦越え / P199
 
-你喜欢勃拉姆斯吗 / P195
+你喜欢勃拉姆斯吗 / P235
 
-素食者 / 31%
-
-走ることについて語るときに僕の語ること　/ 8%
+走ることについて語るときに僕の語ること / 8%
 
 🎶
-
-Mozart: Clarinet Concerto in A Major, K. 581
 
 Mozart: Symphony N0. 40 in G Minor, K. 550
 
@@ -93,6 +79,14 @@ Working hard ...
 
 🚲
 
-Climb Toutuo Peak once a week
+Climb Toutuo Peak twice a week
 
 Seek bicycle teammates ...
+
+-------------------
+
+#### Thanks
+
+Original themes：[leopardpan](https://github.com/leopardpan/leopardpan.github.io/) & [onevcat](https://github.com/onevcat/vno-jekyll)
+
+Extensions：[fooleap](https://blog.fooleap.org/)

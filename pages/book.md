@@ -39,6 +39,8 @@ description: A reader lives a thousand lives before he dies.
 8. Mao's Last Dancer,Li Cunxin,,Penguin Books Australia,2003
 9. 文革雜憶,陳若曦,,,
 10. 82年生的金智英,赵南柱,尹嘉玄,贵州人民出版社,2019
+11. 素食者,韩江,胡椒筒,四川文艺出版社,2021
+12. 阿桑奇自传,,任海龙/常江,译文出版社,2013
 
 -------
 
