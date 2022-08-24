@@ -7,7 +7,7 @@ description: Start with Wordpress from 2015, and switch to Jekyll in 2018. Sourc
 
 ### 關於
 
-`Update at 2022-08-22 00:27:22+08:00`
+`Update at 2022-08-24 23:02:12+08:00`
 
 ------------------
 
@@ -41,7 +41,15 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 
 📖
 
-毛泽东、斯大林与朝鲜战争 / 47%
+毛泽东、斯大林与朝鲜战争 / 50%
+
+走ることについて語るときに僕の語ること / 16%
+
+The Tower of Swallows / 33%
+
+南渡 / P63
+
+撒旦诗篇 / P45
 
 圣经 / 约瑟和波提乏之妻 / P39
 
@@ -50,12 +58,6 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 谢利 / 第五章 / P59
 
 あゝ野麦峠 / 雪の野麦越え / P199
-
-走ることについて語るときに僕の語ること / 16%
-
-The Tower of Swallows / 33%
-
-南渡 / P63
 
 🎶
 
