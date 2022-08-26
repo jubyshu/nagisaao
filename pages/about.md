@@ -41,15 +41,15 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 
 📖
 
-毛泽东、斯大林与朝鲜战争 / 50%
+毛泽东、斯大林与朝鲜战争 / 59%
 
 走ることについて語るときに僕の語ること / 16%
-
-The Tower of Swallows / 33%
 
 南渡 / P63
 
 撒旦诗篇 / P45
+
+The Tower of Swallows / 33%
 
 圣经 / 约瑟和波提乏之妻 / P39
 

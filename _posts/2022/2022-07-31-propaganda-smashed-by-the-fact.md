@@ -2,7 +2,7 @@
 layout: post
 title: 被事实击溃的宣传
 date: 2022-07-31 23:36:37+08:00
-categories: essay
+categories: review
 tags: 读书 杂谈
 ---
 

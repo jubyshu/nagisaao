@@ -2,7 +2,7 @@
 layout: post
 title: 小轮公路车的改装
 date: 2022-07-09 09:00:52+08:00
-categories: essay
+categories: journal
 tags: 生活 运动 好玩
 ---
 
