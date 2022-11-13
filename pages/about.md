@@ -7,7 +7,7 @@ description: Start with Wordpress from 2015, and switch to Jekyll in 2018. Sourc
 
 ### 關於
 
-`Update at 2022-10-16 16:15:28+08:00`
+`Update at 2022-11-13 11:34:28+08:00`
 
 ------------------
 
@@ -45,7 +45,7 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 
 女ぎらい　/ P12
 
-走ることについて語るときに僕の語ること / 21%
+走ることについて語るときに僕の語ること / 25%
 
 撒旦诗篇 / P114
 
@@ -61,25 +61,11 @@ The Tower of Swallows / 33%
 
 🎶
 
-Mozart: Symphony N0. 40 in G Minor, K. 550
-
-Mozart: Symphony No. 25 in G Minor, K. 172dB (K. 183)
-
-Haydn: Symphony No. 94 in G Major, Hob. I:94 "Surprise"
-
-Vivaldi: The Four Seasons (1977 Perlman; 2004 Janine Jansen)
-
-Bach: The Goldberg Variations, BWV 998 (1955, 1981 Gould)
-
-Albinoni: Oboe Concertos, Vol.1 (1993, Anthony Camden, John Georgiadis)
-
-and more classic music ...
-
-and [rock songs](https://open.spotify.com/playlist/0N78QnMKsDTYcjqdhigqvt) ...
+Classic music and [rock songs](https://open.spotify.com/playlist/0N78QnMKsDTYcjqdhigqvt) 
 
 🚲
 
-Ride to work every day for refusing to take covid tests
+Ride to work at times
 
 -------------------
 

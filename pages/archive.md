@@ -1,5 +1,5 @@
 ---
-title: 存檔
+title: 歸檔
 layout: page
 group: navigation
 permalink: /archive/

@@ -6,12 +6,12 @@ timezone: Asia/Shanghai
 build_date: 2015/01/03 23:15:15
 
 # SEO
-keywords: [渚碧, Juby, 未木大, 文学, 日语, 读书笔记, 自由主义, 骑行]
+keywords: [渚碧, Juby, 爱好纯文学, 学习日语, 读书笔记, 自由主义, 骑行]
 description: 我欲種菜 亦植薔薇
 
 # Social
 social:
-  twitter: Snowden
+  twitter: fermatslibrary
   instagram: liverpoolfc
   youtube: UCNUS6e1M0eUIv1F88kxRJ-g
 
@@ -46,11 +46,11 @@ mailchimp: jubeny.us19.list-manage.com/subscribe/post?u=d8acca80de6498b2cd55b8ca
 
 # Navigation buttons
 nav:
-  - {title: Home, description: blog, url: '/'}
-  - {title: Post, description: archive, url: '/archive/'}   
-  - {title: Book, description: book, url: '/book/'}
-  - {title: Guest, description: guestbook, url: '/guestbook/'}      
-  - {title: About, description: about, url: '/about/'}         
+  - {title: 主頁, description: blog, url: '/'}
+  - {title: 歸檔, description: archive, url: '/archive/'}   
+  - {title: 讀書, description: book, url: '/book/'}
+  - {title: 留言, description: guestbook, url: '/guestbook/'}      
+  - {title: 關於, description: about, url: '/about/'}         
 
 # Categories
 categs:
