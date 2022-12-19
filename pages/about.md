@@ -7,7 +7,7 @@ description: Start with Wordpress from 2015, and switch to Jekyll in 2018. Sourc
 
 ### 關於
 
-`Update at 2022-11-13 11:34:28+08:00`
+`Update at 2022-12-19 18:10:25+08:00`
 
 ------------------
 
@@ -41,17 +41,17 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 
 📖
 
+仿制药的真相 / 6%
+
 罗马帝国衰亡史（4）/ 尤里安
-
-女ぎらい　/ P12
-
-走ることについて語るときに僕の語ること / 25%
 
 撒旦诗篇 / P114
 
 The Tower of Swallows / 33%
 
 圣经 / 约瑟和波提乏之妻 / P39
+
+女ぎらい　/ P12
 
 向田邦子 心の風景 / 第五章 / P104
 
@@ -66,6 +66,12 @@ Classic music and [rock songs](https://open.spotify.com/playlist/0N78QnMKsDTYcjq
 🚲
 
 Ride to work at times
+
+-------------------
+
+#### Channel
+
+Telgram: [vegerose](https://t.me/vegerose)
 
 -------------------
 
