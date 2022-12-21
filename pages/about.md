@@ -71,7 +71,7 @@ Ride to work at times
 
 #### Channel
 
-Telgram: [vegerose](https://t.me/vegerose)
+Telegram: [vegerose](https://t.me/vegerose)
 
 -------------------
 
