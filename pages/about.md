@@ -41,8 +41,6 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 
 📖
 
-仿制药的真相 / 64%
-
 罗马帝国衰亡史（4）/ 尤里安
 
 撒旦诗篇 / P140
