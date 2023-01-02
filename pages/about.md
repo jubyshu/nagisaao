@@ -7,7 +7,7 @@ description: Start with Wordpress from 2015, and switch to Jekyll in 2018. Sourc
 
 ### 關於
 
-`Update at 2022-12-25 16:11:10+08:00`
+`Update at 2023-01-02 11:48:42+08:00`
 
 ------------------
 
@@ -41,15 +41,13 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 
 📖
 
-罗马帝国衰亡史（4）/ 尤里安
+女ぎらい　/ P12
 
-撒旦诗篇 / P140
-
-The Tower of Swallows / 33%
+罗马帝国衰亡史（4）/ 第二十三章
 
 圣经 / 约瑟和波提乏之妻 / P39
 
-女ぎらい　/ P12
+Lady of the Lake / 0
 
 向田邦子 心の風景 / 第五章 / P104
 
