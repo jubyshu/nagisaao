@@ -41,13 +41,13 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 
 📖
 
+Lady of the Lake / 25%
+
 女ぎらい　/ P12
 
 罗马帝国衰亡史（4）/ 第二十三章
 
 圣经 / 约瑟和波提乏之妻 / P39
-
-Lady of the Lake / 0
 
 向田邦子 心の風景 / 第五章 / P104
 
