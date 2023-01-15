@@ -24,3 +24,6 @@ tags: 生活
 Spotify 上的总结，或许只是一个模板，但我还是很喜欢：
 
 > You seek out music that's new to you, regardless of whether it's new to the rest of the world.
+<br/>
+<br/>
+临近新年，开始留胡子了，像鲁迅一样的胡子。也试着保持头发更长一点，尽管我的发质并不允许。
