@@ -29,7 +29,8 @@ description: A reader lives a thousand lives before he dies.
 ### 2023
 {:.collapsible}
 1. 撒旦诗篇,萨尔曼·拉什迪,雷格·詹克,明鉴书屋,2013
-
+2. Lady of the Lake,Andrzej Sapkowski,David French,Obit,
+3. 笑忘录,米兰·昆德拉,王东亮,上海译文出版社,2013
 
 -------
 

@@ -41,19 +41,7 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 
 📖
 
-Lady of the Lake / 25%
-
-女ぎらい　/ P12
-
-罗马帝国衰亡史（4）/ 第二十三章
-
-圣经 / 约瑟和波提乏之妻 / P39
-
-向田邦子 心の風景 / 第五章 / P104
-
-谢利 / 第五章 / P59
-
-あゝ野麦峠 / 雪の野麦越え / P199
+Currently reading foreign [books](https://www.goodreads.com/review/list/66650849-juby?ref=nav_mybooks&shelf=currently-reading)
 
 🎶
 
