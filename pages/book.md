@@ -29,8 +29,10 @@ description: A reader lives a thousand lives before he dies.
 ### 2023
 {:.collapsible}
 1. 撒旦诗篇,萨尔曼·拉什迪,雷格·詹克,明鉴书屋,2013
-2. Lady of the Lake,Andrzej Sapkowski,David French,Obit,
+2. Lady of the Lake,Andrzej Sapkowski,David French,,
 3. 笑忘录,米兰·昆德拉,王东亮,上海译文出版社,2013
+4. A for Andromeda,Fred Hoyle/John Elliot,,,
+
 
 -------
 
@@ -54,7 +56,7 @@ description: A reader lives a thousand lives before he dies.
 15. 罗马帝国衰亡史（3）,爱德华·吉本,席代岳,浙江大学出版社,2018
 16. 走ることについて語るときに僕の語ること,村上春樹,,文春文庫,2015
 17. 仿制药的真相,凯瑟琳·埃班,高天羽,民主与建设出版社,2020
-18. The Tower of Swallows,Andrzej Sapkowski,David French,Obit,
+18. The Tower of Swallows,Andrzej Sapkowski,David French,,
 {:.collcontent}
 
 -------
@@ -64,7 +66,7 @@ description: A reader lives a thousand lives before he dies.
 
 1. 灵魂迷宫,卡洛斯·鲁依斯·萨丰,范湲,上海文艺出版社,2019
 2. 哥伦比亚的倒影,木心,,广西师范大学出版社,2006
-3. Baptism of Fire,Andrzej Sapkowski,David French,Gollancz,
+3. Baptism of Fire,Andrzej Sapkowski,David French,,
 4. 宛如阿修罗,向田邦子,李佳星,外语教学与研究出版社,2016
 5. 自私的基因,理查德·道金斯,卢允中等,中信出版集团,2018
 6. 阿吽,向田邦子,刘子倩,中国友谊出版公司,2018
@@ -90,13 +92,13 @@ description: A reader lives a thousand lives before he dies.
 
 1. 桜の森の満開の下,坂口安吾,,青空文库,2011
 2. 古拉格之恋：一个爱情与求生的真实故事,奥兰多·费吉斯,李广平,广西师范大学出版社,2016
-3. The Last Wish,Andrzej Sapkowski,David French,Gollancz,
-4. The Sword of Destiny,Andrzej Sapkowski,David French,Orbit,
+3. The Last Wish,Andrzej Sapkowski,David French,,
+4. Sword of Destiny,Andrzej Sapkowski,David French,,
 5. Permanent Record,Edward Snowden,,Macmillan,2019
-6. Blood of Elves,Andrzej Sapkowski,David French,Gollancz,
+6. Blood of Elves,Andrzej Sapkowski,David French,,
 7. 棋王,阿城,,上海三联书店,2019
 8. 梁漱溟 王实味 储安平,戴晴,,江苏文艺出版社,1989
-9. Time of Contempt,Andrzej Sapkowski,David French,Gollancz,
+9. The Time of Contempt,Andrzej Sapkowski,David French,,
 10. 自卑与超越,阿弗雷德·阿德勒,李青霞,沈阳出版社,2012
 11. 父亲的道歉信,向田邦子,张秋明,麦田,2019
 12. 埃涅阿斯纪,维吉尔,杨周翰,译林出版社,1999
