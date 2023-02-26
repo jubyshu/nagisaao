@@ -32,7 +32,7 @@ description: A reader lives a thousand lives before he dies.
 2. Lady of the Lake,Andrzej Sapkowski,David French,,
 3. 笑忘录,米兰·昆德拉,王东亮,上海译文出版社,2013
 4. A for Andromeda,Fred Hoyle/John Elliot,,,
-
+5. Heavier Than Heaven: A Biography of Kurt Cobain,Charles R. Cross,,Hyperion,2001
 
 -------
 
