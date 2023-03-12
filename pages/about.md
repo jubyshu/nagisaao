@@ -33,7 +33,7 @@ My life is as simple as this, there's nothing to sell, and there's nothing I wan
 
 Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, the mysterious universe and FOSS, and dislike many many things.
 
-Often I haunt in dreams, riding and music, you can contact me via [Email](mailto:hbt5aggwr@relay.firefox.com). I also create a [Signal](https://bit.ly/3rMIP6f) group although I seldom use it now.
+Often I haunt in dreams, riding and music, you can contact me via [Email](mailto:hbt5aggwr@relay.firefox.com). 
 
 -------------------
 
