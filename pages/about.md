@@ -7,7 +7,7 @@ description: Start with Wordpress from 2015, and switch to Jekyll in 2018. Sourc
 
 ### 關於
 
-`Update at 2023-01-02 11:48:42+08:00`
+`Update at 2023-04-23 16:27:02+08:00`
 
 ------------------
 
@@ -49,7 +49,9 @@ Classic music and [rock songs](https://open.spotify.com/playlist/0N78QnMKsDTYcjq
 
 🚲
 
-Ride to work at times
+Bikes: TCR AVD 1 & Angel in Tsunami(minivelo)
+
+Always ride in Purple Mountain
 
 -------------------
 
