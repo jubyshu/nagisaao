@@ -2,7 +2,7 @@
 title: 關於
 layout: page 
 permalink: /about/
-description: Start with Wordpress from 2015, and switch to Jekyll in 2018. Source code is on Github and deloyed with Netlify. Use DisqusJS as comment system, and all the posts only represent Juby's own views.
+description: Start with WordPress from 2015, and switch to Jekyll in 2018. The source code is on Github and deloyed with Netlify. Use DisqusJS as the comment system, and all the posts only represent Juby's own opinions.
 ---
 
 ### 關於
@@ -58,11 +58,3 @@ Always riding in Purple Mountain
 #### Channel
 
 Telegram: [vegerose](https://t.me/vegerose)
-
--------------------
-
-#### Thanks
-
-Original themes：[leopardpan](https://github.com/leopardpan/leopardpan.github.io/) & [onevcat](https://github.com/onevcat/vno-jekyll)
-
-Extensions：[fooleap](https://blog.fooleap.org/)
