@@ -1,6 +1,6 @@
 ---
 layout: category
-title: 日誌
+title: 日志
 permalink: /journal/
 pagination:
   enabled: true

@@ -1,6 +1,6 @@
 ---
 layout: category
-title: 隨筆
+title: 随笔
 permalink: /essay/
 pagination:
   enabled: true

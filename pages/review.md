@@ -1,6 +1,6 @@
 ---
 layout: category
-title: 評論
+title: 评论
 permalink: /review/
 pagination:
   enabled: true

@@ -1,11 +1,11 @@
 ---
-title: 關於
+title: 关于
 layout: page 
 permalink: /about/
 description: Start with WordPress from 2015, and switch to Jekyll in 2018. The source code is on Github and deloyed with Netlify. Use DisqusJS as the comment system, and all the posts only represent Juby's own opinions.
 ---
 
-### 關於
+### 关于
 
 `Update at 2023-05-15 06:41:57+08:00`
 
@@ -51,7 +51,7 @@ Classic music and [rock songs](https://open.spotify.com/playlist/0N78QnMKsDTYcjq
 
 Bikes: TCR & Trance & minivelo(for sale)
 
-Always riding in Purple Mountain
+Always riding in the mountains
 
 -------------------
 

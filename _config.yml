@@ -7,7 +7,7 @@ build_date: 2015/01/03 23:15:15
 
 # SEO
 keywords: [渚碧, Juby, 爱好纯文学, 学习日语, 读书笔记, 自由主义, 骑行]
-description: 我欲種菜 亦植薔薇
+description: 我欲种菜 亦植蔷薇
 
 # Social
 social:
@@ -46,18 +46,18 @@ mailchimp: jubeny.us19.list-manage.com/subscribe/post?u=d8acca80de6498b2cd55b8ca
 
 # Navigation buttons
 nav:
-  - {title: 主頁, description: blog, url: '/'}
-  - {title: 歸檔, description: archive, url: '/archive/'}   
-  - {title: 讀書, description: book, url: '/book/'}
+  - {title: 首页, description: blog, url: '/'}
+  - {title: 历史, description: archive, url: '/archive/'}   
+  - {title: 读书, description: book, url: '/book/'}
   - {title: 留言, description: guestbook, url: '/guestbook/'}      
-  - {title: 關於, description: about, url: '/about/'}         
+  - {title: 关于, description: about, url: '/about/'}         
 
 # Categories
 categs:
-  - {title: J, description: 日誌, url: '/journal/'}
-  - {title: E, description: 隨筆,url: '/essay/'}
-  - {title: R, description: 評論,url: '/review/'}
-  - {title: P, description: 詩歌,url: '/poetry/'}
+  - {title: J, description: 日志, url: '/journal/'}
+  - {title: E, description: 随笔,url: '/essay/'}
+  - {title: R, description: 评论,url: '/review/'}
+  - {title: P, description: 诗歌,url: '/poetry/'}
   - {title: S, description: 故事,url: '/story/'}
 
 
@@ -106,7 +106,7 @@ autopages:
     enabled: true
     layouts: 
       - 'autopage_tags.html'
-    title: '標籤 - :tag'
+    title: '标签 - :tag'
     permalink: '/tags/:tag'
 
 # Increase jekyll build speed
