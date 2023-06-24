@@ -6,14 +6,14 @@ timezone: Asia/Shanghai
 build_date: 2015/01/03 23:15:15
 
 # SEO
-keywords: [渚碧, Juby, 爱好纯文学, 学习日语, 读书笔记, 自由主义, 骑行]
+keywords: [渚碧博客, Juby Blog, 纯文学读书笔记, 自由主义与民主向往, 公路车与山地车骑行, 和世界温柔相处]
 description: 我欲种菜 亦植蔷薇
 
 # Social
 social:
-  twitter: fermatslibrary
-  instagram: liverpoolfc
-  youtube: UCNUS6e1M0eUIv1F88kxRJ-g
+  twitter: 
+  instagram: 
+  youtube: 
 
 # Disqus
 disqus: 
@@ -29,19 +29,19 @@ disqus:
 #   analytics: UA-112090731-1
 #   site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
 
-# clicky site id
+# Clicky site id
 # clicky: 101359865
 
-# OpenGraph & TwitterCard
+# Open Graph & Twitter Card
 card: /images/tcard.webp
 
-# algolia search
+# Algolia search
 algolia:
   application_id: XTX1EOVMI5
   index_name: jubeny
   search_only_api_key: c05381f747c5207b6dd655ca29e18fce
 
-# mailchimp link
+# Mailchimp subscribe
 mailchimp: jubeny.us19.list-manage.com/subscribe/post?u=d8acca80de6498b2cd55b8cae&amp;id=aeb4f65fa7
 
 # Navigation buttons
@@ -61,11 +61,11 @@ categs:
   - {title: S, description: 故事,url: '/story/'}
 
 
-# ---------------------上面信息改为自己的-------------------------
+# -------------------------Personal Setting Above-------------------------
 # 
-#          jekyll文档参考: https://jekyllrb.com/docs/
+#          jekyll docs: https://jekyllrb.com/docs/
 #
-# ---------------------下面信息视情况更改-------------------------
+# --------------------------Jekyll Setting Below--------------------------
 
 
 # Permalink
