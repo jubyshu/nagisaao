@@ -13,7 +13,7 @@ description: Start with WordPress from 2015, and switch to Jekyll in 2018. The s
 
 #### Blog
 
-Start with WordPress from 2015, and switch to Jekyll in 2018. The source code is on [Github](https://github.com/jubyshu/nagisaao) and deloyed with Netlify. Use DisqusJS as the comment system, and all the posts only represent Juby's own opinions.
+Start with WordPress from 2015, and switch to Jekyll in 2018. The source code is on Github and deloyed with Netlify. Use DisqusJS as the comment system, and all the posts only represent Juby's own opinions.
 
 "渚碧" is a transliteration of "Juby" which is the abbreviation of my name. It can be explained as "青い渚" in Japanese, which means "blue beach".
 
