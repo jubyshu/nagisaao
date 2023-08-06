@@ -34,6 +34,8 @@ description: A reader lives a thousand lives before he dies.
 4. A for Andromeda,Fred Hoyle/John Elliot,,,
 5. Heavier Than Heaven: A Biography of Kurt Cobain,Charles R. Cross,,Hyperion,2001
 6. Tomorrow and Tomorrow and Tomorrow,Gabrielle Zevin,,Knopf,2022
+7. 罗马帝国衰亡史（4）,爱德华·吉本,席代岳,浙江大学出版社,2018
+8. 好笑的爱,米兰·昆德拉,余中先/郭昌京,上海译文出版社,2014
 
 -------
 
