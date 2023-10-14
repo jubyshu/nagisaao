@@ -36,6 +36,8 @@ description: A reader lives a thousand lives before he dies.
 6. Tomorrow and Tomorrow and Tomorrow,Gabrielle Zevin,,Knopf,2022
 7. 罗马帝国衰亡史（4）,爱德华·吉本,席代岳,浙江大学出版社,2018
 8. 好笑的爱,米兰·昆德拉,余中先/郭昌京,上海译文出版社,2014
+9. 被禁锢的头脑,切斯瓦夫·米沃什,易丽君,广西师范大学出版社,2013
+10.无以为家：日本家庭小王子现场,酒井顺子,朱田云,人民文学出版舍,2022
 
 -------
 
