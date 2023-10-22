@@ -47,7 +47,7 @@ mailchimp: jubeny.us19.list-manage.com/subscribe/post?u=d8acca80de6498b2cd55b8ca
 # Navigation buttons
 nav:
   - {title: 首页, description: blog, url: '/'}
-  - {title: 历史, description: archive, url: '/archive/'}   
+  - {title: 往事, description: archive, url: '/archive/'}   
   - {title: 读书, description: book, url: '/book/'}
   - {title: 留言, description: guestbook, url: '/guestbook/'}      
   - {title: 关于, description: about, url: '/about/'}         

@@ -1,5 +1,5 @@
 ---
-title: 历史
+title: 往事
 layout: page
 group: navigation
 permalink: /archive/
