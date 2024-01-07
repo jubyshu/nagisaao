@@ -7,7 +7,7 @@ description: Start with WordPress from 2015, and switch to Jekyll in 2018. The s
 
 ### 关于
 
-`Update at 2023-05-15 06:41:57+08:00`
+`Update at 2024-01-07 15:47:38+08:00`
 
 ------------------
 
@@ -49,9 +49,7 @@ Classic music and [rock songs](https://open.spotify.com/playlist/0N78QnMKsDTYcjq
 
 🚲
 
-Bikes: TCR & Trance & minivelo(for sale)
-
-Always riding in the mountains
+Bikes: TCR & minivelo(for sale)
 
 -------------------
 
