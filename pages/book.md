@@ -29,7 +29,7 @@ description: A reader lives a thousand lives before he dies.
 ### 2024
 {:.collapsible}
 
-...
+1. 时光错动,库尔特·冯内古特,虞建华,河南文艺出版社,2023
 
 -------
 
