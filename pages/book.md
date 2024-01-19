@@ -30,6 +30,8 @@ description: A reader lives a thousand lives before he dies.
 {:.collapsible}
 
 1. 时光错动,库尔特·冯内古特,虞建华,河南文艺出版社,2023
+2. 低生育陷阱：日本少子化对策的失败,山田昌宏,钱爱琴,译林出版社,2023
+3. 如果我們無法以光速前進,金草葉,胡椒筒,聯經出版公司,2022
 
 -------
 

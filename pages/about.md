@@ -7,7 +7,7 @@ description: Start with WordPress from 2015, and switch to Jekyll in 2018. The s
 
 ### 关于
 
-`Update at 2024-01-07 15:47:38+08:00`
+`Update at 2024-01-19`
 
 ------------------
 
@@ -37,6 +37,12 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 
 -------------------
 
+#### Channel
+
+Telegram: [vegerose](https://t.me/vegerose)
+
+-------------------
+
 #### Status
 
 📖
@@ -50,9 +56,3 @@ Classic music and [rock songs](https://open.spotify.com/playlist/0N78QnMKsDTYcjq
 🚲
 
 Bikes: TCR & minivelo(for sale)
-
--------------------
-
-#### Channel
-
-Telegram: [vegerose](https://t.me/vegerose)
