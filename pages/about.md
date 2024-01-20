@@ -29,9 +29,9 @@ I'm very fond of two lines of a poem written by Ya Xian(瘂弦):
 > 既不快活也不不快活  
 > Neither happy nor unhappy
 
-My life is as simple as this, there's nothing to sell, and there's nothing I want to buy. Only wish to plant some roses when I grow vegetables in the yard.
+My life is as simple as this, there's nothing to sell, and there's nothing I want to pursue. Only wish to plant some roses while growing vegetables in my yard.
 
-Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, the mysterious universe and FOSS, and dislike many many things.
+Can't be bother to learn and think, not good at speech and not aggressive. I love freedom, literature, heavy mental music, the mysterious universe and FOSS, and dislike many many things.
 
 Often I haunt in dreams, riding and music, you can contact me via [Email](mailto:hbt5aggwr@relay.firefox.com). 
 
@@ -40,19 +40,3 @@ Often I haunt in dreams, riding and music, you can contact me via [Email](mailto
 #### Channel
 
 Telegram: [vegerose](https://t.me/vegerose)
-
--------------------
-
-#### Status
-
-📖
-
-Currently reading foreign [books](https://www.goodreads.com/review/list/66650849-juby?ref=nav_mybooks&shelf=currently-reading)
-
-🎶
-
-Classic music and [rock songs](https://open.spotify.com/playlist/0N78QnMKsDTYcjqdhigqvt) 
-
-🚲
-
-Bikes: TCR & minivelo(for sale)
