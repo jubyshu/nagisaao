@@ -7,7 +7,7 @@ description: Start with WordPress from 2015, and switch to Jekyll in 2018. The s
 
 ### 关于
 
-`Update at 2024-01-19`
+`Update at 2024-01-24`
 
 ------------------
 
@@ -29,9 +29,9 @@ I'm very fond of two lines of a poem written by Ya Xian(瘂弦):
 > 既不快活也不不快活  
 > Neither happy nor unhappy
 
-My life is as simple as this, there's nothing to sell, and there's nothing I want to pursue. Only wish to plant some roses while growing vegetables in my yard.
+My life is as simple as this. There's nothing to sell, and there's nothing I'd like to pursue except freedom. Only wish to plant some roses while growing vegetables in my yard.
 
-Can't be bother to learn and think, not good at speech and not aggressive. I love freedom, literature, heavy mental music, the mysterious universe and FOSS, and dislike many many things.
+Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, mysterious universe and FOSS, and dislike many many things.
 
 Often I haunt in dreams, riding and music, you can contact me via [Email](mailto:hbt5aggwr@relay.firefox.com). 
 
