@@ -2,8 +2,8 @@
 layout: post
 title: 诗一首——卅五
 date: 2024-06-04 23:31:58+08:00
-categories: essay
-tags: 诗歌
+categories: poetry
+tags: 杂谈
 ---
 
 甲兵执枪改春秋  
