@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 宗族情节
+title: 宗族情结
 date: 2024-08-28 23:02:09+08:00
 categories: essay
 tags: 故乡
