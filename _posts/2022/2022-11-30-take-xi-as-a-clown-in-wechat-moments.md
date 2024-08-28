@@ -10,7 +10,7 @@ tags: 杂谈
 
 十月十六日，贴了一张切尔西的球衣。这一天应当是二十大开幕的日子，司马昭之心路人皆知，习要开始自己的第三个任期。
 
-{% include nximage.html url="chelsea" caption="切尔西球衣的胸前广告是 3" %}
+{% include image.html url="chelsea.webp" caption="切尔西球衣的胸前广告是 3" %}
 
 十月廿三日，朋友圈的内容是这样的：
 
@@ -23,12 +23,12 @@ output: -1705910400
 
 十一月四日，是一张图配一句诗。诗是李大钊写的，「八表正同昏，一夫终窃国」，一夫指的就是窃国大盗袁世凯。配图是白雪公主和六个小矮人，习这么想当偶像，当然就是白雪公主，六个小矮人就是他的习家军常委们。
 
-{% include nximage.html url="whitesnow" caption="白雪公主和六个小矮人" %}
+{% include image.html url="whitesnow.webp" caption="白雪公主和六个小矮人" %}
 
 十一月廿七日，是很让人振奋的一日。这天的朋友圈是三张图，清德宗、清逊帝，最后一张——在如今的中国，看到「动态」，自然接续的就是——「清零」。清零宗，大清还没有亡呢！
 
-{% include nximage.html url="qing" caption="大清未亡，零宗续上" %}
+{% include image.html url="qing.webp" caption="大清未亡，零宗续上" %}
 
 朋友圈的封面图，也在这一日换上了四通桥标语的英文版，然而今天才发现，已经被微信悄悄地删除了。不过还没有收到警告的消息，也没有被封号，在接下来的日子里，还是可以继续辱包。
 
-{% include nximage.html url="sitongqiao" caption="罢免独裁国贼" %}
+{% include image.html url="sitongqiao.webp" caption="罢免独裁国贼" %}

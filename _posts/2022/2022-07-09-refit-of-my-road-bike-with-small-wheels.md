@@ -28,4 +28,4 @@ tags: 生活 运动 好玩
 
 这次改装总共花了 715 元，好像也不算便宜，原车拆下来的零件，能卖出一点价格的，大概只有 Sram X7 的后拨和指拨了。可能是价格定的有点低，挂到闲鱼后很多人抢着买，于是我决定自己先留着，万一哪天又想买车改装呢。
 
-{% include nximage.html url="451bike" caption="改装后的 451 小轮车" %}
+{% include image.html url="451bike.webp" caption="改装后的 451 小轮车" %}
