@@ -33,7 +33,7 @@ My life is as simple as this. There's nothing to sell, and there's nothing I'd l
 
 Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, mysterious universe and FOSS, and dislike many many things.
 
-Often I haunt in dreams, riding and music, you can contact me via [Email](mailto:hbt5aggwr@relay.firefox.com). 
+Often I haunt in dreams, riding and music, you can contact me via Email(*contact#jubeny.com*). 
 
 -------------------
 

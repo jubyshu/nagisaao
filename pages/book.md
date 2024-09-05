@@ -6,7 +6,7 @@ permalink: /book/
 description: A reader lives a thousand lives before he dies.
 ---
 
-### 藏书
+### 书架
 
 ------
 
@@ -47,6 +47,7 @@ description: A reader lives a thousand lives before he dies.
 16. 重返天安門：在失憶的人民共和國，追尋六四的歷史真相,林慕蓮,廖珮杏,八旗文化,2019
 17. 青年变革者：梁启超（1873—1898）,许知远,,上海人民出版社,2019
 18. 死亡是一件孤独的事,雷·布拉德伯里,夜潮音,新星出版社,2023
+19. 锌皮娃娃兵,斯韦特兰娜·阿列克谢耶维奇,高莽,九州出版社,2014
 
 -------
 
