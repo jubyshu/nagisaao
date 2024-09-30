@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 三个月减重二十斤，下腹却依然坚挺
+title: 三个月减重二十斤，下腹仍是赘肉
 date: 2024-08-18 23:18:46+08:00
 categories: journal
 tags: 生活 运动
