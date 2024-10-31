@@ -7,7 +7,7 @@ description: Start with WordPress from 2015, and switch to Jekyll in 2018. The s
 
 ### 关于
 
-`Update at 2024-01-24`
+`Update at 2024-10-31`
 
 ------------------
 
@@ -39,4 +39,6 @@ Often I haunt in dreams, riding and music, you can contact me via Email(*contact
 
 #### Channel
 
-Telegram: [vegerose](https://t.me/vegerose)
+Telegram: [vegerose](https://t.me/vegerose), a collection of everything useful and interesting I note.
+
+Substack: [Juby Whispering](https://jubeny.substack.com/), a backup of my blog and can be subscribed via email.
