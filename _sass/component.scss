@@ -84,7 +84,7 @@
 
   a {
     color: $sub-link-color;
-    border-bottom: 1px solid $hover-color;
+    border-bottom: 1px solid $sub-link-color;
 
     &:hover {
       color: $hover-color;
