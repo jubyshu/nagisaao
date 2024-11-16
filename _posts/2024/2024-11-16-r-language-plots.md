@@ -10,8 +10,6 @@ tags: 工具 好玩
 
 {% include ghimage.html url="tidydata/plot/cran_codes.png" caption="" %}
 
-{% include ghimage.html url="tidydata/plot/mtcars.png" caption="" %}
-
 {% include ghimage.html url="tidydata/plot/national_parks.png" caption="" %}
 
 {% include ghimage.html url="tidydata/plot/mtcars.png" caption="" %}
