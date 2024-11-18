@@ -22,13 +22,13 @@
   <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link rel="apple-touch-icon" href="/images/favicon.ico" type="image/x-icon" />
   {% if page.layout == "post" %}
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+  <link rel="stylesheet" href="//{{ site.cdn }}/npm/@fancyapps/ui@4.0/dist/fancybox.css">
   {% endif %}
   {% if page.title == "搜索" %}
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/instantsearch.js/dist/instantsearch.min.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/instantsearch.js/dist/instantsearch-theme-algolia.min.css">
+  <link rel="stylesheet" type="text/css" href="//{{ site.cdn }}/npm/instantsearch.js/dist/instantsearch.min.css">
+  <link rel="stylesheet" type="text/css" href="//{{ site.cdn }}/npm/instantsearch.js/dist/instantsearch-theme-algolia.min.css">
   {% endif %}
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqusjs.css">
+  <link rel="stylesheet" href="//{{ site.cdn }}/npm/disqusjs@1.3/dist/disqusjs.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.url }}">

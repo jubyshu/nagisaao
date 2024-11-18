@@ -35,6 +35,9 @@ disqus:
 # Open Graph & Twitter Card
 card: /images/tcard.webp
 
+# cdn server
+cdn: fastly.jsdelivr.net
+
 # Algolia search
 algolia:
   application_id: XTX1EOVMI5

@@ -23,6 +23,9 @@ $heiti-sans: "PT Sans", Helvetica, Tahoma, Arial, "Source Han Sans SC", "Source 
 $body-font: $heiti-sans;
 $quote-font: $heiti-sans;
 
+$back-image: "//fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/cover.webp";
+$sum-image: "//fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/feather.svg";
+
 @mixin div-middle {
   position: fixed;
   top: 50%;
