@@ -29,9 +29,9 @@ permalink: /feed.xml
         {% endfor %}
       </item>
     {% endfor %}
+    <follow_challenge>
+      <feedId>{{ site.follow.feed_id }}</feedId>
+      <userId>{{ site.follow.user_id }}</userId>
+    </follow_challenge>
   </channel>
-  <follow_challenge>
-    <feedId>{{ site.follow.feed_id }}</feedId>
-    <userId>{{ site.follow.user_id }}</userId>
-  </follow_challenge>
 </rss>
