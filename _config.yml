@@ -32,6 +32,11 @@ disqus:
 # Clicky site id
 # clicky: 101359865
 
+# Follow RSS
+follow:
+  feed_id: 41343619752158229
+  user_id: 67699324184418304
+
 # Open Graph & Twitter Card
 card: /images/tcard.webp
 
