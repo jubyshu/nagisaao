@@ -26,7 +26,7 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2024
+### 2024 <span class="post_count">(26)</span>
 {:.collapsible}
 
 1. 时光错动,库尔特·冯内古特,虞建华,河南文艺出版社,2023
@@ -49,16 +49,16 @@ description: A reader lives a thousand lives before he dies.
 18. 死亡是一件孤独的事,雷·布拉德伯里,夜潮音,新星出版社,2023
 19. 锌皮娃娃兵,斯韦特兰娜·阿列克谢耶维奇,高莽,九州出版社,2014
 20. 人慈：橫跨二十萬年的人性旅程，用更好的視角看待自己,羅格·布雷格曼,唐澄暐,時報,2021
-22. 祈祷之海：格雷格·伊根经典科幻三重奏（I）,格雷格·伊根,鲁冬旭/阿古/刘文元/萧傲然/张涵,新星出版社,2023
-23. 白鳥の逃亡者,赤川次郎,,角川文庫,2006
-24. 蝇王,戈尔丁,龚志成,上海译文出版社,2014
-25. 狡猾的细胞：癌症的进化故事与治愈之道,雅典娜·阿克蒂皮斯,李兆栋,中信出版社,2021
-26. 猪八戒是哪八戒,卞恒沁,,文汇出版社,2023
-27. コンビニ人間,村田沙耶香,,文藝春秋,2016
+21. 祈祷之海：格雷格·伊根经典科幻三重奏（I）,格雷格·伊根,鲁冬旭/阿古/刘文元/萧傲然/张涵,新星出版社,2023
+22. 白鳥の逃亡者,赤川次郎,,角川文庫,2006
+23. 蝇王,戈尔丁,龚志成,上海译文出版社,2014
+24. 狡猾的细胞：癌症的进化故事与治愈之道,雅典娜·阿克蒂皮斯,李兆栋,中信出版社,2021
+25. 猪八戒是哪八戒,卞恒沁,,文汇出版社,2023
+26. コンビニ人間,村田沙耶香,,文藝春秋,2016
 
 -------
 
-### 2023
+### 2023 <span class="post_count">(13)</span>
 {:.collapsible}
 
 1. 撒旦诗篇,萨尔曼·拉什迪,雷格·詹克,明鉴书屋,2013
@@ -78,7 +78,7 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2022
+### 2022 <span class="post_count">(18)</span>
 {:.collapsible}
 
 1. 罗马帝国衰亡史（2）,爱德华·吉本,席代岳,浙江大学出版社,2018
@@ -103,7 +103,7 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2021
+### 2021 <span class="post_count">(19)</span>
 {:.collapsible}
 
 1. 灵魂迷宫,卡洛斯·鲁依斯·萨丰,范湲,上海文艺出版社,2019
@@ -129,7 +129,7 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2020
+### 2020 <span class="post_count">(12)</span>
 {:.collapsible}
 
 1. 桜の森の満開の下,坂口安吾,,青空文库,2011
@@ -148,7 +148,7 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2019
+### 2019 <span class="post_count">(16)</span>
 {:.collapsible}
 
 1. 里卡尔多·雷耶斯离世那年,萨拉马戈,黄茜,作家出版社,2018
@@ -171,7 +171,7 @@ description: A reader lives a thousand lives before he dies.
 
 --------
 
-### 2018
+### 2018 <span class="post_count">(19)</span>
 {:.collapsible}
 
 1. 斯通纳,约翰·威廉斯,杨向荣,世纪文景/上海人民出版社,2016
@@ -197,7 +197,7 @@ description: A reader lives a thousand lives before he dies.
 
 --------
 
-### 2017
+### 2017 <span class="post_count">(25)</span>
 {:.collapsible}
 
 1. 神曲·地狱篇,但丁,黄文捷,译文出版社,2005
@@ -229,7 +229,7 @@ description: A reader lives a thousand lives before he dies.
 
 ---------
 
-### 2016
+### 2016 <span class="post_count">(52)</span>
 {:.collapsible}
 
 1. 被爱情遗忘的角落,张弦,,花城出版社,2010
@@ -288,7 +288,7 @@ description: A reader lives a thousand lives before he dies.
 
 ---------
 
-### 2015
+### 2015 <span class="post_count">(25)</span>
 {:.collapsible}
 
 1. 牧羊少年奇幻之旅,保罗·柯艾略,丁文林,南海出版公司,2009
@@ -320,7 +320,7 @@ description: A reader lives a thousand lives before he dies.
 
 ----------
 
-### 2014
+### 2014 <span class="post_count">(54)</span>
 {:.collapsible}
 
 1. 我们的小镇,桑顿·怀尔德,但汉松,译林出版社,2013
@@ -381,7 +381,7 @@ description: A reader lives a thousand lives before he dies.
 
 ---------
 
-### 2013
+### 2013 <span class="post_count">(16)</span>
 {:.collapsible}
 
 1. 风之影,卡洛斯·鲁依斯·萨丰,范湲,人民文学出版社,2006
@@ -404,7 +404,7 @@ description: A reader lives a thousand lives before he dies.
 
 ----------
 
-### by 2013.09
+### by 2013.09 <span class="post_count">(43)</span>
 {:.collapsible}
 
 1. 战争与和平,列夫·托尔斯泰,刘文飞,光明日报出版社,2007
@@ -444,4 +444,10 @@ description: A reader lives a thousand lives before he dies.
 35. 一个陌生女人的来信,斯蒂芬.茨威格,张玉书,中国和平出版社,2005
 36. 长征,王树增,,人民文学出版社,2006
 37. 不能承受的生命之轻,米兰·昆德拉,许钧,上海译文出版社,2010
+38. 罪与罚,陀思妥耶夫斯基,,,
+39. 静静的顿河,肖洛霍夫,,,
+40. 在人间,高尔基,,,
+41. 我的大学,高尔基,,,
+42. 巴黎圣母院,雨果,,,
+43. 野性的呼唤,杰克·伦敦,,,
 {:.collcontent}
