@@ -26,7 +26,7 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2024 <span class="post_count">(26)</span>
+### 2024 <span class="post_count">(27)</span>
 {:.collapsible}
 
 1. 时光错动,库尔特·冯内古特,虞建华,河南文艺出版社,2023
@@ -55,6 +55,7 @@ description: A reader lives a thousand lives before he dies.
 24. 狡猾的细胞：癌症的进化故事与治愈之道,雅典娜·阿克蒂皮斯,李兆栋,中信出版社,2021
 25. 猪八戒是哪八戒,卞恒沁,,文汇出版社,2023
 26. コンビニ人間,村田沙耶香,,文藝春秋,2016
+27. 渺小一生,柳原汉雅,尤传莉,广西师范大学出版社,2019
 
 -------
 
