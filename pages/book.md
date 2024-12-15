@@ -26,7 +26,7 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2024 <span class="post_count">(29)</span>
+### 2024 <span class="post_count">(30)</span>
 {:.collapsible}
 
 1. 时光错动,库尔特·冯内古特,虞建华,河南文艺出版社,2023
@@ -58,6 +58,7 @@ description: A reader lives a thousand lives before he dies.
 27. 渺小一生,柳原汉雅,尤传莉,广西师范大学出版社,2019
 28. 哲学家都爱了谁？,黄鼎元,,台海出版社,2024
 29. 罗马帝国衰亡史（5）,爱德华·吉本,席代岳,浙江大学出版社,2018
+30. 雌犬,皮纳尔·金塔纳,陈超慧,南海出版公司,2023
 
 -------
 
