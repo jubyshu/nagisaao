@@ -30,6 +30,6 @@ tags: 工具
 
 使用小米遇到的3和8的问题，原来是关闭系统优化所致，因为刚开始用Aurora安装应用时关闭了该功能。
 
----
-
-`Edit at 2024-12-18`
+<details>
+  <summary>Edit at 2014-12-18</summary>
+</details>
