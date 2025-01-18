@@ -26,6 +26,13 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
+### 2025 <span class="post_count">(1)</span>
+{:.collapsible}
+
+1. 癌症楼,索尔仁尼琴,姜明河,译林出版社,2013
+
+-------
+
 ### 2024 <span class="post_count">(32)</span>
 {:.collapsible}
 
@@ -61,6 +68,7 @@ description: A reader lives a thousand lives before he dies.
 30. 雌犬,皮纳尔·金塔纳,陈超慧,南海出版公司,2023
 31. 盲眼钟表匠,理查德·道金斯,王道还,中信出版社,2014
 32. 罗马帝国衰亡史（6）,爱德华·吉本,席代岳,浙江大学出版社,2018
+{:.collcontent}
 
 -------
 
