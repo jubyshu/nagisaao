@@ -26,10 +26,11 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2025 <span class="post_count">(1)</span>
+### 2025 <span class="post_count">(2)</span>
 {:.collapsible}
 
 1. 癌症楼,索尔仁尼琴,姜明河,译林出版社,2013
+2. 二手时间,阿列克谢耶维奇,吕宁思,中信出版社,2016
 
 -------
 
