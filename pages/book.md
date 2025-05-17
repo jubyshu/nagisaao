@@ -26,13 +26,14 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2025 <span class="post_count">(4)</span>
+### 2025 <span class="post_count">(5)</span>
 {:.collapsible}
 
 1. 癌症楼,索尔仁尼琴,姜明河,译林出版社,2013
 2. 二手时间,阿列克谢耶维奇,吕宁思,中信出版社,2016
 3. 我的骨头没有忘记,斯蒂芬妮·胡,高语冰,广东经济出版社,2024
 4. 请照顾好我妈妈,申京淑,薛舟/徐丽红,北京联合出版公司,2021
+5. My Story,Steven Gerrard,,Penguin,2015
 
 -------
 
