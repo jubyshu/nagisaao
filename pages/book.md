@@ -14,7 +14,7 @@ description: A reader lives a thousand lives before he dies.
   <ul class="book-list">
 		{% for book in site.data.library %}
 		<li>
-		  <a href="//search.douban.com/book/subject_search?search_text={{ book.name }}" title="{{ book.name }} by {{ book.author }}" target="_blank">
+		  <a href="//neodb.social/search?q={{ book.name }}" title="{{ book.name }} by {{ book.author }}" target="_blank">
 		  	<img src="//{{ site.cdn }}/gh/jubyshu/rosemary/cover/{{ book.ISBN }}.jpg" alt="{{ book.name }}" />
 		  </a>
 		</li>
