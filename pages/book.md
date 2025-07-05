@@ -26,7 +26,7 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2025 <span class="post_count">(6)</span>
+### 2025 <span class="post_count">(7)</span>
 {:.collapsible}
 
 1. 癌症楼,索尔仁尼琴,姜明河,译林出版社,2013
@@ -35,6 +35,7 @@ description: A reader lives a thousand lives before he dies.
 4. 请照顾好我妈妈,申京淑,薛舟/徐丽红,北京联合出版公司,2021
 5. My Story,Steven Gerrard,,Penguin,2015
 6. 大地上的居所,巴勃罗·聂鲁达,梅清,南海出版公司,2020
+7. 雪,奥罕·帕慕克,蔡鹃如,麦田出版社,2008
 
 -------
 
