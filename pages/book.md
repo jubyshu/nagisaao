@@ -26,7 +26,7 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2025 <span class="post_count">(9)</span>
+### 2025 <span class="post_count">(10)</span>
 {:.collapsible}
 
 1. 癌症楼,索尔仁尼琴,姜明河,译林出版社,2013
@@ -37,7 +37,8 @@ description: A reader lives a thousand lives before he dies.
 6. 大地上的居所,巴勃罗·聂鲁达,梅清,南海出版公司,2020
 7. 雪,奥罕·帕慕克,蔡鹃如,麦田出版社,2008
 8. All Fours,Miranda July,,Riverhead Books,2024
-9. 生活的囚徒,威廉·特雷弗,亚可,上海译文出版社，2023
+9. 生活的囚徒,威廉·特雷弗,亚可,上海译文出版社,2023,
+10. 未来学大会,斯坦尼斯瓦夫·莱姆,许东华,译林出版社,2021
 
 -------
 
