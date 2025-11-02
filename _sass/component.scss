@@ -1,3 +1,5 @@
+@use "variable";
+
 // pager
 .post-container {
   margin-top: 20px;
@@ -10,7 +12,7 @@
   a {
     width: 100%;
     padding: 10px 10px;
-    color: $meta-color;
+    color: variable.$meta-color;
 
     >span {
       padding: 10px 0;
@@ -18,7 +20,7 @@
 
     &:hover>span,
     &:focus>span {
-      color: $hover-color;
+      color: variable.$hover-color;
     }
   }
 }
@@ -35,13 +37,13 @@
 
 // post
 .post-comments {
-  border-top: 1px solid $border-color;
+  border-top: 1px solid variable.$border-color;
   padding: 120px 0 0;
 }
 
 .post-meta {
   margin: 0 0 1.8em 0;
-  color: $meta-color;
+  color: variable.$meta-color;
   font-size: 0.9em;
 }
 
@@ -62,7 +64,7 @@
 
   hr {
     margin: 1em auto;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid variable.$border-color;
   }
 }
 
@@ -78,23 +80,23 @@
       font-size: 1.5em;
       letter-spacing: 0.5em;
       margin: 0.5em auto;
-      color: $sub-link-color;
+      color: variable.$sub-link-color;
     }
   }
 
   a {
-    color: $sub-link-color;
-    border-bottom: 1px solid $sub-link-color;
+    color: variable.$sub-link-color;
+    border-bottom: 1px solid variable.$sub-link-color;
 
     &:hover {
-      color: $hover-color;
+      color: variable.$hover-color;
     }
   }
 
   h3 {
     padding-bottom: 5px;
     margin-top: 1.5em;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid variable.$border-color;
   }
 
   h3,
@@ -120,9 +122,9 @@
   margin: auto;
 
   .cover-navigation {
-    color: $sub-font-color;
+    color: variable.$sub-font-color;
     margin: 10px auto;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid variable.$border-color;
   }
 }
 
@@ -135,9 +137,9 @@
   display: table;
   width: 100%;
   height: 180px;
-  background: url($back-image);
+  background: url(variable.$back-image);
   background-position: center center;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid variable.$border-color;
 }
 
 .panel-main__inner {
@@ -149,11 +151,11 @@
   font-weight: 100;
   text-align: center;
   margin: 0 auto;
-  color: #373C38;  // $sub-font-color
+  color: #373C38;  // variable.$sub-font-color
   // background-color: rgba(250, 250, 250, 0.3);
 
   a {
-    color: #373C38;  // $title-color
+    color: #373C38;  // variable.$title-color
   }
 }
 
@@ -169,8 +171,8 @@
   margin-left: 10px;
   margin-right: 10px;
   font-size: .4em;
-  color: $sub-font-color;
-  border-bottom: 0.1px solid $border-color;
+  color: variable.$sub-font-color;
+  border-bottom: 0.1px solid variable.$border-color;
   text-shadow: none;
 }
 
@@ -196,7 +198,7 @@ nav {
   padding: 5px 0;
   font-size: 1em;
   text-shadow: none;
-  color: $sub-font-color;
+  color: variable.$sub-font-color;
 }
 
 .navigation__item {
@@ -206,7 +208,7 @@ nav {
   padding: 0 5px;
 
   &:hover {
-    background: $hover-color;
+    background: variable.$hover-color;
     border-radius: 7px;
     // padding: 0 10px;
 
@@ -231,7 +233,7 @@ nav {
   }
 
   img:hover {
-    background: $seiheki;
+    background: variable.$seiheki;
     border-radius: 50%;
   }
 }
@@ -265,7 +267,7 @@ nav {
 .pagination__page-number {
   margin: 0;
   font-size: .8em;
-  color: $sub-font-color;
+  color: variable.$sub-font-color;
 }
 
 .pagination__newer {
@@ -322,7 +324,7 @@ i {
     padding-top: 5px;
 
     &:hover {
-      color: $hover-color;
+      color: variable.$hover-color;
     }
   }
 }
@@ -334,7 +336,7 @@ i {
 
 .post-list__date {
   background-size: 100% 100%;
-  color: $meta-color;
+  color: variable.$meta-color;
   float: left;
   font-size: 0.8em;
 
@@ -345,7 +347,7 @@ i {
 
 .post-list_divider {
   margin: 10px 0;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid variable.$border-color;
 }
 
 *:focus {

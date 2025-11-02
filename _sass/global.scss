@@ -1,3 +1,5 @@
+@use "variable";
+
 // css reset
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button {
   margin: 0;
@@ -14,7 +16,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 q {
   quotes: none;
-  border-bottom: 1px dashed $link-color;
+  border-bottom: 1px dashed variable.$link-color;
 }
 
 // basic
@@ -28,9 +30,9 @@ body {
   width: 100%;
   *zoom: 1;
   line-height: 1;
-  font-family: $body-font;
+  font-family: variable.$body-font;
   font-size: 16px;
-  color: $font-color;
+  color: variable.$font-color;
   letter-spacing: 0.03em;
   background-color: #efefef; //#171514;
   -webkit-font-smoothing: antialiased;
@@ -69,11 +71,11 @@ code {
 }
 
 a {
-  color: $link-color;
+  color: variable.$link-color;
   text-decoration: none;
 
   &:hover {
-    color: $hover-color;
+    color: variable.$hover-color;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -91,7 +93,7 @@ h5 {
   margin-bottom: 0.5em;
   font-weight: normal;
   line-height: 1.6;
-  color: $title-color;
+  color: variable.$title-color;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -123,7 +125,7 @@ h5 {
 
 strong {
   font-weight: bold;
-  color: $title-color;
+  color: variable.$title-color;
 }
 
 em {
@@ -131,12 +133,12 @@ em {
 }
 
 blockquote {
-  font-family: $quote-font;
+  font-family: variable.$quote-font;
   font-weight: normal;
   font-size: 1em;
-  color: $sub-font-color;
+  color: variable.$sub-font-color;
   margin: 15px 0;
-  background: $background-color;
+  background: variable.$background-color;
   border-radius: 5px;
 
   p {
@@ -183,13 +185,13 @@ ul {
 }
 
 table {
-  color: $sub-font-color;
+  color: variable.$sub-font-color;
   font-size: .9em;
   text-align: center;
   line-height: 30px;
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid $border-color;
+  border: 1px solid variable.$border-color;
   width: 75%;
   margin: 25px auto;
 }
@@ -211,7 +213,7 @@ td {
 // post-info
 .excerpt {
   font-size: 1em;
-  color: $sub-font-color;
+  color: variable.$sub-font-color;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -259,9 +261,9 @@ td {
 .footer {
   display: block;
   padding: 2em 0 0 0;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid variable.$border-color;
   font-size: .7em;
-  color: $sub-font-color;
+  color: variable.$sub-font-color;
   padding-bottom: 15px;
 
   .footer_div {
@@ -269,11 +271,11 @@ td {
     width: 100%;
 
     .copyright {
-      color: $link-color;
+      color: variable.$link-color;
     }
 
     #runtime {
-      color: $sub-link-color;
+      color: variable.$sub-link-color;
     }
   }
 }
@@ -285,7 +287,7 @@ hr {
 .section-title__divider {
   width: 30%;
   margin: 2.2em 0 2.1em 0;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid variable.$border-color;
 }
 
 .hidden {

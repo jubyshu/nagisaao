@@ -1,11 +1,13 @@
+@use "variable";
+
 // 文本折叠
 details {
   p {
-    font-family: $quote-font;
-    color: $sub-font-color;
+    font-family: variable.$quote-font;
+    color: variable.$sub-font-color;
     padding: 1em;
     border-radius: 5px;
-    background: $background-color;
+    background: variable.$background-color;
   }
 }
 
@@ -13,11 +15,11 @@ summary {
   display: inline-block;
   margin: 3px auto;
   cursor: pointer;
-  color: $sub-link-color;
-  border-bottom: 1px solid $link-color;
+  color: variable.$sub-link-color;
+  border-bottom: 1px solid variable.$link-color;
 
   &:after {
-    content: url($sum-image);
+    content: url(variable.$sum-image);
     padding-left: 2px;
   }
 
@@ -39,7 +41,7 @@ details[open] {
     bottom: 30px;
     right: 20px;
     display: block;
-    border: 1px solid $border-color;
+    border: 1px solid variable.$border-color;
     border-radius: 50%;
     height: 36px;
     width: 36px;
@@ -71,12 +73,12 @@ sup {
 
     &:before {
       content: "[";
-      color: $link-color;
+      color: variable.$link-color;
     }
 
     &:after {
       content: "]";
-      color: $link-color;
+      color: variable.$link-color;
     }
   }
 }
@@ -90,7 +92,7 @@ sup {
   &:before {
     display: block;
     content: "";
-    border-top: 0.6px solid $border-color;
+    border-top: 0.6px solid variable.$border-color;
     width: 5%;
     margin-bottom: 7px;
   }
@@ -124,11 +126,11 @@ sup {
     margin: auto 5px;
 
     a {
-      color: $sub-font-color;
+      color: variable.$sub-font-color;
       font-size: 0.9em;
 
       &.active {
-        color: $hover-color;
+        color: variable.$hover-color;
       }
     }
   }
@@ -159,13 +161,13 @@ sup {
 
 // Post Achive
 .post_count {
-  color: $sub-font-color;
+  color: variable.$sub-font-color;
   font-size: 0.8em;
   vertical-align: text-bottom;
 }
 
 .post_num {
-  color: $sub-link-color;
+  color: variable.$sub-link-color;
 }
 
 // Category
@@ -186,7 +188,7 @@ sup {
   float: left;
 
   a {
-    color: $hover-color;
+    color: variable.$hover-color;
   }
 }
 
@@ -211,7 +213,7 @@ sup {
 .post-figcaption {
   position: relative;
   display: none;
-  color: $sub-link-color;
+  color: variable.$sub-link-color;
   margin-bottom: 1em;
   font-size: 0.9em;
   text-align: center;
@@ -229,13 +231,13 @@ sup {
   .ais-search-box--powered-by {
     margin-top: 10px;
     font-size: 0.8em;
-    color: $meta-color;
+    color: variable.$meta-color;
   }
 
   .ais-search-box--input {
-    background: $page-color;
-    color: $font-color;
-    border: $page-color;
+    background: variable.$page-color;
+    color: variable.$font-color;
+    border: variable.$page-color;
     line-height: 150%;
   }
 }
@@ -243,7 +245,7 @@ sup {
 .post-item {
   margin-bottom: 30px;
   // padding-left: 15px;
-  // border-left: 2px solid $hover-color;
+  // border-left: 2px solid variable.$hover-color;
 }
 
 .post-link .ais-Highlight {
@@ -258,7 +260,7 @@ sup {
 
 .post-breadcrumb {
   font-size: 1.1em;
-  color: $font-color;
+  color: variable.$font-color;
 }
 
 .post-breadcrumb .ais-Highlight {
@@ -271,7 +273,7 @@ sup {
   background: #f7d94c;
   font-style: normal;
   font-weight: bold;
-  // color: $sub-link-color;
+  // color: variable.$sub-link-color;
 }
 
 .post-snippet img {
@@ -489,7 +491,7 @@ sup {
   margin: 30px auto;
   input.email {
     background: #efefef;
-    color: $font-color;
+    color: variable.$font-color;
     border: 1px solid #efefef;
     width: 100%;
     max-width: 350px;
@@ -500,7 +502,7 @@ sup {
     width: 100%;
     max-width: 350px;
     &:hover {
-      background: $link-color;
+      background: variable.$link-color;
     }
   }
 }
@@ -530,11 +532,11 @@ ul.book-list {
   margin-bottom: 20px;
 
   a {
-    color: $link-color;
+    color: variable.$link-color;
   }
 
   #dsqjs-msg {
-    color: $sub-link-color;
+    color: variable.$sub-link-color;
     line-height: 1.6em;
     margin-bottom: 10px;
   }

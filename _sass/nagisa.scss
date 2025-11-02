@@ -1,13 +1,11 @@
-@import "variable";
+@use "global";
 
-@import "global";
+@use "component";
 
-@import "component";
+@use "media";
 
-@import "media";
+@use "addition";
 
-@import "addition";
+@use "prism";
 
-@import "prism";
-
-// @import "https://fonts.googleapis.com/css?family=PT+Serif|PT+Sans|Noto+Serif+JP|Noto+Serif+SC&display=swap";
+// @import "https://fonts.googleapis.com/css?family=PT+Serif|PT+Sans|Noto+Serif+JP|Noto+Serif+SC&display=swap"
