@@ -49,6 +49,12 @@ algolia:
   index_name: jubeny
   search_only_api_key: d57fd011fd186e67019b3e2ad08c5ec2
 
+# Algolia Crawler Netlify
+crawler:
+  appId: G6EJRG4B61
+  apiKey: 08c77760bc896f05c67bbb210d844028
+  siteId: 2892d0db-3067-4a2f-907d-d8e43bedb5c1
+
 # Mailchimp subscribe
 # mailchimp: jubeny.us19.list-manage.com/subscribe/post?u=d8acca80de6498b2cd55b8cae&amp;id=aeb4f65fa7
 
