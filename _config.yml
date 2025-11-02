@@ -47,7 +47,7 @@ cdn: fastly.jsdelivr.net
 algolia:
   application_id: XTX1EOVMI5
   index_name: jubeny
-  search_only_api_key: c05381f747c5207b6dd655ca29e18fce
+  search_only_api_key: d57fd011fd186e67019b3e2ad08c5ec2
 
 # Mailchimp subscribe
 # mailchimp: jubeny.us19.list-manage.com/subscribe/post?u=d8acca80de6498b2cd55b8cae&amp;id=aeb4f65fa7
