@@ -1,6 +1,6 @@
 @use "variable";
 
-// 文本折叠
+// text fold
 details {
   p {
     font-family: variable.$quote-font;
@@ -34,7 +34,7 @@ details[open] {
   }
 }
 
-// 返回顶部按钮
+// back to top
 #back-top {
   a {
     position: fixed;
@@ -60,7 +60,7 @@ details[open] {
   margin: 14px 10.5px;
 }
 
-// 脚注
+// footnote
 sup {
   a {
     font-size: 0.7em;
@@ -102,7 +102,7 @@ sup {
   }
 }
 
-// 目录
+// content
 .post-toc {
   visibility: hidden;
   position: fixed;
