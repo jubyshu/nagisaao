@@ -100,6 +100,7 @@ GEM
     unicode-display_width (2.6.0)
     verbal_expressions (0.1.5)
     webrick (1.9.1)
+    mini_portile2(2.8.9)
 
 PLATFORMS
   ruby
