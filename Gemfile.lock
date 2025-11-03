@@ -92,7 +92,7 @@ GEM
     rexml (3.4.4)
     rouge (4.6.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.93.2)
+    sass-embedded (1.93.3)
       google-protobuf (~> 4.31)
       rake (>= 13)
     terminal-table (3.0.2)
@@ -100,7 +100,6 @@ GEM
     unicode-display_width (2.6.0)
     verbal_expressions (0.1.5)
     webrick (1.9.1)
-    mini_portile2(2.8.9)
 
 PLATFORMS
   ruby
