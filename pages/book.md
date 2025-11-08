@@ -26,7 +26,7 @@ description: A reader lives a thousand lives before he dies.
 
 -------
 
-### 2025 <span class="post_count">(11)</span>
+### 2025 <span class="post_count">(12)</span>
 {:.collapsible}
 
 1. 癌症楼,索尔仁尼琴,姜明河,译林出版社,2013
@@ -40,6 +40,7 @@ description: A reader lives a thousand lives before he dies.
 9. 生活的囚徒,威廉·特雷弗,亚可,上海译文出版社,2023,
 10. 未来学大会,斯坦尼斯瓦夫·莱姆,许东华,译林出版社,2021
 11. I Want to Die but I Want to Eat Tteokbokki,Baek Sehee,Anton Hur,Bloomsbury Publishing,2022
+12. 1Q84 Book 1 <4月-6月>,村上春树,,新潮社,2009
 
 -------
 
