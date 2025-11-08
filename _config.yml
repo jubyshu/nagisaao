@@ -97,7 +97,10 @@ sass:
   style: compressed
 
 # Plugins
-plugins: [jekyll-paginate-v2, jekyll-sitemap, jekyll-algolia]
+plugins: 
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  # - jekyll-algolia
 
 # Pagination
 pagination:
