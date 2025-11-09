@@ -9,12 +9,13 @@
   </div>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      let dateBegin = new Date("{{ site.build_date }}");
-      let dateEnd = new Date();
-      let dateDiff = dateEnd.getTime() - dateBegin.getTime();
-      let dayDiff = Math.floor(dateDiff / (24 * 3600 * 1000));
-      let days = dayDiff + " days ";
-      document.querySelector('#runtime').innerHTML = days;
+      const dateBegin = new Date("{{ site.build_date }}");
+      const dateEnd = new Date();
+  
+      if (!isNaN(dateBegin)) { // 避免 Invalid Date
+        const dayDiff = Math.floor((dateEnd - dateBegin) / (1000 * 60 * 60 * 24));
+        document.querySelector('#runtime').textContent = `${dayDiff} days`;
+      }
     });
   </script>
 </footer>

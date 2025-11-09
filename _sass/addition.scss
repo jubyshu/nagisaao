@@ -203,6 +203,7 @@ sup {
 
 .collcontent {
   display: none;
+  transition: max-height 0.3s ease;
 }
 
 .collapsible {
