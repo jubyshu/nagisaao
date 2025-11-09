@@ -134,7 +134,9 @@
 }
 
 .panel-main {
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 180px;
   background: url(variable.$back-image);
@@ -143,17 +145,16 @@
 }
 
 .panel-main__inner {
-  display: table-cell;
+  display: relative;
   vertical-align: middle;
   position: relative;
-  z-index: 800;
+  z-index: 10;
   padding: 0 0;
   font-weight: 100;
   text-align: center;
   margin: 0 auto;
   color: #373C38;  // variable.$sub-font-color
   // background-color: rgba(250, 250, 250, 0.3);
-
   a {
     color: #373C38;  // variable.$title-color
   }
