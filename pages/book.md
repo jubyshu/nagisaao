@@ -6,24 +6,24 @@ permalink: /book/
 description: A reader lives a thousand lives before he dies.
 ---
 
-### 书架
-
-------
+### 书架 <span class="post_count">({{ site.data.library | size }})</span>
+{:.collapsible}
 
 <div class="book-show">
+  <hr/>
   <ul class="book-list">
     {% for book in site.data.library %}
-      <li title="{{ book.name }} by {{ book.author }}">
-        <a href="https://neodb.social/search?q={{ book.name }}" target="_blank" rel="noopener">
+      <li title="{{ book.title }} by {{ book.author }}">
+        <a href="https://neodb.social/search?q={{ book.title }}" target="_blank" rel="noopener">
           <img src="//{{ site.cdn }}/gh/jubyshu/rosemary/cover/{{ book.ISBN | default: 'default' }}.jpg" 
-               alt="{{ book.name }}" loading="lazy" />
+               alt="{{ book.title }}" loading="lazy" />
         </a>
       </li>
     {% endfor %}
   </ul>
 </div>
 
-### 读书
+### 读书 <span class="post_count">({{ site.data.books | size }})</span>
 
 -------
 

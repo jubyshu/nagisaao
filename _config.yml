@@ -129,7 +129,7 @@ autopages:
 # Increase jekyll build speed
 exclude: [Gemfile, Gemfile.lock, README.md]
 keep_files: [images]
-incremental: true
+incremental: false
 
 # Redirect
 include: [_redirects]
