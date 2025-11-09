@@ -7,10 +7,10 @@ description: A reader lives a thousand lives before he dies.
 ---
 
 ### 书架 <span class="post_count">({{ site.data.library | size }})</span>
-{:.collapsible}
+
+------
 
 <div class="book-show">
-  <hr/>
   <ul class="book-list">
     {% for book in site.data.library %}
       <li title="{{ book.title }} by {{ book.author }}">
@@ -25,7 +25,7 @@ description: A reader lives a thousand lives before he dies.
 
 ### 读书 <span class="post_count">({{ site.data.books | size }})</span>
 
--------
+------
 
 {% assign years = site.data.books | map: 'year' | uniq %}
 {% for year in years %}
