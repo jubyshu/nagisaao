@@ -38,7 +38,7 @@ follow:
   user_id: 67699324184418304
 
 # Open Graph & Twitter Card
-card: /images/tcard.webp
+card: bing.ee123.net/img/
 
 # cdn server
 cdn: fastly.jsdelivr.net
