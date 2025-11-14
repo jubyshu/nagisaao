@@ -2,26 +2,26 @@
 title: 关于
 layout: page 
 permalink: /about/
-description: Start with WordPress from 2015, and switch to Jekyll in 2018. The source code is on Github and deloyed with Netlify. Use DisqusJS as the comment system, and all the posts only represent Juby's own opinions.
+description: I started my blog on WordPress in 2015 and migrated it to Jekyll in 2018. The source code is hosted on GitHub and deployed via Netlify."渚碧" is a transliteration of "Juby", which is an abbreviation of my name. It can be interpreted as "青い渚" in Japanese, meaning "azure shore".
 ---
 
 ### 关于
 
-`Update at 2024-11-18`
+`Update at 2025-11-14`
 
 ------------------
 
 #### Blog
 
-Start with WordPress from 2015, and switch to Jekyll in 2018. The source code is on Github and deloyed with Netlify. Use DisqusJS as the comment system, and all the posts only represent Juby's own opinions.
+I started my blog on WordPress in 2015 and migrated it to Jekyll in 2018. The source code is hosted on GitHub and deployed via Netlify.
 
-"渚碧" is a transliteration of "Juby" which is the abbreviation of my name. It can be explained as "青い渚" in Japanese, which means "blue beach".
+"渚碧" is a transliteration of "Juby", which is an abbreviation of my name. It can be interpreted as "青い渚" in Japanese, meaning "azure shore".
 
 -------------------
 
 #### Me
 
-I'm very fond of two lines of a poem written by Ya Xian(瘂弦):
+I'm deeply fond of two lines from the poet Ya Xian(瘂弦):
 
 > 想著，生活著，偶爾也微笑著  
 > Thinking, living, and smiling at times
@@ -29,11 +29,11 @@ I'm very fond of two lines of a poem written by Ya Xian(瘂弦):
 > 既不快活也不不快活  
 > Neither happy nor unhappy
 
-My life is as simple as this. There's nothing to sell, and there's nothing I'd like to pursue except freedom. Only wish to plant some roses while growing vegetables in my yard.
+My life is as simple as this. There's nothing to sell, nothing I'd like to pursue--except freedom. Only wish to plant some roses while growing vegetables in my yard.
 
 Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, mysterious universe and FOSS, and dislike many many things.
 
-Often I haunt in dreams, riding and music, you can contact me via Email(*contact#jubeny.com*). 
+Often I drift in dreams, ride on the road, lost in music or books, and keep the lights on. Feel free to reach me via email(*contact#jubeny.com*). 
 
 -------------------
 
