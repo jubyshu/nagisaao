@@ -508,22 +508,40 @@ sup {
   }
 }
 
+// Book list
+#bookshelf-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .35s ease;
+}
+
+#bookshelf-content.expanded {
+  max-height: 10000px;
+}
+
 .book-show {
   overflow: hidden;
 }
 
 ul.book-list {
-  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+  gap: 12px 0;
+  padding: 0 8px;
+  margin: 0 auto;
+  list-style: none;
 
   li {
     width: 90px;
-    float: left;
-    list-style: none outside none;
+    display: flex;
+    justify-content: center;
 
     img {
       width: 70px;
       height: 100px;
-      border: solid 1px #ddd;
+      border: 1px solid #ddd;
+      object-fit: cover;
     }
   }
 }

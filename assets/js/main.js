@@ -101,6 +101,15 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const title = document.getElementById("bookshelf-title");
+  const content = document.getElementById("bookshelf-content");
+
+  title.addEventListener("click", () => {
+    content.classList.toggle("expanded");
+  });
+});
+
 // gitlab embed snippets
 document.addEventListener("DOMContentLoaded", () => {
   let gitlabGist = document.querySelector(".gitlab-embed-snippets");
