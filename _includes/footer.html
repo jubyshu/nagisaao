@@ -1,7 +1,4 @@
 <footer class="footer">
-<!--   {% if page.title == "Home" %}
-    {% include mailchimp.html %}
-  {% endif %} -->
   <div>{% include social.html %}</div>
   <div class="footer_div">
     <br>&copy; <span class="copyright">Juby</span> 2015-{{ site.time | date: '%Y' }}<br><br>
@@ -12,7 +9,7 @@
       const dateBegin = new Date("{{ site.build_date }}");
       const dateEnd = new Date();
   
-      if (!isNaN(dateBegin)) { // 避免 Invalid Date
+      if (!isNaN(dateBegin)) {
         const dayDiff = Math.floor((dateEnd - dateBegin) / (1000 * 60 * 60 * 24));
         document.querySelector('#runtime').textContent = `${dayDiff} days`;
       }

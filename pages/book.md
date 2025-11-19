@@ -6,7 +6,7 @@ permalink: /book/
 description: A reader lives a thousand lives before he dies.
 ---
 
-<h3 id="bookshelf-title">
+<h3 id="bookshelf-title" style="cursor: pointer;">
   书架 <span class="post_count">({{ site.data.library | size }})</span>
 </h3>
 
