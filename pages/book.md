@@ -18,8 +18,8 @@ description: A reader lives a thousand lives before he dies.
       {% for book in site.data.library %}
         <li title="{{ book.title }} by {{ book.author }}">
           <a href="https://neodb.social/search?q={{ book.title }}" target="_blank" rel="noopener">
-            <img src="//{{ site.cdn }}/gh/jubyshu/rosemary/cover/{{ book.ISBN | default: 'default' }}.jpg" 
-                 alt="{{ book.title }}" loading="lazy" />
+            <img src="{{ site.cloudinary }}/blog/books/{{ book.ISBN | default: 'default' }}.jpg" 
+                 alt="{{ book.title }}" loading="lazy" />     
           </a>
         </li>
       {% endfor %}

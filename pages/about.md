@@ -33,7 +33,7 @@ My life is as simple as this. There's nothing to sell, nothing I'd like to pursu
 
 Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, mysterious universe and FOSS, and dislike many many things.
 
-Often I drift in dreams, ride on the road, lost in music or books, and keep the lights on. Feel free to reach me via email(*contact#jubeny.com*). 
+Often I drift in dreams, ride on the road, lost in music or books, and keep the lights on. Feel free to reach me via email(*hi#jubeny.com*). 
 
 -------------------
 

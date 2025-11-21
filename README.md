@@ -6,4 +6,4 @@ Hello, everyone.
 
 I'm Juby, welcome to visit my blog.
 
-If you have any questions, you can contact me via [email](mailto:contact@jubeny.com).
+If you have any questions, you can contact me via [email](mailto:hi@jubeny.com).

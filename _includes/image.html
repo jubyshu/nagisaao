@@ -1,6 +1,6 @@
 <figure class="post-figure">
-  <a href="//{{ site.cdn }}/gh/jubyshu/rosemary/image/{{ include.url }}" data-fancybox="images" data-caption="{{ include.caption }}">
-    <img loading="lazy" class="post-img" src="//{{ site.cdn }}/gh/jubyshu/rosemary/image/{{ include.url }}" alt="{{ include.caption }}" onerror="showAvifSign();" >
+  <a href="{{ site.cloudinary }}/blog/posts/{{ include.url }}" data-fancybox="images" data-caption="{{ include.caption }}">
+    <img loading="lazy" class="post-img" src="{{ site.cloudinary }}/blog/posts/{{ include.url }}" alt="{{ include.caption }}" onerror="showAvifSign();" >
   </a>
   <figcaption class="post-figcaption">{{ include.caption }}</figcaption>
 </figure>
