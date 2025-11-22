@@ -1,45 +1,7 @@
-// < 1100px
-@media all and (max-width: 1100px) {
-  .panel-title {
-    font-size: 1.8em;
-  }
-
-  .panel-description {
-    margin: 0 10px;
-    font-size: .9em;
-  }
-}
-
-// < 960px
 @media all and (max-width: 960px) {
   .container {
     margin: 0 auto;
     max-width: none;
-  }
-
-  .panel-main {
-    display: table;
-    height: 180px;
-    position: relative;
-  }
-
-  .panel-main__inner {
-    display: table-cell;
-  }
-
-  .panel-cover {
-    display: block;
-    position: relative;
-    background-position: center center;
-
-    .panel-description {
-      display: block;
-      margin-top: 10px;
-    }
-
-    .navigation {
-      display: block;
-    }
   }
 
   .content-wrapper__inner {
@@ -47,28 +9,13 @@
   }
 }
 
-@media all and (max-width: 780px) {
-  .panel-cover {
-    width: 100%;
-  }
-  .content-wrapper {
-    width: 100%
-  }
-}
-
-// < 420px
 @media all and (max-width: 420px) {
-  .panel-cover {
-    width: 100%;
-    margin-left: 0;
-  }
-
   .content-wrapper {
     width: 96%;
-  }
-
-  .content-wrapper__inner {
-    padding: 0 2%;
+    
+    &__inner {
+      padding: 0 2%;
+    }
   }
 
   h1 {
@@ -79,10 +26,5 @@
 
   h2 {
     font-size: 1.4em;
-  }
-
-  .panel-title {
-    margin-bottom: .1em;
-    font-size: 1.8em;
   }
 }

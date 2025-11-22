@@ -1,25 +1,26 @@
-@use "variable";
+@use "variable" as v;
 
-// css reset
+// ------------------------------------------------------------
+// Basic Element
+// ------------------------------------------------------------
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; 
+  vertical-align: baseline;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; 
+  display: block;
 }
 
 q {
   quotes: none;
-  border-bottom: 1px dashed variable.$link-color;
+  border-bottom: 1px dashed v.$link-color;
 }
 
-// basic
 html {
   height: 100%;
   max-height: 100%;
@@ -28,72 +29,35 @@ html {
 body {
   height: 100%;
   width: 100%;
-  *zoom: 1;
   line-height: 1;
-  font-family: variable.$body-font;
+  font-family: v.$body-font;
   font-size: 16px;
-  color: variable.$font-color;
+  color: v.$font-color;
   letter-spacing: 0.03em;
-  background-color: #efefef; //#171514;
+  background-color: #efefef;
   -webkit-font-smoothing: antialiased;
 
-  &:before {
+  &::before,
+  &::after {
     content: "";
     display: table;
   }
 
-  &:after {
-    content: "";
-    display: table;
+  &::after {
     clear: both;
   }
 }
 
-p {
-  margin-bottom: 10px;
-  margin-top: 10px;
-  line-height: 1.7em;
+// ------------------------------------------------------------
+// Typography
+// ------------------------------------------------------------
 
-  a {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
-}
-
-code {
-  font-size: 0.85em;
-  color: #373C38; // AISUMICHA 蓝墨茶
-  background: #f5f2f0;  //#2d2d2d;
-  vertical-align: baseline;
-  border-radius: 3px;
-  padding: 0 2px;
-  margin: auto 2px;
-}
-
-a {
-  color: variable.$link-color;
-  text-decoration: none;
-
-  &:hover {
-    color: variable.$hover-color;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h5 {
+h1, h2, h3, h4, h5 {
   margin-top: 1em;
   margin-bottom: 0.5em;
   font-weight: normal;
   line-height: 1.6;
-  color: variable.$title-color;
+  color: v.$title-color;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -103,9 +67,7 @@ h1 {
   letter-spacing: .05em;
 }
 
-h2 {
-  font-size: 1.4em;
-}
+h2 { font-size: 1.4em; }
 
 h3 {
   position: relative;
@@ -123,9 +85,38 @@ h5 {
   font-weight: bold;
 }
 
+p {
+  margin: 10px 0;
+  line-height: 1.7em;
+
+  a {
+    margin: 0 4px;
+  }
+}
+
+code {
+  font-size: 0.85em;
+  color: #373C38;
+  background: #f5f2f0;
+  vertical-align: baseline;
+  border-radius: 3px;
+  padding: 0 2px;
+  margin: auto 2px;
+}
+
+a {
+  color: v.$link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: v.$hover-color;
+    transition: .5s; 
+  }
+}
+
 strong {
   font-weight: bold;
-  color: variable.$title-color;
+  color: v.$title-color;
 }
 
 em {
@@ -133,27 +124,25 @@ em {
 }
 
 blockquote {
-  font-family: variable.$quote-font;
+  font-family: v.$quote-font;
   font-weight: normal;
   font-size: 1em;
-  color: variable.$sub-font-color;
+  color: v.$sub-font-color;
   margin: 15px 0;
-  background: variable.$background-color;
+  background: v.$background-color;
   border-radius: 5px;
 
   p {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0 1em;
 
-    &:first-child {
-      padding-top: 1em;
-    }
-
-    &:last-child {
-      padding-bottom: 1em;
-    }
+    &:first-child { padding-top: 1em; }
+    &:last-child { padding-bottom: 1em; }
   }
 }
+
+// ------------------------------------------------------------
+// Lists
+// ------------------------------------------------------------
 
 ol,
 ul {
@@ -166,54 +155,57 @@ ul {
     p {
       margin: 0 0 .2em 0;
       line-height: 1.6em;
-      padding-left: 0px;
+      padding-left: 0;
     }
   }
 
+  // Nested lists
   ol,
   ul {
     margin: .1em 0 .2em 2em;
   }
 }
 
-ol {
-  list-style-type: decimal;
-}
+ol { list-style-type: decimal; }
+ul { list-style-type: circle; }
 
-ul {
-  list-style-type: circle;
-}
+// ------------------------------------------------------------
+// Tables
+// ------------------------------------------------------------
 
 table {
-  color: variable.$sub-font-color;
+  color: v.$sub-font-color;
   font-size: .9em;
   text-align: center;
   line-height: 30px;
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid variable.$border-color;
+  border: 1px solid v.$border-color;
   width: 75%;
   margin: 25px auto;
+
+  thead tr:nth-child(odd) {
+    background: #d3f7bb;
+  }
+
+  tbody tr:nth-child(even) {
+    background: #d3f7bb;
+  }
+
+  th,
+  td {
+    border: 1px solid #3fc699;
+    text-align: center;
+  }
 }
 
-thead tr:nth-child(odd) {
-  background: #d3f7bb;
-}
+// ------------------------------------------------------------
+// Layout & Components
+// ------------------------------------------------------------
 
-tbody tr:nth-child(even) {
-  background: #d3f7bb;
-}
-
-th,
-td {
-  border: 1px solid #3fc699;
-  text-align: center;
-}
-
-// post-info
 .excerpt {
   font-size: 1em;
-  color: variable.$sub-font-color;
+  color: v.$sub-font-color;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -232,7 +224,6 @@ td {
   letter-spacing: 1px;
 }
 
-// container
 .container {
   margin: 60px auto;
   background-color: #fcfcfc;
@@ -246,6 +237,10 @@ td {
   max-width: 780px;
   margin: 40px auto auto auto;
 
+  &__inner {
+    padding: 0 30px;
+  }
+
   p {
     text-align: justify;
     text-justify: distribute;
@@ -254,28 +249,23 @@ td {
   }
 }
 
-.content-wrapper__inner {
-  padding: 0 30px;
-}
-
 .footer {
   display: block;
-  padding: 2em 0 0 0;
-  border-top: 1px solid variable.$border-color;
+  padding: 2em 0 15px 0;
+  border-top: 1px solid v.$border-color;
   font-size: .7em;
-  color: variable.$sub-font-color;
-  padding-bottom: 15px;
+  color: v.$sub-font-color;
 
-  .footer_div {
+  &_div {
     text-align: center;
     width: 100%;
 
     .copyright {
-      color: variable.$link-color;
+      color: v.$link-color;
     }
 
     #runtime {
-      color: variable.$sub-link-color;
+      color: v.$sub-link-color;
     }
   }
 }
@@ -287,7 +277,7 @@ hr {
 .section-title__divider {
   width: 30%;
   margin: 2.2em 0 2.1em 0;
-  border-top: 1px solid variable.$border-color;
+  border-top: 1px solid v.$border-color;
 }
 
 .hidden {

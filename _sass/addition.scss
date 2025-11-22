@@ -1,13 +1,19 @@
-@use "variable";
+@use "variable" as v;
 
-// text fold
+// ------------------------------------------------------------
+// Text Fold (Details & Summary)
+// ------------------------------------------------------------
 details {
   p {
-    font-family: variable.$quote-font;
-    color: variable.$sub-font-color;
+    font-family: v.$quote-font;
+    color: v.$sub-font-color;
     padding: 1em;
     border-radius: 5px;
-    background: variable.$background-color;
+    background: v.$background-color;
+  }
+
+  &[open] > summary {
+    border-bottom: none;
   }
 }
 
@@ -15,11 +21,12 @@ summary {
   display: inline-block;
   margin: 3px auto;
   cursor: pointer;
-  color: variable.$sub-link-color;
-  border-bottom: 1px solid variable.$link-color;
+  color: v.$sub-link-color;
+  border-bottom: 1px solid v.$link-color;
+  list-style: none;
 
-  &:after {
-    content: url(variable.$sum-image);
+  &::after {
+    content: url(v.$sum-image);
     padding-left: 2px;
   }
 
@@ -28,58 +35,56 @@ summary {
   }
 }
 
-details[open] {
-  > summary {
-    border-bottom: none;
-  }
-}
-
-// back to top
+// ------------------------------------------------------------
+// UI Components: Back to Top
+// ------------------------------------------------------------
 #back-top {
   a {
     position: fixed;
     bottom: 30px;
     right: 20px;
-    display: block;
-    border: 1px solid variable.$border-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid v.$border-color;
     border-radius: 50%;
     height: 36px;
     width: 36px;
     background-color: #fff;
-    text-align: center;
+    transition: opacity 0.3s;
   }
 }
 
 #arrow {
-  display: inline-block;
+  display: block;
   width: 10px;
   height: 10px;
   border-top: 2px solid #606060;
   border-right: 2px solid #606060;
   transform: rotate(-45deg);
-  margin: 14px 10.5px;
+  margin-top: 2px;
 }
 
-// footnote
-sup {
-  a {
-    font-size: 0.7em;
-    line-height: 0;
-    vertical-align: text-top;
-    position: relative;
-    bottom: -0.1em;
-    text-decoration: none;
-    border-bottom: none !important;
+// ------------------------------------------------------------
+// Footnotes
+// ------------------------------------------------------------
+sup a {
+  font-size: 0.7em;
+  line-height: 0;
+  vertical-align: text-top;
+  position: relative;
+  bottom: -0.1em;
+  text-decoration: none;
+  border-bottom: none !important;
 
-    &:before {
-      content: "[";
-      color: variable.$link-color;
-    }
+  &::before {
+    content: "[";
+    color: v.$link-color;
+  }
 
-    &:after {
-      content: "]";
-      color: variable.$link-color;
-    }
+  &::after {
+    content: "]";
+    color: v.$link-color;
   }
 }
 
@@ -89,10 +94,10 @@ sup {
   margin-top: 25px;
   padding-top: 10px;
 
-  &:before {
+  &::before {
     display: block;
     content: "";
-    border-top: 0.6px solid variable.$border-color;
+    border-top: 0.6px solid v.$border-color;
     width: 5%;
     margin-bottom: 7px;
   }
@@ -102,7 +107,9 @@ sup {
   }
 }
 
-// content
+// ------------------------------------------------------------
+// Table of Contents (TOC)
+// ------------------------------------------------------------
 .post-toc {
   visibility: hidden;
   position: fixed;
@@ -112,43 +119,47 @@ sup {
   padding: 5px;
   width: 210px;
   max-width: 210px;
-  background: #f6f6f6; //#3c3c3c;
+  background: #f6f6f6;
   border-radius: 3px;
 
-  ol,
-  ul {
-    margin-left: 1em;
-  }
-
-  li {
-    list-style-position: inside;
-    list-style-type: none;
-    margin: auto 5px;
-
-    a {
-      color: variable.$sub-font-color;
-      font-size: 0.9em;
-
-      &.active {
-        color: variable.$hover-color;
-      }
-    }
-  }
-
-  &:before {
+  &::before {
     display: block;
     content: "TOC";
     margin: 5px;
     font-size: 1.1em;
   }
+
+  ol,
+  ul {
+    margin-left: 1em;
+    list-style-type: none;
+  }
+
+  li {
+    margin: auto 5px;
+    list-style-type: none;
+
+    a {
+      color: v.$sub-font-color;
+      font-size: 0.9em;
+      display: inline-block;
+      border-bottom: hidden !important;
+      
+      &.active,
+      &:hover {
+        color: v.$hover-color;
+      }
+    }
+  }
 }
 
-// YouTube
+// ------------------------------------------------------------
+// Media: YouTube
+// ------------------------------------------------------------
 .ytb-container {
   position: relative;
   width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
+  aspect-ratio: 16 / 9; 
 }
 
 .ytb-video {
@@ -159,24 +170,27 @@ sup {
   height: 100%;
 }
 
-// Post Achive
+// ------------------------------------------------------------
+// Post Metadata & Archive
+// ------------------------------------------------------------
 .post_count {
-  color: variable.$sub-font-color;
+  color: v.$sub-font-color;
   font-size: 0.8em;
   vertical-align: text-bottom;
 }
 
 .post_num {
-  color: variable.$sub-link-color;
+  color: v.$sub-link-color;
 }
 
-// Category
 .index-meta {
   margin-top: -40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .category {
-  float: right;
   font-size: 0.8em;
 
   li {
@@ -185,10 +199,8 @@ sup {
 }
 
 .search-icon {
-  float: left;
-
   a {
-    color: variable.$hover-color;
+    color: v.$hover-color;
   }
 }
 
@@ -201,6 +213,9 @@ sup {
   }
 }
 
+// ------------------------------------------------------------
+// Collapsible & Figures
+// ------------------------------------------------------------
 .collcontent {
   display: none;
   transition: max-height 0.3s ease;
@@ -210,48 +225,57 @@ sup {
   cursor: pointer;
 }
 
-// post figure
 .post-figcaption {
   position: relative;
   display: none;
-  color: variable.$sub-link-color;
+  color: v.$sub-link-color;
   margin-bottom: 1em;
   font-size: 0.9em;
   text-align: center;
 }
 
-// algolia search
+// ------------------------------------------------------------
+// Algolia Search
+// ------------------------------------------------------------
 #search-searchbar {
   .ais-search-box {
     max-width: 100%;
     height: 35px;
     width: 100%;
     margin-bottom: 15px;
-  }
 
-  .ais-search-box--powered-by {
-    margin-top: 10px;
-    font-size: 0.8em;
-    color: variable.$meta-color;
-  }
+    &--powered-by {
+      margin-top: 10px;
+      font-size: 0.8em;
+      color: v.$meta-color;
+    }
 
-  .ais-search-box--input {
-    background: variable.$page-color;
-    color: variable.$font-color;
-    border: variable.$page-color;
-    line-height: 150%;
+    &--input {
+      background: v.$page-color;
+      color: v.$font-color;
+      border: 1px solid transparent;
+      line-height: 150%;
+      width: 100%;
+      padding: 0 10px;
+    }
   }
 }
 
 .post-item {
   margin-bottom: 30px;
-  // padding-left: 15px;
-  // border-left: 2px solid variable.$hover-color;
 }
 
-.post-link .ais-Highlight {
-  background: #f7d94c;
-  font-style: normal;
+.post-link,
+.post-breadcrumb,
+.post-snippet {
+  .ais-Highlight {
+    background: #f7d94c;
+    font-style: normal;
+    
+    @if & != ".post-link" {
+      font-weight: bold;
+    }
+  }
 }
 
 .post-breadcrumbs {
@@ -261,20 +285,7 @@ sup {
 
 .post-breadcrumb {
   font-size: 1.1em;
-  color: variable.$font-color;
-}
-
-.post-breadcrumb .ais-Highlight {
-  background: #f7d94c;
-  font-weight: bold;
-  font-style: normal;
-}
-
-.post-snippet .ais-Highlight {
-  background: #f7d94c;
-  font-style: normal;
-  font-weight: bold;
-  // color: variable.$sub-link-color;
+  color: v.$font-color;
 }
 
 .post-snippet img {
@@ -284,32 +295,20 @@ sup {
 #search-hits {
   display: none;
 
-  h2 {
-    font-size: 1.2em;
-  }
-
-  h3 {
-    font-size: 1em;
-  }
+  h2 { font-size: 1.2em; }
+  h3 { font-size: 1em; }
 }
 
-// Gist
+// ------------------------------------------------------------
+// Gist & Code Snippets
+// ------------------------------------------------------------
 .gist {
   max-width: 720px;
 
-  th,
-  td {
-    border: none;
-  }
-
-  tbody tr:nth-child(2n) {
-    background: none;
-  }
-
-  .blob-wrapper {
-    background: #f5f2f0;
-  }
-
+  th, td { border: none; }
+  tbody tr:nth-child(2n) { background: none; }
+  
+  .blob-wrapper,
   .highlight {
     background: #f5f2f0 !important;
   }
@@ -325,6 +324,7 @@ sup {
 
   ul {
     margin: 0;
+    padding: 0;
 
     li {
       display: inline;
@@ -334,16 +334,12 @@ sup {
   }
 }
 
+// GitLab specific styling
 #gitlab-gist.gitlab-embed-snippets {
   margin: 0;
 
-  a {
-    border-bottom: none;
-  }
-
-  .line-numbers {
-    display: none;
-  }
+  a { border-bottom: none; }
+  .line-numbers { display: none; }
 
   .blob-content {
     width: 100%;
@@ -365,11 +361,9 @@ sup {
   .file-title-flex-parent {
     padding: 3px 1em;
     font-size: 0.9em;
-
-    .file-header-content {
-      .gl-snippet-icon {
-        display: none;
-      }
+    
+    .file-header-content .gl-snippet-icon {
+      display: none;
     }
   }
 
@@ -383,16 +377,17 @@ sup {
   }
 }
 
-
-// Book list
+// ------------------------------------------------------------
+// Book List
+// ------------------------------------------------------------
 #bookshelf-content {
   overflow: hidden;
   max-height: 0;
   transition: max-height .35s ease;
-}
 
-#bookshelf-content.expanded {
-  max-height: 10000px;
+  &.expanded {
+    max-height: 10000px;
+  }
 }
 
 .book-show {
@@ -402,7 +397,7 @@ sup {
 ul.book-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;  
+  justify-content: space-between;
   gap: 4px 0;
   padding: 0 4px;
   margin: 0 auto;
@@ -422,16 +417,16 @@ ul.book-list {
   }
 }
 
+// ------------------------------------------------------------
 // DisqusJS
+// ------------------------------------------------------------
 #dsqjs {
   margin-bottom: 20px;
 
-  a {
-    color: variable.$link-color;
-  }
+  a { color: v.$link-color; }
 
-  #dsqjs-msg {
-    color: variable.$sub-link-color;
+  &-msg {
+    color: v.$sub-link-color;
     line-height: 1.6em;
     margin-bottom: 10px;
   }
