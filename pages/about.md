@@ -28,7 +28,7 @@ I'm deeply fond of two lines from the poet Ya Xian(瘂弦):
 > 既不快活也不不快活  
 > Neither happy nor unhappy  
 
-My life is as simple as this. There's nothing to sell, nothing I'd like to pursue--except freedom. Only wish to plant some roses while growing vegetables in my yard.
+My life is as simple as this. There's nothing to sell, nothing I'd like to pursue——except freedom. Only wish to plant some roses while growing vegetables in my yard.
 
 Can't be bother to learn and think, not good at speech and not aggressive. I love literature, heavy mental music, mysterious universe and FOSS, and dislike many many things.
 
