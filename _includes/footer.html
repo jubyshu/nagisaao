@@ -4,15 +4,4 @@
     <br>&copy; <span class="copyright">Juby</span> 2015-{{ site.time | date: '%Y' }}<br><br>
     This site has been running for <span id="runtime"></span> silently.
   </div>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const dateBegin = new Date("{{ site.build_date }}");
-      const dateEnd = new Date();
-  
-      if (!isNaN(dateBegin)) {
-        const dayDiff = Math.floor((dateEnd - dateBegin) / (1000 * 60 * 60 * 24));
-        document.querySelector('#runtime').textContent = `${dayDiff} days`;
-      }
-    });
-  </script>
 </footer>

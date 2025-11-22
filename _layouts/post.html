@@ -6,13 +6,12 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
-      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date">{{page.date | date: "%F"}}</time> &#8226; <span>{{ page.content | strip_html | strip_newlines | remove: " " | size }} words</span>
-      <!-- &#8226; <span>{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} mins read</span> -->
+      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date">{{page.date | date: "%F"}}</time> &#8226; <span>{{ content | single_word_count }} words</span>
     </div>
   </header>
   <section class="post not_page">
     {{ content | replace_first:'id="markdown-toc"','class="post-toc"' }}
-  </section>
+  </section> 
   <div class="post-tags">
     <ul>
       {% for tag in page.tags %}

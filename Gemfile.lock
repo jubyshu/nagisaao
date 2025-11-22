@@ -1,3 +1,9 @@
+PATH
+  remote: _plugins
+  specs:
+    jekyll-word-count (0.1.0)
+      jekyll (>= 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -82,6 +88,7 @@ DEPENDENCIES
   jekyll
   jekyll-paginate-v2
   jekyll-sitemap
+  jekyll-word-count!
 
 BUNDLED WITH
    2.4.1

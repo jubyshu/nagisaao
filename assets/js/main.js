@@ -127,7 +127,20 @@ document.addEventListener("DOMContentLoaded", () => {
   // 5. GitLab Snippets
   // ============================================================
   const gitlabGist = document.querySelector(".gitlab-embed-snippets");
+  
   if (gitlabGist) {
     gitlabGist.id = "gitlab-gist";
+  }
+
+  // ============================================================
+  // 6. Calculate Build Days
+  // ============================================================
+
+  const dateBegin = new Date("2015/01/03 23:15:15");
+  const dateEnd = new Date();
+  
+  if (!isNaN(dateBegin)) {
+    const dayDiff = Math.floor((dateEnd - dateBegin) / (1000 * 60 * 60 * 24));
+    document.querySelector('#runtime').textContent = `${dayDiff} days`;
   }
 });

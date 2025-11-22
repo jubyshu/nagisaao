@@ -3,7 +3,7 @@ title: 渚碧
 author: Juby
 url: https://jubeny.com
 timezone: Asia/Shanghai
-build_date: 2015/01/03 23:15:15
+birthday: 2015/01/03 23:15:15
 
 # SEO
 keywords: [渚碧博客, Juby Blog, 读书·生活·运动, 自由民主]
@@ -23,14 +23,6 @@ disqus:
   admin: mikihiro
   mod: Mod
   nocomment: Hello? Is there anybody in there?
-
-# Google
-# google: 
-#   analytics: UA-112090731-1
-#   site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
-
-# Clicky site id
-# clicky: 101359865
 
 # Follow RSS
 follow:
@@ -100,6 +92,7 @@ sass:
 plugins: 
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-word-count
   # - jekyll-algolia
 
 # Pagination
@@ -126,10 +119,8 @@ autopages:
     title: '标签 - :tag'
     permalink: '/tags/:tag'
 
-# Increase jekyll build speed
+# Build Config
+include: [_redirects]
 exclude: [Gemfile, Gemfile.lock, README.md]
 keep_files: [images]
-incremental: false
-
-# Redirect
-include: [_redirects]
+incremental: true
