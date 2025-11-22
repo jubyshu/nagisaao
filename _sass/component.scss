@@ -154,9 +154,16 @@
   }
 
   .cover-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 40px;
     width: 100%;
     color: v.$sub-font-color;
     margin: 10px auto;
+    padding: 5px 0;
+    border-top: 1px solid v.$border-color;
     border-bottom: 1px solid v.$border-color;
   }
 }
@@ -169,7 +176,7 @@
   height: 180px;
   background: url(v.$back-image) no-repeat center center;
   background-size: cover;
-  border-bottom: 1px solid v.$border-color;
+  // border-bottom: 1px solid v.$border-color;
 
   @media all and (max-width: 960px) {
     height: 180px;
@@ -210,7 +217,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   gap: 5px;
-  margin: 10px auto;
+  margin: 0;
   padding: 0;
   width: 100%;
   list-style-type: none;
@@ -265,7 +272,6 @@ nav {
     }
   }
 
-  // Navigation specific media query
   @media all and (max-width: 420px) {
     gap: 5px;
 

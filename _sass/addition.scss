@@ -184,14 +184,23 @@ sup a {
 }
 
 .index-meta {
-  margin-top: -40px;
+  margin-top: -30px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .category {
-  font-size: 0.9em;
+  font-size: 0.8em;
+
+  ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+  }
 
   li {
     display: inline;
@@ -199,8 +208,18 @@ sup a {
 }
 
 .search-icon {
+  display: flex;
+  align-items: center;
+
   a {
+    display: flex;
+    align-items: center;
     color: v.$hover-color;
+  }
+
+  img {
+    display: block;
+    vertical-align: middle;
   }
 }
 
