@@ -14,7 +14,7 @@ tags: 工具 好玩
 
 接下来要自己提取`boot.img`，阿木大侠的网站有全量ROM，却需要通过百度网盘下载。每次遇到用百度网盘下载的资源，都难以克制想要问候作者的心情，但话说回来又有什么其他选择呢。之前下载大文件，都是从淘宝买的加速，但旧商品已失效，新的方法需要用自己的账号登录。我没有百度网盘账号，还要借用妻的。
 
-费尽工夫下载完ROM，用Python版的`payload_dumper`提取`boot.img`时，程序提取了三个文件后便卡住了，其中并没有`boot.img`。陷于绝望之时，抱着试试的心态，用Go版的`payload-dumper-go`得以完成，难怪ChatGPT推荐后者。
+费尽工夫下载完ROM，用Python版的`payload_dumper`提取`boot.img`时，程序提取三个文件后便卡住了，其中并没有`boot.img`。陷于绝望之时，抱着试试的心态，用Go版的`payload-dumper-go`得以完成，难怪ChatGPT推荐后者。
 
 下一步在解锁手机的Bootloader时又遇到问题。一开始不知如何进入fastboot模式，用的是`adb reboot fastboot`和`fastboot reboot bootloader`两条命令，之后发现用`adb reboot bootloader`即可。进入fastboot模式，执行`fastboot flashing unlock`并重启，却发现并没有解锁成功。再次尝试时看到手机界面上有选项，原来需要音量上键选中解锁才行，但窗口期只有5秒，不过也足够操作了。
 
