@@ -38,16 +38,10 @@ cdn: fastly.jsdelivr.net
 # Cloudinary
 cloudinary: https://res.cloudinary.com/dajdhi0qn/image/upload/f_auto
 
-# Algolia search
-algolia:
-  application_id: XTX1EOVMI5
-  index_name: jubeny
-  search_only_api_key: d57fd011fd186e67019b3e2ad08c5ec2
-
 # Algolia Crawler Netlify
 crawler:
-  appId: G6EJRG4B61
-  apiKey: 08c77760bc896f05c67bbb210d844028
+  appId: WP0585HOTT
+  apiKey: 8a9789175622da4893d608265bf1d24d
   siteId: 2892d0db-3067-4a2f-907d-d8e43bedb5c1
 
 # Navigation buttons
@@ -93,7 +87,6 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-word-count
-  # - jekyll-algolia
 
 # Pagination
 pagination:

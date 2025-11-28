@@ -124,16 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // ============================================================
-  // 5. GitLab Snippets
-  // ============================================================
-  const gitlabGist = document.querySelector(".gitlab-embed-snippets");
-  
-  if (gitlabGist) {
-    gitlabGist.id = "gitlab-gist";
-  }
-
-  // ============================================================
-  // 6. Calculate Build Days
+  // 5. Calculate Build Days
   // ============================================================
 
   const dateBegin = new Date("2015/01/03 23:15:15");

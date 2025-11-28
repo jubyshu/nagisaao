@@ -254,72 +254,7 @@ sup a {
 }
 
 // ------------------------------------------------------------
-// Algolia Search
-// ------------------------------------------------------------
-#search-searchbar {
-  .ais-search-box {
-    max-width: 100%;
-    height: 35px;
-    width: 100%;
-    margin-bottom: 15px;
-
-    &--powered-by {
-      margin-top: 10px;
-      font-size: 0.8em;
-      color: v.$meta-color;
-    }
-
-    &--input {
-      background: v.$page-color;
-      color: v.$font-color;
-      border: 1px solid transparent;
-      line-height: 150%;
-      width: 100%;
-      padding: 0 10px;
-    }
-  }
-}
-
-.post-item {
-  margin-bottom: 30px;
-}
-
-.post-link,
-.post-breadcrumb,
-.post-snippet {
-  .ais-Highlight {
-    background: #f7d94c;
-    font-style: normal;
-    
-    @if & != ".post-link" {
-      font-weight: bold;
-    }
-  }
-}
-
-.post-breadcrumbs {
-  color: #424242;
-  display: block;
-}
-
-.post-breadcrumb {
-  font-size: 1.1em;
-  color: v.$font-color;
-}
-
-.post-snippet img {
-  display: none;
-}
-
-#search-hits {
-  display: none;
-
-  h2 { font-size: 1.2em; }
-  h3 { font-size: 1em; }
-}
-
-// ------------------------------------------------------------
-// Gist & Code Snippets
+// Github Gist
 // ------------------------------------------------------------
 .gist {
   max-width: 720px;
@@ -349,49 +284,6 @@ sup a {
       display: inline;
       list-style: none;
       margin-right: 1em;
-    }
-  }
-}
-
-// GitLab specific styling
-#gitlab-gist.gitlab-embed-snippets {
-  margin: 0;
-
-  a { border-bottom: none; }
-  .line-numbers { display: none; }
-
-  .blob-content {
-    width: 100%;
-    max-height: 360px;
-
-    pre {
-      font-size: 0.95em;
-      border-left: none;
-      padding: 0 1em;
-      background-color: #f5f2f0;
-    }
-
-    code {
-      padding: 0;
-      margin: 0;
-    }
-  }
-
-  .file-title-flex-parent {
-    padding: 3px 1em;
-    font-size: 0.9em;
-    
-    .file-header-content .gl-snippet-icon {
-      display: none;
-    }
-  }
-
-  .btn-group a.btn {
-    background-color: #fafafa;
-    border: none;
-
-    &:last-child {
-      border-right: none;
     }
   }
 }
