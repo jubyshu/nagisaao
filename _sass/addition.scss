@@ -258,24 +258,31 @@ ul.book-list {
   .dsqjs-nav {
     width: 100%;
 
+    .dsqjs-nav-tab span {
+      color: v.$sub-font-color;
+    }
+
     .dsqjs-order-label {
       color: #7a7a7a;
     }
   }
 
   .dsqjs-post-list{
-    color: v.$font-color;
 
-    .dsqjs-post-author {
+    .dsqjs-post-header .dsqjs-post-author {
       color: v.$title-color;
     }
 
-    .dsqjs-post-content code {
-      background: v.$code-bg-color;
-    }
-
-    .dsqjs-no-comment {
+    .dsqjs-post-content {
       color: v.$font-color;
+
+      code {
+        background: v.$code-bg-color;
+      }
+    } 
+    
+    .dsqjs-no-comment {
+      color: v.$sub-font-color;
     }
   }
 
