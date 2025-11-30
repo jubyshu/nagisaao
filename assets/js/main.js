@@ -23,6 +23,15 @@ document.addEventListener("DOMContentLoaded", () => {
     return window.matchMedia("(prefers-color-scheme: dark)").matches;
   }
 
+  function init() {
+    const stored = load();
+    if (stored === "dark" || stored === "light") {
+      apply(stored);
+    } else {
+      apply(systemPrefersDark() ? "dark" : "light");
+    }
+  }
+
   btn.addEventListener("click", () => {
     const current = document.documentElement.getAttribute("data-theme");
     const next = current === "dark" ? "light" : "dark";
@@ -32,8 +41,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const mq = window.matchMedia("(prefers-color-scheme: dark)");
   mq.addEventListener("change", (e) => {
-    if (!load()) apply(e.matches ? "dark" : "light");
+    if (!load()) { apply(e.matches ? "dark" : "light"); }
   });
+
+  init();
 
   // ============================================================
   // 2. Back to Top
