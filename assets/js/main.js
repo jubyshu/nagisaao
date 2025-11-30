@@ -9,40 +9,57 @@ document.addEventListener("DOMContentLoaded", () => {
   // 1. Light & Dark Theme
   // ============================================================
 
-  const btn = document.getElementById("theme-toggle");
-  const KEY = "theme";
+  const KEY = 'theme';
+  const btn = document.getElementById('theme-toggle');
+  if (!btn) return;
 
-  function save(t) { try { localStorage.setItem(KEY, t); } catch(e){} }
-  function load() { try { return localStorage.getItem(KEY); } catch(e){ return null; } }
+  function getStored() {
+    try { return localStorage.getItem(KEY); } catch (e) { return null; }
+  }
 
-  function apply(t) {
-    document.documentElement.setAttribute("data-theme", t);
+  function setStored(val) {
+    try { localStorage.setItem(KEY, val); } catch (e) {}
   }
 
   function systemPrefersDark() {
-    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.setAttribute('data-theme-prepared', 'true');
+
+    const isDark = theme === 'dark';
+    btn.setAttribute('aria-pressed', String(isDark));
+    btn.title = isDark ? '切换到浅色模式' : '切换到深色模式';
   }
 
   function init() {
-    const stored = load();
-    if (stored === "dark" || stored === "light") {
-      apply(stored);
+    const stored = getStored();
+    if (stored === 'light' || stored === 'dark') {
+      applyTheme(stored);
     } else {
-      apply(systemPrefersDark() ? "dark" : "light");
+      applyTheme(systemPrefersDark() ? 'dark' : 'light');
     }
   }
 
-  if (btn) {
-    btn.addEventListener("click", () => {
-      const current = document.documentElement.getAttribute("data-theme");
-      const next = current === "dark" ? "light" : "dark";
-      apply(next);
-      save(next);
-    });
+  btn.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    setStored(next);
+  });
 
-    const mq = window.matchMedia("(prefers-color-scheme: dark)");
-    mq.addEventListener("change", (e) => {
-      if (!load()) { apply(e.matches ? "dark" : "light"); }
+  if (window.matchMedia) {
+    const mq = window.matchMedia('(prefers-color-scheme: dark)');
+    mq.addEventListener ? mq.addEventListener('change', e => {
+      if (!getStored()) {
+        applyTheme(e.matches ? 'dark' : 'light');
+      }
+    }) : mq.addListener && mq.addListener(e => {
+      if (!getStored()) {
+        applyTheme(e.matches ? 'dark' : 'light');
+      }
     });
   }
 
