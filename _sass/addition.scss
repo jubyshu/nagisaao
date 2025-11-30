@@ -170,6 +170,14 @@
       color: v.$font-color;
     }
   }
+
+  @media all and (max-width: 600px) {
+    .aa-Autocomplete button {
+      background: #21262d;
+      caret-color: #58a6ff;
+      color: v.$font-color;
+    }
+  }
 }
 
 // ------------------------------------------------------------

@@ -24,6 +24,10 @@ disqus:
   mod: Mod
   nocomment: Hello? Is there anybody in there?
 
+#Google
+google:
+  site_verification: lTL7MkDxY16gNmRWyqoZYflJgECNQkxPjyFoYgM3z2M
+  
 # Follow RSS
 follow:
   feed_id: 41343619752158229
