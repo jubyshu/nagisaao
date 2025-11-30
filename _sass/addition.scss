@@ -255,12 +255,28 @@ ul.book-list {
     margin-bottom: 10px;
   }
 
-  .dsqjs-no-comment {
-    color: #7f8484;
-  }
-
   .dsqjs-nav {
     width: 100%;
+
+    .dsqjs-order-label {
+      color: #7a7a7a;
+    }
+  }
+
+  .dsqjs-post-list{
+    color: v.$font-color;
+
+    .dsqjs-post-author {
+      color: v.$title-color;
+    }
+
+    .dsqjs-post-content code {
+      background: v.$code-bg-color;
+    }
+
+    .dsqjs-no-comment {
+      color: v.$font-color;
+    }
   }
 
   .dsqjs-footer {

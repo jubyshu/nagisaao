@@ -12,9 +12,7 @@
         let stored = null;
         try {
           stored = localStorage.getItem(KEY);
-        } catch (e) {
-          stored = null;
-        }
+        } catch (e) {}
 
         const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
         const theme =
