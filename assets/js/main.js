@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  init();
+  // init();
 
   // ============================================================
   // 2. Back to Top
