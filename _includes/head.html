@@ -1,26 +1,5 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=yes" />
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} - {{ site.description }}
-    {% else %}
-      {{ page.title }} - {{ site.title }}
-    {% endif %}
-  </title>
-  <meta name="author" content="{{site.author}}">
-  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}{{ site.keywords | join: ', ' }}{% endif %}">
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | markdownify | strip_html | strip_newlines | truncate:120 }}{% endif %}">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@{{site.social.twitter}}">
-  <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-  <meta property="og:image" content="{% if page.card %}{{ page.card }}{% else %}{{ site.card }}{% endif %}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | markdownify | strip_html | strip_newlines | truncate:120 }}{% endif %}">
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-  <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link rel="apple-touch-icon" href="/images/favicon.ico" type="image/x-icon" />
   <script>
     (function () {
       try {
@@ -47,6 +26,27 @@
       } catch (e) {}
     })();
   </script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=yes" />
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} - {{ site.description }}
+    {% else %}
+      {{ page.title }} - {{ site.title }}
+    {% endif %}
+  </title>
+  <meta name="author" content="{{site.author}}">
+  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}{{ site.keywords | join: ', ' }}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | markdownify | strip_html | strip_newlines | truncate:120 }}{% endif %}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{site.social.twitter}}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta property="og:image" content="{% if page.card %}{{ page.card }}{% else %}{{ site.card }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | markdownify | strip_html | strip_newlines | truncate:120 }}{% endif %}">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/images/favicon.ico" type="image/x-icon" />
   {% if page.layout == "post" %}
   <link rel="stylesheet" href="//{{ site.cdn }}/npm/@fancyapps/ui@4.0/dist/fancybox.css">
   {% endif %}
