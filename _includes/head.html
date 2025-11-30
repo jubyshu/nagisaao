@@ -24,13 +24,26 @@
   <script>
     (function () {
       try {
-        const saved = localStorage.getItem("theme");
-        if (saved === "dark" || saved === "light") {
-          document.documentElement.setAttribute("data-theme", saved);
-        } else {
-          const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-          document.documentElement.setAttribute("data-theme", prefersDark ? "dark" : "light");
-        }
+        const KEY = 'theme';
+        const stored = localStorage.getItem(KEY);
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = (stored === 'dark' || stored === 'light')
+          ? stored
+          : (prefersDark ? 'dark' : 'light');
+
+        const style = document.createElement('style');
+        style.innerHTML = `* { transition: none !important; }`;
+        style.id = 'no-theme-transition';
+        document.head.appendChild(style);
+
+        document.documentElement.setAttribute('data-theme', theme);
+
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            const s = document.getElementById('no-theme-transition');
+            if (s) s.remove();
+          });
+        });
       } catch (e) {}
     })();
   </script>
