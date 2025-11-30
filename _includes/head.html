@@ -3,23 +3,35 @@
   <script>
     (function () {
       try {
-        const KEY = 'theme';
-        const stored = localStorage.getItem(KEY);
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const theme = (stored === 'dark' || stored === 'light')
-          ? stored
-          : (prefersDark ? 'dark' : 'light');
+        const KEY = "theme";
 
-        const style = document.createElement('style');
+        if (document.documentElement.hasAttribute("data-brave-theme")) {
+          document.documentElement.removeAttribute("data-brave-theme");
+        }
+
+        let stored = null;
+        try {
+          stored = localStorage.getItem(KEY);
+        } catch (e) {
+          stored = null;
+        }
+
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme =
+          (stored === "dark" || stored === "light")
+            ? stored
+            : (prefersDark ? "dark" : "light");
+
+        const style = document.createElement("style");
+        style.id = "no-theme-transition";
         style.innerHTML = `* { transition: none !important; }`;
-        style.id = 'no-theme-transition';
         document.head.appendChild(style);
 
-        document.documentElement.setAttribute('data-theme', theme);
+        document.documentElement.setAttribute("data-theme", theme);
 
         requestAnimationFrame(() => {
           requestAnimationFrame(() => {
-            const s = document.getElementById('no-theme-transition');
+            const s = document.getElementById("no-theme-transition");
             if (s) s.remove();
           });
         });
