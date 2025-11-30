@@ -18,7 +18,6 @@ tags: 工具 好玩
 
 下一步在解锁手机的Bootloader时又遇到问题。一开始不知如何进入fastboot模式，用的是`adb reboot fastboot`和`fastboot reboot bootloader`两条命令，之后发现用`adb reboot bootloader`即可。进入fastboot模式，执行`fastboot flashing unlock`并重启，却发现并没有解锁成功。再次尝试时看到手机界面上有选项，原来需要音量上键选中解锁才行，但窗口期只有5秒，不过也足够操作了。
 
-安装Magisk并给`boot.img`打补丁比较简单，无事发生，可反过来执行`fastboot flash`给手机分区反刷镜像时程序却卡住了，经过多番尝试才发现问题所在。手机进入fastboot模式后，只有第一条命令会执行成功，而我是先执行了`fastboot getvar current-slot
-`查询分区，再执行的刷包命令。了解这条信息后，事情自然迎刃而解。
+安装Magisk并给`boot.img`打补丁比较简单，无事发生，可反过来执行`fastboot flash`给手机分区反刷镜像时程序却卡住了，经过多番尝试才发现问题所在。手机进入fastboot模式后，只有第一条命令会执行成功，而我是先执行了`fastboot getvar current-slot`查询分区，再执行的刷包命令。了解这条信息后，事情自然迎刃而解。
 
 到这里root已经完成，后续安装需要的Magisk模块，删除恼人的植入应用，都是轻车熟路的事了。看似很简单的root流程，却耗费了我近一天的时间。辛苦是值得的，现在我这部退休的手机又可以重新上岗，肩负起重要而特殊的任务了。

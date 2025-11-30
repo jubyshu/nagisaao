@@ -1,29 +1,63 @@
-$aonibi: #535953;            // 青钝
-$ro: #0C0C0C;                // 吕
-$aimirucha: #0F4C3A;         // 蓝海松茶
-$ginnezumi: #91989F;         // 银鼠
-$seiheki: #268785;           // 青碧
-$aisumicha: #373C38;         // 蓝黑茶
-$ai: #0D5661;                // 蓝
-$tobi: #724832;              // 鳶
+:root {
+	--color-body-bg: #efefef;
+	--color-page-bg: #fcfcfc;
+	--color-font: #0C0C0C;
+	--color-font-muted: #535953;
+	--color-border: #e1e1e1;
+	--color-title: #373C38;
+	--color-quote-bg: #dff7e9;
+	--color-code-bg: #f5f2f0;
+	--color-code-font: #3b4252;
+	--color-toc-bg: #f6f6f6;
+	--color-top-btn-bg: #ffffff;
+	--color-top-arrow: #606060;
+	--color-theme-btn-bg: rgba(0,0,0,0.04);
+	--color-theme-btn-hover: rgba(0,0,0,0.08);
+	--image-cover: url("//fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/cover-light.webp");
+}
+
+[data-theme="dark"] {
+	--color-body-bg: #0d1117;
+	--color-page-bg: #161b22;
+	--color-font: #e5e5e5;
+	--color-font-muted: #bdc0bd;
+	--color-border: #3b4350;
+	--color-title: #d5d5d5;
+	--color-quote-bg: #1f2a32;
+	--color-code-bg: #2d2d2d;
+	--color-code-font: #cccccc;
+	--color-toc-bg: #2f3332;
+	--color-top-btn-bg: #606060;
+	--color-top-arrow: #ffffff;
+	--color-theme-btn-bg: rgba(255,255,255,0.08);
+	--color-theme-btn-hover: rgba(255,255,255,0.12);
+	--image-cover: url("//fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/cover-dark.webp");
+}
+
+$body-bg-color: var(--color-body-bg);
+$page-bg-color: var(--color-page-bg);
+$font-color: var(--color-font);
+$sub-font-color: var(--color-font-muted);
+$border-color: var(--color-border);
+$title-color: var(--color-title);
+$quote-bg-color: var(--color-quote-bg);
+$code-bg-color: var(--color-code-bg);
+$code-font-color: var(--color-code-font);
+$toc-bg-color: var(--color-toc-bg);
+$top-btn-bg-color: var(--color-top-btn-bg);
+$top-arrow-color: var(--color-top-arrow);
+$theme-btn-bg-color: var(--color-theme-btn-bg);
+$theme-btn-hover-color: var(--color-theme-btn-hover);
+$cover-image: var(--image-cover);
 
 $link-color: #00896C;
-$sub-link-color: $seiheki;
+$sub-link-color: #268785;
 $hover-color: #CA7A2C;
-$border-color: #e1e1e1;
-$font-color: $ro; 
-$sub-font-color: $aonibi;
-$background-color: #dff7e9;
-$meta-color: $ginnezumi;
-$title-color: $aisumicha;
-$page-color: #efefef;
+$meta-font-color: #91989F;
 
-$code-bg-color: #f5f2f0;
+$serif-font: "PT Serif", Georgia, "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "Source Han Serif JP", "Noto Serif", "Noto Serif SC", "Noto Serif JP", serif;
+$sans-font: "PT Sans", Helvetica, Tahoma, Arial, "Source Han Sans SC", "Source Han Sans CN", "Source Han Sans", "Source Han Sans JP", "Noto Sans", "Noto Sans SC", "Noto Sans JP", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+$body-font: $sans-font;
+$quote-font: $sans-font;
 
-$source-serif: "PT Serif", Georgia, "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", "Source Han Serif JP", "Noto Serif", "Noto Serif SC", "Noto Serif JP", serif;
-$heiti-sans: "PT Sans", Helvetica, Tahoma, Arial, "Source Han Sans SC", "Source Han Sans CN", "Source Han Sans", "Source Han Sans JP", "Noto Sans", "Noto Sans SC", "Noto Sans JP", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-$body-font: $heiti-sans;
-$quote-font: $heiti-sans;
-
-$back-image: "//fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/cover.webp";
-$sum-image: "//fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/feather.svg";
+$sum-image: url("//fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/feather.svg");

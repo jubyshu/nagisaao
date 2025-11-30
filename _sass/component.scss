@@ -13,7 +13,7 @@
   a {
     width: 100%;
     padding: 10px;
-    color: v.$meta-color;
+    color: v.$meta-font-color;
     display: block;
 
     > span {
@@ -48,7 +48,7 @@
 
 .post-meta {
   margin: 0 0 1.8em 0;
-  color: v.$meta-color;
+  color: v.$meta-font-color;
   font-size: 0.9em;
 }
 
@@ -174,7 +174,7 @@
   justify-content: center;
   width: 100%;
   height: 180px;
-  background: url(v.$back-image) no-repeat center center;
+  background: v.$cover-image no-repeat center center;
   background-size: cover;
   // border-bottom: 1px solid v.$border-color;
 
@@ -190,10 +190,10 @@
     font-weight: 100;
     text-align: center;
     margin: 0 auto;
-    color: #373C38;
+    color: v.$title-color;
 
     a {
-      color: #373C38;
+      color: v.$title-color;
     }
 
     @media all and (max-width: 960px) {
@@ -267,7 +267,7 @@ nav {
 
   &__item_social {
     img:hover {
-      background: v.$seiheki;
+      background: v.$sub-link-color;
       border-radius: 50%;
     }
   }
@@ -363,7 +363,7 @@ i {
     line-height: 1.3em;
 
     a {
-      color: #333;
+      color: v.$title-color;
       padding-top: 5px;
 
       &:hover {
@@ -379,7 +379,7 @@ i {
 
   &__date {
     background-size: 100% 100%;
-    color: v.$meta-color;
+    color: v.$meta-font-color;
     float: left;
     font-size: 0.8em;
 

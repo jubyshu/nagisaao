@@ -1,38 +1,72 @@
 @use "variable" as v;
 
 // ------------------------------------------------------------
-// Text Fold (Details & Summary)
+// Theme Switch Button
 // ------------------------------------------------------------
-details {
-  p {
-    font-family: v.$quote-font;
-    color: v.$sub-font-color;
-    padding: 1em;
-    border-radius: 5px;
-    background: v.$background-color;
-  }
+.theme-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: v.$theme-btn-bg-color;
+  border: none;
+  cursor: pointer;
+  transition: background .15s ease, transform .15s ease;
 
-  &[open] > summary {
-    border-bottom: none;
+  @media all and (max-width: 600px) {
+    .theme-toggle {
+      top: 10px;
+      right: 10px;
+      width: 30px;
+      height: 30px;
+      padding: 0;
+    }
+
+    .theme-toggle svg {
+      width: 12px;
+      height: 12px;
+    }
   }
 }
 
-summary {
+.theme-toggle:hover {
+  background: v.$theme-btn-hover-color;
+}
+
+.theme-toggle:active {
+  transform: scale(.94);
+}
+
+.icon {
   display: inline-block;
-  margin: 3px auto;
-  cursor: pointer;
-  color: v.$sub-link-color;
-  border-bottom: 1px solid v.$link-color;
-  list-style: none;
+  line-height: 0;
+  transition: opacity .25s ease, transform .25s ease;
+  position: absolute;
+}
 
-  &::after {
-    content: url(v.$sum-image);
-    padding-left: 2px;
-  }
+.icon-sun {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
 
-  &::-webkit-details-marker {
-    display: none;
-  }
+.icon-moon {
+  opacity: 0;
+  transform: rotate(-30deg) scale(.85);
+}
+
+:root[data-theme="dark"] .icon-sun {
+  opacity: 0;
+  transform: rotate(30deg) scale(.85);
+}
+
+:root[data-theme="dark"] .icon-moon {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
 }
 
 // ------------------------------------------------------------
@@ -50,7 +84,7 @@ summary {
     border-radius: 50%;
     height: 36px;
     width: 36px;
-    background-color: #fff;
+    background-color: v.$top-btn-bg-color;
     transition: opacity 0.3s;
   }
 }
@@ -59,115 +93,10 @@ summary {
   display: block;
   width: 10px;
   height: 10px;
-  border-top: 2px solid #606060;
-  border-right: 2px solid #606060;
+  border-top: 2px solid v.$top-arrow-color;
+  border-right: 2px solid v.$top-arrow-color;
   transform: rotate(-45deg);
   margin-top: 2px;
-}
-
-// ------------------------------------------------------------
-// Footnotes
-// ------------------------------------------------------------
-sup a {
-  font-size: 0.7em;
-  line-height: 0;
-  vertical-align: text-top;
-  position: relative;
-  bottom: -0.1em;
-  text-decoration: none;
-  border-bottom: none !important;
-
-  &::before {
-    content: "[";
-    color: v.$link-color;
-  }
-
-  &::after {
-    content: "]";
-    color: v.$link-color;
-  }
-}
-
-.footnotes {
-  font-size: 0.8em;
-  color: #999;
-  margin-top: 25px;
-  padding-top: 10px;
-
-  &::before {
-    display: block;
-    content: "";
-    border-top: 0.6px solid v.$border-color;
-    width: 5%;
-    margin-bottom: 7px;
-  }
-
-  a {
-    text-decoration: none;
-  }
-}
-
-// ------------------------------------------------------------
-// Table of Contents (TOC)
-// ------------------------------------------------------------
-.post-toc {
-  visibility: hidden;
-  position: fixed;
-  display: block;
-  right: 50px;
-  top: 170px;
-  padding: 5px;
-  width: 210px;
-  max-width: 210px;
-  background: #f6f6f6;
-  border-radius: 3px;
-
-  &::before {
-    display: block;
-    content: "TOC";
-    margin: 5px;
-    font-size: 1.1em;
-  }
-
-  ol,
-  ul {
-    margin-left: 1em;
-    list-style-type: none;
-  }
-
-  li {
-    margin: auto 5px;
-    list-style-type: none;
-
-    a {
-      color: v.$sub-font-color;
-      font-size: 0.9em;
-      display: inline-block;
-      border-bottom: hidden !important;
-      
-      &.active,
-      &:hover {
-        color: v.$hover-color;
-      }
-    }
-  }
-}
-
-// ------------------------------------------------------------
-// Media: YouTube
-// ------------------------------------------------------------
-.ytb-container {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9; 
-}
-
-.ytb-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 // ------------------------------------------------------------
@@ -232,6 +161,17 @@ sup a {
   }
 }
 
+[data-theme="dark"] #search-searchbar {
+  .aa-Form {
+    background: #21262d;
+
+    input {
+      caret-color: #58a6ff;
+      color: v.$font-color;
+    }
+  }
+}
+
 // ------------------------------------------------------------
 // Collapsible & Figures
 // ------------------------------------------------------------
@@ -251,41 +191,6 @@ sup a {
   margin-bottom: 1em;
   font-size: 0.9em;
   text-align: center;
-}
-
-// ------------------------------------------------------------
-// Github Gist
-// ------------------------------------------------------------
-.gist {
-  max-width: 720px;
-
-  th, td { border: none; }
-  tbody tr:nth-child(2n) { background: none; }
-  
-  .blob-wrapper,
-  .highlight {
-    background: #f5f2f0 !important;
-  }
-}
-
-.gist-file .gist-data {
-  max-height: 360px;
-}
-
-.post-tags {
-  font-size: 0.85em;
-  margin-top: 2em;
-
-  ul {
-    margin: 0;
-    padding: 0;
-
-    li {
-      display: inline;
-      list-style: none;
-      margin-right: 1em;
-    }
-  }
 }
 
 // ------------------------------------------------------------
@@ -322,7 +227,7 @@ ul.book-list {
     img {
       width: 70px;
       height: 100px;
-      border: 1px solid #ddd;
+      border: 1px solid v.$border-color;
       object-fit: cover;
     }
   }
@@ -353,5 +258,180 @@ ul.book-list {
   .dsqjs-footer {
     text-align: right;
     font-size: 13px;
+  }
+}
+
+// ------------------------------------------------------------
+// Footnotes
+// ------------------------------------------------------------
+sup a {
+  font-size: 0.7em;
+  line-height: 0;
+  vertical-align: text-top;
+  position: relative;
+  bottom: -0.1em;
+  text-decoration: none;
+  border-bottom: none !important;
+
+  &::before {
+    content: "[";
+    color: v.$link-color;
+  }
+
+  &::after {
+    content: "]";
+    color: v.$link-color;
+  }
+}
+
+.footnotes {
+  font-size: 0.8em;
+  color: #999;
+  margin-top: 25px;
+  padding-top: 10px;
+
+  &::before {
+    display: block;
+    content: "";
+    border-top: 0.6px solid v.$border-color;
+    width: 5%;
+    margin-bottom: 7px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+// ------------------------------------------------------------
+// Table of Contents (TOC)
+// ------------------------------------------------------------
+.post-toc {
+  visibility: hidden;
+  position: fixed;
+  display: block;
+  right: 50px;
+  top: 170px;
+  padding: 5px;
+  width: 210px;
+  max-width: 210px;
+  background: v.$toc-bg-color;
+  border-radius: 3px;
+
+  &::before {
+    display: block;
+    content: "TOC";
+    margin: 5px;
+    font-size: 1.1em;
+  }
+
+  ol,
+  ul {
+    margin-left: 1em;
+    list-style-type: none;
+  }
+
+  li {
+    margin: auto 5px;
+    list-style-type: none;
+
+    a {
+      color: v.$sub-font-color;
+      font-size: 0.9em;
+      display: inline-block;
+      border-bottom: hidden !important;
+      
+      &.active,
+      &:hover {
+        color: v.$hover-color;
+      }
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// Media: YouTube
+// ------------------------------------------------------------
+.ytb-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; 
+}
+
+.ytb-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// ------------------------------------------------------------
+// Github Gist
+// ------------------------------------------------------------
+.gist {
+  max-width: 720px;
+
+  th, td { border: none; }
+  tbody tr:nth-child(2n) { background: none; }
+  
+  // .blob-wrapper,
+  // .highlight {
+  //   background: v.$code-bg-color !important;
+  // }
+}
+
+.gist-file .gist-data {
+  max-height: 360px;
+}
+
+.post-tags {
+  font-size: 0.85em;
+  margin-top: 2em;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline;
+      list-style: none;
+      margin-right: 1em;
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// Text Fold (Details & Summary)
+// ------------------------------------------------------------
+details {
+  p {
+    font-family: v.$quote-font;
+    color: v.$sub-font-color;
+    padding: 1em;
+    border-radius: 5px;
+    background: v.$quote-bg-color;
+  }
+
+  &[open] > summary {
+    border-bottom: none;
+  }
+}
+
+summary {
+  display: inline-block;
+  margin: 3px auto;
+  cursor: pointer;
+  color: v.$sub-link-color;
+  border-bottom: 1px solid v.$link-color;
+  list-style: none;
+
+  &::after {
+    content: v.$sum-image;
+    padding-left: 2px;
+  }
+
+  &::-webkit-details-marker {
+    display: none;
   }
 }

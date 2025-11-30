@@ -34,7 +34,7 @@ body {
   font-size: 16px;
   color: v.$font-color;
   letter-spacing: 0.03em;
-  background-color: #efefef;
+  background-color: v.$body-bg-color;
   -webkit-font-smoothing: antialiased;
 
   &::before,
@@ -57,7 +57,6 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 0.5em;
   font-weight: normal;
   line-height: 1.6;
-  color: v.$title-color;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -95,13 +94,16 @@ p {
 }
 
 code {
-  font-size: 0.85em;
-  color: #373C38;
-  background: #f5f2f0;
-  vertical-align: baseline;
-  border-radius: 3px;
-  padding: 0 2px;
-  margin: auto 2px;
+  font-size: 0.9em;
+  padding: 0.15em 0.35em;
+  border-radius: 6px;
+  background: v.$code-bg-color;
+  color: v.$code-font-color;
+  border: 1px solid v.$border-color;
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1;
+  box-decoration-break: clone;
 }
 
 a {
@@ -129,7 +131,7 @@ blockquote {
   font-size: 1em;
   color: v.$sub-font-color;
   margin: 15px 0;
-  background: v.$background-color;
+  background: v.$quote-bg-color;
   border-radius: 5px;
 
   p {
@@ -185,16 +187,16 @@ table {
   margin: 25px auto;
 
   thead tr:nth-child(odd) {
-    background: #d3f7bb;
+    background: v.$quote-bg-color;
   }
 
   tbody tr:nth-child(even) {
-    background: #d3f7bb;
+    background: v.$quote-bg-color;
   }
 
   th,
   td {
-    border: 1px solid #3fc699;
+    border: 1px solid v.$border-color;
     text-align: center;
   }
 }
@@ -226,7 +228,7 @@ table {
 
 .container {
   margin: 60px auto;
-  background-color: #fcfcfc;
+  background-color: v.$page-bg-color;
   max-width: 780px;
 }
 
