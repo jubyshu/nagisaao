@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // ============================================================
   // 1. Light & Dark Theme
   // ============================================================
-
   const btn = document.getElementById("theme-toggle");
   const KEY = "theme";
 
@@ -23,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function apply(t) {
-    document.documentElement.removeAttribute("data-brave-theme");
     document.documentElement.setAttribute("data-theme", t);
   }
 
@@ -143,7 +141,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // ============================================================
   // 6. Post TOC
   // ============================================================
-
   const toc = document.querySelector(".post-toc");
   const tocWrapper = document.querySelector(".content-wrapper__inner");
   const headers = document.querySelectorAll(".post h1, .post h2, .post h3, .post h4, .post h5, .post h6");

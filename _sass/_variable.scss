@@ -1,4 +1,4 @@
-:root {
+:root[data-theme="light"] {
   --color-body-bg: #efefef;
   --color-page-bg: #fcfcfc;
   --color-font: #0C0C0C;
@@ -13,9 +13,9 @@
   --color-top-arrow: #606060;
   --color-theme-btn-bg: rgba(0,0,0,0.04);
   --color-theme-btn-hover: rgba(0,0,0,0.08);
-  --image-cover: url("//fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/cover-light.webp");
+  --image-cover: url("https://fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/cover-light.webp");
 
-  // color for prismjs
+  // colors for prismjs
   --prism-color-fg: #000;
   --prism-color-bg: #f5f2f0;
   --prism-text-shadow: 0 1px #fff;
@@ -41,7 +41,7 @@
   --prism-token-function-name: var(--prism-token-function);
 }
 
-[data-theme="dark"] {
+:root[data-theme="dark"] {
   --color-body-bg: #0d1117;
   --color-page-bg: #161b22;
   --color-font: #e5e5e5;
@@ -56,9 +56,9 @@
   --color-top-arrow: #ffffff;
   --color-theme-btn-bg: rgba(255,255,255,0.08);
   --color-theme-btn-hover: rgba(255,255,255,0.12);
-  --image-cover: url("//fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/cover-dark.webp");
+  --image-cover: url("https://fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/cover-dark.webp");
 
-  // color for prismjs
+  // colors for prismjs
   --prism-color-fg: #ccc;
   --prism-color-bg: #2d2d2d;
   --prism-text-shadow: none;
@@ -107,4 +107,4 @@ $sans-font: "PT Sans", Helvetica, Tahoma, Arial, "Source Han Sans SC", "Source H
 $body-font: $sans-font;
 $quote-font: $sans-font;
 
-$sum-image: url("//fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/feather.svg");
+$sum-image: url("https://fastly.jsdelivr.net/gh/jubyshu/nagisaao/images/feather.svg");

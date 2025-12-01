@@ -1,41 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <script>
-    (function () {
-      try {
-        const KEY = "theme";
-
-        if (document.documentElement.hasAttribute("data-brave-theme")) {
-          document.documentElement.removeAttribute("data-brave-theme");
-        }
-
-        let stored = null;
-        try {
-          stored = localStorage.getItem(KEY);
-        } catch (e) {}
-
-        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-        const theme =
-          (stored === "dark" || stored === "light")
-            ? stored
-            : (prefersDark ? "dark" : "light");
-
-        const style = document.createElement("style");
-        style.id = "no-theme-transition";
-        style.innerHTML = `* { transition: none !important; }`;
-        document.head.appendChild(style);
-
-        document.documentElement.setAttribute("data-theme", theme);
-
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            const s = document.getElementById("no-theme-transition");
-            if (s) s.remove();
-          });
-        });
-      } catch (e) {}
-    })();
-  </script>
+  <script>!function(){try{let e=null;try{e=localStorage.getItem("theme")}catch(t){}let n=window.matchMedia("(prefers-color-scheme: dark)").matches,a="dark"===e||"light"===e?e:n?"dark":"light",r=document.createElement("style");r.id="no-theme-transition",r.innerHTML="* { transition: none !important; }",document.head.appendChild(r),document.documentElement.setAttribute("data-theme",a),requestAnimationFrame(()=>{requestAnimationFrame(()=>{let e=document.getElementById("no-theme-transition");e&&e.remove()})})}catch(i){}}();</script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=yes" />
   <title>
@@ -58,12 +23,12 @@
   <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link rel="apple-touch-icon" href="/images/favicon.ico" type="image/x-icon" />
   {% if page.layout == "post" %}
-  <link rel="stylesheet" href="//{{ site.cdn }}/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+  <link rel="stylesheet" href="https://{{ site.cdn }}/npm/@fancyapps/ui@4.0/dist/fancybox.css">
   {% endif %}
   {% if page.title == "搜索" %}
-  <link rel="stylesheet" href="//{{ site.cdn }}/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+  <link rel="stylesheet" href="https://{{ site.cdn }}/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
   {% endif %}
-  <link rel="stylesheet" href="//{{ site.cdn }}/npm/disqusjs@1.3/dist/disqusjs.css">
+  <link rel="stylesheet" href="https://{{ site.cdn }}/npm/disqusjs@1.3/dist/disqusjs.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.url }}">

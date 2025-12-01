@@ -29,7 +29,3 @@ tags: 生活
 才写了上面这些话，绿墨水也用尽了，幸亏还有小三。我的日记本上，只有墨水。
 
 从上周开始，每天都想着为蝾螈换水，可一屁股坐下后就不想起身了，所以拖到现在还没动手。Rocchi也要喂食。做完这些，看会儿『我爱我家』，睡觉。前几天看的集子突然就消失了，应该是被YouTube清理了吧，所以要赶紧看完，否则资源都被版权风暴卷走了。
-
-<div class="ytb-container">
-  <iframe class="ytb-video" src="https://www.youtube.com/embed/PvptSlO3LCo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>

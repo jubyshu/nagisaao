@@ -249,8 +249,8 @@ ul.book-list {
 
   a { color: v.$link-color; }
 
-  &-msg {
-    color: v.$sub-link-color;
+  #dsqjs-msg {
+    color: v.$sub-font-color;
     line-height: 1.6em;
     margin-bottom: 10px;
   }
