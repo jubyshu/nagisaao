@@ -5,8 +5,26 @@ layout: default
 <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
+    {% assign published_date = page.date | date: "%Y-%m-%d" %}
+    {% assign updated_date  = page.update | date: "%Y-%m-%d" %}
+    {% assign published_ts = page.date | date_to_xmlschema %}
+    {% assign updated_ts  = page.update | date_to_xmlschema %}
     <div class="post-meta">
-      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date">{{page.date | date: "%F"}}</time> &#8226; <span>{{ content | single_word_count }} words</span>
+      <time datetime="{{ published_ts }}" itemprop="datePublished" class="post-meta__date">
+        {{ page.date | date: "%F" }}
+      </time>
+      &#8226;
+      <span>{{ content | single_word_count }} words</span>
+      {% if page.update and updated_ts != published_ts %}
+      &#8226;
+      <time datetime="{{ updated_ts }}" itemprop="dateUpdated" class="post-meta__date">
+        {% if updated_date == published_date %}
+          upd.: {{ page.update | date: "%H:%M:%S" }}
+        {% else %}
+          upd.: {{ page.update | date: "%F" }}
+        {% endif %}
+      </time>
+      {% endif %}
     </div>
   </header>
   <section class="post not_page">
