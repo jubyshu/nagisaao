@@ -3,8 +3,7 @@ layout: post
 title: 我的Apple ID被停用了
 date: 2019-05-16 20:30
 categories: essay
-tags: 工具 日本
-ad: true
+tags: 工具
 ---
 
 今早打开电脑时，弹出了一条对话框，上面写着「出于安全原因Apple ID已被停用」，按照指示去`iforgot.apple.com`重置密码，却又被告知「该账号未激活」。

@@ -3,7 +3,7 @@ layout: post
 title: 中岛敦与山月记
 date: 2018-06-29
 categories: review
-tags: 读书 日本
+tags: 读书
 ---
 
 虽然是废话，还是写下来了，因为这似乎可以证明偶然这种东西是多么奇妙。

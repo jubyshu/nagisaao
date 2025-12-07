@@ -3,7 +3,7 @@ layout: post
 title: 冬天的雨和玫瑰
 date: 2020-01-03 11:11
 categories: poetry
-tags: 季语
+tags: 风景
 ---
 
 被夏天抛弃了的  
@@ -24,6 +24,3 @@ tags: 季语
 无人等待接收  
 
 这城市也正不合时宜地下着雨  
-
-
-

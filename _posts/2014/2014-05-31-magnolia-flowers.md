@@ -3,7 +3,7 @@ layout: post
 title: 玉兰花
 date: 2014-05-31 23:11:46+08:00
 categories: poetry
-tags: 情感 季语
+tags: 情感 风景
 ---
 
 *——给亭亭，并祝生日快乐*

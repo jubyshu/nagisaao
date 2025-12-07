@@ -3,7 +3,7 @@ layout: post
 title: 仙林的半日
 date: 2016-09-03
 categories: poetry
-tags: 南大 季语
+tags: 南大 风景
 ---
 
 偏在这时才惊见  

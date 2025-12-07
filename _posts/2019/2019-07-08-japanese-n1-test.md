@@ -3,7 +3,7 @@ layout: post
 title: N1考试记
 date: 2019-07-08 21:20
 categories: essay
-tags: 杂谈 日本
+tags: 杂谈 日语
 ad: true
 ---
 

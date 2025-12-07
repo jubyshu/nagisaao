@@ -3,7 +3,7 @@ layout: post
 title: 天台上读单词的女孩
 date: 2014-06-22 22:06:22+08:00
 categories: poetry
-tags: 情感 季语
+tags: 情感 风景
 ---
 
 喝完这杯水，我就离开  

@@ -3,7 +3,7 @@ layout: post
 title: 期待
 date: 2014-06-04 20:30:46+08:00
 categories: poetry
-tags: 季语 情感
+tags: 风景 情感
 ---
 
 我想对夜空说句悄悄话  

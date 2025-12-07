@@ -3,7 +3,7 @@ layout: post
 title: 空心核桃
 date: 2018-09-09
 categories: review
-tags: 读书 日本
+tags: 读书
 card: https://i.imgur.com/dQiePUg.jpg
 ---
 
